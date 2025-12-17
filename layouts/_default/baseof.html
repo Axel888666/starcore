@@ -832,6 +832,41 @@
             });
         }
         
+        // 初始化下拉菜单切换按钮 - 确保每个下拉按钮控制正确的下拉菜单
+        function initDropdownToggles() {
+            // 获取所有带有dropdown类的导航项
+            const dropdownNavItems = document.querySelectorAll('.nav-item.dropdown');
+            
+            dropdownNavItems.forEach(item => {
+                const toggle = item.querySelector('.dropdown-toggle');
+                const menu = item.querySelector('.dropdown-menu');
+                
+                if (toggle && menu) {
+                    // 为每个下拉按钮添加点击事件监听器
+                    toggle.addEventListener('click', function(e) {
+                        if (isMobile()) {
+                            e.preventDefault();
+                            
+                            // 检查当前菜单是否已经展开
+                            const isExpanded = menu.classList.contains('show');
+                            
+                            // 关闭所有其他下拉菜单
+                            closeAllDropdowns();
+                            
+                            // 切换当前下拉菜单
+                            if (!isExpanded) {
+                                menu.classList.add('show');
+                                toggle.setAttribute('aria-expanded', 'true');
+                            } else {
+                                menu.classList.remove('show');
+                                toggle.setAttribute('aria-expanded', 'false');
+                            }
+                        }
+                    });
+                }
+            });
+        }
+        
         // 确保下拉菜单项点击顺序正常
         function initDropdownItems() {
             const dropdownItems = document.querySelectorAll('.dropdown-item');
@@ -862,6 +897,7 @@
         }
         
         // 初始化所有交互
+        initDropdownToggles();
         initDropdownItems();
         initNavLinks();
         
