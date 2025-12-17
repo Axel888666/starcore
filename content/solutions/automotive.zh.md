@@ -7,7 +7,7 @@ image: "images/solution-car.jpg"
 
 通过大数据技术手段，实时采集汇总汽车制造过程中的各类数据，对生产情况进行实时跟踪和分析，提高生产效率和产品质量，节约制造成本。
 
-![汽车工业应用场景](/images/solution-car-con.jpg)
+![汽车工业应用场景](images/solution-car-con.jpg)
 
 ## 应用场景
 
@@ -37,7 +37,7 @@ image: "images/solution-car.jpg"
 
 ## 技术架构
 
-![技术架构图](/images/solution-frame.jpg)
+![技术架构图](images/solution-frame.jpg)
 
 ### 数据采集层
 - **IoT传感器数据** - 生产设备传感器数据采集
@@ -86,7 +86,7 @@ image: "images/solution-car.jpg"
 ## 成功案例
 
 ### 北京汽车集团
-![北京汽车案例](/images/guest-baicmotor.png)
+![北京汽车案例](images/guest-baicmotor.png)
 
 通过部署星核动力大数据平台，北京汽车实现了全生产线的数字化改造，建立了完整的质量追溯体系。
 

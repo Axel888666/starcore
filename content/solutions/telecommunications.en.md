@@ -30,7 +30,7 @@ Help telecommunications operators build big data platforms, support applications
 ## Customer Cases
 
 ### FiberHome Communications
-![FiberHome Communications](/images/guest-fiberhome.png)
+![FiberHome Communications](images/guest-fiberhome.png)
 
 **Project Background**: Optimize network performance, improve user experience
 

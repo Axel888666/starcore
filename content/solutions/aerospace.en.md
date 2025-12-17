@@ -7,7 +7,7 @@ image: "images/solution-space.jpg"
 
 Provide high-reliability big data solutions for aerospace enterprises, supporting critical applications such as flight data analysis, equipment monitoring, and mission planning, ensuring successful execution of aerospace missions.
 
-![Aerospace Applications](/images/solution-space-con.jpg)
+![Aerospace Applications](images/solution-space-con.jpg)
 
 ## Application Areas
 
@@ -29,12 +29,12 @@ Provide high-reliability big data solutions for aerospace enterprises, supportin
 - **Risk Assessment Analysis** - Mission risk assessment and warning
 - **Decision Support System** - Intelligent mission decision support
 
-![Aerospace Project Cases](/images/solution-space-pic.jpg)
+![Aerospace Project Cases](images/solution-space-pic.jpg)
 
 ## Customer Cases
 
 ### China Academy of Launch Vehicle Technology
-![Rocket Research Institute](/images/guest-aerospace.png)
+![Rocket Research Institute](images/guest-aerospace.png)
 
 **Project Background**: Analyze rocket flight data, optimize design and performance
 
@@ -50,7 +50,7 @@ Provide high-reliability big data solutions for aerospace enterprises, supportin
 - R&D efficiency greatly enhanced
 
 ### China Centre for Resources Satellite Data and Application
-![Satellite Center](/images/guest-cresda.png)
+![Satellite Center](images/guest-cresda.png)
 
 **Project Results**:
 - Satellite data processing efficiency improved by **300%**

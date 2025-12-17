@@ -7,7 +7,7 @@ image: "images/solution-insurance.jpg"
 
 Provide comprehensive big data solutions for the insurance industry, covering core business scenarios such as actuarial modeling, risk assessment, anti-fraud, and customer service, helping insurance companies achieve digital transformation and intelligent operations.
 
-![Insurance Industry Applications](/images/solution-insurance-pic.jpg)
+![Insurance Industry Applications](images/solution-insurance-pic.jpg)
 
 ## Core Applications
 
@@ -38,7 +38,7 @@ Provide comprehensive big data solutions for the insurance industry, covering co
 ## Customer Cases
 
 ### Kunlun Insurance Brokerage
-![Kunlun Insurance](/images/guest-kunlunrisk.png)
+![Kunlun Insurance](images/guest-kunlunrisk.png)
 
 **Project Results**:
 - Underwriting efficiency improved by **40%**

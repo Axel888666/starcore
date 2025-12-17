@@ -7,7 +7,7 @@ image: "images/solution-insurance.jpg"
 
 为保险行业提供全面的大数据解决方案，涵盖精算建模、风险评估、反欺诈、客户服务等核心业务场景，助力保险公司实现数字化转型和智能化运营。
 
-![保险业应用场景](/images/solution-insurance-pic.jpg)
+![保险业应用场景](images/solution-insurance-pic.jpg)
 
 ## 核心应用
 
@@ -38,7 +38,7 @@ image: "images/solution-insurance.jpg"
 ## 客户案例
 
 ### 昆仑保险经纪
-![昆仑保险](/images/guest-kunlunrisk.png)
+![昆仑保险](images/guest-kunlunrisk.png)
 
 **项目成果**:
 - 承保效率提升 **40%**

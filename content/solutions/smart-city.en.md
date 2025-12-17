@@ -7,7 +7,7 @@ image: "images/solution-smartcity.jpg"
 
 Provide smart city big data platforms for government and urban management departments, supporting applications such as urban governance, traffic management, and environmental monitoring, promoting intelligent urban development.
 
-![Smart City Applications](/images/solution-smartcity-pic.jpg)
+![Smart City Applications](images/solution-smartcity-pic.jpg)
 
 ## Application Scenarios
 
@@ -38,7 +38,7 @@ Provide smart city big data platforms for government and urban management depart
 ## Customer Cases
 
 ### Liaoning Department of Transportation
-![Liaoning Department of Transportation](/images/guest-Department.png)
+![Liaoning Department of Transportation](images/guest-Department.png)
 
 **Project Background**: Build intelligent traffic management system, improve traffic efficiency
 

@@ -7,7 +7,7 @@ image: "images/solution-car.jpg"
 
 Through big data technology, we collect and analyze various data from automotive manufacturing processes in real-time, enabling real-time tracking and analysis of production conditions to improve production efficiency, product quality, and reduce manufacturing costs.
 
-![Automotive Industry Applications](/images/solution-car-con.jpg)
+![Automotive Industry Applications](images/solution-car-con.jpg)
 
 ## Application Scenarios
 
@@ -37,7 +37,7 @@ Through big data technology, we collect and analyze various data from automotive
 
 ## Technical Architecture
 
-![Technical Architecture](/images/solution-frame.jpg)
+![Technical Architecture](images/solution-frame.jpg)
 
 ### Data Collection Layer
 - **IoT Sensor Data** - Production equipment sensor data collection
@@ -86,7 +86,7 @@ Through big data technology, we collect and analyze various data from automotive
 ## Success Case
 
 ### Beijing Automotive Group
-![Beijing Automotive Case](/images/guest-baicmotor.png)
+![Beijing Automotive Case](images/guest-baicmotor.png)
 
 Through deploying StellerCore's big data platform, Beijing Automotive achieved digital transformation of the entire production line and established a complete quality traceability system.
 

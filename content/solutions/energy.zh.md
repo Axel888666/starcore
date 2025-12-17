@@ -30,7 +30,7 @@ image: "images/solution-energy.jpg"
 ## 客户案例
 
 ### 大港油田
-![大港油田](/images/guest-oil.png)
+![大港油田](images/guest-oil.png)
 
 **项目背景**: 处理海量地质勘探数据，提升油气发现效率
 

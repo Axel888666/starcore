@@ -99,6 +99,18 @@ robots = "index,follow"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.extensions]
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+
+# URL处理配置
+canonifyURLs = true
+relativeURLs = false
 
 # 忽略警告
 ignoreLogs = ['warning-partial-superfluous-prefix']

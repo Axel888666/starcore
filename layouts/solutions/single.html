@@ -6,8 +6,8 @@
             <div class="col-lg-8 mx-auto text-center">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
-                        <li class="breadcrumb-item"><a href="{{ if eq .Site.Language.Lang "zh" }}/{{ else }}/en/{{ end }}">{{ if eq .Site.Language.Lang "zh" }}首页{{ else }}Home{{ end }}</a></li>
-                        <li class="breadcrumb-item"><a href="{{ if eq .Site.Language.Lang "zh" }}/solutions{{ else }}/en/solutions{{ end }}">{{ if eq .Site.Language.Lang "zh" }}解决方案{{ else }}Solutions{{ end }}</a></li>
+                        <li class="breadcrumb-item"><a href="{{ if eq .Site.Language.Lang "zh" }}{{ printf "%s" $.Site.BaseURL }}{{ else }}{{ printf "%sen/" $.Site.BaseURL }}{{ end }}">{{ if eq .Site.Language.Lang "zh" }}首页{{ else }}Home{{ end }}</a></li>
+                        <li class="breadcrumb-item"><a href="{{ if eq .Site.Language.Lang "zh" }}{{ printf "%ssolutions/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/solutions/" $.Site.BaseURL }}{{ end }}">{{ if eq .Site.Language.Lang "zh" }}解决方案{{ else }}Solutions{{ end }}</a></li>
                         <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
                     </ol>
                 </nav>
@@ -44,7 +44,7 @@
                     <div class="content-card mb-4">
                         <h5 class="mb-3"><i class="fas fa-phone text-primary me-2"></i>{{ if eq .Site.Language.Lang "zh" }}咨询服务{{ else }}Consultation Services{{ end }}</h5>
                         <p class="mb-3">{{ if eq .Site.Language.Lang "zh" }}需要了解更多详情？{{ else }}Need more details?{{ end }}</p>
-                        <a href="{{ if eq .Site.Language.Lang "zh" }}/contact{{ else }}/en/contact{{ end }}" class="btn btn-primary btn-sm w-100 mb-2">
+                        <a href="{{ if eq .Site.Language.Lang "zh" }}{{ printf "%scontact/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/contact/" $.Site.BaseURL }}{{ end }}" class="btn btn-primary btn-sm w-100 mb-2">
                             <i class="fas fa-envelope me-2"></i>{{ if eq .Site.Language.Lang "zh" }}立即咨询{{ else }}Contact Now{{ end }}
                         </a>
                         <a href="tel:0755-8888-8888" class="btn btn-outline-primary btn-sm w-100">
@@ -78,7 +78,7 @@
             <div class="col-lg-8 mx-auto">
                 <h2 style="color: white;">{{ if eq .Site.Language.Lang "zh" }}准备实施这个解决方案？{{ else }}Ready to Implement This Solution?{{ end }}</h2>
                 <p class="lead" style="color: rgba(255,255,255,0.9);">{{ if eq .Site.Language.Lang "zh" }}联系我们的专业团队，获取详细的实施方案和报价{{ else }}Contact our professional team for detailed implementation plans and quotes{{ end }}</p>
-                <a href="{{ if eq .Site.Language.Lang "zh" }}/contact{{ else }}/en/contact{{ end }}" class="btn btn-outline-light btn-lg">{{ if eq .Site.Language.Lang "zh" }}立即联系{{ else }}Contact Now{{ end }}</a>
+                <a href="{{ if eq .Site.Language.Lang "zh" }}{{ printf "%scontact/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/contact/" $.Site.BaseURL }}{{ end }}" class="btn btn-outline-light btn-lg">{{ if eq .Site.Language.Lang "zh" }}立即联系{{ else }}Contact Now{{ end }}</a>
             </div>
         </div>
     </div>

@@ -30,7 +30,7 @@ image: "images/solution-communication.jpg"
 ## 客户案例
 
 ### 烽火通信
-![烽火通信](/images/guest-fiberhome.png)
+![烽火通信](images/guest-fiberhome.png)
 
 **项目背景**: 优化网络性能，提升用户体验
 

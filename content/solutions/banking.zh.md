@@ -7,7 +7,7 @@ image: "images/solution-bank.jpg"
 
 星核动力科技为银行业提供完整的大数据平台解决方案，助力银行实现数字化转型，提升风险管控能力和客户服务水平。基于Apache Hadoop生态构建金融级大数据平台，支持海量数据处理和实时分析。
 
-![银行业应用架构](/images/solution-bank-pic.jpg)
+![银行业应用架构](images/solution-bank-pic.jpg)
 
 ## 核心功能
 
@@ -31,7 +31,7 @@ image: "images/solution-bank.jpg"
 
 ## 技术架构
 
-![技术架构](/images/solution-frame.jpg)
+![技术架构](images/solution-frame.jpg)
 
 ### 数据采集层
 - **核心业务系统** - 核心银行系统数据采集
@@ -60,7 +60,7 @@ image: "images/solution-bank.jpg"
 ## 客户案例
 
 ### 汇丰银行
-![汇丰银行](/images/guest-hsbc.png)
+![汇丰银行](images/guest-hsbc.png)
 
 **项目背景**: 提升风险识别能力，构建实时风险监控体系
 

@@ -30,7 +30,7 @@ Provide complete solutions for data collection, storage, and analysis for energy
 ## Customer Cases
 
 ### Dagang Oilfield
-![Dagang Oilfield](/images/guest-oil.png)
+![Dagang Oilfield](images/guest-oil.png)
 
 **Project Background**: Process massive geological exploration data, improve oil and gas discovery efficiency
 

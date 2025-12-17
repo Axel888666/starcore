@@ -7,7 +7,7 @@ image: "images/solution-smartcity.jpg"
 
 为政府和城市管理部门提供智慧城市大数据平台，支持城市治理、交通管理、环境监测等应用，助力城市智能化发展。
 
-![智慧城市应用](/images/solution-smartcity-pic.jpg)
+![智慧城市应用](images/solution-smartcity-pic.jpg)
 
 ## 应用场景
 
@@ -38,7 +38,7 @@ image: "images/solution-smartcity.jpg"
 ## 客户案例
 
 ### 辽宁交通厅
-![辽宁交通厅](/images/guest-Department.png)
+![辽宁交通厅](images/guest-Department.png)
 
 **项目背景**: 构建智慧交通管理系统，提升交通效率
 

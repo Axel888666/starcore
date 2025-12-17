@@ -7,7 +7,7 @@ image: "images/solution-space.jpg"
 
 为航天航空企业提供高可靠性的大数据解决方案，支持飞行数据分析、设备监控、任务规划等关键应用，确保航天任务的成功执行。
 
-![航天应用场景](/images/solution-space-con.jpg)
+![航天应用场景](images/solution-space-con.jpg)
 
 ## 应用领域
 
@@ -29,12 +29,12 @@ image: "images/solution-space.jpg"
 - **风险评估分析** - 任务风险评估预警
 - **决策支持系统** - 任务决策智能支持
 
-![航天项目案例](/images/solution-space-pic.jpg)
+![航天项目案例](images/solution-space-pic.jpg)
 
 ## 客户案例
 
 ### 中国运载火箭技术研究院
-![火箭研究院](/images/guest-aerospace.png)
+![火箭研究院](images/guest-aerospace.png)
 
 **项目背景**: 分析火箭飞行数据，优化设计和性能
 
@@ -50,7 +50,7 @@ image: "images/solution-space.jpg"
 - 研发效率大幅提高
 
 ### 中国资源卫星应用中心
-![卫星中心](/images/guest-cresda.png)
+![卫星中心](images/guest-cresda.png)
 
 **项目成果**:
 - 卫星数据处理效率提升 **300%**

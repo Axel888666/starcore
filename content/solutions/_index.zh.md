@@ -8,12 +8,12 @@ images: ["images/solutionBanner.jpg"]
 
 星核动力科技为各行业提供专业的大数据解决方案，助力企业数字化转型。基于Apache Hadoop生态构建企业级大数据平台，支持海量数据处理、实时分析和智能决策。
 
-![解决方案架构](/images/solution-frame.jpg)
+![解决方案架构](images/solution-frame.jpg)
 
 ## 重点行业
 
 ### 🏦 金融行业
-![金融行业](/images/solution-bank.jpg)
+![金融行业](images/solution-bank.jpg)
 
 为银行、保险等金融机构提供安全可靠的大数据平台解决方案，支持风险控制、客户分析、反欺诈等业务场景。
 
@@ -25,7 +25,7 @@ images: ["images/solutionBanner.jpg"]
 ---
 
 ### 🚗 汽车工业
-![汽车工业](/images/solution-car.jpg)
+![汽车工业](images/solution-car.jpg)
 
 通过大数据技术手段，实时采集汇总各类数据，对生产情况进行实时跟踪和分析，提高效率和质量，节约成本。
 
@@ -37,7 +37,7 @@ images: ["images/solutionBanner.jpg"]
 ---
 
 ### ⚡ 能源行业
-![能源行业](/images/solution-oil.jpg)
+![能源行业](images/solution-oil.jpg)
 
 为电力、石油、天然气等能源企业提供数据采集、存储、分析的完整解决方案。
 
@@ -49,7 +49,7 @@ images: ["images/solutionBanner.jpg"]
 ---
 
 ### 📡 通信行业
-![通信行业](/images/solution-communication.jpg)
+![通信行业](images/solution-communication.jpg)
 
 帮助通信运营商构建大数据平台，支持网络优化、客户服务、业务分析等应用。
 
@@ -61,7 +61,7 @@ images: ["images/solutionBanner.jpg"]
 ---
 
 ### 🏛️ 保险行业
-![保险行业](/images/solution-insurance.jpg)
+![保险行业](images/solution-insurance.jpg)
 
 为保险行业提供全面的大数据解决方案，涵盖精算建模、风险评估、反欺诈、客户服务等核心业务场景。
 
@@ -73,7 +73,7 @@ images: ["images/solutionBanner.jpg"]
 ---
 
 ### 🚀 航天航空
-![航天航空](/images/solution-space.jpg)
+![航天航空](images/solution-space.jpg)
 
 为航天航空企业提供高可靠性的大数据解决方案，支持飞行数据分析、设备监控等关键应用。
 
@@ -85,7 +85,7 @@ images: ["images/solutionBanner.jpg"]
 ---
 
 ### 🏙️ 智慧城市
-![智慧城市](/images/solution-smartcity.jpg)
+![智慧城市](images/solution-smartcity.jpg)
 
 为政府和城市管理部门提供智慧城市大数据平台，支持城市治理、交通管理、环境监测等应用。
 
@@ -96,7 +96,7 @@ images: ["images/solutionBanner.jpg"]
 
 ## 方案架构优势
 
-![架构优势](/images/software-1.png)
+![架构优势](images/software-1.png)
 
 ### 🚀 敏捷上线
 - 快速部署，敏捷实施
@@ -125,7 +125,7 @@ images: ["images/solutionBanner.jpg"]
 
 ## 产业生态
 
-![产业生态](/images/software-2.png)
+![产业生态](images/software-2.png)
 
 我们与众多合作伙伴共同构建开放的大数据生态系统，为客户提供完整的解决方案和服务。
 

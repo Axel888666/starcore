@@ -7,7 +7,7 @@ image: "images/solution-bank.jpg"
 
 StellerCore Technology provides comprehensive big data platform solutions for the banking industry, helping banks achieve digital transformation, enhance risk management capabilities and customer service levels. Build financial-grade big data platforms based on Apache Hadoop ecosystem, supporting massive data processing and real-time analysis.
 
-![Banking Industry Architecture](/images/solution-bank-pic.jpg)
+![Banking Industry Architecture](images/solution-bank-pic.jpg)
 
 ## Core Functions
 
@@ -31,7 +31,7 @@ StellerCore Technology provides comprehensive big data platform solutions for th
 
 ## Technical Architecture
 
-![Technical Architecture](/images/solution-frame.jpg)
+![Technical Architecture](images/solution-frame.jpg)
 
 ### Data Collection Layer
 - **Core Banking Systems** - Core banking system data collection
@@ -60,7 +60,7 @@ StellerCore Technology provides comprehensive big data platform solutions for th
 ## Customer Cases
 
 ### HSBC Bank
-![HSBC Bank](/images/guest-hsbc.png)
+![HSBC Bank](images/guest-hsbc.png)
 
 **Project Background**: Enhance risk identification capabilities, build real-time risk monitoring system
 
