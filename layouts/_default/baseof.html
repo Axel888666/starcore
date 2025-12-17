@@ -508,7 +508,7 @@
         
         /* 首页特殊样式 */
         .hero-section {
-            background: linear-gradient(rgba(220, 38, 38, 0.4), rgba(220, 38, 38, 0.4)), url('{{ "images/solution-space-con.jpg" | relURL }}') center/cover;
+            background: linear-gradient(rgba(220, 38, 38, 0.4), rgba(220, 38, 38, 0.4)), url('{{ "images/solution-space-con.jpg" | absURL }}') center/cover;
             min-height: 600px;
             display: flex;
             align-items: center;
@@ -577,8 +577,8 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="{{ "/" | relURL }}">
-                <img src="{{ "images/logo.jpg" | relURL }}" alt="{{ if eq .Site.Language.Lang "zh" }}星核动力科技{{ else }}StellerCore Technology{{ end }}">
+            <a class="navbar-brand" href="{{ .Site.BaseURL }}">
+                <img src="{{ "images/logo.jpg" | absURL }}" alt="{{ if eq .Site.Language.Lang "zh" }}星核动力科技{{ else }}StellerCore Technology{{ end }}">
                 {{ if eq .Site.Language.Lang "zh" }}星核动力{{ else }}StellerCore{{ end }}
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -590,89 +590,89 @@
                     {{ if ne .Name "新闻动态" }}
                     {{ if or (eq .Name "解决方案") (eq .Name "Solutions") }}
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/solutions/" | relURL }}{{ else }}{{ "/en/solutions/" | relURL }}{{ end }}" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="{{ if eq $.Site.Language.Lang "zh" }}{{ printf "%ssolutions/" .Site.BaseURL }}{{ else }}{{ printf "%sen/solutions/" .Site.BaseURL }}{{ end }}" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             {{ .Name }}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="solutionsDropdown">
-                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/solutions/" | relURL }}{{ else }}{{ "/en/solutions/" | relURL }}{{ end }}">
+                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/solutions/" | absURL }}{{ else }}{{ "/en/solutions/" | absURL }}{{ end }}">
                                 <i class="fas fa-list-ul me-2"></i>{{ if eq $.Site.Language.Lang "zh" }}所有解决方案{{ else }}All Solutions{{ end }}
                             </a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/solutions/banking/" | relURL }}{{ else }}{{ "/en/solutions/banking/" | relURL }}{{ end }}">
+                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/solutions/banking/" | absURL }}{{ else }}{{ "/en/solutions/banking/" | absURL }}{{ end }}">
                                 <i class="fas fa-university me-2"></i>{{ if eq $.Site.Language.Lang "zh" }}银行业解决方案{{ else }}Banking Solutions{{ end }}
                             </a></li>
-                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/solutions/automotive/" | relURL }}{{ else }}{{ "/en/solutions/automotive/" | relURL }}{{ end }}">
+                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/solutions/automotive/" | absURL }}{{ else }}{{ "/en/solutions/automotive/" | absURL }}{{ end }}">
                                 <i class="fas fa-car me-2"></i>{{ if eq $.Site.Language.Lang "zh" }}汽车工业解决方案{{ else }}Automotive Solutions{{ end }}
                             </a></li>
-                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/solutions/insurance/" | relURL }}{{ else }}{{ "/en/solutions/insurance/" | relURL }}{{ end }}">
+                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/solutions/insurance/" | absURL }}{{ else }}{{ "/en/solutions/insurance/" | absURL }}{{ end }}">
                                 <i class="fas fa-shield-alt me-2"></i>{{ if eq $.Site.Language.Lang "zh" }}保险业解决方案{{ else }}Insurance Solutions{{ end }}
                             </a></li>
-                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/solutions/energy/" | relURL }}{{ else }}{{ "/en/solutions/energy/" | relURL }}{{ end }}">
+                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/solutions/energy/" | absURL }}{{ else }}{{ "/en/solutions/energy/" | absURL }}{{ end }}">
                                 <i class="fas fa-bolt me-2"></i>{{ if eq $.Site.Language.Lang "zh" }}能源行业解决方案{{ else }}Energy Solutions{{ end }}
                             </a></li>
-                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/solutions/telecommunications/" | relURL }}{{ else }}{{ "/en/solutions/telecommunications/" | relURL }}{{ end }}">
+                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/solutions/telecommunications/" | absURL }}{{ else }}{{ "/en/solutions/telecommunications/" | absURL }}{{ end }}">
                                 <i class="fas fa-broadcast-tower me-2"></i>{{ if eq $.Site.Language.Lang "zh" }}通信行业解决方案{{ else }}Telecommunications Solutions{{ end }}
                             </a></li>
-                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/solutions/aerospace/" | relURL }}{{ else }}{{ "/en/solutions/aerospace/" | relURL }}{{ end }}">
+                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/solutions/aerospace/" | absURL }}{{ else }}{{ "/en/solutions/aerospace/" | absURL }}{{ end }}">
                                 <i class="fas fa-rocket me-2"></i>{{ if eq $.Site.Language.Lang "zh" }}航天航空解决方案{{ else }}Aerospace Solutions{{ end }}
                             </a></li>
-                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/solutions/smart-city/" | relURL }}{{ else }}{{ "/en/solutions/smart-city/" | relURL }}{{ end }}">
+                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/solutions/smart-city/" | absURL }}{{ else }}{{ "/en/solutions/smart-city/" | absURL }}{{ end }}">
                                 <i class="fas fa-city me-2"></i>{{ if eq $.Site.Language.Lang "zh" }}智慧城市解决方案{{ else }}Smart City Solutions{{ end }}
                             </a></li>
                         </ul>
                     </li>
                     {{ else if or (eq .Name "产品与服务") (eq .Name "Products & Services") }}
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/products/" | relURL }}{{ else }}{{ "/en/products/" | relURL }}{{ end }}" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/products/" | absURL }}{{ else }}{{ "/en/products/" | absURL }}{{ end }}" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             {{ .Name }}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="productsDropdown">
-                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/products/" | relURL }}{{ else }}{{ "/en/products/" | relURL }}{{ end }}">
+                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/products/" | absURL }}{{ else }}{{ "/en/products/" | absURL }}{{ end }}">
                                 <i class="fas fa-cube me-2"></i>{{ if eq $.Site.Language.Lang "zh" }}产品概览{{ else }}Product Overview{{ end }}
                             </a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/products/#enterprise" | relURL }}{{ else }}{{ "/en/products/#enterprise" | relURL }}{{ end }}">
+                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/products/#enterprise" | absURL }}{{ else }}{{ "/en/products/#enterprise" | absURL }}{{ end }}">
                                 <i class="fas fa-building me-2"></i>StellerCore Enterprise
                             </a></li>
-                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/products/#community" | relURL }}{{ else }}{{ "/en/products/#community" | relURL }}{{ end }}">
+                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/products/#community" | absURL }}{{ else }}{{ "/en/products/#community" | absURL }}{{ end }}">
                                 <i class="fas fa-users me-2"></i>{{ if eq $.Site.Language.Lang "zh" }}社区版{{ else }}Community Edition{{ end }}
                             </a></li>
-                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/products/#cloud" | relURL }}{{ else }}{{ "/en/products/#cloud" | relURL }}{{ end }}">
+                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/products/#cloud" | absURL }}{{ else }}{{ "/en/products/#cloud" | absURL }}{{ end }}">
                                 <i class="fas fa-cloud me-2"></i>{{ if eq $.Site.Language.Lang "zh" }}云版本{{ else }}Cloud Edition{{ end }}
                             </a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/contact/" | relURL }}{{ else }}{{ "/en/contact/" | relURL }}{{ end }}">
+                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/contact/" | absURL }}{{ else }}{{ "/en/contact/" | absURL }}{{ end }}">
                                 <i class="fas fa-download me-2"></i>{{ if eq $.Site.Language.Lang "zh" }}申请试用{{ else }}Request Trial{{ end }}
                             </a></li>
                         </ul>
                     </li>
                     {{ else if or (eq .Name "关于我们") (eq .Name "About") }}
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/about/" | relURL }}{{ else }}{{ "/en/about/" | relURL }}{{ end }}" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/about/" | absURL }}{{ else }}{{ "/en/about/" | absURL }}{{ end }}" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             {{ .Name }}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
-                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/about/" | relURL }}{{ else }}{{ "/en/about/" | relURL }}{{ end }}">
+                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/about/" | absURL }}{{ else }}{{ "/en/about/" | absURL }}{{ end }}">
                                 <i class="fas fa-info-circle me-2"></i>{{ if eq $.Site.Language.Lang "zh" }}公司介绍{{ else }}Company Introduction{{ end }}
                             </a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/about/#values" | relURL }}{{ else }}{{ "/en/about/#values" | relURL }}{{ end }}">
+                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/about/#values" | absURL }}{{ else }}{{ "/en/about/#values" | absURL }}{{ end }}">
                                 <i class="fas fa-heart me-2"></i>{{ if eq $.Site.Language.Lang "zh" }}核心价值观{{ else }}Core Values{{ end }}
                             </a></li>
-                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/about/#technology" | relURL }}{{ else }}{{ "/en/about/#technology" | relURL }}{{ end }}">
+                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/about/#technology" | absURL }}{{ else }}{{ "/en/about/#technology" | absURL }}{{ end }}">
                                 <i class="fas fa-cogs me-2"></i>{{ if eq $.Site.Language.Lang "zh" }}技术实力{{ else }}Technical Strength{{ end }}
                             </a></li>
-                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/about/#partners" | relURL }}{{ else }}{{ "/en/about/#partners" | relURL }}{{ end }}">
+                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/about/#partners" | absURL }}{{ else }}{{ "/en/about/#partners" | absURL }}{{ end }}">
                                 <i class="fas fa-handshake me-2"></i>{{ if eq $.Site.Language.Lang "zh" }}合作伙伴{{ else }}Partners{{ end }}
                             </a></li>
-                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/about/#global" | relURL }}{{ else }}{{ "/en/about/#global" | relURL }}{{ end }}">
+                            <li><a class="dropdown-item" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/about/#global" | absURL }}{{ else }}{{ "/en/about/#global" | absURL }}{{ end }}">
                                 <i class="fas fa-globe me-2"></i>{{ if eq $.Site.Language.Lang "zh" }}全球服务{{ else }}Global Service{{ end }}
                             </a></li>
                         </ul>
                     </li>
                     {{ else }}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ if eq .Name "首页" }}{{ "/" | relURL }}{{ else if eq .Name "Home" }}{{ "/en/" | relURL }}{{ else if eq .Name "客户案例" }}{{ "/cases/" | relURL }}{{ else if eq .Name "Cases" }}{{ "/en/cases/" | relURL }}{{ else if eq .Name "联系我们" }}{{ "/contact/" | relURL }}{{ else if eq .Name "Contact" }}{{ "/en/contact/" | relURL }}{{ else }}{{ .URL | relURL }}{{ end }}">{{ .Name }}</a>
+                        <a class="nav-link" href="{{ if eq .Name "首页" }}{{ "/" | absURL }}{{ else if eq .Name "Home" }}{{ "/en/" | absURL }}{{ else if eq .Name "客户案例" }}{{ "/cases/" | absURL }}{{ else if eq .Name "Cases" }}{{ "/en/cases/" | absURL }}{{ else if eq .Name "联系我们" }}{{ "/contact/" | absURL }}{{ else if eq .Name "Contact" }}{{ "/en/contact/" | absURL }}{{ else }}{{ .URL | absURL }}{{ end }}">{{ .Name }}</a>
                     </li>
                     {{ end }}
                     {{ end }}
@@ -687,13 +687,13 @@
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
                             {{ if eq .Site.Language.Lang "zh" }}
                             <li>
-                                <a class="dropdown-item" href="{{ "/en/" | relURL }}">
+                                <a class="dropdown-item" href="{{ "/en/" | absURL }}">
                                     <i class="fas fa-language me-2"></i>English
                                 </a>
                             </li>
                             {{ else }}
                             <li>
-                                <a class="dropdown-item" href="{{ "/" | relURL }}">
+                                <a class="dropdown-item" href="{{ "/" | absURL }}">
                                     <i class="fas fa-language me-2"></i>中文
                                 </a>
                             </li>
