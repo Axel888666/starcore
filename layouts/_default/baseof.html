@@ -798,7 +798,7 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     
-    <!-- 自定义导航栏交互 -->
+    <!-- 简化版导航栏交互 - 专注于修复移动端下拉菜单 -->
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         // 检测是否为移动设备
@@ -816,14 +816,13 @@
                 document.body.classList.add('navbar-open');
             } else {
                 document.body.classList.remove('navbar-open');
-                // 关闭所有下拉菜单
                 closeAllDropdowns();
             }
         }
         
         // 关闭所有下拉菜单
         function closeAllDropdowns() {
-            document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
+            document.querySelectorAll('.dropdown-menu').forEach(menu => {
                 menu.classList.remove('show');
                 const toggle = menu.previousElementSibling;
                 if (toggle) {
@@ -832,19 +831,30 @@
             });
         }
         
-        // 简化版下拉菜单交互 - 适用于移动端
-        function initMobileDropdowns() {
+        // 移除所有现有的点击事件监听器，避免冲突
+        function removeExistingEventListeners() {
+            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+            dropdownToggles.forEach(toggle => {
+                // 克隆元素以移除所有事件监听器
+                const newToggle = toggle.cloneNode(true);
+                toggle.parentNode.replaceChild(newToggle, toggle);
+            });
+        }
+        
+        // 初始化移动菜单 - 最简化的实现
+        function initMobileMenu() {
+            // 先移除所有现有事件监听器
+            removeExistingEventListeners();
+            
             const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
             
             dropdownToggles.forEach(toggle => {
                 toggle.addEventListener('click', function(e) {
                     if (isMobile()) {
-                        const parent = this.parentElement;
                         const dropdownMenu = this.nextElementSibling;
                         
-                        if (parent && dropdownMenu && dropdownMenu.classList.contains('dropdown-menu')) {
+                        if (dropdownMenu && dropdownMenu.classList.contains('dropdown-menu')) {
                             e.preventDefault();
-                            e.stopPropagation();
                             
                             const isExpanded = dropdownMenu.classList.contains('show');
                             
@@ -865,104 +875,66 @@
             });
         }
         
-        // 增强所有下拉菜单交互
-        const dropdowns = document.querySelectorAll('.nav-item.dropdown');
-        
-        dropdowns.forEach(dropdown => {
-            const dropdownToggle = dropdown.querySelector('.dropdown-toggle');
-            const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+        // 桌面端悬停效果
+        function initDesktopHover() {
+            const dropdowns = document.querySelectorAll('.nav-item.dropdown');
             
-            if (dropdownToggle && dropdownMenu) {
-                // 桌面端：鼠标悬停显示下拉菜单
+            dropdowns.forEach(dropdown => {
                 dropdown.addEventListener('mouseenter', function() {
                     if (!isMobile()) {
-                        dropdownMenu.classList.add('show');
-                        dropdownToggle.setAttribute('aria-expanded', 'true');
+                        const toggle = this.querySelector('.dropdown-toggle');
+                        const menu = this.querySelector('.dropdown-menu');
+                        if (toggle && menu) {
+                            menu.classList.add('show');
+                            toggle.setAttribute('aria-expanded', 'true');
+                        }
                     }
                 });
                 
-                // 桌面端：鼠标离开隐藏下拉菜单
                 dropdown.addEventListener('mouseleave', function() {
                     if (!isMobile()) {
-                        dropdownMenu.classList.remove('show');
-                        dropdownToggle.setAttribute('aria-expanded', 'false');
-                    }
-                });
-                
-                // 点击下拉菜单项时的动画效果
-                const dropdownItems = dropdownMenu.querySelectorAll('.dropdown-item');
-                dropdownItems.forEach(item => {
-                    item.addEventListener('click', function(e) {
-                        // 添加点击动画
-                        this.style.transform = 'scale(0.95)';
-                        setTimeout(() => {
-                            this.style.transform = '';
-                        }, 150);
-                        
-                        // 移动端点击菜单项后关闭导航
-                        if (isMobile()) {
-                            setTimeout(() => {
-                                if (navbarCollapse.classList.contains('show')) {
-                                    navbarToggler.click();
-                                }
-                            }, 200);
+                        const toggle = this.querySelector('.dropdown-toggle');
+                        const menu = this.querySelector('.dropdown-menu');
+                        if (toggle && menu) {
+                            menu.classList.remove('show');
+                            toggle.setAttribute('aria-expanded', 'false');
                         }
-                    });
-                });
-                
-                // 当前页面高亮
-                const currentPath = window.location.pathname;
-                dropdownItems.forEach(item => {
-                    const href = item.getAttribute('href');
-                    if (href === currentPath || (href.includes('#') && href.split('#')[0] === currentPath)) {
-                        item.classList.add('active');
-                        item.style.background = 'linear-gradient(45deg, var(--primary-color), var(--primary-light))';
-                        item.style.color = 'white';
                     }
                 });
-            }
-        });
-        
-        // 初始化移动端下拉菜单
-        initMobileDropdowns();
-        
-        // 监听导航栏展开/折叠事件
-        if (navbarCollapse && navbarToggler) {
-            // 初始检查
-            toggleNavbarBodyClass();
-            
-            // 监听导航栏切换按钮点击
-            navbarToggler.addEventListener('click', toggleNavbarBodyClass);
-            
-            // 使用MutationObserver监听导航栏状态变化
-            const observer = new MutationObserver(toggleNavbarBodyClass);
-            observer.observe(navbarCollapse, { attributes: true, attributeFilter: ['class'] });
+            });
         }
         
-        // 窗口大小改变时重置下拉菜单状态
-        window.addEventListener('resize', function() {
-            // 关闭所有下拉菜单
-            closeAllDropdowns();
+        // 点击菜单项后关闭菜单
+        function initMenuItemClick() {
+            const menuItems = document.querySelectorAll('.dropdown-item, .nav-link:not(.dropdown-toggle)');
             
-            // 如果窗口变大到桌面尺寸，关闭导航栏
-            if (!isMobile() && navbarCollapse && navbarCollapse.classList.contains('show')) {
-                navbarToggler.click();
-            }
+            menuItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    if (isMobile() && navbarCollapse.classList.contains('show')) {
+                        setTimeout(() => {
+                            navbarToggler.click();
+                        }, 100);
+                    }
+                });
+            });
+        }
+        
+        // 初始化所有交互
+        initMobileMenu();
+        initDesktopHover();
+        initMenuItemClick();
+        
+        // 监听窗口大小变化，重新初始化菜单
+        window.addEventListener('resize', function() {
+            closeAllDropdowns();
+            initMobileMenu();
+            initDesktopHover();
         });
         
-        // 点击导航外部区域关闭移动端下拉菜单和导航栏
-        document.addEventListener('click', function(e) {
-            if (isMobile()) {
-                // 点击外部关闭导航栏
-                if (!e.target.closest('.navbar') && navbarCollapse && navbarCollapse.classList.contains('show')) {
-                    navbarToggler.click();
-                }
-                // 点击外部关闭所有下拉菜单
-                if (!e.target.closest('.nav-item.dropdown')) {
-                    closeAllDropdowns();
-                }
-            }
-        });
+        // 监听导航栏切换
+        if (navbarToggler) {
+            navbarToggler.addEventListener('click', toggleNavbarBodyClass);
+        }
     });
     </script>
 </body>
