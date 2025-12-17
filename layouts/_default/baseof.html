@@ -145,6 +145,12 @@
         
         /* 移动端导航优化 - 简化版，使用Bootstrap默认下拉菜单 */
         @media (max-width: 991px) {
+            /* 确保导航栏可以滚动，看到所有菜单项 */
+            .navbar-collapse {
+                max-height: calc(100vh - 100px);
+                overflow-y: auto;
+            }
+            
             .navbar-nav {
                 padding: 1rem 0;
             }
