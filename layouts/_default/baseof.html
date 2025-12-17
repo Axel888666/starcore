@@ -143,7 +143,7 @@
             transform: rotate(180deg);
         }
         
-        /* 移动端导航 - 简洁紧凑设计 */
+        /* 移动端导航 - 简洁设计，确保链接可点击 */
         @media (max-width: 991px) {
             .navbar-collapse {
                 background: white;
@@ -175,12 +175,12 @@
                 color: var(--primary-color) !important;
             }
             
-            /* 隐藏主菜单下拉箭头 */
+            /* 移动端隐藏下拉箭头（除了语言切换） */
             .dropdown-toggle:not(#languageDropdown)::after {
                 display: none !important;
             }
             
-            /* 隐藏主菜单下拉内容 */
+            /* 移动端隐藏下拉菜单内容（除了语言切换） */
             .dropdown-menu:not([aria-labelledby="languageDropdown"]) {
                 display: none !important;
             }
@@ -796,7 +796,7 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     
-    <!-- 简化导航脚本 -->
+    <!-- 导航脚本 - 确保移动端链接可点击 -->
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         // 桌面端悬停效果
@@ -808,16 +808,43 @@
             });
         }
         
-        // 移动端点击导航项后关闭菜单
-        document.querySelectorAll('.nav-link:not(#languageDropdown)').forEach(link => {
+        // 移动端处理 - 确保所有语言的菜单都能正常工作
+        if (window.innerWidth <= 991) {
+            // 移动端阻止主菜单下拉功能，但允许链接跳转
+            document.querySelectorAll('.dropdown-toggle:not(#languageDropdown)').forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    // 如果有有效链接，阻止下拉并允许跳转
+                    if (this.href && this.href !== '#' && !this.href.endsWith('#')) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        // 直接跳转到链接
+                        window.location.href = this.href;
+                        return false;
+                    }
+                });
+            });
+            
+            // 确保所有导航链接都可见和可点击
+            document.querySelectorAll('.navbar-nav .nav-item').forEach(item => {
+                item.style.display = 'block';
+            });
+            
+            document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
+                link.style.display = 'block';
+                link.style.pointerEvents = 'auto';
+            });
+        }
+        
+        // 点击导航项后关闭菜单（延迟执行以允许跳转）
+        document.querySelectorAll('.nav-link').forEach(link => {
             link.addEventListener('click', function() {
-                if (window.innerWidth <= 991) {
+                if (window.innerWidth <= 991 && this.id !== 'languageDropdown') {
                     const navbarCollapse = document.getElementById('navbarNav');
                     if (navbarCollapse && navbarCollapse.classList.contains('show')) {
                         setTimeout(() => {
                             const toggler = document.querySelector('.navbar-toggler');
                             if (toggler) toggler.click();
-                        }, 150);
+                        }, 100);
                     }
                 }
             });
