@@ -234,8 +234,13 @@
                 transform: rotate(180deg) !important;
             }
             
-            /* 完全禁用桌面端hover效果 */
-            .dropdown:hover .dropdown-menu {
+            /* 移动端显示下拉菜单 */
+            .dropdown-menu.show {
+                display: block !important;
+            }
+            
+            /* 禁用桌面端hover效果在移动端 */
+            .dropdown:hover .dropdown-menu:not(.show) {
                 display: none !important;
             }
         }
@@ -836,11 +841,8 @@
         // 关闭所有下拉菜单
         function closeAllDropdowns() {
             document.querySelectorAll('.dropdown-menu').forEach(menu => {
-                if (isMobile()) {
-                    menu.classList.remove('mobile-open');
-                } else {
-                    menu.classList.remove('show');
-                }
+                menu.classList.remove('show');
+                menu.classList.remove('mobile-open');
             });
             document.querySelectorAll('.dropdown-toggle').forEach(toggle => {
                 toggle.classList.remove('mobile-expanded');
