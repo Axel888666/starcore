@@ -851,10 +851,15 @@
                 // 移动端：点击切换下拉菜单
                 dropdownToggle.addEventListener('click', function(e) {
                     if (isMobile()) {
+                        const isExpanded = dropdownMenu.classList.contains('show');
+                        
+                        // 如果下拉菜单已经展开，允许默认跳转行为
+                        if (isExpanded) {
+                            return; // 允许链接跳转
+                        }
+                        
                         e.preventDefault();
                         e.stopPropagation();
-                        
-                        const isExpanded = dropdownMenu.classList.contains('show');
                         
                         // 关闭其他所有下拉菜单
                         document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
