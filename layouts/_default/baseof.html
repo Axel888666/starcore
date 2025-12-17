@@ -682,7 +682,8 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+                <!-- 桌面端完整菜单 -->
+                <ul class="navbar-nav ms-auto d-none d-lg-flex">
                     {{ range .Site.Menus.main }}
                     {{ if ne .Name "新闻动态" }}
                     {{ if or (eq .Name "解决方案") (eq .Name "Solutions") }}
@@ -798,6 +799,47 @@
                         </ul>
                     </li>
                 </ul>
+                
+                <!-- 移动端简化菜单 - 只显示主菜单和中英文切换 -->
+                <ul class="navbar-nav ms-auto d-lg-none">
+                    <!-- 主菜单 -->
+                    {{ range .Site.Menus.main }}
+                    {{ if ne .Name "新闻动态" }}
+                    {{ if or (eq .Name "解决方案") (eq .Name "Solutions") }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ if eq $.Site.Language.Lang "zh" }}{{ printf "%ssolutions/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/solutions/" $.Site.BaseURL }}{{ end }}">{{ .Name }}</a>
+                    </li>
+                    {{ else if or (eq .Name "产品与服务") (eq .Name "Products & Services") }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ if eq $.Site.Language.Lang "zh" }}{{ printf "%sproducts/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/products/" $.Site.BaseURL }}{{ end }}">{{ .Name }}</a>
+                    </li>
+                    {{ else if or (eq .Name "关于我们") (eq .Name "About") }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ if eq $.Site.Language.Lang "zh" }}{{ printf "%sabout/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/about/" $.Site.BaseURL }}{{ end }}">{{ .Name }}</a>
+                    </li>
+                    {{ else }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ if eq .Name "首页" }}{{ printf "%s" $.Site.BaseURL }}{{ else if eq .Name "Home" }}{{ printf "%sen/" $.Site.BaseURL }}{{ else if eq .Name "客户案例" }}{{ printf "%scases/" $.Site.BaseURL }}{{ else if eq .Name "Cases" }}{{ printf "%sen/cases/" $.Site.BaseURL }}{{ else if eq .Name "联系我们" }}{{ printf "%scontact/" $.Site.BaseURL }}{{ else if eq .Name "Contact" }}{{ printf "%sen/contact/" $.Site.BaseURL }}{{ else }}{{ printf "%s%s" $.Site.BaseURL .URL }}{{ end }}">{{ .Name }}</a>
+                    </li>
+                    {{ end }}
+                    {{ end }}
+                    {{ end }}
+                    
+                    <!-- 中英文版本切换 - 移动端 -->
+                    {{ if eq .Site.Language.Lang "zh" }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ printf "%sen/" $.Site.BaseURL }}">
+                            <i class="fas fa-language me-1"></i>English
+                        </a>
+                    </li>
+                    {{ else }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ printf "%s" $.Site.BaseURL }}">
+                            <i class="fas fa-language me-1"></i>中文
+                        </a>
+                    </li>
+                    {{ end }}
+                </ul>
             </div>
         </div>
     </nav>
@@ -822,53 +864,23 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     
-    <!-- 移动端菜单脚本 - 确保二级菜单可以正常展开和收拢 -->
+    <!-- 移动端菜单脚本 - 简化版，确保链接正常跳转 -->
     <script>
     document.addEventListener('DOMContentLoaded', function() {
-        // 确保Bootstrap的下拉菜单功能正常工作
-        const dropdownItems = document.querySelectorAll('.dropdown-item');
-        const regularNavLinks = document.querySelectorAll('.nav-link:not(.dropdown-toggle)');
         const navbarToggler = document.querySelector('.navbar-toggler');
         
-        // 修复：确保下拉菜单项可以正常跳转
-        dropdownItems.forEach(item => {
-            item.addEventListener('click', function(e) {
-                // 不阻止默认跳转行为
+        // 点击菜单链接后关闭导航栏
+        const navLinks = document.querySelectorAll('.nav-link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
                 const navbarCollapse = document.querySelector('.navbar-collapse');
                 if (navbarCollapse && navbarCollapse.classList.contains('show') && navbarToggler) {
-                    // 先允许链接跳转，再关闭导航栏
                     setTimeout(() => {
                         navbarToggler.click();
                     }, 100);
                 }
             });
         });
-        
-        // 修复：确保普通导航链接可以正常跳转
-        regularNavLinks.forEach(link => {
-            link.addEventListener('click', function(e) {
-                // 不阻止默认跳转行为
-                const navbarCollapse = document.querySelector('.navbar-collapse');
-                if (navbarCollapse && navbarCollapse.classList.contains('show') && navbarToggler) {
-                    // 先允许链接跳转，再关闭导航栏
-                    setTimeout(() => {
-                        navbarToggler.click();
-                    }, 100);
-                }
-            });
-        });
-        
-        // 点击导航栏切换按钮时关闭所有下拉菜单
-        if (navbarToggler) {
-            navbarToggler.addEventListener('click', function() {
-                document.querySelectorAll('.dropdown-menu').forEach(menu => {
-                    menu.classList.remove('show');
-                });
-                document.querySelectorAll('.dropdown-toggle').forEach(toggle => {
-                    toggle.setAttribute('aria-expanded', 'false');
-                });
-            });
-        }
     });
     </script>
 </body>
