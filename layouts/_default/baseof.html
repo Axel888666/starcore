@@ -820,7 +820,43 @@
         function closeAllDropdowns() {
             document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
                 menu.classList.remove('show');
-                menu.previousElementSibling.setAttribute('aria-expanded', 'false');
+                const toggle = menu.previousElementSibling;
+                if (toggle) {
+                    toggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+        }
+        
+        // 简化版下拉菜单交互 - 适用于移动端
+        function initMobileDropdowns() {
+            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+            
+            dropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    if (isMobile()) {
+                        const parent = this.parentElement;
+                        const dropdownMenu = this.nextElementSibling;
+                        
+                        if (parent && dropdownMenu && dropdownMenu.classList.contains('dropdown-menu')) {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            
+                            const isExpanded = dropdownMenu.classList.contains('show');
+                            
+                            // 关闭所有其他下拉菜单
+                            closeAllDropdowns();
+                            
+                            // 切换当前下拉菜单
+                            if (!isExpanded) {
+                                dropdownMenu.classList.add('show');
+                                this.setAttribute('aria-expanded', 'true');
+                            } else {
+                                dropdownMenu.classList.remove('show');
+                                this.setAttribute('aria-expanded', 'false');
+                            }
+                        }
+                    }
+                });
             });
         }
         
@@ -845,33 +881,6 @@
                     if (!isMobile()) {
                         dropdownMenu.classList.remove('show');
                         dropdownToggle.setAttribute('aria-expanded', 'false');
-                    }
-                });
-                
-                // 移动端：点击切换下拉菜单
-                dropdownToggle.addEventListener('click', function(e) {
-                    if (isMobile()) {
-                        const isExpanded = dropdownMenu.classList.contains('show');
-                        
-                        // 如果下拉菜单已经展开，允许默认跳转行为
-                        if (isExpanded) {
-                            return; // 允许链接跳转
-                        }
-                        
-                        e.preventDefault();
-                        e.stopPropagation();
-                        
-                        // 关闭其他所有下拉菜单
-                        document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
-                            if (menu !== dropdownMenu) {
-                                menu.classList.remove('show');
-                                menu.previousElementSibling.setAttribute('aria-expanded', 'false');
-                            }
-                        });
-                        
-                        // 切换当前下拉菜单
-                        dropdownMenu.classList.toggle('show');
-                        dropdownToggle.setAttribute('aria-expanded', !isExpanded);
                     }
                 });
                 
@@ -908,6 +917,9 @@
                 });
             }
         });
+        
+        // 初始化移动端下拉菜单
+        initMobileDropdowns();
         
         // 监听导航栏展开/折叠事件
         if (navbarCollapse && navbarToggler) {
