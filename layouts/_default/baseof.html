@@ -826,20 +826,27 @@
             
             // 强制显示所有导航项，确保英文菜单可见
             document.querySelectorAll('.navbar-nav .nav-item').forEach(item => {
-                item.style.display = 'block !important';
-                item.style.visibility = 'visible !important';
+                item.style.setProperty('display', 'block', 'important');
+                item.style.setProperty('visibility', 'visible', 'important');
             });
             
             document.querySelectorAll('.navbar-nav .nav-link').forEach(link => {
-                link.style.display = 'block !important';
-                link.style.visibility = 'visible !important';
-                link.style.pointerEvents = 'auto !important';
-                link.style.opacity = '1 !important';
+                link.style.setProperty('display', 'block', 'important');
+                link.style.setProperty('visibility', 'visible', 'important');
+                link.style.setProperty('pointer-events', 'auto', 'important');
+                link.style.setProperty('opacity', '1', 'important');
             });
             
-            // 调试：输出菜单项数量
-            console.log('移动端菜单项数量:', document.querySelectorAll('.navbar-nav .nav-item').length);
+            // 调试：输出菜单项数量和详细信息
+            const navItems = document.querySelectorAll('.navbar-nav .nav-item');
+            console.log('移动端菜单项数量:', navItems.length);
             console.log('当前语言:', document.documentElement.lang || 'unknown');
+            console.log('当前URL:', window.location.href);
+            console.log('菜单项详情:');
+            navItems.forEach((item, index) => {
+                const link = item.querySelector('.nav-link');
+                console.log(`  ${index + 1}. ${link ? link.textContent.trim() : '无链接'}`);
+            });
         }
         
         // 点击导航项后关闭菜单（延迟执行以允许跳转）
