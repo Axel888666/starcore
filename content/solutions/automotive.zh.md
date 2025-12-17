@@ -2,7 +2,7 @@
 title: "汽车工业解决方案"
 description: "为汽车制造业提供专业的大数据解决方案"
 weight: 1
-image: "/images/solution-car.jpg"
+image: "images/solution-car.jpg"
 ---
 
 通过大数据技术手段，实时采集汇总汽车制造过程中的各类数据，对生产情况进行实时跟踪和分析，提高生产效率和产品质量，节约制造成本。

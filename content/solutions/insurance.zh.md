@@ -2,7 +2,7 @@
 title: "保险业解决方案"
 description: "为保险行业提供专业的大数据解决方案"
 weight: 3
-image: "/images/solution-insurance.jpg"
+image: "images/solution-insurance.jpg"
 ---
 
 为保险行业提供全面的大数据解决方案，涵盖精算建模、风险评估、反欺诈、客户服务等核心业务场景，助力保险公司实现数字化转型和智能化运营。

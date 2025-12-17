@@ -2,7 +2,7 @@
 title: "Insurance Industry Solutions"
 description: "Professional big data solutions for insurance industry"
 weight: 3
-image: "/images/solution-insurance.jpg"
+image: "images/solution-insurance.jpg"
 ---
 
 Provide comprehensive big data solutions for the insurance industry, covering core business scenarios such as actuarial modeling, risk assessment, anti-fraud, and customer service, helping insurance companies achieve digital transformation and intelligent operations.

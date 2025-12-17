@@ -2,7 +2,7 @@
 title: "Banking Industry Solutions"
 description: "Professional big data platform solutions for banking industry"
 weight: 2
-image: "/images/solution-bank.jpg"
+image: "images/solution-bank.jpg"
 ---
 
 StellerCore Technology provides comprehensive big data platform solutions for the banking industry, helping banks achieve digital transformation, enhance risk management capabilities and customer service levels. Build financial-grade big data platforms based on Apache Hadoop ecosystem, supporting massive data processing and real-time analysis.

@@ -2,7 +2,7 @@
 title: "航天航空解决方案"
 description: "为航天航空企业提供高可靠性的大数据解决方案"
 weight: 6
-image: "/images/solution-space.jpg"
+image: "images/solution-space.jpg"
 ---
 
 为航天航空企业提供高可靠性的大数据解决方案，支持飞行数据分析、设备监控、任务规划等关键应用，确保航天任务的成功执行。

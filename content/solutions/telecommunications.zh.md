@@ -2,7 +2,7 @@
 title: "通信行业解决方案"
 description: "为通信运营商提供专业的大数据解决方案"
 weight: 5
-image: "/images/solution-communication.jpg"
+image: "images/solution-communication.jpg"
 ---
 
 帮助通信运营商构建大数据平台，支持网络优化、客户服务、业务分析等应用，提升网络质量和客户体验。

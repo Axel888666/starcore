@@ -2,7 +2,7 @@
 title: "能源行业解决方案"
 description: "为能源企业提供专业的大数据解决方案"
 weight: 4
-image: "/images/solution-energy.jpg"
+image: "images/solution-energy.jpg"
 ---
 
 为电力、石油、天然气等能源企业提供数据采集、存储、分析的完整解决方案，助力能源企业实现智能化运营和数字化转型。

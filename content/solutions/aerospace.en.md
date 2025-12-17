@@ -2,7 +2,7 @@
 title: "Aerospace Solutions"
 description: "High-reliability big data solutions for aerospace enterprises"
 weight: 6
-image: "/images/solution-space.jpg"
+image: "images/solution-space.jpg"
 ---
 
 Provide high-reliability big data solutions for aerospace enterprises, supporting critical applications such as flight data analysis, equipment monitoring, and mission planning, ensuring successful execution of aerospace missions.

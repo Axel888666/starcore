@@ -648,7 +648,7 @@
                     </li>
                     {{ else if or (eq .Name "关于我们") (eq .Name "About") }}
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="{{ if eq $.Site.Language.Lang "zh" }}{{ "/about/" | absURL }}{{ else }}{{ "/en/about/" | absURL }}{{ end }}" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="{{ if eq $.Site.Language.Lang "zh" }}{{ printf "%sabout/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/about/" $.Site.BaseURL }}{{ end }}" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             {{ .Name }}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="aboutDropdown">

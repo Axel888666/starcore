@@ -2,7 +2,7 @@
 title: "Smart City Solutions"
 description: "Smart city big data platform for government and urban management departments"
 weight: 7
-image: "/images/solution-smartcity.jpg"
+image: "images/solution-smartcity.jpg"
 ---
 
 Provide smart city big data platforms for government and urban management departments, supporting applications such as urban governance, traffic management, and environmental monitoring, promoting intelligent urban development.

@@ -2,7 +2,7 @@
 title: "Automotive Industry Solutions"
 description: "Professional big data solutions for automotive manufacturing industry"
 weight: 1
-image: "/images/solution-car.jpg"
+image: "images/solution-car.jpg"
 ---
 
 Through big data technology, we collect and analyze various data from automotive manufacturing processes in real-time, enabling real-time tracking and analysis of production conditions to improve production efficiency, product quality, and reduce manufacturing costs.

@@ -2,7 +2,7 @@
 title: "Telecommunications Industry Solutions"
 description: "Professional big data solutions for telecommunications operators"
 weight: 5
-image: "/images/solution-communication.jpg"
+image: "images/solution-communication.jpg"
 ---
 
 Help telecommunications operators build big data platforms, support applications such as network optimization, customer service, and business analysis, improving network quality and customer experience.

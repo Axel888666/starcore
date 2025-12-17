@@ -1,1 +1,377 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://axel888666.github.io/starcore/solutions/automotive/</loc><xhtml:link rel="alternate" hreflang="en" href="https://axel888666.github.io/starcore/en/solutions/automotive/"/><xhtml:link rel="alternate" hreflang="zh" href="https://axel888666.github.io/starcore/solutions/automotive/"/></url><url><loc>https://axel888666.github.io/starcore/solutions/banking/</loc><xhtml:link rel="alternate" hreflang="en" href="https://axel888666.github.io/starcore/en/solutions/banking/"/><xhtml:link rel="alternate" hreflang="zh" href="https://axel888666.github.io/starcore/solutions/banking/"/></url><url><loc>https://axel888666.github.io/starcore/solutions/insurance/</loc><xhtml:link rel="alternate" hreflang="en" href="https://axel888666.github.io/starcore/en/solutions/insurance/"/><xhtml:link rel="alternate" hreflang="zh" href="https://axel888666.github.io/starcore/solutions/insurance/"/></url><url><loc>https://axel888666.github.io/starcore/solutions/energy/</loc><xhtml:link rel="alternate" hreflang="en" href="https://axel888666.github.io/starcore/en/solutions/energy/"/><xhtml:link rel="alternate" hreflang="zh" href="https://axel888666.github.io/starcore/solutions/energy/"/></url><url><loc>https://axel888666.github.io/starcore/solutions/telecommunications/</loc><xhtml:link rel="alternate" hreflang="en" href="https://axel888666.github.io/starcore/en/solutions/telecommunications/"/><xhtml:link rel="alternate" hreflang="zh" href="https://axel888666.github.io/starcore/solutions/telecommunications/"/></url><url><loc>https://axel888666.github.io/starcore/solutions/aerospace/</loc><xhtml:link rel="alternate" hreflang="en" href="https://axel888666.github.io/starcore/en/solutions/aerospace/"/><xhtml:link rel="alternate" hreflang="zh" href="https://axel888666.github.io/starcore/solutions/aerospace/"/></url><url><loc>https://axel888666.github.io/starcore/solutions/smart-city/</loc><xhtml:link rel="alternate" hreflang="en" href="https://axel888666.github.io/starcore/en/solutions/smart-city/"/><xhtml:link rel="alternate" hreflang="zh" href="https://axel888666.github.io/starcore/solutions/smart-city/"/></url><url><loc>https://axel888666.github.io/starcore/news/</loc><lastmod>2024-12-17T00:00:00+00:00</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://axel888666.github.io/starcore/en/news/"/><xhtml:link rel="alternate" hreflang="zh" href="https://axel888666.github.io/starcore/news/"/></url><url><loc>https://axel888666.github.io/starcore/</loc><lastmod>2024-12-17T00:00:00+00:00</lastmod><xhtml:link rel="alternate" hreflang="en" href="https://axel888666.github.io/starcore/en/"/><xhtml:link rel="alternate" hreflang="zh" href="https://axel888666.github.io/starcore/"/></url><url><loc>https://axel888666.github.io/starcore/categories/</loc><xhtml:link rel="alternate" hreflang="en" href="https://axel888666.github.io/starcore/en/categories/"/><xhtml:link rel="alternate" hreflang="zh" href="https://axel888666.github.io/starcore/categories/"/></url><url><loc>https://axel888666.github.io/starcore/tags/</loc><xhtml:link rel="alternate" hreflang="en" href="https://axel888666.github.io/starcore/en/tags/"/><xhtml:link rel="alternate" hreflang="zh" href="https://axel888666.github.io/starcore/tags/"/></url><url><loc>https://axel888666.github.io/starcore/products/</loc><xhtml:link rel="alternate" hreflang="en" href="https://axel888666.github.io/starcore/en/products/"/><xhtml:link rel="alternate" hreflang="zh" href="https://axel888666.github.io/starcore/products/"/></url><url><loc>https://axel888666.github.io/starcore/about/</loc><xhtml:link rel="alternate" hreflang="en" href="https://axel888666.github.io/starcore/en/about/"/><xhtml:link rel="alternate" hreflang="zh" href="https://axel888666.github.io/starcore/about/"/></url><url><loc>https://axel888666.github.io/starcore/solutions/</loc><xhtml:link rel="alternate" hreflang="en" href="https://axel888666.github.io/starcore/en/solutions/"/><xhtml:link rel="alternate" hreflang="zh" href="https://axel888666.github.io/starcore/solutions/"/></url><url><loc>https://axel888666.github.io/starcore/cases/</loc><xhtml:link rel="alternate" hreflang="en" href="https://axel888666.github.io/starcore/en/cases/"/><xhtml:link rel="alternate" hreflang="zh" href="https://axel888666.github.io/starcore/cases/"/></url><url><loc>https://axel888666.github.io/starcore/contact/</loc><xhtml:link rel="alternate" hreflang="en" href="https://axel888666.github.io/starcore/en/contact/"/><xhtml:link rel="alternate" hreflang="zh" href="https://axel888666.github.io/starcore/contact/"/></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  
+  <url>
+    <loc>http://localhost:1313/starcore/solutions/automotive/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/starcore/en/solutions/automotive/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/starcore/solutions/automotive/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/starcore/solutions/banking/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/starcore/en/solutions/banking/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/starcore/solutions/banking/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/starcore/solutions/insurance/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/starcore/en/solutions/insurance/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/starcore/solutions/insurance/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/starcore/solutions/energy/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/starcore/en/solutions/energy/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/starcore/solutions/energy/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/starcore/solutions/telecommunications/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/starcore/en/solutions/telecommunications/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/starcore/solutions/telecommunications/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/starcore/solutions/aerospace/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/starcore/en/solutions/aerospace/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/starcore/solutions/aerospace/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/starcore/solutions/smart-city/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/starcore/en/solutions/smart-city/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/starcore/solutions/smart-city/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/starcore/news/</loc>
+    
+    <lastmod>2024-12-17T00:00:00+00:00</lastmod>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/starcore/en/news/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/starcore/news/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/starcore/</loc>
+    
+    <lastmod>2024-12-17T00:00:00+00:00</lastmod>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/starcore/en/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/starcore/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/starcore/categories/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/starcore/en/categories/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/starcore/categories/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/starcore/tags/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/starcore/en/tags/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/starcore/tags/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/starcore/products/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/starcore/en/products/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/starcore/products/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/starcore/about/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/starcore/en/about/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/starcore/about/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/starcore/solutions/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/starcore/en/solutions/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/starcore/solutions/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/starcore/cases/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/starcore/en/cases/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/starcore/cases/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/starcore/contact/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/starcore/en/contact/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/starcore/contact/"
+                />
+    
+  </url>
+  
+  
+</urlset>

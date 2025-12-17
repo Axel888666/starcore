@@ -2,7 +2,7 @@
 title: "智慧城市解决方案"
 description: "为政府和城市管理部门提供智慧城市大数据平台"
 weight: 7
-image: "/images/solution-smartcity.jpg"
+image: "images/solution-smartcity.jpg"
 ---
 
 为政府和城市管理部门提供智慧城市大数据平台，支持城市治理、交通管理、环境监测等应用，助力城市智能化发展。

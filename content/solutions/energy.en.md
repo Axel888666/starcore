@@ -2,7 +2,7 @@
 title: "Energy Industry Solutions"
 description: "Professional big data solutions for energy enterprises"
 weight: 4
-image: "/images/solution-energy.jpg"
+image: "images/solution-energy.jpg"
 ---
 
 Provide complete solutions for data collection, storage, and analysis for energy enterprises such as power, oil, and natural gas, helping energy companies achieve intelligent operations and digital transformation.

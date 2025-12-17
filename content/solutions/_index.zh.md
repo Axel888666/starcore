@@ -1,7 +1,7 @@
 ---
 title: "解决方案"
 description: "星核动力科技为各行业提供专业的大数据解决方案"
-images: ["/images/solutionBanner.jpg"]
+images: ["images/solutionBanner.jpg"]
 ---
 
 # 行业解决方案

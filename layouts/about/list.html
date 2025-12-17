@@ -1,6 +1,6 @@
 {{ define "main" }}
 <!-- Page Header -->
-<section class="page-header" style="background: linear-gradient(rgba(220, 38, 38, 0.6), rgba(239, 68, 68, 0.6)), url('/images/solution-space-con.jpg') center/cover;">
+<section class="page-header" style="background: linear-gradient(rgba(220, 38, 38, 0.6), rgba(239, 68, 68, 0.6)), url('{{ printf "%simages/solution-space-con.jpg" $.Site.BaseURL }}') center/cover;">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto text-center">
@@ -121,7 +121,7 @@
                 </ul>
             </div>
             <div class="col-md-6 text-center">
-                <img src="{{ "images/software-2.png" | relURL }}" alt="产业生态" class="service-image">
+                <img src="{{ printf "%simages/software-2.png" $.Site.BaseURL }}" alt="产业生态" class="service-image">
             </div>
         </div>
     </div>
