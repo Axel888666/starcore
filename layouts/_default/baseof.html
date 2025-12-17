@@ -145,19 +145,40 @@
         
         /* 移动端导航优化 */
         @media (max-width: 991px) {
-            /* 防止背景滚动 */
-            body.navbar-open {
-                overflow: hidden;
-            }
-            
             .navbar-nav {
                 padding: 1rem 0;
             }
             
-            .nav-item.dropdown {
-                margin-bottom: 0.5rem;
+            .nav-item {
+                border-bottom: 1px solid rgba(0,0,0,0.1);
             }
             
+            .nav-item:last-child {
+                border-bottom: none;
+            }
+            
+            .nav-link {
+                display: flex !important;
+                justify-content: space-between !important;
+                align-items: center !important;
+                padding: 1rem !important;
+                color: #333 !important;
+                font-weight: 500 !important;
+                text-decoration: none !important;
+                background: transparent !important;
+                border: none !important;
+                width: 100% !important;
+                text-align: left !important;
+            }
+            
+            .nav-link:hover {
+                background: rgba(220, 38, 38, 0.1) !important;
+                color: var(--primary-color) !important;
+                transform: none !important;
+                box-shadow: none !important;
+            }
+            
+            /* 移动端下拉菜单 */
             .dropdown-menu {
                 position: static !important;
                 transform: none !important;
@@ -165,54 +186,65 @@
                 visibility: visible !important;
                 box-shadow: none !important;
                 border: none !important;
-                background: rgba(248, 249, 250, 0.95) !important;
+                background: #f8f9fa !important;
                 margin: 0 !important;
                 padding: 0 !important;
                 border-radius: 0 !important;
-                max-height: 0;
-                overflow-y: auto;
-                transition: max-height 0.3s ease;
-                max-height: 0;
+                display: none;
             }
             
-            .dropdown-menu.show {
-                max-height: 300px;
+            .dropdown-menu.mobile-open {
+                display: block !important;
+                animation: slideDown 0.3s ease;
+            }
+            
+            @keyframes slideDown {
+                from {
+                    opacity: 0;
+                    max-height: 0;
+                }
+                to {
+                    opacity: 1;
+                    max-height: 500px;
+                }
             }
             
             .dropdown-item {
                 padding: 0.75rem 2rem !important;
-                border-bottom: 1px solid rgba(0,0,0,0.1);
-                font-size: 0.9rem;
+                border-bottom: 1px solid rgba(0,0,0,0.05) !important;
+                font-size: 0.9rem !important;
+                color: #666 !important;
+                background: transparent !important;
+                display: block !important;
+                text-decoration: none !important;
+            }
+            
+            .dropdown-item:hover {
+                background: rgba(220, 38, 38, 0.1) !important;
+                color: var(--primary-color) !important;
+                transform: none !important;
             }
             
             .dropdown-item:last-child {
-                border-bottom: none;
+                border-bottom: none !important;
             }
             
-            /* 修复下拉三角位置，确保整个按钮都可点击 */
+            /* 移动端下拉箭头 */
             .dropdown-toggle::after {
-                float: right;
-                margin-top: 0.8rem;
-                position: static;
+                content: "▼" !important;
+                border: none !important;
+                font-size: 0.8rem !important;
+                transition: transform 0.3s ease !important;
+                margin-left: auto !important;
             }
             
-            /* 确保整个导航链接区域都可点击 */
-            .nav-link {
-                display: block;
-                padding: 0.75rem 1rem !important;
-                border-bottom: 1px solid rgba(0,0,0,0.1);
-                position: relative;
+            .dropdown-toggle.mobile-expanded::after {
+                transform: rotate(180deg) !important;
             }
             
-            .nav-link:last-child {
-                border-bottom: none;
-            }
-            
-            /* 禁用桌面端的hover效果在移动端 */
+            /* 完全禁用桌面端hover效果 */
             .dropdown:hover .dropdown-menu {
-                opacity: 0 !important;
-                visibility: hidden !important;
-                max-height: 0 !important;
+                display: none !important;
             }
         }
         
@@ -798,41 +830,52 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     
-    <!-- 导航栏交互脚本 -->
+    <!-- 简化的导航栏脚本 -->
     <script>
     document.addEventListener('DOMContentLoaded', function() {
-        // 检测是否为移动设备
+        console.log('Navigation script loaded');
+        
+        // 检测移动设备
         function isMobile() {
             return window.innerWidth <= 991;
         }
         
-        // 关闭所有下拉菜单
-        function closeAllDropdowns() {
-            document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
+        // 关闭所有移动端下拉菜单
+        function closeAllMobileDropdowns() {
+            document.querySelectorAll('.dropdown-menu').forEach(menu => {
+                menu.classList.remove('mobile-open');
+            });
+            document.querySelectorAll('.dropdown-toggle').forEach(toggle => {
+                toggle.classList.remove('mobile-expanded');
+                toggle.setAttribute('aria-expanded', 'false');
+            });
+        }
+        
+        // 关闭所有桌面端下拉菜单
+        function closeAllDesktopDropdowns() {
+            document.querySelectorAll('.dropdown-menu').forEach(menu => {
                 menu.classList.remove('show');
-                const toggle = menu.parentElement.querySelector('.dropdown-toggle');
-                if (toggle) {
-                    toggle.setAttribute('aria-expanded', 'false');
-                }
+            });
+            document.querySelectorAll('.dropdown-toggle').forEach(toggle => {
+                toggle.setAttribute('aria-expanded', 'false');
             });
         }
         
         // 初始化下拉菜单
         const dropdowns = document.querySelectorAll('.nav-item.dropdown');
+        console.log('Found dropdowns:', dropdowns.length);
         
         dropdowns.forEach((dropdown, index) => {
             const toggle = dropdown.querySelector('.dropdown-toggle');
             const menu = dropdown.querySelector('.dropdown-menu');
             
             if (toggle && menu) {
-                // 添加唯一标识
-                toggle.setAttribute('data-dropdown', index);
-                menu.setAttribute('data-dropdown', index);
+                console.log('Initializing dropdown', index, toggle.textContent.trim());
                 
                 // 桌面端悬停效果
                 dropdown.addEventListener('mouseenter', function() {
                     if (!isMobile()) {
-                        closeAllDropdowns();
+                        closeAllDesktopDropdowns();
                         menu.classList.add('show');
                         toggle.setAttribute('aria-expanded', 'true');
                     }
@@ -845,32 +888,32 @@
                     }
                 });
                 
-                // 点击切换（移动端和桌面端）
+                // 点击事件（主要用于移动端）
                 toggle.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    e.stopPropagation();
+                    console.log('Dropdown toggle clicked:', this.textContent.trim());
                     
-                    const currentDropdown = this.getAttribute('data-dropdown');
-                    const isExpanded = menu.classList.contains('show');
-                    
-                    // 关闭其他下拉菜单
-                    document.querySelectorAll('.dropdown-menu').forEach(otherMenu => {
-                        if (otherMenu.getAttribute('data-dropdown') !== currentDropdown) {
-                            otherMenu.classList.remove('show');
-                            const otherToggle = otherMenu.parentElement.querySelector('.dropdown-toggle');
-                            if (otherToggle) {
-                                otherToggle.setAttribute('aria-expanded', 'false');
-                            }
+                    if (isMobile()) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        
+                        const isOpen = menu.classList.contains('mobile-open');
+                        console.log('Current state:', isOpen ? 'open' : 'closed');
+                        
+                        // 关闭所有其他下拉菜单
+                        closeAllMobileDropdowns();
+                        
+                        // 切换当前下拉菜单
+                        if (!isOpen) {
+                            menu.classList.add('mobile-open');
+                            toggle.classList.add('mobile-expanded');
+                            toggle.setAttribute('aria-expanded', 'true');
+                            console.log('Opened dropdown');
+                        } else {
+                            menu.classList.remove('mobile-open');
+                            toggle.classList.remove('mobile-expanded');
+                            toggle.setAttribute('aria-expanded', 'false');
+                            console.log('Closed dropdown');
                         }
-                    });
-                    
-                    // 切换当前下拉菜单
-                    if (isExpanded) {
-                        menu.classList.remove('show');
-                        toggle.setAttribute('aria-expanded', 'false');
-                    } else {
-                        menu.classList.add('show');
-                        toggle.setAttribute('aria-expanded', 'true');
                     }
                 });
                 
@@ -878,24 +921,29 @@
                 const dropdownItems = menu.querySelectorAll('.dropdown-item');
                 dropdownItems.forEach(item => {
                     item.addEventListener('click', function(e) {
+                        console.log('Dropdown item clicked:', this.textContent.trim());
+                        
                         // 点击动画
                         this.style.transform = 'scale(0.95)';
                         setTimeout(() => {
                             this.style.transform = '';
                         }, 150);
                         
-                        // 关闭下拉菜单和导航栏
-                        setTimeout(() => {
-                            closeAllDropdowns();
+                        // 关闭所有下拉菜单
+                        if (isMobile()) {
+                            closeAllMobileDropdowns();
                             
-                            if (isMobile()) {
+                            // 关闭移动端导航栏
+                            setTimeout(() => {
                                 const navbarCollapse = document.querySelector('.navbar-collapse');
                                 const navbarToggler = document.querySelector('.navbar-toggler');
                                 if (navbarCollapse && navbarCollapse.classList.contains('show') && navbarToggler) {
                                     navbarToggler.click();
                                 }
-                            }
-                        }, 100);
+                            }, 100);
+                        } else {
+                            closeAllDesktopDropdowns();
+                        }
                     });
                 });
             }
@@ -905,6 +953,8 @@
         const regularNavLinks = document.querySelectorAll('.nav-link:not(.dropdown-toggle)');
         regularNavLinks.forEach(link => {
             link.addEventListener('click', function() {
+                console.log('Regular nav link clicked:', this.textContent.trim());
+                
                 if (isMobile()) {
                     const navbarCollapse = document.querySelector('.navbar-collapse');
                     const navbarToggler = document.querySelector('.navbar-toggler');
@@ -920,13 +970,18 @@
         // 点击外部区域关闭下拉菜单
         document.addEventListener('click', function(e) {
             if (!e.target.closest('.navbar')) {
-                closeAllDropdowns();
+                if (isMobile()) {
+                    closeAllMobileDropdowns();
+                } else {
+                    closeAllDesktopDropdowns();
+                }
             }
         });
         
         // 窗口大小改变时重置
         window.addEventListener('resize', function() {
-            closeAllDropdowns();
+            closeAllMobileDropdowns();
+            closeAllDesktopDropdowns();
         });
         
         // 阻止下拉菜单内部点击冒泡
@@ -935,6 +990,8 @@
                 e.stopPropagation();
             });
         });
+        
+        console.log('Navigation script initialization complete');
     });
     </script>
 </body>
