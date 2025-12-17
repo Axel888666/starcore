@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>新闻动态 on 星核动力科技（深圳）有限公司</title>
-    <link>http://localhost:1314/starcore/news/</link>
+    <link>http://localhost:1313/starcore/news/</link>
     <description>Recent content in 新闻动态 on 星核动力科技（深圳）有限公司</description>
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1314/starcore/news/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/starcore/news/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
