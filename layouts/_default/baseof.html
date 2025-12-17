@@ -803,25 +803,11 @@
                 <!-- 移动端简化菜单 - 只显示主菜单和中英文切换 -->
                 <ul class="navbar-nav ms-auto d-lg-none">
                     <!-- 主菜单 -->
-                    {{ range .Site.Menus.main }}
+                    {{ range $.Site.Menus.main }}
                     {{ if ne .Name "新闻动态" }}
-                    {{ if or (eq .Name "解决方案") (eq .Name "Solutions") }}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ if eq $.Site.Language.Lang "zh" }}{{ printf "%ssolutions/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/solutions/" $.Site.BaseURL }}{{ end }}">{{ .Name }}</a>
+                        <a class="nav-link" href="{{ if eq $.Site.Language.Lang "zh" }}{{ printf "%s%s" $.Site.BaseURL .URL }}{{ else }}{{ printf "%sen%s" $.Site.BaseURL .URL }}{{ end }}">{{ .Name }}</a>
                     </li>
-                    {{ else if or (eq .Name "产品与服务") (eq .Name "Products & Services") }}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ if eq $.Site.Language.Lang "zh" }}{{ printf "%sproducts/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/products/" $.Site.BaseURL }}{{ end }}">{{ .Name }}</a>
-                    </li>
-                    {{ else if or (eq .Name "关于我们") (eq .Name "About") }}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ if eq $.Site.Language.Lang "zh" }}{{ printf "%sabout/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/about/" $.Site.BaseURL }}{{ end }}">{{ .Name }}</a>
-                    </li>
-                    {{ else }}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ if eq .Name "首页" }}{{ printf "%s" $.Site.BaseURL }}{{ else if eq .Name "Home" }}{{ printf "%sen/" $.Site.BaseURL }}{{ else if eq .Name "客户案例" }}{{ printf "%scases/" $.Site.BaseURL }}{{ else if eq .Name "Cases" }}{{ printf "%sen/cases/" $.Site.BaseURL }}{{ else if eq .Name "联系我们" }}{{ printf "%scontact/" $.Site.BaseURL }}{{ else if eq .Name "Contact" }}{{ printf "%sen/contact/" $.Site.BaseURL }}{{ else }}{{ printf "%s%s" $.Site.BaseURL .URL }}{{ end }}">{{ .Name }}</a>
-                    </li>
-                    {{ end }}
                     {{ end }}
                     {{ end }}
                     
