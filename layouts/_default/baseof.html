@@ -133,6 +133,16 @@
             visibility: visible;
         }
         
+        /* 下拉箭头动画 */
+        .dropdown-toggle::after {
+            transition: transform 0.3s ease;
+        }
+        
+        .dropdown:hover .dropdown-toggle::after,
+        .dropdown-toggle[aria-expanded="true"]::after {
+            transform: rotate(180deg);
+        }
+        
         /* 移动端导航优化 */
         @media (max-width: 991px) {
             /* 防止背景滚动 */
@@ -179,14 +189,19 @@
                 border-bottom: none;
             }
             
+            /* 修复下拉三角位置，确保整个按钮都可点击 */
             .dropdown-toggle::after {
                 float: right;
-                margin-top: 0.5rem;
+                margin-top: 0.8rem;
+                position: static;
             }
             
+            /* 确保整个导航链接区域都可点击 */
             .nav-link {
+                display: block;
                 padding: 0.75rem 1rem !important;
                 border-bottom: 1px solid rgba(0,0,0,0.1);
+                position: relative;
             }
             
             .nav-link:last-child {
@@ -199,16 +214,6 @@
                 visibility: hidden !important;
                 max-height: 0 !important;
             }
-        }
-        
-        /* 下拉箭头动画 */
-        .dropdown-toggle::after {
-            transition: transform 0.3s ease;
-        }
-        
-        .dropdown:hover .dropdown-toggle::after,
-        .dropdown-toggle[aria-expanded="true"]::after {
-            transform: rotate(180deg);
         }
         
         /* 产品页面专用样式 */
