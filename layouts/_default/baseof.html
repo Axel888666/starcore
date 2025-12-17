@@ -806,7 +806,7 @@
                     {{ range .Site.Menus.main }}
                     {{ if ne .Name "新闻动态" }}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ if eq $.Site.Language.Lang "zh" }}{{ printf "%s%s" $.Site.BaseURL .URL }}{{ else }}{{ printf "%sen%s" $.Site.BaseURL .URL }}{{ end }}">{{ .Name }}</a>
+                        <a class="nav-link" href="{{ if eq $.Site.Language.Lang "zh" }}{{ if eq .Name "首页" }}{{ printf "%s" $.Site.BaseURL }}{{ else if eq .Name "客户案例" }}{{ printf "%scases/" $.Site.BaseURL }}{{ else if eq .Name "联系我们" }}{{ printf "%scontact/" $.Site.BaseURL }}{{ else }}{{ printf "%s%s/" $.Site.BaseURL .URL }}{{ end }}{{ else }}{{ if eq .Name "Home" }}{{ printf "%sen/" $.Site.BaseURL }}{{ else if eq .Name "Cases" }}{{ printf "%sen/cases/" $.Site.BaseURL }}{{ else if eq .Name "Contact" }}{{ printf "%sen/contact/" $.Site.BaseURL }}{{ else }}{{ printf "%sen%s/" $.Site.BaseURL .URL }}{{ end }}{{ end }}">{{ .Name }}</a>
                     </li>
                     {{ end }}
                     {{ end }}
