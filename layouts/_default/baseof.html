@@ -143,7 +143,7 @@
             transform: rotate(180deg);
         }
         
-        /* 移动端导航优化 - 使用Bootstrap标准方式 */
+        /* 移动端导航优化 - 主菜单显示，下拉菜单隐藏，保留语言切换 */
         @media (max-width: 991px) {
             /* 确保导航栏可以滚动，看到所有菜单项 */
             .navbar-collapse {
@@ -178,8 +178,18 @@
                 box-shadow: none !important;
             }
             
-            /* 移动端下拉菜单 - Bootstrap标准样式 */
-            .dropdown-menu {
+            /* 移动端隐藏所有下拉菜单，除了语言切换 */
+            .dropdown-menu:not(#languageDropdown + .dropdown-menu) {
+                display: none !important;
+            }
+            
+            /* 移动端隐藏下拉箭头，除了语言切换 */
+            .dropdown-toggle:not(#languageDropdown)::after {
+                display: none !important;
+            }
+            
+            /* 语言切换下拉菜单保持正常显示 */
+            #languageDropdown + .dropdown-menu {
                 position: static !important;
                 transform: none !important;
                 box-shadow: none !important;
@@ -190,31 +200,31 @@
                 border-radius: 0 !important;
             }
             
-            .dropdown-item {
+            #languageDropdown + .dropdown-menu .dropdown-item {
                 padding: 0.75rem 2rem !important;
                 border-bottom: 1px solid rgba(0,0,0,0.05) !important;
                 font-size: 0.9rem !important;
                 color: #666 !important;
             }
             
-            .dropdown-item:hover {
+            #languageDropdown + .dropdown-menu .dropdown-item:hover {
                 background: rgba(220, 38, 38, 0.1) !important;
                 color: var(--primary-color) !important;
                 transform: none !important;
             }
             
-            .dropdown-item:last-child {
+            #languageDropdown + .dropdown-menu .dropdown-item:last-child {
                 border-bottom: none !important;
+            }
+            
+            /* 语言切换下拉菜单显示控制 */
+            #languageDropdown + .dropdown-menu.show {
+                display: block !important;
             }
             
             /* 禁用桌面端hover效果在移动端 */
             .dropdown:hover .dropdown-menu {
                 display: none !important;
-            }
-            
-            /* 只有当Bootstrap显示时才显示 */
-            .dropdown-menu.show {
-                display: block !important;
             }
         }
         
@@ -666,7 +676,7 @@
                     {{ if ne .Name "新闻动态" }}
                     {{ if or (eq .Name "解决方案") (eq .Name "Solutions") }}
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="{{ if eq $.Site.Language.Lang "zh" }}{{ printf "%ssolutions/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/solutions/" $.Site.BaseURL }}{{ end }}" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             {{ .Name }}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="solutionsDropdown">
@@ -699,7 +709,7 @@
                     </li>
                     {{ else if or (eq .Name "产品与服务") (eq .Name "Products & Services") }}
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="{{ if eq $.Site.Language.Lang "zh" }}{{ printf "%sproducts/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/products/" $.Site.BaseURL }}{{ end }}" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             {{ .Name }}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="productsDropdown">
@@ -724,7 +734,7 @@
                     </li>
                     {{ else if or (eq .Name "关于我们") (eq .Name "About") }}
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="{{ if eq $.Site.Language.Lang "zh" }}{{ printf "%sabout/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/about/" $.Site.BaseURL }}{{ end }}" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             {{ .Name }}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
@@ -801,7 +811,7 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     
-    <!-- 简化导航菜单脚本 - 配合Bootstrap工作 -->
+    <!-- 移动端主菜单 + 语言切换导航脚本 -->
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         console.log('导航菜单脚本已加载');
@@ -827,19 +837,38 @@
             });
         }
         
+        // 移动端特殊处理
+        if (isMobile()) {
+            // 移动端阻止主菜单下拉功能（除了语言切换）
+            const mainDropdowns = document.querySelectorAll('.dropdown-toggle:not(#languageDropdown)');
+            mainDropdowns.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    // 移动端主菜单直接跳转，不显示下拉
+                    if (this.href && this.href !== '#') {
+                        e.stopPropagation();
+                        // 让链接正常跳转
+                        return true;
+                    }
+                    e.preventDefault();
+                });
+            });
+        }
+        
         // 移动端点击导航项后自动关闭菜单
         const navLinks = document.querySelectorAll('.navbar-nav .nav-link, .dropdown-item');
         navLinks.forEach(link => {
             link.addEventListener('click', function() {
-                // 如果是移动端且不是下拉切换按钮
-                if (isMobile() && !this.classList.contains('dropdown-toggle')) {
+                // 如果是移动端且不是语言切换下拉按钮
+                if (isMobile() && this.id !== 'languageDropdown') {
                     const navbarCollapse = document.getElementById('navbarNav');
                     if (navbarCollapse && navbarCollapse.classList.contains('show')) {
-                        // 使用Bootstrap的方法关闭导航栏
-                        const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
-                            toggle: false
-                        });
-                        bsCollapse.hide();
+                        // 延迟关闭，让链接跳转先执行
+                        setTimeout(() => {
+                            const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+                                toggle: false
+                            });
+                            bsCollapse.hide();
+                        }, 100);
                     }
                 }
             });

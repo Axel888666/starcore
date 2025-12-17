@@ -179,7 +179,17 @@
             }
             
              
-            .dropdown-menu {
+            .dropdown-menu:not(#languageDropdown + .dropdown-menu) {
+                display: none !important;
+            }
+            
+             
+            .dropdown-toggle:not(#languageDropdown)::after {
+                display: none !important;
+            }
+            
+             
+            #languageDropdown + .dropdown-menu {
                 position: static !important;
                 transform: none !important;
                 box-shadow: none !important;
@@ -190,31 +200,31 @@
                 border-radius: 0 !important;
             }
             
-            .dropdown-item {
+            #languageDropdown + .dropdown-menu .dropdown-item {
                 padding: 0.75rem 2rem !important;
                 border-bottom: 1px solid rgba(0,0,0,0.05) !important;
                 font-size: 0.9rem !important;
                 color: #666 !important;
             }
             
-            .dropdown-item:hover {
+            #languageDropdown + .dropdown-menu .dropdown-item:hover {
                 background: rgba(220, 38, 38, 0.1) !important;
                 color: var(--primary-color) !important;
                 transform: none !important;
             }
             
-            .dropdown-item:last-child {
+            #languageDropdown + .dropdown-menu .dropdown-item:last-child {
                 border-bottom: none !important;
+            }
+            
+             
+            #languageDropdown + .dropdown-menu.show {
+                display: block !important;
             }
             
              
             .dropdown:hover .dropdown-menu {
                 display: none !important;
-            }
-            
-             
-            .dropdown-menu.show {
-                display: block !important;
             }
         }
         
@@ -674,7 +684,7 @@
                     
                     
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="http://localhost:1313/starcore/solutions/" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             解决方案
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="solutionsDropdown">
@@ -711,7 +721,7 @@
                     
                     
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="http://localhost:1313/starcore/products/" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             产品与服务
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="productsDropdown">
@@ -748,7 +758,7 @@
                     
                     
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="http://localhost:1313/starcore/about/" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             关于我们
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
@@ -1207,18 +1217,37 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         
+        if (isMobile()) {
+            
+            const mainDropdowns = document.querySelectorAll('.dropdown-toggle:not(#languageDropdown)');
+            mainDropdowns.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    
+                    if (this.href && this.href !== '#') {
+                        e.stopPropagation();
+                        
+                        return true;
+                    }
+                    e.preventDefault();
+                });
+            });
+        }
+        
+        
         const navLinks = document.querySelectorAll('.navbar-nav .nav-link, .dropdown-item');
         navLinks.forEach(link => {
             link.addEventListener('click', function() {
                 
-                if (isMobile() && !this.classList.contains('dropdown-toggle')) {
+                if (isMobile() && this.id !== 'languageDropdown') {
                     const navbarCollapse = document.getElementById('navbarNav');
                     if (navbarCollapse && navbarCollapse.classList.contains('show')) {
                         
-                        const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
-                            toggle: false
-                        });
-                        bsCollapse.hide();
+                        setTimeout(() => {
+                            const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+                                toggle: false
+                            });
+                            bsCollapse.hide();
+                        }, 100);
                     }
                 }
             });
