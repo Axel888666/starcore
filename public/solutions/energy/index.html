@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh">
-<head><script src="/starcore/livereload.js?mindelay=10&amp;v=2&amp;port=1314&amp;path=starcore/livereload" data-no-instant defer></script>
+<head><script src="/starcore/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=starcore/livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>能源行业解决方案 - 星核动力科技（深圳）有限公司</title>
@@ -131,6 +131,68 @@
             opacity: 1;
             transform: translateY(0);
             visibility: visible;
+        }
+        
+         
+        @media (max-width: 991px) {
+            .navbar-nav {
+                padding: 1rem 0;
+            }
+            
+            .nav-item.dropdown {
+                margin-bottom: 0.5rem;
+            }
+            
+            .dropdown-menu {
+                position: static !important;
+                transform: none !important;
+                opacity: 1 !important;
+                visibility: visible !important;
+                box-shadow: none !important;
+                border: none !important;
+                background: rgba(248, 249, 250, 0.95) !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                border-radius: 0 !important;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease;
+            }
+            
+            .dropdown-menu.show {
+                max-height: 500px;
+            }
+            
+            .dropdown-item {
+                padding: 0.75rem 2rem !important;
+                border-bottom: 1px solid rgba(0,0,0,0.1);
+                font-size: 0.9rem;
+            }
+            
+            .dropdown-item:last-child {
+                border-bottom: none;
+            }
+            
+            .dropdown-toggle::after {
+                float: right;
+                margin-top: 0.5rem;
+            }
+            
+            .nav-link {
+                padding: 0.75rem 1rem !important;
+                border-bottom: 1px solid rgba(0,0,0,0.1);
+            }
+            
+            .nav-link:last-child {
+                border-bottom: none;
+            }
+            
+             
+            .dropdown:hover .dropdown-menu {
+                opacity: 0 !important;
+                visibility: hidden !important;
+                max-height: 0 !important;
+            }
         }
         
          
@@ -508,7 +570,7 @@
         
          
         .hero-section {
-            background: linear-gradient(rgba(220, 38, 38, 0.4), rgba(220, 38, 38, 0.4)), url('http://localhost:1314/starcore/images/solution-space-con.jpg') center/cover;
+            background: linear-gradient(rgba(220, 38, 38, 0.4), rgba(220, 38, 38, 0.4)), url('http://localhost:1313/starcore/images/solution-space-con.jpg') center/cover;
             min-height: 600px;
             display: flex;
             align-items: center;
@@ -577,8 +639,8 @@
     
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="http://localhost:1314/starcore/">
-                <img src="http://localhost:1314/starcore/images/logo.jpg" alt="星核动力科技">
+            <a class="navbar-brand" href="http://localhost:1313/starcore/">
+                <img src="http://localhost:1313/starcore/images/logo.jpg" alt="星核动力科技">
                 星核动力
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -590,7 +652,7 @@
                     
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:1314/starcore/">首页</a>
+                        <a class="nav-link" href="http://localhost:1313/starcore/">首页</a>
                     </li>
                     
                     
@@ -598,33 +660,33 @@
                     
                     
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="http://localhost:1314/starcore/solutions/" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="http://localhost:1313/starcore/solutions/" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             解决方案
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="solutionsDropdown">
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/solutions/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/solutions/">
                                 <i class="fas fa-list-ul me-2"></i>所有解决方案
                             </a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/solutions/banking/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/solutions/banking/">
                                 <i class="fas fa-university me-2"></i>银行业解决方案
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/solutions/automotive/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/solutions/automotive/">
                                 <i class="fas fa-car me-2"></i>汽车工业解决方案
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/solutions/insurance/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/solutions/insurance/">
                                 <i class="fas fa-shield-alt me-2"></i>保险业解决方案
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/solutions/energy/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/solutions/energy/">
                                 <i class="fas fa-bolt me-2"></i>能源行业解决方案
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/solutions/telecommunications/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/solutions/telecommunications/">
                                 <i class="fas fa-broadcast-tower me-2"></i>通信行业解决方案
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/solutions/aerospace/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/solutions/aerospace/">
                                 <i class="fas fa-rocket me-2"></i>航天航空解决方案
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/solutions/smart-city/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/solutions/smart-city/">
                                 <i class="fas fa-city me-2"></i>智慧城市解决方案
                             </a></li>
                         </ul>
@@ -635,25 +697,25 @@
                     
                     
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="http://localhost:1314/starcore/products/" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="http://localhost:1313/starcore/products/" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             产品与服务
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="productsDropdown">
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/products/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/products/">
                                 <i class="fas fa-cube me-2"></i>产品概览
                             </a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/products/#enterprise">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/products/#enterprise">
                                 <i class="fas fa-building me-2"></i>StellerCore Enterprise
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/products/#community">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/products/#community">
                                 <i class="fas fa-users me-2"></i>社区版
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/products/#cloud">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/products/#cloud">
                                 <i class="fas fa-cloud me-2"></i>云版本
                             </a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/contact/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/contact/">
                                 <i class="fas fa-download me-2"></i>申请试用
                             </a></li>
                         </ul>
@@ -664,7 +726,7 @@
                     
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:1314/starcore/cases/">客户案例</a>
+                        <a class="nav-link" href="http://localhost:1313/starcore/cases/">客户案例</a>
                     </li>
                     
                     
@@ -672,24 +734,24 @@
                     
                     
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="http://localhost:1314/starcore/about/" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="http://localhost:1313/starcore/about/" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             关于我们
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/about/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/about/">
                                 <i class="fas fa-info-circle me-2"></i>公司介绍
                             </a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/about/#values">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/about/#values">
                                 <i class="fas fa-heart me-2"></i>核心价值观
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/about/#technology">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/about/#technology">
                                 <i class="fas fa-cogs me-2"></i>技术实力
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/about/#partners">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/about/#partners">
                                 <i class="fas fa-handshake me-2"></i>合作伙伴
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/about/#global">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/about/#global">
                                 <i class="fas fa-globe me-2"></i>全球服务
                             </a></li>
                         </ul>
@@ -702,7 +764,7 @@
                     
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:1314/starcore/contact/">联系我们</a>
+                        <a class="nav-link" href="http://localhost:1313/starcore/contact/">联系我们</a>
                     </li>
                     
                     
@@ -717,7 +779,7 @@
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
                             
                             <li>
-                                <a class="dropdown-item" href="http://localhost:1314/starcore/en/">
+                                <a class="dropdown-item" href="http://localhost:1313/starcore/en/">
                                     <i class="fas fa-language me-2"></i>English
                                 </a>
                             </li>
@@ -731,14 +793,14 @@
 
     
 
-<section class="page-header" style="background: linear-gradient(rgba(220, 38, 38, 0.9), rgba(239, 68, 68, 0.9)), url('http://localhost:1314/starcore/images/redBanner.jpg') center/cover;">
+<section class="page-header" style="background: linear-gradient(rgba(220, 38, 38, 0.9), rgba(239, 68, 68, 0.9)), url('http://localhost:1313/starcore/images/redBanner.jpg') center/cover;">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto text-center">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
-                        <li class="breadcrumb-item"><a href="http://localhost:1314/starcore/">首页</a></li>
-                        <li class="breadcrumb-item"><a href="http://localhost:1314/starcore/solutions/">解决方案</a></li>
+                        <li class="breadcrumb-item"><a href="http://localhost:1313/starcore/">首页</a></li>
+                        <li class="breadcrumb-item"><a href="http://localhost:1313/starcore/solutions/">解决方案</a></li>
                         <li class="breadcrumb-item active" aria-current="page">能源行业解决方案</li>
                     </ol>
                 </nav>
@@ -781,7 +843,7 @@
 </ul>
 <h2 id="客户案例">客户案例</h2>
 <h3 id="大港油田">大港油田</h3>
-<p><img src="http://localhost:1314/starcore/images/guest-oil.png" alt="大港油田"  /></p>
+<p><img src="http://localhost:1313/starcore/images/guest-oil.png" alt="大港油田"  /></p>
 <p><strong>项目背景</strong>: 处理海量地质勘探数据，提升油气发现效率</p>
 <p><strong>解决方案</strong>:</p>
 <ul>
@@ -815,7 +877,7 @@
                     <div class="content-card mb-4">
                         <h5 class="mb-3"><i class="fas fa-phone text-primary me-2"></i>咨询服务</h5>
                         <p class="mb-3">需要了解更多详情？</p>
-                        <a href="http://localhost:1314/starcore/contact/" class="btn btn-primary btn-sm w-100 mb-2">
+                        <a href="http://localhost:1313/starcore/contact/" class="btn btn-primary btn-sm w-100 mb-2">
                             <i class="fas fa-envelope me-2"></i>立即咨询
                         </a>
                         <a href="tel:0755-8888-8888" class="btn btn-outline-primary btn-sm w-100">
@@ -844,7 +906,7 @@
             <div class="col-lg-8 mx-auto">
                 <h2 style="color: white;">准备实施这个解决方案？</h2>
                 <p class="lead" style="color: rgba(255,255,255,0.9);">联系我们的专业团队，获取详细的实施方案和报价</p>
-                <a href="http://localhost:1314/starcore/contact/" class="btn btn-outline-light btn-lg">立即联系</a>
+                <a href="http://localhost:1313/starcore/contact/" class="btn btn-outline-light btn-lg">立即联系</a>
             </div>
         </div>
     </div>
@@ -945,6 +1007,11 @@ document.addEventListener('DOMContentLoaded', function() {
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         
+        function isMobile() {
+            return window.innerWidth <= 991;
+        }
+        
+        
         const dropdowns = document.querySelectorAll('.nav-item.dropdown');
         
         dropdowns.forEach(dropdown => {
@@ -954,14 +1021,43 @@ document.addEventListener('DOMContentLoaded', function() {
             if (dropdownToggle && dropdownMenu) {
                 
                 dropdown.addEventListener('mouseenter', function() {
-                    dropdownMenu.classList.add('show');
-                    dropdownToggle.setAttribute('aria-expanded', 'true');
+                    if (!isMobile()) {
+                        dropdownMenu.classList.add('show');
+                        dropdownToggle.setAttribute('aria-expanded', 'true');
+                    }
                 });
                 
                 
                 dropdown.addEventListener('mouseleave', function() {
-                    dropdownMenu.classList.remove('show');
-                    dropdownToggle.setAttribute('aria-expanded', 'false');
+                    if (!isMobile()) {
+                        dropdownMenu.classList.remove('show');
+                        dropdownToggle.setAttribute('aria-expanded', 'false');
+                    }
+                });
+                
+                
+                dropdownToggle.addEventListener('click', function(e) {
+                    if (isMobile()) {
+                        e.preventDefault();
+                        const isExpanded = dropdownMenu.classList.contains('show');
+                        
+                        
+                        document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
+                            if (menu !== dropdownMenu) {
+                                menu.classList.remove('show');
+                                menu.previousElementSibling.setAttribute('aria-expanded', 'false');
+                            }
+                        });
+                        
+                        
+                        if (isExpanded) {
+                            dropdownMenu.classList.remove('show');
+                            dropdownToggle.setAttribute('aria-expanded', 'false');
+                        } else {
+                            dropdownMenu.classList.add('show');
+                            dropdownToggle.setAttribute('aria-expanded', 'true');
+                        }
+                    }
                 });
                 
                 
@@ -973,6 +1069,17 @@ document.addEventListener('DOMContentLoaded', function() {
                         setTimeout(() => {
                             this.style.transform = '';
                         }, 150);
+                        
+                        
+                        if (isMobile()) {
+                            setTimeout(() => {
+                                const navbarCollapse = document.querySelector('.navbar-collapse');
+                                if (navbarCollapse.classList.contains('show')) {
+                                    const navbarToggler = document.querySelector('.navbar-toggler');
+                                    navbarToggler.click();
+                                }
+                            }, 200);
+                        }
                     });
                 });
                 
@@ -985,6 +1092,27 @@ document.addEventListener('DOMContentLoaded', function() {
                         item.style.background = 'linear-gradient(45deg, var(--primary-color), var(--primary-light))';
                         item.style.color = 'white';
                     }
+                });
+            }
+        });
+        
+        
+        window.addEventListener('resize', function() {
+            if (!isMobile()) {
+                
+                document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
+                    menu.classList.remove('show');
+                    menu.previousElementSibling.setAttribute('aria-expanded', 'false');
+                });
+            }
+        });
+        
+        
+        document.addEventListener('click', function(e) {
+            if (isMobile() && !e.target.closest('.navbar')) {
+                document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
+                    menu.classList.remove('show');
+                    menu.previousElementSibling.setAttribute('aria-expanded', 'false');
                 });
             }
         });

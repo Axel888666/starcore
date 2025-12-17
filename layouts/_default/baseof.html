@@ -133,6 +133,68 @@
             visibility: visible;
         }
         
+        /* 移动端导航优化 */
+        @media (max-width: 991px) {
+            .navbar-nav {
+                padding: 1rem 0;
+            }
+            
+            .nav-item.dropdown {
+                margin-bottom: 0.5rem;
+            }
+            
+            .dropdown-menu {
+                position: static !important;
+                transform: none !important;
+                opacity: 1 !important;
+                visibility: visible !important;
+                box-shadow: none !important;
+                border: none !important;
+                background: rgba(248, 249, 250, 0.95) !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                border-radius: 0 !important;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease;
+            }
+            
+            .dropdown-menu.show {
+                max-height: 500px;
+            }
+            
+            .dropdown-item {
+                padding: 0.75rem 2rem !important;
+                border-bottom: 1px solid rgba(0,0,0,0.1);
+                font-size: 0.9rem;
+            }
+            
+            .dropdown-item:last-child {
+                border-bottom: none;
+            }
+            
+            .dropdown-toggle::after {
+                float: right;
+                margin-top: 0.5rem;
+            }
+            
+            .nav-link {
+                padding: 0.75rem 1rem !important;
+                border-bottom: 1px solid rgba(0,0,0,0.1);
+            }
+            
+            .nav-link:last-child {
+                border-bottom: none;
+            }
+            
+            /* 禁用桌面端的hover效果 */
+            .dropdown:hover .dropdown-menu {
+                opacity: 0 !important;
+                visibility: hidden !important;
+                max-height: 0 !important;
+            }
+        }
+        
         /* 下拉箭头动画 */
         .dropdown-toggle::after {
             transition: transform 0.3s ease;
@@ -728,6 +790,11 @@
     <!-- 自定义导航栏交互 -->
     <script>
     document.addEventListener('DOMContentLoaded', function() {
+        // 检测是否为移动设备
+        function isMobile() {
+            return window.innerWidth <= 991;
+        }
+        
         // 增强所有下拉菜单交互
         const dropdowns = document.querySelectorAll('.nav-item.dropdown');
         
@@ -736,16 +803,45 @@
             const dropdownMenu = dropdown.querySelector('.dropdown-menu');
             
             if (dropdownToggle && dropdownMenu) {
-                // 鼠标悬停显示下拉菜单
+                // 桌面端：鼠标悬停显示下拉菜单
                 dropdown.addEventListener('mouseenter', function() {
-                    dropdownMenu.classList.add('show');
-                    dropdownToggle.setAttribute('aria-expanded', 'true');
+                    if (!isMobile()) {
+                        dropdownMenu.classList.add('show');
+                        dropdownToggle.setAttribute('aria-expanded', 'true');
+                    }
                 });
                 
-                // 鼠标离开隐藏下拉菜单
+                // 桌面端：鼠标离开隐藏下拉菜单
                 dropdown.addEventListener('mouseleave', function() {
-                    dropdownMenu.classList.remove('show');
-                    dropdownToggle.setAttribute('aria-expanded', 'false');
+                    if (!isMobile()) {
+                        dropdownMenu.classList.remove('show');
+                        dropdownToggle.setAttribute('aria-expanded', 'false');
+                    }
+                });
+                
+                // 移动端：点击切换下拉菜单
+                dropdownToggle.addEventListener('click', function(e) {
+                    if (isMobile()) {
+                        e.preventDefault();
+                        const isExpanded = dropdownMenu.classList.contains('show');
+                        
+                        // 关闭其他所有下拉菜单
+                        document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
+                            if (menu !== dropdownMenu) {
+                                menu.classList.remove('show');
+                                menu.previousElementSibling.setAttribute('aria-expanded', 'false');
+                            }
+                        });
+                        
+                        // 切换当前下拉菜单
+                        if (isExpanded) {
+                            dropdownMenu.classList.remove('show');
+                            dropdownToggle.setAttribute('aria-expanded', 'false');
+                        } else {
+                            dropdownMenu.classList.add('show');
+                            dropdownToggle.setAttribute('aria-expanded', 'true');
+                        }
+                    }
                 });
                 
                 // 点击下拉菜单项时的动画效果
@@ -757,6 +853,17 @@
                         setTimeout(() => {
                             this.style.transform = '';
                         }, 150);
+                        
+                        // 移动端点击菜单项后关闭导航
+                        if (isMobile()) {
+                            setTimeout(() => {
+                                const navbarCollapse = document.querySelector('.navbar-collapse');
+                                if (navbarCollapse.classList.contains('show')) {
+                                    const navbarToggler = document.querySelector('.navbar-toggler');
+                                    navbarToggler.click();
+                                }
+                            }, 200);
+                        }
                     });
                 });
                 
@@ -769,6 +876,27 @@
                         item.style.background = 'linear-gradient(45deg, var(--primary-color), var(--primary-light))';
                         item.style.color = 'white';
                     }
+                });
+            }
+        });
+        
+        // 窗口大小改变时重置下拉菜单状态
+        window.addEventListener('resize', function() {
+            if (!isMobile()) {
+                // 桌面端时关闭所有移动端打开的下拉菜单
+                document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
+                    menu.classList.remove('show');
+                    menu.previousElementSibling.setAttribute('aria-expanded', 'false');
+                });
+            }
+        });
+        
+        // 点击导航外部区域关闭移动端下拉菜单
+        document.addEventListener('click', function(e) {
+            if (isMobile() && !e.target.closest('.navbar')) {
+                document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
+                    menu.classList.remove('show');
+                    menu.previousElementSibling.setAttribute('aria-expanded', 'false');
                 });
             }
         });

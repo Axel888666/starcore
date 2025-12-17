@@ -134,6 +134,68 @@
         }
         
          
+        @media (max-width: 991px) {
+            .navbar-nav {
+                padding: 1rem 0;
+            }
+            
+            .nav-item.dropdown {
+                margin-bottom: 0.5rem;
+            }
+            
+            .dropdown-menu {
+                position: static !important;
+                transform: none !important;
+                opacity: 1 !important;
+                visibility: visible !important;
+                box-shadow: none !important;
+                border: none !important;
+                background: rgba(248, 249, 250, 0.95) !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                border-radius: 0 !important;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease;
+            }
+            
+            .dropdown-menu.show {
+                max-height: 500px;
+            }
+            
+            .dropdown-item {
+                padding: 0.75rem 2rem !important;
+                border-bottom: 1px solid rgba(0,0,0,0.1);
+                font-size: 0.9rem;
+            }
+            
+            .dropdown-item:last-child {
+                border-bottom: none;
+            }
+            
+            .dropdown-toggle::after {
+                float: right;
+                margin-top: 0.5rem;
+            }
+            
+            .nav-link {
+                padding: 0.75rem 1rem !important;
+                border-bottom: 1px solid rgba(0,0,0,0.1);
+            }
+            
+            .nav-link:last-child {
+                border-bottom: none;
+            }
+            
+             
+            .dropdown:hover .dropdown-menu {
+                opacity: 0 !important;
+                visibility: hidden !important;
+                max-height: 0 !important;
+            }
+        }
+        
+         
         .dropdown-toggle::after {
             transition: transform 0.3s ease;
         }
@@ -923,6 +985,11 @@ document.addEventListener('DOMContentLoaded', function() {
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         
+        function isMobile() {
+            return window.innerWidth <= 991;
+        }
+        
+        
         const dropdowns = document.querySelectorAll('.nav-item.dropdown');
         
         dropdowns.forEach(dropdown => {
@@ -932,14 +999,43 @@ document.addEventListener('DOMContentLoaded', function() {
             if (dropdownToggle && dropdownMenu) {
                 
                 dropdown.addEventListener('mouseenter', function() {
-                    dropdownMenu.classList.add('show');
-                    dropdownToggle.setAttribute('aria-expanded', 'true');
+                    if (!isMobile()) {
+                        dropdownMenu.classList.add('show');
+                        dropdownToggle.setAttribute('aria-expanded', 'true');
+                    }
                 });
                 
                 
                 dropdown.addEventListener('mouseleave', function() {
-                    dropdownMenu.classList.remove('show');
-                    dropdownToggle.setAttribute('aria-expanded', 'false');
+                    if (!isMobile()) {
+                        dropdownMenu.classList.remove('show');
+                        dropdownToggle.setAttribute('aria-expanded', 'false');
+                    }
+                });
+                
+                
+                dropdownToggle.addEventListener('click', function(e) {
+                    if (isMobile()) {
+                        e.preventDefault();
+                        const isExpanded = dropdownMenu.classList.contains('show');
+                        
+                        
+                        document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
+                            if (menu !== dropdownMenu) {
+                                menu.classList.remove('show');
+                                menu.previousElementSibling.setAttribute('aria-expanded', 'false');
+                            }
+                        });
+                        
+                        
+                        if (isExpanded) {
+                            dropdownMenu.classList.remove('show');
+                            dropdownToggle.setAttribute('aria-expanded', 'false');
+                        } else {
+                            dropdownMenu.classList.add('show');
+                            dropdownToggle.setAttribute('aria-expanded', 'true');
+                        }
+                    }
                 });
                 
                 
@@ -951,6 +1047,17 @@ document.addEventListener('DOMContentLoaded', function() {
                         setTimeout(() => {
                             this.style.transform = '';
                         }, 150);
+                        
+                        
+                        if (isMobile()) {
+                            setTimeout(() => {
+                                const navbarCollapse = document.querySelector('.navbar-collapse');
+                                if (navbarCollapse.classList.contains('show')) {
+                                    const navbarToggler = document.querySelector('.navbar-toggler');
+                                    navbarToggler.click();
+                                }
+                            }, 200);
+                        }
                     });
                 });
                 
@@ -963,6 +1070,27 @@ document.addEventListener('DOMContentLoaded', function() {
                         item.style.background = 'linear-gradient(45deg, var(--primary-color), var(--primary-light))';
                         item.style.color = 'white';
                     }
+                });
+            }
+        });
+        
+        
+        window.addEventListener('resize', function() {
+            if (!isMobile()) {
+                
+                document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
+                    menu.classList.remove('show');
+                    menu.previousElementSibling.setAttribute('aria-expanded', 'false');
+                });
+            }
+        });
+        
+        
+        document.addEventListener('click', function(e) {
+            if (isMobile() && !e.target.closest('.navbar')) {
+                document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
+                    menu.classList.remove('show');
+                    menu.previousElementSibling.setAttribute('aria-expanded', 'false');
                 });
             }
         });

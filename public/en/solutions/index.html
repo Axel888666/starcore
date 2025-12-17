@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/starcore/livereload.js?mindelay=10&amp;v=2&amp;port=1314&amp;path=starcore/livereload" data-no-instant defer></script>
+<head><script src="/starcore/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=starcore/livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solutions - StellerCore Technology (Shenzhen) Co., Ltd.</title>
@@ -131,6 +131,68 @@
             opacity: 1;
             transform: translateY(0);
             visibility: visible;
+        }
+        
+         
+        @media (max-width: 991px) {
+            .navbar-nav {
+                padding: 1rem 0;
+            }
+            
+            .nav-item.dropdown {
+                margin-bottom: 0.5rem;
+            }
+            
+            .dropdown-menu {
+                position: static !important;
+                transform: none !important;
+                opacity: 1 !important;
+                visibility: visible !important;
+                box-shadow: none !important;
+                border: none !important;
+                background: rgba(248, 249, 250, 0.95) !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                border-radius: 0 !important;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease;
+            }
+            
+            .dropdown-menu.show {
+                max-height: 500px;
+            }
+            
+            .dropdown-item {
+                padding: 0.75rem 2rem !important;
+                border-bottom: 1px solid rgba(0,0,0,0.1);
+                font-size: 0.9rem;
+            }
+            
+            .dropdown-item:last-child {
+                border-bottom: none;
+            }
+            
+            .dropdown-toggle::after {
+                float: right;
+                margin-top: 0.5rem;
+            }
+            
+            .nav-link {
+                padding: 0.75rem 1rem !important;
+                border-bottom: 1px solid rgba(0,0,0,0.1);
+            }
+            
+            .nav-link:last-child {
+                border-bottom: none;
+            }
+            
+             
+            .dropdown:hover .dropdown-menu {
+                opacity: 0 !important;
+                visibility: hidden !important;
+                max-height: 0 !important;
+            }
         }
         
          
@@ -508,7 +570,7 @@
         
          
         .hero-section {
-            background: linear-gradient(rgba(220, 38, 38, 0.4), rgba(220, 38, 38, 0.4)), url('http://localhost:1314/starcore/images/solution-space-con.jpg') center/cover;
+            background: linear-gradient(rgba(220, 38, 38, 0.4), rgba(220, 38, 38, 0.4)), url('http://localhost:1313/starcore/images/solution-space-con.jpg') center/cover;
             min-height: 600px;
             display: flex;
             align-items: center;
@@ -577,8 +639,8 @@
     
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="http://localhost:1314/starcore/">
-                <img src="http://localhost:1314/starcore/images/logo.jpg" alt="StellerCore Technology">
+            <a class="navbar-brand" href="http://localhost:1313/starcore/">
+                <img src="http://localhost:1313/starcore/images/logo.jpg" alt="StellerCore Technology">
                 StellerCore
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -590,7 +652,7 @@
                     
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:1314/starcore/en/">Home</a>
+                        <a class="nav-link" href="http://localhost:1313/starcore/en/">Home</a>
                     </li>
                     
                     
@@ -598,33 +660,33 @@
                     
                     
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="http://localhost:1314/starcore/en/solutions/" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="http://localhost:1313/starcore/en/solutions/" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Solutions
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="solutionsDropdown">
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/en/solutions/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/en/solutions/">
                                 <i class="fas fa-list-ul me-2"></i>All Solutions
                             </a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/en/solutions/banking/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/en/solutions/banking/">
                                 <i class="fas fa-university me-2"></i>Banking Solutions
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/en/solutions/automotive/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/en/solutions/automotive/">
                                 <i class="fas fa-car me-2"></i>Automotive Solutions
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/en/solutions/insurance/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/en/solutions/insurance/">
                                 <i class="fas fa-shield-alt me-2"></i>Insurance Solutions
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/en/solutions/energy/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/en/solutions/energy/">
                                 <i class="fas fa-bolt me-2"></i>Energy Solutions
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/en/solutions/telecommunications/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/en/solutions/telecommunications/">
                                 <i class="fas fa-broadcast-tower me-2"></i>Telecommunications Solutions
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/en/solutions/aerospace/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/en/solutions/aerospace/">
                                 <i class="fas fa-rocket me-2"></i>Aerospace Solutions
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/en/solutions/smart-city/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/en/solutions/smart-city/">
                                 <i class="fas fa-city me-2"></i>Smart City Solutions
                             </a></li>
                         </ul>
@@ -635,25 +697,25 @@
                     
                     
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="http://localhost:1314/starcore/en/products/" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="http://localhost:1313/starcore/en/products/" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Products &amp; Services
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="productsDropdown">
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/en/products/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/en/products/">
                                 <i class="fas fa-cube me-2"></i>Product Overview
                             </a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/en/products/#enterprise">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/en/products/#enterprise">
                                 <i class="fas fa-building me-2"></i>StellerCore Enterprise
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/en/products/#community">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/en/products/#community">
                                 <i class="fas fa-users me-2"></i>Community Edition
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/en/products/#cloud">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/en/products/#cloud">
                                 <i class="fas fa-cloud me-2"></i>Cloud Edition
                             </a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/en/contact/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/en/contact/">
                                 <i class="fas fa-download me-2"></i>Request Trial
                             </a></li>
                         </ul>
@@ -664,7 +726,7 @@
                     
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:1314/starcore/en/cases/">Cases</a>
+                        <a class="nav-link" href="http://localhost:1313/starcore/en/cases/">Cases</a>
                     </li>
                     
                     
@@ -672,24 +734,24 @@
                     
                     
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="http://localhost:1314/starcore/en/about/" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="http://localhost:1313/starcore/en/about/" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             About
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/en/about/">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/en/about/">
                                 <i class="fas fa-info-circle me-2"></i>Company Introduction
                             </a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/en/about/#values">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/en/about/#values">
                                 <i class="fas fa-heart me-2"></i>Core Values
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/en/about/#technology">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/en/about/#technology">
                                 <i class="fas fa-cogs me-2"></i>Technical Strength
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/en/about/#partners">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/en/about/#partners">
                                 <i class="fas fa-handshake me-2"></i>Partners
                             </a></li>
-                            <li><a class="dropdown-item" href="http://localhost:1314/starcore/en/about/#global">
+                            <li><a class="dropdown-item" href="http://localhost:1313/starcore/en/about/#global">
                                 <i class="fas fa-globe me-2"></i>Global Service
                             </a></li>
                         </ul>
@@ -700,7 +762,7 @@
                     
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:1314/starcore/en/contact/">Contact</a>
+                        <a class="nav-link" href="http://localhost:1313/starcore/en/contact/">Contact</a>
                     </li>
                     
                     
@@ -715,7 +777,7 @@
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
                             
                             <li>
-                                <a class="dropdown-item" href="http://localhost:1314/starcore/">
+                                <a class="dropdown-item" href="http://localhost:1313/starcore/">
                                     <i class="fas fa-language me-2"></i>中文
                                 </a>
                             </li>
@@ -729,13 +791,13 @@
 
     
 
-<section class="page-header" style="background: linear-gradient(rgba(220, 38, 38, 0.6), rgba(239, 68, 68, 0.6)), url('http://localhost:1314/starcore/images/hy-protect.png') center/cover;">
+<section class="page-header" style="background: linear-gradient(rgba(220, 38, 38, 0.6), rgba(239, 68, 68, 0.6)), url('http://localhost:1313/starcore/images/hy-protect.png') center/cover;">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto text-center">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
-                        <li class="breadcrumb-item"><a href="http://localhost:1314/starcore/en/">Home</a></li>
+                        <li class="breadcrumb-item"><a href="http://localhost:1313/starcore/en/">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Solutions</li>
                     </ol>
                 </nav>
@@ -763,77 +825,77 @@
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="content-card">
                     
-                    <img src="http://localhost:1314/starcore/images/solution-car.jpg" alt="Automotive Industry Solutions" class="img-fluid">
+                    <img src="http://localhost:1313/starcore/images/solution-car.jpg" alt="Automotive Industry Solutions" class="img-fluid">
                     
                     <h4>Automotive Industry Solutions</h4>
                     <p><p>Through big data technology, we collect and analyze various data from automotive manufacturing processes in real-time, enabling real-time tracking and analysis of production conditions to improve production efficiency, product quality, and reduce manufacturing costs.</p></p>
-                    <a href="http://localhost:1314/starcore/en/solutions/automotive/" class="btn btn-primary">Learn More</a>
+                    <a href="http://localhost:1313/starcore/en/solutions/automotive/" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
             
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="content-card">
                     
-                    <img src="http://localhost:1314/starcore/images/solution-bank.jpg" alt="Banking Industry Solutions" class="img-fluid">
+                    <img src="http://localhost:1313/starcore/images/solution-bank.jpg" alt="Banking Industry Solutions" class="img-fluid">
                     
                     <h4>Banking Industry Solutions</h4>
                     <p><p>StellerCore Technology provides comprehensive big data platform solutions for the banking industry, helping banks achieve digital transformation, enhance risk management capabilities and customer service levels. Build financial-grade big data platforms based on Apache Hadoop ecosystem, supporting massive data processing and real-time analysis.</p></p>
-                    <a href="http://localhost:1314/starcore/en/solutions/banking/" class="btn btn-primary">Learn More</a>
+                    <a href="http://localhost:1313/starcore/en/solutions/banking/" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
             
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="content-card">
                     
-                    <img src="http://localhost:1314/starcore/images/solution-insurance.jpg" alt="Insurance Industry Solutions" class="img-fluid">
+                    <img src="http://localhost:1313/starcore/images/solution-insurance.jpg" alt="Insurance Industry Solutions" class="img-fluid">
                     
                     <h4>Insurance Industry Solutions</h4>
                     <p><p>Provide comprehensive big data solutions for the insurance industry, covering core business scenarios such as actuarial modeling, risk assessment, anti-fraud, and customer service, helping insurance companies achieve digital transformation and intelligent operations.</p></p>
-                    <a href="http://localhost:1314/starcore/en/solutions/insurance/" class="btn btn-primary">Learn More</a>
+                    <a href="http://localhost:1313/starcore/en/solutions/insurance/" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
             
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="content-card">
                     
-                    <img src="http://localhost:1314/starcore/images/solution-energy.jpg" alt="Energy Industry Solutions" class="img-fluid">
+                    <img src="http://localhost:1313/starcore/images/solution-energy.jpg" alt="Energy Industry Solutions" class="img-fluid">
                     
                     <h4>Energy Industry Solutions</h4>
                     <p><p>Provide complete solutions for data collection, storage, and analysis for energy enterprises such as power, oil, and natural gas, helping energy companies achieve intelligent operations and digital transformation.</p></p>
-                    <a href="http://localhost:1314/starcore/en/solutions/energy/" class="btn btn-primary">Learn More</a>
+                    <a href="http://localhost:1313/starcore/en/solutions/energy/" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
             
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="content-card">
                     
-                    <img src="http://localhost:1314/starcore/images/solution-communication.jpg" alt="Telecommunications Industry Solutions" class="img-fluid">
+                    <img src="http://localhost:1313/starcore/images/solution-communication.jpg" alt="Telecommunications Industry Solutions" class="img-fluid">
                     
                     <h4>Telecommunications Industry Solutions</h4>
                     <p><p>Help telecommunications operators build big data platforms, support applications such as network optimization, customer service, and business analysis, improving network quality and customer experience.</p></p>
-                    <a href="http://localhost:1314/starcore/en/solutions/telecommunications/" class="btn btn-primary">Learn More</a>
+                    <a href="http://localhost:1313/starcore/en/solutions/telecommunications/" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
             
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="content-card">
                     
-                    <img src="http://localhost:1314/starcore/images/solution-space.jpg" alt="Aerospace Solutions" class="img-fluid">
+                    <img src="http://localhost:1313/starcore/images/solution-space.jpg" alt="Aerospace Solutions" class="img-fluid">
                     
                     <h4>Aerospace Solutions</h4>
                     <p><p>Provide high-reliability big data solutions for aerospace enterprises, supporting critical applications such as flight data analysis, equipment monitoring, and mission planning, ensuring successful execution of aerospace missions.</p></p>
-                    <a href="http://localhost:1314/starcore/en/solutions/aerospace/" class="btn btn-primary">Learn More</a>
+                    <a href="http://localhost:1313/starcore/en/solutions/aerospace/" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
             
             <div class="col-md-6 col-lg-4 mb-4">
                 <div class="content-card">
                     
-                    <img src="http://localhost:1314/starcore/images/solution-smartcity.jpg" alt="Smart City Solutions" class="img-fluid">
+                    <img src="http://localhost:1313/starcore/images/solution-smartcity.jpg" alt="Smart City Solutions" class="img-fluid">
                     
                     <h4>Smart City Solutions</h4>
                     <p><p>Provide smart city big data platforms for government and urban management departments, supporting applications such as urban governance, traffic management, and environmental monitoring, promoting intelligent urban development.</p></p>
-                    <a href="http://localhost:1314/starcore/en/solutions/smart-city/" class="btn btn-primary">Learn More</a>
+                    <a href="http://localhost:1313/starcore/en/solutions/smart-city/" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
             
@@ -848,7 +910,7 @@
             <div class="col-lg-8 mx-auto">
                 <h2 style="color: white;">Need Customized Solutions?</h2>
                 <p class="lead" style="color: rgba(255,255,255,0.9);">Contact our professional team to get big data solutions tailored for your industry</p>
-                <a href="http://localhost:1314/starcore/en/contact/" class="btn btn-outline-light btn-lg">Contact Now</a>
+                <a href="http://localhost:1313/starcore/en/contact/" class="btn btn-outline-light btn-lg">Contact Now</a>
             </div>
         </div>
     </div>
@@ -877,6 +939,11 @@
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         
+        function isMobile() {
+            return window.innerWidth <= 991;
+        }
+        
+        
         const dropdowns = document.querySelectorAll('.nav-item.dropdown');
         
         dropdowns.forEach(dropdown => {
@@ -886,14 +953,43 @@
             if (dropdownToggle && dropdownMenu) {
                 
                 dropdown.addEventListener('mouseenter', function() {
-                    dropdownMenu.classList.add('show');
-                    dropdownToggle.setAttribute('aria-expanded', 'true');
+                    if (!isMobile()) {
+                        dropdownMenu.classList.add('show');
+                        dropdownToggle.setAttribute('aria-expanded', 'true');
+                    }
                 });
                 
                 
                 dropdown.addEventListener('mouseleave', function() {
-                    dropdownMenu.classList.remove('show');
-                    dropdownToggle.setAttribute('aria-expanded', 'false');
+                    if (!isMobile()) {
+                        dropdownMenu.classList.remove('show');
+                        dropdownToggle.setAttribute('aria-expanded', 'false');
+                    }
+                });
+                
+                
+                dropdownToggle.addEventListener('click', function(e) {
+                    if (isMobile()) {
+                        e.preventDefault();
+                        const isExpanded = dropdownMenu.classList.contains('show');
+                        
+                        
+                        document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
+                            if (menu !== dropdownMenu) {
+                                menu.classList.remove('show');
+                                menu.previousElementSibling.setAttribute('aria-expanded', 'false');
+                            }
+                        });
+                        
+                        
+                        if (isExpanded) {
+                            dropdownMenu.classList.remove('show');
+                            dropdownToggle.setAttribute('aria-expanded', 'false');
+                        } else {
+                            dropdownMenu.classList.add('show');
+                            dropdownToggle.setAttribute('aria-expanded', 'true');
+                        }
+                    }
                 });
                 
                 
@@ -905,6 +1001,17 @@
                         setTimeout(() => {
                             this.style.transform = '';
                         }, 150);
+                        
+                        
+                        if (isMobile()) {
+                            setTimeout(() => {
+                                const navbarCollapse = document.querySelector('.navbar-collapse');
+                                if (navbarCollapse.classList.contains('show')) {
+                                    const navbarToggler = document.querySelector('.navbar-toggler');
+                                    navbarToggler.click();
+                                }
+                            }, 200);
+                        }
                     });
                 });
                 
@@ -917,6 +1024,27 @@
                         item.style.background = 'linear-gradient(45deg, var(--primary-color), var(--primary-light))';
                         item.style.color = 'white';
                     }
+                });
+            }
+        });
+        
+        
+        window.addEventListener('resize', function() {
+            if (!isMobile()) {
+                
+                document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
+                    menu.classList.remove('show');
+                    menu.previousElementSibling.setAttribute('aria-expanded', 'false');
+                });
+            }
+        });
+        
+        
+        document.addEventListener('click', function(e) {
+            if (isMobile() && !e.target.closest('.navbar')) {
+                document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
+                    menu.classList.remove('show');
+                    menu.previousElementSibling.setAttribute('aria-expanded', 'false');
                 });
             }
         });

@@ -7,8 +7,8 @@
                 <h1 class="hero-title">{{ .Site.Title }}</h1>
                 <p class="hero-subtitle">{{ .Description }}</p>
                 <div>
-                    <a href="{{ if eq .Site.Language.Lang "zh" }}/solutions{{ else }}/en/solutions{{ end }}" class="btn btn-primary btn-lg me-3">{{ if eq .Site.Language.Lang "zh" }}解决方案{{ else }}Solutions{{ end }}</a>
-                    <a href="{{ if eq .Site.Language.Lang "zh" }}/contact{{ else }}/en/contact{{ end }}" class="btn btn-outline-light btn-lg">{{ if eq .Site.Language.Lang "zh" }}联系我们{{ else }}Contact Us{{ end }}</a>
+                    <a href="{{ if eq .Site.Language.Lang "zh" }}{{ printf "%ssolutions/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/solutions/" $.Site.BaseURL }}{{ end }}" class="btn btn-primary btn-lg me-3">{{ if eq .Site.Language.Lang "zh" }}解决方案{{ else }}Solutions{{ end }}</a>
+                    <a href="{{ if eq .Site.Language.Lang "zh" }}{{ printf "%scontact/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/contact/" $.Site.BaseURL }}{{ end }}" class="btn btn-outline-light btn-lg">{{ if eq .Site.Language.Lang "zh" }}联系我们{{ else }}Contact Us{{ end }}</a>
                 </div>
             </div>
         </div>
@@ -22,7 +22,7 @@
             <div class="col-md-6">
                 <h2>{{ if eq .Site.Language.Lang "zh" }}产业生态合作{{ else }}Industrial Ecosystem Cooperation{{ end }}</h2>
                 <p>{{ if eq .Site.Language.Lang "zh" }}StellerCore Enterprise 全面支持云、芯片、操作系统，上下游软硬件生态。构建开放大数据软件服务生态，赋能企业信息化大数据升级！{{ else }}StellerCore Enterprise fully supports cloud, chips, operating systems, and upstream and downstream software and hardware ecosystems. Build an open big data software service ecosystem to empower enterprise informatization big data upgrades!{{ end }}</p>
-                <a href="{{ if eq .Site.Language.Lang "zh" }}/about{{ else }}/en/about{{ end }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看合作伙伴{{ else }}View Partners{{ end }}</a>
+                <a href="{{ if eq .Site.Language.Lang "zh" }}{{ printf "%sabout/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/about/" $.Site.BaseURL }}{{ end }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看合作伙伴{{ else }}View Partners{{ end }}</a>
             </div>
             <div class="col-md-6 text-center">
                 <img src="{{ printf "%simages/software-2.png" $.Site.BaseURL }}" alt="{{ if eq .Site.Language.Lang "zh" }}产业生态{{ else }}Industrial Ecosystem{{ end }}" class="service-image">
@@ -41,7 +41,7 @@
             <div class="col-md-6">
                 <h2>{{ if eq .Site.Language.Lang "zh" }}金融级大数据统一平台{{ else }}Financial-Grade Unified Big Data Platform{{ end }}</h2>
                 <p>{{ if eq .Site.Language.Lang "zh" }}采用分层架构设计，从数据采集、存储、处理到应用展现，层次清晰，便于管理和扩展。基于微服务架构设计，支持组件独立部署、升级和扩展。{{ else }}Adopts layered architecture design, from data collection, storage, processing to application presentation, with clear layers for easy management and expansion. Based on microservice architecture design, supporting independent deployment, upgrade and expansion of components.{{ end }}</p>
-                <a href="{{ if eq .Site.Language.Lang "zh" }}/solutions{{ else }}/en/solutions{{ end }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}了解更多{{ else }}Learn More{{ end }}</a>
+                <a href="{{ if eq .Site.Language.Lang "zh" }}{{ printf "%ssolutions/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/solutions/" $.Site.BaseURL }}{{ end }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}了解更多{{ else }}Learn More{{ end }}</a>
             </div>
         </div>
     </div>
@@ -110,7 +110,7 @@
             <div class="col-lg-8 mx-auto">
                 <h2 style="color: white;">{{ if eq .Site.Language.Lang "zh" }}准备开始您的大数据之旅？{{ else }}Ready to Start Your Big Data Journey?{{ end }}</h2>
                 <p class="lead" style="color: rgba(255,255,255,0.9);">{{ if eq .Site.Language.Lang "zh" }}联系我们的专业团队，获取定制化的大数据解决方案{{ else }}Contact our professional team to get customized big data solutions{{ end }}</p>
-                <a href="{{ if eq .Site.Language.Lang "zh" }}/contact{{ else }}/en/contact{{ end }}" class="btn btn-outline-light btn-lg">{{ if eq .Site.Language.Lang "zh" }}立即联系{{ else }}Contact Now{{ end }}</a>
+                <a href="{{ if eq .Site.Language.Lang "zh" }}{{ printf "%scontact/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/contact/" $.Site.BaseURL }}{{ end }}" class="btn btn-outline-light btn-lg">{{ if eq .Site.Language.Lang "zh" }}立即联系{{ else }}Contact Now{{ end }}</a>
             </div>
         </div>
     </div>

@@ -135,6 +135,68 @@
         }
         
          
+        @media (max-width: 991px) {
+            .navbar-nav {
+                padding: 1rem 0;
+            }
+            
+            .nav-item.dropdown {
+                margin-bottom: 0.5rem;
+            }
+            
+            .dropdown-menu {
+                position: static !important;
+                transform: none !important;
+                opacity: 1 !important;
+                visibility: visible !important;
+                box-shadow: none !important;
+                border: none !important;
+                background: rgba(248, 249, 250, 0.95) !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                border-radius: 0 !important;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.3s ease;
+            }
+            
+            .dropdown-menu.show {
+                max-height: 500px;
+            }
+            
+            .dropdown-item {
+                padding: 0.75rem 2rem !important;
+                border-bottom: 1px solid rgba(0,0,0,0.1);
+                font-size: 0.9rem;
+            }
+            
+            .dropdown-item:last-child {
+                border-bottom: none;
+            }
+            
+            .dropdown-toggle::after {
+                float: right;
+                margin-top: 0.5rem;
+            }
+            
+            .nav-link {
+                padding: 0.75rem 1rem !important;
+                border-bottom: 1px solid rgba(0,0,0,0.1);
+            }
+            
+            .nav-link:last-child {
+                border-bottom: none;
+            }
+            
+             
+            .dropdown:hover .dropdown-menu {
+                opacity: 0 !important;
+                visibility: hidden !important;
+                max-height: 0 !important;
+            }
+        }
+        
+         
         .dropdown-toggle::after {
             transition: transform 0.3s ease;
         }
@@ -737,8 +799,8 @@
                 <h1 class="hero-title">StellerCore Technology (Shenzhen) Co., Ltd.</h1>
                 <p class="hero-subtitle">Professional big data infrastructure software platform provider, committed to providing reliable big data solutions and services for enterprises</p>
                 <div>
-                    <a href="/en/solutions" class="btn btn-primary btn-lg me-3">Solutions</a>
-                    <a href="/en/contact" class="btn btn-outline-light btn-lg">Contact Us</a>
+                    <a href="http://localhost:1313/starcore/en/solutions/" class="btn btn-primary btn-lg me-3">Solutions</a>
+                    <a href="http://localhost:1313/starcore/en/contact/" class="btn btn-outline-light btn-lg">Contact Us</a>
                 </div>
             </div>
         </div>
@@ -752,7 +814,7 @@
             <div class="col-md-6">
                 <h2>Industrial Ecosystem Cooperation</h2>
                 <p>StellerCore Enterprise fully supports cloud, chips, operating systems, and upstream and downstream software and hardware ecosystems. Build an open big data software service ecosystem to empower enterprise informatization big data upgrades!</p>
-                <a href="/en/about" class="btn btn-primary">View Partners</a>
+                <a href="http://localhost:1313/starcore/en/about/" class="btn btn-primary">View Partners</a>
             </div>
             <div class="col-md-6 text-center">
                 <img src="http://localhost:1313/starcore/images/software-2.png" alt="Industrial Ecosystem" class="service-image">
@@ -771,7 +833,7 @@
             <div class="col-md-6">
                 <h2>Financial-Grade Unified Big Data Platform</h2>
                 <p>Adopts layered architecture design, from data collection, storage, processing to application presentation, with clear layers for easy management and expansion. Based on microservice architecture design, supporting independent deployment, upgrade and expansion of components.</p>
-                <a href="/en/solutions" class="btn btn-primary">Learn More</a>
+                <a href="http://localhost:1313/starcore/en/solutions/" class="btn btn-primary">Learn More</a>
             </div>
         </div>
     </div>
@@ -840,7 +902,7 @@
             <div class="col-lg-8 mx-auto">
                 <h2 style="color: white;">Ready to Start Your Big Data Journey?</h2>
                 <p class="lead" style="color: rgba(255,255,255,0.9);">Contact our professional team to get customized big data solutions</p>
-                <a href="/en/contact" class="btn btn-outline-light btn-lg">Contact Now</a>
+                <a href="http://localhost:1313/starcore/en/contact/" class="btn btn-outline-light btn-lg">Contact Now</a>
             </div>
         </div>
     </div>
@@ -869,6 +931,11 @@
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         
+        function isMobile() {
+            return window.innerWidth <= 991;
+        }
+        
+        
         const dropdowns = document.querySelectorAll('.nav-item.dropdown');
         
         dropdowns.forEach(dropdown => {
@@ -878,14 +945,43 @@
             if (dropdownToggle && dropdownMenu) {
                 
                 dropdown.addEventListener('mouseenter', function() {
-                    dropdownMenu.classList.add('show');
-                    dropdownToggle.setAttribute('aria-expanded', 'true');
+                    if (!isMobile()) {
+                        dropdownMenu.classList.add('show');
+                        dropdownToggle.setAttribute('aria-expanded', 'true');
+                    }
                 });
                 
                 
                 dropdown.addEventListener('mouseleave', function() {
-                    dropdownMenu.classList.remove('show');
-                    dropdownToggle.setAttribute('aria-expanded', 'false');
+                    if (!isMobile()) {
+                        dropdownMenu.classList.remove('show');
+                        dropdownToggle.setAttribute('aria-expanded', 'false');
+                    }
+                });
+                
+                
+                dropdownToggle.addEventListener('click', function(e) {
+                    if (isMobile()) {
+                        e.preventDefault();
+                        const isExpanded = dropdownMenu.classList.contains('show');
+                        
+                        
+                        document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
+                            if (menu !== dropdownMenu) {
+                                menu.classList.remove('show');
+                                menu.previousElementSibling.setAttribute('aria-expanded', 'false');
+                            }
+                        });
+                        
+                        
+                        if (isExpanded) {
+                            dropdownMenu.classList.remove('show');
+                            dropdownToggle.setAttribute('aria-expanded', 'false');
+                        } else {
+                            dropdownMenu.classList.add('show');
+                            dropdownToggle.setAttribute('aria-expanded', 'true');
+                        }
+                    }
                 });
                 
                 
@@ -897,6 +993,17 @@
                         setTimeout(() => {
                             this.style.transform = '';
                         }, 150);
+                        
+                        
+                        if (isMobile()) {
+                            setTimeout(() => {
+                                const navbarCollapse = document.querySelector('.navbar-collapse');
+                                if (navbarCollapse.classList.contains('show')) {
+                                    const navbarToggler = document.querySelector('.navbar-toggler');
+                                    navbarToggler.click();
+                                }
+                            }, 200);
+                        }
                     });
                 });
                 
@@ -909,6 +1016,27 @@
                         item.style.background = 'linear-gradient(45deg, var(--primary-color), var(--primary-light))';
                         item.style.color = 'white';
                     }
+                });
+            }
+        });
+        
+        
+        window.addEventListener('resize', function() {
+            if (!isMobile()) {
+                
+                document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
+                    menu.classList.remove('show');
+                    menu.previousElementSibling.setAttribute('aria-expanded', 'false');
+                });
+            }
+        });
+        
+        
+        document.addEventListener('click', function(e) {
+            if (isMobile() && !e.target.closest('.navbar')) {
+                document.querySelectorAll('.dropdown-menu.show').forEach(menu => {
+                    menu.classList.remove('show');
+                    menu.previousElementSibling.setAttribute('aria-expanded', 'false');
                 });
             }
         });
