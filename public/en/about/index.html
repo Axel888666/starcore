@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - StellerCore Technology (Shenzhen) Co., Ltd.</title>
+    <meta name="description" content="StellerCore Technology Company Introduction">
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-color: #dc2626;
+            --primary-light: #ef4444;
+            --primary-dark: #991b1b;
+        }
+        
+        body {
+            font-family: 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar {
+            background: white !important;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 1rem 0;
+        }
+        
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color) !important;
+            display: flex;
+            align-items: center;
+        }
+        
+        .navbar-brand img {
+            height: 40px;
+            width: auto;
+            margin-right: 10px;
+        }
+        
+        .navbar-nav .nav-link {
+            color: #333 !important;
+            font-weight: 500;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem !important;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .navbar-nav .nav-link:hover {
+            color: white !important;
+            background: linear-gradient(45deg, var(--primary-color), var(--primary-light));
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(220, 38, 38, 0.3);
+        }
+        
+        .navbar-nav .nav-link::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+        }
+        
+        .navbar-nav .nav-link:hover::before {
+            left: 100%;
+        }
+        
+         
+        .dropdown-menu {
+            border: none;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            border-radius: 10px;
+            padding: 0.5rem 0;
+            margin-top: 0.5rem;
+            min-width: 280px;
+        }
+        
+        .dropdown-item {
+            padding: 0.75rem 1.5rem;
+            font-weight: 500;
+            color: #333;
+            transition: all 0.3s ease;
+            border-radius: 0;
+        }
+        
+        .dropdown-item:hover {
+            background: linear-gradient(45deg, var(--primary-color), var(--primary-light));
+            color: white;
+            transform: translateX(5px);
+        }
+        
+        .dropdown-item i {
+            color: var(--primary-color);
+            width: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .dropdown-item:hover i {
+            color: white;
+            transform: scale(1.1);
+        }
+        
+        .dropdown-divider {
+            margin: 0.5rem 1rem;
+            border-color: rgba(220, 38, 38, 0.2);
+        }
+        
+         
+        .dropdown-menu {
+            opacity: 0;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+            display: block;
+            visibility: hidden;
+        }
+        
+        .dropdown:hover .dropdown-menu,
+        .dropdown-menu.show {
+            opacity: 1;
+            transform: translateY(0);
+            visibility: visible;
+        }
+        
+         
+        .dropdown-toggle::after {
+            transition: transform 0.3s ease;
+        }
+        
+        .dropdown:hover .dropdown-toggle::after,
+        .dropdown-toggle[aria-expanded="true"]::after {
+            transform: rotate(180deg);
+        }
+        
+         
+        .product-info {
+            padding: 2rem 0;
+        }
+        
+        .product-highlights {
+            margin-top: 2rem;
+        }
+        
+        .highlight-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 2.5rem 2rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            height: 100%;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(220, 38, 38, 0.1);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(220, 38, 38, 0.2);
+            border-color: var(--primary-color);
+        }
+        
+        .feature-icon-wrapper {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(45deg, var(--primary-color), var(--primary-light));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover .feature-icon-wrapper {
+            transform: scale(1.1);
+        }
+        
+        .feature-icon {
+            font-size: 2rem;
+            color: white;
+        }
+        
+        .component-category {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            height: 100%;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(220, 38, 38, 0.1);
+        }
+        
+        .component-category:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(220, 38, 38, 0.15);
+        }
+        
+        .category-header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .category-header i {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+        
+        .category-header h4 {
+            color: #333;
+            margin-bottom: 0;
+        }
+        
+        .component-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            justify-content: center;
+        }
+        
+        .component-tag {
+            background: linear-gradient(45deg, var(--primary-color), var(--primary-light));
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .component-tag:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(220, 38, 38, 0.3);
+        }
+        
+        .page-header {
+            background: linear-gradient(rgba(220, 38, 38, 0.7), rgba(239, 68, 68, 0.7));
+            color: white;
+            padding: 8rem 0 4rem;
+            margin-top: 80px;
+        }
+        
+        .page-title {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .page-subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+        
+        .breadcrumb {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            padding: 0.5rem 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .breadcrumb-item a {
+            color: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+        }
+        
+        .breadcrumb-item.active {
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .section {
+            padding: 4rem 0;
+        }
+        
+        .content-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(220, 38, 38, 0.1);
+            height: 100%;
+        }
+        
+        .content-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(220, 38, 38, 0.2);
+            border-color: var(--primary-color);
+        }
+        
+        .content-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+        
+         
+        .solution-content {
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+        
+        .solution-content h2 {
+            color: var(--primary-color);
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--primary-color);
+            font-size: 1.8rem;
+        }
+        
+        .solution-content h3 {
+            color: #333;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+        
+        .solution-content h4 {
+            color: var(--primary-color);
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+            font-size: 1.2rem;
+        }
+        
+        .solution-content p {
+            margin-bottom: 1.2rem;
+            text-align: justify;
+            max-width: none;
+        }
+        
+        .solution-content ul, .solution-content ol {
+            margin-bottom: 1.5rem;
+            padding-left: 2rem;
+        }
+        
+        .solution-content li {
+            margin-bottom: 0.8rem;
+            line-height: 1.6;
+        }
+        
+        .solution-content li strong {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+        
+        .solution-content img {
+            max-width: 100%;
+            height: auto;
+            margin: 2rem auto;
+            display: block;
+            border-radius: 10px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .solution-content blockquote {
+            background: #f8f9fa;
+            border-left: 4px solid var(--primary-color);
+            padding: 1rem 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0 10px 10px 0;
+        }
+        
+         
+        @media (min-width: 992px) {
+            .solution-content .row {
+                display: flex;
+                align-items: flex-start;
+            }
+            
+            .solution-content .col-md-6 {
+                padding: 0 1.5rem;
+            }
+        }
+        
+         
+        .solution-nav .nav-link {
+            display: block;
+            padding: 0.5rem 0;
+            color: #666;
+            text-decoration: none;
+            border-bottom: 1px solid #eee;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .solution-nav .nav-link:hover {
+            color: var(--primary-color);
+            padding-left: 0.5rem;
+        }
+        
+        .solution-nav .nav-link.active {
+            color: var(--primary-color);
+            font-weight: 600;
+            padding-left: 0.5rem;
+            background: rgba(220, 38, 38, 0.05);
+            border-radius: 5px;
+        }
+        
+        .solution-nav .nav-link.active::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 3px;
+            height: 20px;
+            background: var(--primary-color);
+            border-radius: 2px;
+        }
+        
+        .solution-nav .nav-link:last-child {
+            border-bottom: none;
+        }
+        
+        .related-item {
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .related-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0 !important;
+        }
+        
+        .related-item h6 a {
+            color: #333;
+            font-weight: 600;
+        }
+        
+        .related-item h6 a:hover {
+            color: var(--primary-color);
+        }
+        
+         
+        @media (max-width: 768px) {
+            .solution-content {
+                font-size: 1rem;
+                line-height: 1.6;
+            }
+            
+            .solution-content h2 {
+                font-size: 1.5rem;
+                margin-top: 2rem;
+            }
+            
+            .solution-content h3 {
+                font-size: 1.3rem;
+            }
+        }
+        
+        @media (max-width: 991px) {
+            .sticky-top {
+                position: static !important;
+                top: auto !important;
+            }
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            padding: 12px 30px;
+            font-weight: 600;
+            border-radius: 25px;
+        }
+        
+        .btn-outline-primary {
+            border: 2px solid var(--primary-color);
+            color: var(--primary-color);
+            padding: 10px 25px;
+            font-weight: 600;
+            border-radius: 25px;
+        }
+        
+        .footer {
+            background: #1a1a1a;
+            color: white;
+            padding: 3rem 0 1rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+         
+        .hero-section {
+            background: linear-gradient(rgba(220, 38, 38, 0.4), rgba(220, 38, 38, 0.4)), url('/images/solution-space-con.jpg') center/cover;
+            min-height: 600px;
+            display: flex;
+            align-items: center;
+            color: white;
+            margin-top: 80px;
+        }
+        
+        .hero-title {
+            font-size: 3.2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            line-height: 1.2;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+        
+        .service-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        @media (max-width: 768px) {
+            .page-title {
+                font-size: 2rem;
+            }
+            .page-header {
+                padding: 6rem 0 3rem;
+            }
+            .hero-title {
+                font-size: 2rem;
+                line-height: 1.3;
+            }
+            .hero-subtitle {
+                font-size: 1.2rem;
+            }
+        }
+        
+        @media (max-width: 992px) {
+            .hero-title {
+                font-size: 2.8rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .hero-title {
+                font-size: 1.8rem;
+                white-space: nowrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/images/logo.jpg" alt="StellerCore Technology">
+                StellerCore
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/en/">Home</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/en/solutions" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Solutions
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="solutionsDropdown">
+                            <li><a class="dropdown-item" href="/en/solutions/">
+                                <i class="fas fa-list-ul me-2"></i>All Solutions
+                            </a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/en/solutions/banking/">
+                                <i class="fas fa-university me-2"></i>Banking Solutions
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/solutions/automotive/">
+                                <i class="fas fa-car me-2"></i>Automotive Solutions
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/solutions/insurance/">
+                                <i class="fas fa-shield-alt me-2"></i>Insurance Solutions
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/solutions/energy/">
+                                <i class="fas fa-bolt me-2"></i>Energy Solutions
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/solutions/telecommunications/">
+                                <i class="fas fa-broadcast-tower me-2"></i>Telecommunications Solutions
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/solutions/aerospace/">
+                                <i class="fas fa-rocket me-2"></i>Aerospace Solutions
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/solutions/smart-city/">
+                                <i class="fas fa-city me-2"></i>Smart City Solutions
+                            </a></li>
+                        </ul>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/en/products" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Products &amp; Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                            <li><a class="dropdown-item" href="/en/products/">
+                                <i class="fas fa-cube me-2"></i>Product Overview
+                            </a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/en/products/#enterprise">
+                                <i class="fas fa-building me-2"></i>StellerCore Enterprise
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/products/#community">
+                                <i class="fas fa-users me-2"></i>Community Edition
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/products/#cloud">
+                                <i class="fas fa-cloud me-2"></i>Cloud Edition
+                            </a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/en/contact/">
+                                <i class="fas fa-download me-2"></i>Request Trial
+                            </a></li>
+                        </ul>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/en/cases">Cases</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/en/about" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                            <li><a class="dropdown-item" href="/en/about/">
+                                <i class="fas fa-info-circle me-2"></i>Company Introduction
+                            </a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/en/about/#values">
+                                <i class="fas fa-heart me-2"></i>Core Values
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/about/#technology">
+                                <i class="fas fa-cogs me-2"></i>Technical Strength
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/about/#partners">
+                                <i class="fas fa-handshake me-2"></i>Partners
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/about/#global">
+                                <i class="fas fa-globe me-2"></i>Global Service
+                            </a></li>
+                        </ul>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/en/contact">Contact</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-globe me-1"></i>
+                            English
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                            
+                            <li>
+                                <a class="dropdown-item" href="/about/">
+                                    <i class="fas fa-language me-2"></i>中文
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+
+<section class="page-header" style="background: linear-gradient(rgba(220, 38, 38, 0.6), rgba(239, 68, 68, 0.6)), url('/images/solution-space-con.jpg') center/cover;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a href="/en/">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                    </ol>
+                </nav>
+                <h1 class="page-title">About Us</h1>
+                <p class="page-subtitle">StellerCore Technology Company Introduction</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="section bg-light" id="values">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col-12">
+                <h2>Core Values</h2>
+                <p class="lead">Values that guide our progress</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="content-card text-center">
+                    <i class="fas fa-lightbulb feature-icon"></i>
+                    <h4>Innovation-Driven</h4>
+                    <p>Continuous technological innovation, leading industry development</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="content-card text-center">
+                    <i class="fas fa-users feature-icon"></i>
+                    <h4>Customer First</h4>
+                    <p>Customer-oriented, providing quality services</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="content-card text-center">
+                    <i class="fas fa-handshake feature-icon"></i>
+                    <h4>Open Cooperation</h4>
+                    <p>Building open ecosystem, win-win with partners</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="content-card text-center">
+                    <i class="fas fa-heart feature-icon"></i>
+                    <h4>Integrity & Responsibility</h4>
+                    <p>Honest business operation, taking social responsibility</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col-12">
+                <h2 id="technology">Technical Strength</h2>
+                <p class="lead">Strong technical team and R&D capabilities</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="content-card text-center">
+                    <div class="h1 text-primary mb-2">200+</div>
+                    <h5>R&D Personnel</h5>
+                    <p>80% master's degree or above, average 10+ years industry experience</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="content-card text-center">
+                    <div class="h1 text-primary mb-2">50+</div>
+                    <h5>Patents</h5>
+                    <p>100+ software copyrights, multiple core technologies independently developed</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="content-card text-center">
+                    <div class="h1 text-primary mb-2">CMMI 5</div>
+                    <h5>Software Maturity</h5>
+                    <p>ISO 9001, ISO 27001 and other certifications</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section bg-light">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col-12">
+                <h2 id="partners">Industrial Ecosystem</h2>
+                <p class="lead">Deep cooperation with industry-leading enterprises</p>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h3>Strategic Partners</h3>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><i class="fas fa-check text-primary me-2"></i><strong>Yunhe Enmo</strong> - Intelligent data technology provider</li>
+                    <li class="mb-2"><i class="fas fa-check text-primary me-2"></i><strong>Huawei</strong> - Global leading ICT infrastructure provider</li>
+                    <li class="mb-2"><i class="fas fa-check text-primary me-2"></i><strong>Alibaba Cloud</strong> - Global leading cloud computing company</li>
+                </ul>
+                <h3 class="mt-4">Technical Partners</h3>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Apache Software Foundation</li>
+                    <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Linux Foundation</li>
+                    <li class="mb-2"><i class="fas fa-check text-primary me-2"></i>China Open Source Software Alliance</li>
+                </ul>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="/images/software-2.png" alt="产业生态" class="service-image">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col-12">
+                <h2 id="global">Global Service Network</h2>
+                <p class="lead">Providing localized services to customers</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="content-card">
+                    <h4><i class="fas fa-map-marker-alt text-primary me-2"></i>Domestic Branches</h4>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li>Shenzhen HQ</li>
+                                <li>Beijing Branch</li>
+                                <li>Shanghai Branch</li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li>Guangzhou Branch</li>
+                                <li>Chengdu Branch</li>
+                                <li>Xi'an Branch</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="content-card">
+                    <h4><i class="fas fa-globe text-primary me-2"></i>International Business</h4>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-check text-success me-2"></i>UK Office - Serving European market</li>
+                        <li><i class="fas fa-check text-success me-2"></i>Singapore Office - Serving Southeast Asian market</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section" style="background: linear-gradient(rgba(220, 38, 38, 0.9), rgba(239, 68, 68, 0.9)); color: white;">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2 style="color: white;">Want to Learn More About Us?</h2>
+                <p class="lead" style="color: rgba(255,255,255,0.9);">Contact us to learn more about StellerCore Technology's technical strength and service capabilities</p>
+                <a href="/en/contact" class="btn btn-outline-light btn-lg me-3">Contact Us</a>
+                <a href="/en/cases" class="btn btn-outline-light btn-lg">View Cases</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>StellerCore Technology (Shenzhen) Co., Ltd.</h5>
+                    <p>Professional Big Data Infrastructure Software Platform Provider</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <p>Building A5, Peking University Science and Technology Park, Bao'an District, Shenzhen<br>&copy; 2025 StellerCore Technology (Shenzhen) Co., Ltd.. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        
+        const dropdowns = document.querySelectorAll('.nav-item.dropdown');
+        
+        dropdowns.forEach(dropdown => {
+            const dropdownToggle = dropdown.querySelector('.dropdown-toggle');
+            const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+            
+            if (dropdownToggle && dropdownMenu) {
+                
+                dropdown.addEventListener('mouseenter', function() {
+                    dropdownMenu.classList.add('show');
+                    dropdownToggle.setAttribute('aria-expanded', 'true');
+                });
+                
+                
+                dropdown.addEventListener('mouseleave', function() {
+                    dropdownMenu.classList.remove('show');
+                    dropdownToggle.setAttribute('aria-expanded', 'false');
+                });
+                
+                
+                const dropdownItems = dropdownMenu.querySelectorAll('.dropdown-item');
+                dropdownItems.forEach(item => {
+                    item.addEventListener('click', function(e) {
+                        
+                        this.style.transform = 'scale(0.95)';
+                        setTimeout(() => {
+                            this.style.transform = '';
+                        }, 150);
+                    });
+                });
+                
+                
+                const currentPath = window.location.pathname;
+                dropdownItems.forEach(item => {
+                    const href = item.getAttribute('href');
+                    if (href === currentPath || (href.includes('#') && href.split('#')[0] === currentPath)) {
+                        item.classList.add('active');
+                        item.style.background = 'linear-gradient(45deg, var(--primary-color), var(--primary-light))';
+                        item.style.color = 'white';
+                    }
+                });
+            }
+        });
+    });
+    </script>
+</body>
+</html>

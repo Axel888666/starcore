@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automotive Industry Solutions - StellerCore Technology (Shenzhen) Co., Ltd.</title>
+    <meta name="description" content="Professional big data solutions for automotive manufacturing industry">
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-color: #dc2626;
+            --primary-light: #ef4444;
+            --primary-dark: #991b1b;
+        }
+        
+        body {
+            font-family: 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar {
+            background: white !important;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 1rem 0;
+        }
+        
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color) !important;
+            display: flex;
+            align-items: center;
+        }
+        
+        .navbar-brand img {
+            height: 40px;
+            width: auto;
+            margin-right: 10px;
+        }
+        
+        .navbar-nav .nav-link {
+            color: #333 !important;
+            font-weight: 500;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem !important;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .navbar-nav .nav-link:hover {
+            color: white !important;
+            background: linear-gradient(45deg, var(--primary-color), var(--primary-light));
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(220, 38, 38, 0.3);
+        }
+        
+        .navbar-nav .nav-link::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+        }
+        
+        .navbar-nav .nav-link:hover::before {
+            left: 100%;
+        }
+        
+         
+        .dropdown-menu {
+            border: none;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            border-radius: 10px;
+            padding: 0.5rem 0;
+            margin-top: 0.5rem;
+            min-width: 280px;
+        }
+        
+        .dropdown-item {
+            padding: 0.75rem 1.5rem;
+            font-weight: 500;
+            color: #333;
+            transition: all 0.3s ease;
+            border-radius: 0;
+        }
+        
+        .dropdown-item:hover {
+            background: linear-gradient(45deg, var(--primary-color), var(--primary-light));
+            color: white;
+            transform: translateX(5px);
+        }
+        
+        .dropdown-item i {
+            color: var(--primary-color);
+            width: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .dropdown-item:hover i {
+            color: white;
+            transform: scale(1.1);
+        }
+        
+        .dropdown-divider {
+            margin: 0.5rem 1rem;
+            border-color: rgba(220, 38, 38, 0.2);
+        }
+        
+         
+        .dropdown-menu {
+            opacity: 0;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+            display: block;
+            visibility: hidden;
+        }
+        
+        .dropdown:hover .dropdown-menu,
+        .dropdown-menu.show {
+            opacity: 1;
+            transform: translateY(0);
+            visibility: visible;
+        }
+        
+         
+        .dropdown-toggle::after {
+            transition: transform 0.3s ease;
+        }
+        
+        .dropdown:hover .dropdown-toggle::after,
+        .dropdown-toggle[aria-expanded="true"]::after {
+            transform: rotate(180deg);
+        }
+        
+         
+        .product-info {
+            padding: 2rem 0;
+        }
+        
+        .product-highlights {
+            margin-top: 2rem;
+        }
+        
+        .highlight-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 2.5rem 2rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            height: 100%;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(220, 38, 38, 0.1);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(220, 38, 38, 0.2);
+            border-color: var(--primary-color);
+        }
+        
+        .feature-icon-wrapper {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(45deg, var(--primary-color), var(--primary-light));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover .feature-icon-wrapper {
+            transform: scale(1.1);
+        }
+        
+        .feature-icon {
+            font-size: 2rem;
+            color: white;
+        }
+        
+        .component-category {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            height: 100%;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(220, 38, 38, 0.1);
+        }
+        
+        .component-category:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(220, 38, 38, 0.15);
+        }
+        
+        .category-header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .category-header i {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+        
+        .category-header h4 {
+            color: #333;
+            margin-bottom: 0;
+        }
+        
+        .component-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            justify-content: center;
+        }
+        
+        .component-tag {
+            background: linear-gradient(45deg, var(--primary-color), var(--primary-light));
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .component-tag:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(220, 38, 38, 0.3);
+        }
+        
+        .page-header {
+            background: linear-gradient(rgba(220, 38, 38, 0.7), rgba(239, 68, 68, 0.7));
+            color: white;
+            padding: 8rem 0 4rem;
+            margin-top: 80px;
+        }
+        
+        .page-title {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .page-subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+        
+        .breadcrumb {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            padding: 0.5rem 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .breadcrumb-item a {
+            color: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+        }
+        
+        .breadcrumb-item.active {
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .section {
+            padding: 4rem 0;
+        }
+        
+        .content-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(220, 38, 38, 0.1);
+            height: 100%;
+        }
+        
+        .content-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(220, 38, 38, 0.2);
+            border-color: var(--primary-color);
+        }
+        
+        .content-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+        
+         
+        .solution-content {
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+        
+        .solution-content h2 {
+            color: var(--primary-color);
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--primary-color);
+            font-size: 1.8rem;
+        }
+        
+        .solution-content h3 {
+            color: #333;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+        
+        .solution-content h4 {
+            color: var(--primary-color);
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+            font-size: 1.2rem;
+        }
+        
+        .solution-content p {
+            margin-bottom: 1.2rem;
+            text-align: justify;
+            max-width: none;
+        }
+        
+        .solution-content ul, .solution-content ol {
+            margin-bottom: 1.5rem;
+            padding-left: 2rem;
+        }
+        
+        .solution-content li {
+            margin-bottom: 0.8rem;
+            line-height: 1.6;
+        }
+        
+        .solution-content li strong {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+        
+        .solution-content img {
+            max-width: 100%;
+            height: auto;
+            margin: 2rem auto;
+            display: block;
+            border-radius: 10px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .solution-content blockquote {
+            background: #f8f9fa;
+            border-left: 4px solid var(--primary-color);
+            padding: 1rem 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0 10px 10px 0;
+        }
+        
+         
+        @media (min-width: 992px) {
+            .solution-content .row {
+                display: flex;
+                align-items: flex-start;
+            }
+            
+            .solution-content .col-md-6 {
+                padding: 0 1.5rem;
+            }
+        }
+        
+         
+        .solution-nav .nav-link {
+            display: block;
+            padding: 0.5rem 0;
+            color: #666;
+            text-decoration: none;
+            border-bottom: 1px solid #eee;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .solution-nav .nav-link:hover {
+            color: var(--primary-color);
+            padding-left: 0.5rem;
+        }
+        
+        .solution-nav .nav-link.active {
+            color: var(--primary-color);
+            font-weight: 600;
+            padding-left: 0.5rem;
+            background: rgba(220, 38, 38, 0.05);
+            border-radius: 5px;
+        }
+        
+        .solution-nav .nav-link.active::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 3px;
+            height: 20px;
+            background: var(--primary-color);
+            border-radius: 2px;
+        }
+        
+        .solution-nav .nav-link:last-child {
+            border-bottom: none;
+        }
+        
+        .related-item {
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .related-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0 !important;
+        }
+        
+        .related-item h6 a {
+            color: #333;
+            font-weight: 600;
+        }
+        
+        .related-item h6 a:hover {
+            color: var(--primary-color);
+        }
+        
+         
+        @media (max-width: 768px) {
+            .solution-content {
+                font-size: 1rem;
+                line-height: 1.6;
+            }
+            
+            .solution-content h2 {
+                font-size: 1.5rem;
+                margin-top: 2rem;
+            }
+            
+            .solution-content h3 {
+                font-size: 1.3rem;
+            }
+        }
+        
+        @media (max-width: 991px) {
+            .sticky-top {
+                position: static !important;
+                top: auto !important;
+            }
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            padding: 12px 30px;
+            font-weight: 600;
+            border-radius: 25px;
+        }
+        
+        .btn-outline-primary {
+            border: 2px solid var(--primary-color);
+            color: var(--primary-color);
+            padding: 10px 25px;
+            font-weight: 600;
+            border-radius: 25px;
+        }
+        
+        .footer {
+            background: #1a1a1a;
+            color: white;
+            padding: 3rem 0 1rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+         
+        .hero-section {
+            background: linear-gradient(rgba(220, 38, 38, 0.4), rgba(220, 38, 38, 0.4)), url('/images/solution-space-con.jpg') center/cover;
+            min-height: 600px;
+            display: flex;
+            align-items: center;
+            color: white;
+            margin-top: 80px;
+        }
+        
+        .hero-title {
+            font-size: 3.2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            line-height: 1.2;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+        
+        .service-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        @media (max-width: 768px) {
+            .page-title {
+                font-size: 2rem;
+            }
+            .page-header {
+                padding: 6rem 0 3rem;
+            }
+            .hero-title {
+                font-size: 2rem;
+                line-height: 1.3;
+            }
+            .hero-subtitle {
+                font-size: 1.2rem;
+            }
+        }
+        
+        @media (max-width: 992px) {
+            .hero-title {
+                font-size: 2.8rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .hero-title {
+                font-size: 1.8rem;
+                white-space: nowrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/images/logo.jpg" alt="StellerCore Technology">
+                StellerCore
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/en/">Home</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/en/solutions" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Solutions
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="solutionsDropdown">
+                            <li><a class="dropdown-item" href="/en/solutions/">
+                                <i class="fas fa-list-ul me-2"></i>All Solutions
+                            </a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/en/solutions/banking/">
+                                <i class="fas fa-university me-2"></i>Banking Solutions
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/solutions/automotive/">
+                                <i class="fas fa-car me-2"></i>Automotive Solutions
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/solutions/insurance/">
+                                <i class="fas fa-shield-alt me-2"></i>Insurance Solutions
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/solutions/energy/">
+                                <i class="fas fa-bolt me-2"></i>Energy Solutions
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/solutions/telecommunications/">
+                                <i class="fas fa-broadcast-tower me-2"></i>Telecommunications Solutions
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/solutions/aerospace/">
+                                <i class="fas fa-rocket me-2"></i>Aerospace Solutions
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/solutions/smart-city/">
+                                <i class="fas fa-city me-2"></i>Smart City Solutions
+                            </a></li>
+                        </ul>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/en/products" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Products &amp; Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                            <li><a class="dropdown-item" href="/en/products/">
+                                <i class="fas fa-cube me-2"></i>Product Overview
+                            </a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/en/products/#enterprise">
+                                <i class="fas fa-building me-2"></i>StellerCore Enterprise
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/products/#community">
+                                <i class="fas fa-users me-2"></i>Community Edition
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/products/#cloud">
+                                <i class="fas fa-cloud me-2"></i>Cloud Edition
+                            </a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/en/contact/">
+                                <i class="fas fa-download me-2"></i>Request Trial
+                            </a></li>
+                        </ul>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/en/cases">Cases</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/en/about" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                            <li><a class="dropdown-item" href="/en/about/">
+                                <i class="fas fa-info-circle me-2"></i>Company Introduction
+                            </a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/en/about/#values">
+                                <i class="fas fa-heart me-2"></i>Core Values
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/about/#technology">
+                                <i class="fas fa-cogs me-2"></i>Technical Strength
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/about/#partners">
+                                <i class="fas fa-handshake me-2"></i>Partners
+                            </a></li>
+                            <li><a class="dropdown-item" href="/en/about/#global">
+                                <i class="fas fa-globe me-2"></i>Global Service
+                            </a></li>
+                        </ul>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/en/contact">Contact</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-globe me-1"></i>
+                            English
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                            
+                            <li>
+                                <a class="dropdown-item" href="/solutions/automotive/">
+                                    <i class="fas fa-language me-2"></i>中文
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+
+<section class="page-header" style="background: linear-gradient(rgba(220, 38, 38, 0.9), rgba(239, 68, 68, 0.9)), url('/images/redBanner.jpg') center/cover;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a href="/en/">Home</a></li>
+                        <li class="breadcrumb-item"><a href="/en/solutions">Solutions</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Automotive Industry Solutions</li>
+                    </ol>
+                </nav>
+                <h1 class="page-title">Automotive Industry Solutions</h1>
+                <p class="page-subtitle">Professional big data solutions for automotive manufacturing industry</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-lg-8">
+                <div class="content solution-content">
+                    <p>Through big data technology, we collect and analyze various data from automotive manufacturing processes in real-time, enabling real-time tracking and analysis of production conditions to improve production efficiency, product quality, and reduce manufacturing costs.</p>
+<p><img src="/images/solution-car-con.jpg" alt="Automotive Industry Applications"></p>
+<h2 id="application-scenarios">Application Scenarios</h2>
+<h3 id="smart-manufacturing">Smart Manufacturing</h3>
+<ul>
+<li><strong>Real-time Production Monitoring</strong> - Real-time monitoring of production line status and timely anomaly detection</li>
+<li><strong>Predictive Equipment Maintenance</strong> - Equipment maintenance prediction based on operational data</li>
+<li><strong>Quality Control Optimization</strong> - Quality control process optimization through data analysis</li>
+<li><strong>Production Planning &amp; Scheduling</strong> - Intelligent production planning and scheduling</li>
+</ul>
+<h3 id="supply-chain-management">Supply Chain Management</h3>
+<ul>
+<li><strong>Supplier Evaluation Analysis</strong> - Multi-dimensional supplier performance evaluation</li>
+<li><strong>Inventory Optimization Management</strong> - Inventory level optimization based on demand forecasting</li>
+<li><strong>Logistics Route Optimization</strong> - Optimize logistics delivery routes and costs</li>
+<li><strong>Cost Control Analysis</strong> - Comprehensive cost analysis and control</li>
+</ul>
+<h3 id="product-development">Product Development</h3>
+<ul>
+<li><strong>User Requirement Analysis</strong> - Analyze user feedback and market demands</li>
+<li><strong>Product Performance Optimization</strong> - Product design optimization based on usage data</li>
+<li><strong>Test Data Analysis</strong> - In-depth analysis of product testing data</li>
+<li><strong>Market Trend Prediction</strong> - Predict automotive market development trends</li>
+</ul>
+<h3 id="after-sales-service">After-sales Service</h3>
+<ul>
+<li><strong>Vehicle Fault Diagnosis</strong> - Intelligent fault diagnosis and early warning</li>
+<li><strong>Maintenance Prediction Analysis</strong> - Predict maintenance needs and costs</li>
+<li><strong>Customer Satisfaction Analysis</strong> - Analyze customer satisfaction and improvement points</li>
+<li><strong>Service Quality Enhancement</strong> - Continuous service quality improvement</li>
+</ul>
+<h2 id="technical-architecture">Technical Architecture</h2>
+<p><img src="/images/solution-frame.jpg" alt="Technical Architecture"></p>
+<h3 id="data-collection-layer">Data Collection Layer</h3>
+<ul>
+<li><strong>IoT Sensor Data</strong> - Production equipment sensor data collection</li>
+<li><strong>Production System Data</strong> - MES, ERP system data integration</li>
+<li><strong>Quality Inspection Data</strong> - Real-time quality inspection data collection</li>
+<li><strong>External Data Sources</strong> - Market data, supplier data, etc.</li>
+</ul>
+<h3 id="data-storage-layer">Data Storage Layer</h3>
+<ul>
+<li><strong>HDFS Distributed Storage</strong> - Massive data storage</li>
+<li><strong>HBase Real-time Database</strong> - Real-time data access</li>
+<li><strong>Data Warehouse</strong> - Structured data storage</li>
+<li><strong>Data Lake</strong> - Multi-format unified data storage</li>
+</ul>
+<h3 id="data-processing-layer">Data Processing Layer</h3>
+<ul>
+<li><strong>Kafka Message Queue</strong> - Real-time data stream processing</li>
+<li><strong>Flink Stream Processing</strong> - Real-time data computation</li>
+<li><strong>Spark Batch Processing</strong> - Large-scale batch data processing</li>
+<li><strong>Machine Learning Platform</strong> - Intelligent algorithm applications</li>
+</ul>
+<h3 id="application-service-layer">Application Service Layer</h3>
+<ul>
+<li><strong>Production Monitoring System</strong> - Real-time production status monitoring</li>
+<li><strong>Quality Management System</strong> - Quality data analysis and management</li>
+<li><strong>Predictive Maintenance System</strong> - Equipment maintenance prediction</li>
+<li><strong>Decision Support System</strong> - Management decision support</li>
+</ul>
+<h2 id="customer-benefits">Customer Benefits</h2>
+<h3 id="production-efficiency-improvement">Production Efficiency Improvement</h3>
+<ul>
+<li>Equipment utilization increased by <strong>15-25%</strong></li>
+<li>Production cycle shortened by <strong>10-20%</strong></li>
+<li>Labor costs reduced by <strong>20-30%</strong></li>
+<li>Production planning accuracy improved to <strong>95%</strong></li>
+</ul>
+<h3 id="quality-improvement">Quality Improvement</h3>
+<ul>
+<li>Product qualification rate improved to <strong>99.5%</strong> or above</li>
+<li>Customer complaint rate reduced by <strong>50%</strong></li>
+<li>Recall costs reduced by <strong>80%</strong></li>
+<li>Quality inspection efficiency improved by <strong>3 times</strong></li>
+</ul>
+<h3 id="cost-control">Cost Control</h3>
+<ul>
+<li>Raw material waste reduced by <strong>15%</strong></li>
+<li>Energy consumption reduced by <strong>10-15%</strong></li>
+<li>Maintenance costs reduced by <strong>25%</strong></li>
+<li>Inventory costs optimized by <strong>20%</strong></li>
+</ul>
+<h2 id="success-case">Success Case</h2>
+<h3 id="beijing-automotive-group">Beijing Automotive Group</h3>
+<p><img src="/images/guest-baicmotor.png" alt="Beijing Automotive Case"></p>
+<p>Through deploying StellerCore&rsquo;s big data platform, Beijing Automotive achieved digital transformation of the entire production line and established a complete quality traceability system.</p>
+<p><strong>Implementation Results:</strong></p>
+<ul>
+<li>Production efficiency improved by <strong>22%</strong></li>
+<li>Product quality significantly enhanced</li>
+<li>Customer satisfaction improved to <strong>98%</strong></li>
+<li>Annual cost savings of <strong>20 million yuan</strong></li>
+</ul>
+<p><strong>Project Highlights:</strong></p>
+<ul>
+<li>Achieved full-process data traceability from raw materials to finished products</li>
+<li>Established intelligent quality warning system</li>
+<li>Optimized supply chain management processes</li>
+<li>Improved customer service response speed</li>
+</ul>
+<h2 id="solution-features">Solution Features</h2>
+<h3 id="real-time-performance">Real-time Performance</h3>
+<ul>
+<li>Millisecond-level data processing response</li>
+<li>Real-time production status monitoring</li>
+<li>Instant anomaly warning notifications</li>
+</ul>
+<h3 id="intelligence">Intelligence</h3>
+<ul>
+<li>AI-driven predictive analysis</li>
+<li>Intelligent decision support</li>
+<li>Automated process optimization</li>
+</ul>
+<h3 id="scalability">Scalability</h3>
+<ul>
+<li>Support for rapid business growth</li>
+<li>Flexible architecture design</li>
+<li>Modular deployment approach</li>
+</ul>
+<h3 id="security">Security</h3>
+<ul>
+<li>Enterprise-level security assurance</li>
+<li>Data encryption transmission</li>
+<li>Fine-grained permission management</li>
+</ul>
+<h2 id="implementation-services">Implementation Services</h2>
+<h3 id="consulting--planning">Consulting &amp; Planning</h3>
+<ul>
+<li>Business requirement analysis</li>
+<li>Technical architecture design</li>
+<li>Implementation roadmap planning</li>
+<li>ROI assessment analysis</li>
+</ul>
+<h3 id="platform-deployment">Platform Deployment</h3>
+<ul>
+<li>Infrastructure setup</li>
+<li>Platform software installation</li>
+<li>System integration configuration</li>
+<li>Data migration services</li>
+</ul>
+<h3 id="training-support">Training Support</h3>
+<ul>
+<li>Technical personnel training</li>
+<li>Operator training</li>
+<li>Management training</li>
+<li>Continuous skill enhancement</li>
+</ul>
+<h3 id="operation--maintenance">Operation &amp; Maintenance</h3>
+<ul>
+<li>7×24 technical support</li>
+<li>System monitoring and maintenance</li>
+<li>Performance optimization</li>
+<li>Rapid fault response</li>
+</ul>
+
+                </div>
+            </div>
+            
+            
+            <div class="col-lg-4">
+                <div class="sticky-top" style="top: 100px;">
+                    
+                    <div class="content-card mb-4">
+                        <h5 class="mb-3"><i class="fas fa-list text-primary me-2"></i>Quick Navigation</h5>
+                        <div class="solution-nav" id="solution-nav">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="content-card mb-4">
+                        <h5 class="mb-3"><i class="fas fa-phone text-primary me-2"></i>Consultation Services</h5>
+                        <p class="mb-3">Need more details?</p>
+                        <a href="/en/contact" class="btn btn-primary btn-sm w-100 mb-2">
+                            <i class="fas fa-envelope me-2"></i>Contact Now
+                        </a>
+                        <a href="tel:0755-8888-8888" class="btn btn-outline-primary btn-sm w-100">
+                            <i class="fas fa-phone me-2"></i>Phone Consultation
+                        </a>
+                    </div>
+                    
+                    
+                    <div class="content-card">
+                        <h5 class="mb-3"><i class="fas fa-lightbulb text-primary me-2"></i>Related Solutions</h5>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="section" style="background: linear-gradient(rgba(220, 38, 38, 0.9), rgba(239, 68, 68, 0.9)); color: white;">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2 style="color: white;">Ready to Implement This Solution?</h2>
+                <p class="lead" style="color: rgba(255,255,255,0.9);">Contact our professional team for detailed implementation plans and quotes</p>
+                <a href="/en/contact" class="btn btn-outline-light btn-lg">Contact Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    
+    const solutionNav = document.getElementById('solution-nav');
+    const contentArea = document.querySelector('.solution-content');
+    
+    if (solutionNav && contentArea) {
+        
+        const headings = contentArea.querySelectorAll('h2');
+        
+        if (headings.length > 0) {
+            headings.forEach((heading, index) => {
+                
+                const id = 'section-' + index;
+                heading.id = id;
+                
+                
+                const navLink = document.createElement('a');
+                navLink.href = '#' + id;
+                navLink.className = 'nav-link';
+                navLink.textContent = heading.textContent;
+                
+                
+                navLink.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.getElementById(id);
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                        
+                        
+                        document.querySelectorAll('.solution-nav .nav-link').forEach(link => {
+                            link.classList.remove('active');
+                        });
+                        navLink.classList.add('active');
+                    }
+                });
+                
+                solutionNav.appendChild(navLink);
+            });
+        } else {
+            
+            solutionNav.closest('.content-card').style.display = 'none';
+        }
+    }
+    
+    
+    window.addEventListener('scroll', function() {
+        const headings = document.querySelectorAll('.solution-content h2[id]');
+        const navLinks = document.querySelectorAll('.solution-nav .nav-link');
+        
+        let currentSection = '';
+        
+        headings.forEach(heading => {
+            const rect = heading.getBoundingClientRect();
+            if (rect.top <= 150) {
+                currentSection = heading.id;
+            }
+        });
+        
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === '#' + currentSection) {
+                link.classList.add('active');
+            }
+        });
+    });
+});
+</script>
+
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>StellerCore Technology (Shenzhen) Co., Ltd.</h5>
+                    <p>Professional Big Data Infrastructure Software Platform Provider</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <p>Building A5, Peking University Science and Technology Park, Bao'an District, Shenzhen<br>&copy; 2025 StellerCore Technology (Shenzhen) Co., Ltd.. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        
+        const dropdowns = document.querySelectorAll('.nav-item.dropdown');
+        
+        dropdowns.forEach(dropdown => {
+            const dropdownToggle = dropdown.querySelector('.dropdown-toggle');
+            const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+            
+            if (dropdownToggle && dropdownMenu) {
+                
+                dropdown.addEventListener('mouseenter', function() {
+                    dropdownMenu.classList.add('show');
+                    dropdownToggle.setAttribute('aria-expanded', 'true');
+                });
+                
+                
+                dropdown.addEventListener('mouseleave', function() {
+                    dropdownMenu.classList.remove('show');
+                    dropdownToggle.setAttribute('aria-expanded', 'false');
+                });
+                
+                
+                const dropdownItems = dropdownMenu.querySelectorAll('.dropdown-item');
+                dropdownItems.forEach(item => {
+                    item.addEventListener('click', function(e) {
+                        
+                        this.style.transform = 'scale(0.95)';
+                        setTimeout(() => {
+                            this.style.transform = '';
+                        }, 150);
+                    });
+                });
+                
+                
+                const currentPath = window.location.pathname;
+                dropdownItems.forEach(item => {
+                    const href = item.getAttribute('href');
+                    if (href === currentPath || (href.includes('#') && href.split('#')[0] === currentPath)) {
+                        item.classList.add('active');
+                        item.style.background = 'linear-gradient(45deg, var(--primary-color), var(--primary-light))';
+                        item.style.color = 'white';
+                    }
+                });
+            }
+        });
+    });
+    </script>
+</body>
+</html>

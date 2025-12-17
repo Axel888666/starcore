@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  
+  <url>
+    <loc>http://localhost:1313/solutions/automotive/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/solutions/automotive/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/solutions/automotive/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/solutions/banking/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/solutions/banking/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/solutions/banking/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/solutions/insurance/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/solutions/insurance/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/solutions/insurance/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/solutions/energy/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/solutions/energy/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/solutions/energy/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/solutions/telecommunications/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/solutions/telecommunications/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/solutions/telecommunications/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/solutions/aerospace/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/solutions/aerospace/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/solutions/aerospace/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/solutions/smart-city/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/solutions/smart-city/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/solutions/smart-city/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/news/</loc>
+    
+    <lastmod>2024-12-17T00:00:00+00:00</lastmod>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/news/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/news/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/</loc>
+    
+    <lastmod>2024-12-17T00:00:00+00:00</lastmod>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/categories/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/categories/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/categories/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/tags/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/tags/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/products/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/products/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/products/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/about/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/about/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/about/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/solutions/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/solutions/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/solutions/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/cases/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/cases/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/cases/"
+                />
+    
+  </url>
+  
+  
+  
+  <url>
+    <loc>http://localhost:1313/contact/</loc>
+    
+    
+    
+    
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/en/contact/"
+                />
+    
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/contact/"
+                />
+    
+  </url>
+  
+  
+</urlset>

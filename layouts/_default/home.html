@@ -1,0 +1,118 @@
+{{ define "main" }}
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 mx-auto text-center">
+                <h1 class="hero-title">{{ .Site.Title }}</h1>
+                <p class="hero-subtitle">{{ .Description }}</p>
+                <div>
+                    <a href="{{ if eq .Site.Language.Lang "zh" }}/solutions{{ else }}/en/solutions{{ end }}" class="btn btn-primary btn-lg me-3">{{ if eq .Site.Language.Lang "zh" }}解决方案{{ else }}Solutions{{ end }}</a>
+                    <a href="{{ if eq .Site.Language.Lang "zh" }}/contact{{ else }}/en/contact{{ end }}" class="btn btn-outline-light btn-lg">{{ if eq .Site.Language.Lang "zh" }}联系我们{{ else }}Contact Us{{ end }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Ecosystem Section -->
+<section class="section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h2>{{ if eq .Site.Language.Lang "zh" }}产业生态合作{{ else }}Industrial Ecosystem Cooperation{{ end }}</h2>
+                <p>{{ if eq .Site.Language.Lang "zh" }}StellerCore Enterprise 全面支持云、芯片、操作系统，上下游软硬件生态。构建开放大数据软件服务生态，赋能企业信息化大数据升级！{{ else }}StellerCore Enterprise fully supports cloud, chips, operating systems, and upstream and downstream software and hardware ecosystems. Build an open big data software service ecosystem to empower enterprise informatization big data upgrades!{{ end }}</p>
+                <a href="{{ if eq .Site.Language.Lang "zh" }}/about{{ else }}/en/about{{ end }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看合作伙伴{{ else }}View Partners{{ end }}</a>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="/images/software-2.png" alt="{{ if eq .Site.Language.Lang "zh" }}产业生态{{ else }}Industrial Ecosystem{{ end }}" class="service-image">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Platform Section -->
+<section class="section bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center">
+                <img src="/images/software-1.png" alt="{{ if eq .Site.Language.Lang "zh" }}大数据平台架构{{ else }}Big Data Platform Architecture{{ end }}" class="service-image">
+            </div>
+            <div class="col-md-6">
+                <h2>{{ if eq .Site.Language.Lang "zh" }}金融级大数据统一平台{{ else }}Financial-Grade Unified Big Data Platform{{ end }}</h2>
+                <p>{{ if eq .Site.Language.Lang "zh" }}采用分层架构设计，从数据采集、存储、处理到应用展现，层次清晰，便于管理和扩展。基于微服务架构设计，支持组件独立部署、升级和扩展。{{ else }}Adopts layered architecture design, from data collection, storage, processing to application presentation, with clear layers for easy management and expansion. Based on microservice architecture design, supporting independent deployment, upgrade and expansion of components.{{ end }}</p>
+                <a href="{{ if eq .Site.Language.Lang "zh" }}/solutions{{ else }}/en/solutions{{ end }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}了解更多{{ else }}Learn More{{ end }}</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="section">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col-12">
+                <h2>{{ if eq .Site.Language.Lang "zh" }}为什么选择{{ else }}Why Choose{{ end }} <strong>StellerCore Enterprise</strong></h2>
+                <p class="lead">{{ if eq .Site.Language.Lang "zh" }}一键安装, 配置, 监控 企业大数据平台{{ else }}One-click installation, configuration, monitoring enterprise big data platform{{ end }}</p>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-4 mb-4">
+                <div class="feature-card text-center">
+                    <i class="fas fa-download feature-icon"></i>
+                    <h4>{{ if eq .Site.Language.Lang "zh" }}一键安装{{ else }}One-Click Installation{{ end }}</h4>
+                    <p>{{ if eq .Site.Language.Lang "zh" }}一键安装分布式软件，通过界面化安装Apache Hadoop大数据生态30+多个软件{{ else }}One-click installation of distributed software, interface-based installation of 30+ Apache Hadoop big data ecosystem software{{ end }}</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="feature-card text-center">
+                    <i class="fas fa-cogs feature-icon"></i>
+                    <h4>{{ if eq .Site.Language.Lang "zh" }}界面配置{{ else }}Interface Configuration{{ end }}</h4>
+                    <p>{{ if eq .Site.Language.Lang "zh" }}支持界面化修改启动脚本和后台参数配置{{ else }}Support interface-based modification of startup scripts and background parameter configuration{{ end }}</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="feature-card text-center">
+                    <i class="fas fa-chart-line feature-icon"></i>
+                    <h4>{{ if eq .Site.Language.Lang "zh" }}集群监控{{ else }}Cluster Monitoring{{ end }}</h4>
+                    <p>{{ if eq .Site.Language.Lang "zh" }}支持对组件状态,关键指标的监控，全面了解集群现状{{ else }}Support monitoring of component status and key indicators for comprehensive cluster understanding{{ end }}</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="feature-card text-center">
+                    <i class="fas fa-arrow-up feature-icon"></i>
+                    <h4>{{ if eq .Site.Language.Lang "zh" }}组件升级{{ else }}Component Upgrade{{ end }}</h4>
+                    <p>{{ if eq .Site.Language.Lang "zh" }}支持通过组件地址配置，重启后即可实现快速升级{{ else }}Support rapid upgrades through component address configuration after restart{{ end }}</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="feature-card text-center">
+                    <i class="fas fa-shield-alt feature-icon"></i>
+                    <h4>{{ if eq .Site.Language.Lang "zh" }}系统高可用{{ else }}System High Availability{{ end }}</h4>
+                    <p>{{ if eq .Site.Language.Lang "zh" }}支持Hadoop生态集群组件HA高可用，包括 HDFS,YARN,HBASE高可用{{ else }}Support Hadoop ecosystem cluster component HA high availability, including HDFS, YARN, HBASE high availability{{ end }}</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="feature-card text-center">
+                    <i class="fas fa-lock feature-icon"></i>
+                    <h4>{{ if eq .Site.Language.Lang "zh" }}集群安全{{ else }}Cluster Security{{ end }}</h4>
+                    <p>{{ if eq .Site.Language.Lang "zh" }}通过Kerberos+Ranger+OpenLDAP支持集群访问安全和数据访问安全{{ else }}Support cluster access security and data access security through Kerberos+Ranger+OpenLDAP{{ end }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="section" style="background: linear-gradient(rgba(220, 38, 38, 0.9), rgba(239, 68, 68, 0.9)); color: white;">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2 style="color: white;">{{ if eq .Site.Language.Lang "zh" }}准备开始您的大数据之旅？{{ else }}Ready to Start Your Big Data Journey?{{ end }}</h2>
+                <p class="lead" style="color: rgba(255,255,255,0.9);">{{ if eq .Site.Language.Lang "zh" }}联系我们的专业团队，获取定制化的大数据解决方案{{ else }}Contact our professional team to get customized big data solutions{{ end }}</p>
+                <a href="{{ if eq .Site.Language.Lang "zh" }}/contact{{ else }}/en/contact{{ end }}" class="btn btn-outline-light btn-lg">{{ if eq .Site.Language.Lang "zh" }}立即联系{{ else }}Contact Now{{ end }}</a>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

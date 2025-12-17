@@ -1,0 +1,106 @@
+<!-- 联系表单 -->
+<div class="contact-form">
+    <h4><i class="fas fa-envelope text-primary"></i> {{ if eq .Site.Language.Lang "zh" }}在线咨询{{ else }}Online Consultation{{ end }}</h4>
+    <form id="contact-form" class="mt-3">
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="name" class="form-label">{{ if eq .Site.Language.Lang "zh" }}姓名{{ else }}Name{{ end }} *</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="company" class="form-label">{{ if eq .Site.Language.Lang "zh" }}公司名称{{ else }}Company{{ end }}</label>
+                <input type="text" class="form-control" id="company" name="company">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="email" class="form-label">{{ if eq .Site.Language.Lang "zh" }}邮箱{{ else }}Email{{ end }} *</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="phone" class="form-label">{{ if eq .Site.Language.Lang "zh" }}电话{{ else }}Phone{{ end }}</label>
+                <input type="tel" class="form-control" id="phone" name="phone">
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="subject" class="form-label">{{ if eq .Site.Language.Lang "zh" }}咨询主题{{ else }}Subject{{ end }} *</label>
+            <select class="form-select" id="subject" name="subject" required>
+                <option value="">{{ if eq .Site.Language.Lang "zh" }}请选择咨询主题{{ else }}Please select a topic{{ end }}</option>
+                <option value="solutions">{{ if eq .Site.Language.Lang "zh" }}解决方案咨询{{ else }}Solutions Inquiry{{ end }}</option>
+                <option value="products">{{ if eq .Site.Language.Lang "zh" }}产品服务咨询{{ else }}Product Services Inquiry{{ end }}</option>
+                <option value="partnership">{{ if eq .Site.Language.Lang "zh" }}合作洽谈{{ else }}Partnership Discussion{{ end }}</option>
+                <option value="support">{{ if eq .Site.Language.Lang "zh" }}技术支持{{ else }}Technical Support{{ end }}</option>
+                <option value="other">{{ if eq .Site.Language.Lang "zh" }}其他{{ else }}Other{{ end }}</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">{{ if eq .Site.Language.Lang "zh" }}详细描述{{ else }}Detailed Description{{ end }} *</label>
+            <textarea class="form-control" id="message" name="message" rows="5" required 
+                      placeholder="{{ if eq .Site.Language.Lang "zh" }}请详细描述您的需求或问题...{{ else }}Please describe your requirements or questions in detail...{{ end }}"></textarea>
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="privacy" name="privacy" required>
+            <label class="form-check-label" for="privacy">
+                {{ if eq .Site.Language.Lang "zh" }}我已阅读并同意{{ else }}I have read and agree to the{{ end }} <a href="#" class="text-primary">{{ if eq .Site.Language.Lang "zh" }}隐私政策{{ else }}Privacy Policy{{ end }}</a>
+            </label>
+        </div>
+        <button type="submit" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i> {{ if eq .Site.Language.Lang "zh" }}提交咨询{{ else }}Submit Inquiry{{ end }}
+        </button>
+    </form>
+    
+    <div id="form-message" class="mt-3"></div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('contact-form');
+    const messageDiv = document.getElementById('form-message');
+    
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // 简单的表单验证和提交处理
+        const formData = new FormData(form);
+        const data = Object.fromEntries(formData);
+        
+        // 显示提交成功消息
+        messageDiv.innerHTML = `
+            <div class="alert alert-success">
+                <i class="fas fa-check-circle"></i> 
+                感谢您的咨询！我们将在24小时内与您联系。
+                <br><small>如需紧急联系，请直接拨打：0755-8888-8888</small>
+            </div>
+        `;
+        
+        // 重置表单
+        form.reset();
+        
+        // 滚动到消息位置
+        messageDiv.scrollIntoView({ behavior: 'smooth' });
+        
+        // 实际项目中，这里应该发送数据到后端服务器
+        console.log('表单数据:', data);
+    });
+});
+</script>
+
+<style>
+.contact-form {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+    border-left: 4px solid var(--primary-color);
+}
+
+.form-label {
+    font-weight: 600;
+    color: #333;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(220, 38, 38, 0.25);
+}
+</style>

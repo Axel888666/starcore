@@ -1,0 +1,128 @@
+baseURL = 'https://stellercore.com/'
+defaultContentLanguage = 'zh'
+defaultContentLanguageInSubdir = false
+title = '星核动力科技（深圳）有限公司'
+# theme = 'event'
+hasCJKLanguage = true
+summaryLength = 10
+pagination.pagerSize = 6
+
+[languages]
+  [languages.zh]
+    languageName = '中文'
+    weight = 1
+    title = '星核动力科技（深圳）有限公司'
+    contentDir = 'content'
+    
+  [languages.en]
+    languageName = 'English'
+    weight = 2
+    title = 'StellerCore Technology (Shenzhen) Co., Ltd.'
+    contentDir = 'content'
+
+[languages.zh.menu]
+  [[languages.zh.menu.main]]
+    name = '首页'
+    url = '/'
+    weight = 1
+  [[languages.zh.menu.main]]
+    name = '解决方案'
+    url = '/solutions'
+    weight = 2
+  [[languages.zh.menu.main]]
+    name = '产品与服务'
+    url = '/products'
+    weight = 3
+  [[languages.zh.menu.main]]
+    name = '客户案例'
+    url = '/cases'
+    weight = 4
+  [[languages.zh.menu.main]]
+    name = '关于我们'
+    url = '/about'
+    weight = 5
+  [[languages.zh.menu.main]]
+    name = '新闻动态'
+    url = '/news'
+    weight = 6
+  [[languages.zh.menu.main]]
+    name = '联系我们'
+    url = '/contact'
+    weight = 7
+
+[languages.en.menu]
+  [[languages.en.menu.main]]
+    name = 'Home'
+    url = '/en/'
+    weight = 1
+  [[languages.en.menu.main]]
+    name = 'Solutions'
+    url = '/en/solutions'
+    weight = 2
+  [[languages.en.menu.main]]
+    name = 'Products & Services'
+    url = '/en/products'
+    weight = 3
+  [[languages.en.menu.main]]
+    name = 'Cases'
+    url = '/en/cases'
+    weight = 4
+  [[languages.en.menu.main]]
+    name = 'About'
+    url = '/en/about'
+    weight = 5
+  [[languages.en.menu.main]]
+    name = 'Contact'
+    url = '/en/contact'
+    weight = 6
+
+[params]
+# 基本参数
+description = "专业的大数据基础软件平台提供商，致力于为企业提供可信赖的大数据解决方案和服务"
+author = "星核动力科技"
+
+# SEO优化
+keywords = "大数据,数据分析,企业解决方案,星核动力,数据平台,商业智能"
+robots = "index,follow"
+
+# 分析工具 (可选配置)
+# googleAnalytics = "G-XXXXXXXXXX"  # 替换为实际的Google Analytics ID
+# baiduAnalytics = "xxxxxxxxxxxxxxxx"  # 替换为实际的百度统计ID
+
+# 社交媒体
+[params.social]
+  email = "info@stellercore.com"
+  phone = "0755-8888-8888"
+  address = "深圳市南山区高新南一道星核动力科技大厦"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# 忽略警告
+ignoreLogs = ['warning-partial-superfluous-prefix']
+
+# 性能优化
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+
+# 缓存配置
+[caches]
+  [caches.getjson]
+    dir = ":cacheDir/:project"
+    maxAge = "10m"
+  [caches.getcsv]
+    dir = ":cacheDir/:project"
+    maxAge = "10m"
+  [caches.images]
+    dir = ":resourceDir/_gen"
+    maxAge = "720h"
+  [caches.assets]
+    dir = ":resourceDir/_gen"
+    maxAge = "720h"

@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>银行业解决方案 - 星核动力科技（深圳）有限公司</title>
+    <meta name="description" content="为银行业提供专业的大数据平台解决方案">
+    
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary-color: #dc2626;
+            --primary-light: #ef4444;
+            --primary-dark: #991b1b;
+        }
+        
+        body {
+            font-family: 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .navbar {
+            background: white !important;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 1rem 0;
+        }
+        
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary-color) !important;
+            display: flex;
+            align-items: center;
+        }
+        
+        .navbar-brand img {
+            height: 40px;
+            width: auto;
+            margin-right: 10px;
+        }
+        
+        .navbar-nav .nav-link {
+            color: #333 !important;
+            font-weight: 500;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem !important;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .navbar-nav .nav-link:hover {
+            color: white !important;
+            background: linear-gradient(45deg, var(--primary-color), var(--primary-light));
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(220, 38, 38, 0.3);
+        }
+        
+        .navbar-nav .nav-link::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: left 0.5s;
+        }
+        
+        .navbar-nav .nav-link:hover::before {
+            left: 100%;
+        }
+        
+         
+        .dropdown-menu {
+            border: none;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            border-radius: 10px;
+            padding: 0.5rem 0;
+            margin-top: 0.5rem;
+            min-width: 280px;
+        }
+        
+        .dropdown-item {
+            padding: 0.75rem 1.5rem;
+            font-weight: 500;
+            color: #333;
+            transition: all 0.3s ease;
+            border-radius: 0;
+        }
+        
+        .dropdown-item:hover {
+            background: linear-gradient(45deg, var(--primary-color), var(--primary-light));
+            color: white;
+            transform: translateX(5px);
+        }
+        
+        .dropdown-item i {
+            color: var(--primary-color);
+            width: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .dropdown-item:hover i {
+            color: white;
+            transform: scale(1.1);
+        }
+        
+        .dropdown-divider {
+            margin: 0.5rem 1rem;
+            border-color: rgba(220, 38, 38, 0.2);
+        }
+        
+         
+        .dropdown-menu {
+            opacity: 0;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+            display: block;
+            visibility: hidden;
+        }
+        
+        .dropdown:hover .dropdown-menu,
+        .dropdown-menu.show {
+            opacity: 1;
+            transform: translateY(0);
+            visibility: visible;
+        }
+        
+         
+        .dropdown-toggle::after {
+            transition: transform 0.3s ease;
+        }
+        
+        .dropdown:hover .dropdown-toggle::after,
+        .dropdown-toggle[aria-expanded="true"]::after {
+            transform: rotate(180deg);
+        }
+        
+         
+        .product-info {
+            padding: 2rem 0;
+        }
+        
+        .product-highlights {
+            margin-top: 2rem;
+        }
+        
+        .highlight-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        .feature-card {
+            background: white;
+            padding: 2.5rem 2rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            height: 100%;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(220, 38, 38, 0.1);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(220, 38, 38, 0.2);
+            border-color: var(--primary-color);
+        }
+        
+        .feature-icon-wrapper {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(45deg, var(--primary-color), var(--primary-light));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover .feature-icon-wrapper {
+            transform: scale(1.1);
+        }
+        
+        .feature-icon {
+            font-size: 2rem;
+            color: white;
+        }
+        
+        .component-category {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            height: 100%;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(220, 38, 38, 0.1);
+        }
+        
+        .component-category:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(220, 38, 38, 0.15);
+        }
+        
+        .category-header {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+        
+        .category-header i {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+        
+        .category-header h4 {
+            color: #333;
+            margin-bottom: 0;
+        }
+        
+        .component-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            justify-content: center;
+        }
+        
+        .component-tag {
+            background: linear-gradient(45deg, var(--primary-color), var(--primary-light));
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .component-tag:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(220, 38, 38, 0.3);
+        }
+        
+        .page-header {
+            background: linear-gradient(rgba(220, 38, 38, 0.7), rgba(239, 68, 68, 0.7));
+            color: white;
+            padding: 8rem 0 4rem;
+            margin-top: 80px;
+        }
+        
+        .page-title {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .page-subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+        
+        .breadcrumb {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            padding: 0.5rem 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .breadcrumb-item a {
+            color: rgba(255, 255, 255, 0.9);
+            text-decoration: none;
+        }
+        
+        .breadcrumb-item.active {
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        .section {
+            padding: 4rem 0;
+        }
+        
+        .content-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(220, 38, 38, 0.1);
+            height: 100%;
+        }
+        
+        .content-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(220, 38, 38, 0.2);
+            border-color: var(--primary-color);
+        }
+        
+        .content-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+        }
+        
+         
+        .solution-content {
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+        
+        .solution-content h2 {
+            color: var(--primary-color);
+            margin-top: 3rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--primary-color);
+            font-size: 1.8rem;
+        }
+        
+        .solution-content h3 {
+            color: #333;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+            font-weight: 600;
+        }
+        
+        .solution-content h4 {
+            color: var(--primary-color);
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+            font-size: 1.2rem;
+        }
+        
+        .solution-content p {
+            margin-bottom: 1.2rem;
+            text-align: justify;
+            max-width: none;
+        }
+        
+        .solution-content ul, .solution-content ol {
+            margin-bottom: 1.5rem;
+            padding-left: 2rem;
+        }
+        
+        .solution-content li {
+            margin-bottom: 0.8rem;
+            line-height: 1.6;
+        }
+        
+        .solution-content li strong {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+        
+        .solution-content img {
+            max-width: 100%;
+            height: auto;
+            margin: 2rem auto;
+            display: block;
+            border-radius: 10px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .solution-content blockquote {
+            background: #f8f9fa;
+            border-left: 4px solid var(--primary-color);
+            padding: 1rem 1.5rem;
+            margin: 2rem 0;
+            border-radius: 0 10px 10px 0;
+        }
+        
+         
+        @media (min-width: 992px) {
+            .solution-content .row {
+                display: flex;
+                align-items: flex-start;
+            }
+            
+            .solution-content .col-md-6 {
+                padding: 0 1.5rem;
+            }
+        }
+        
+         
+        .solution-nav .nav-link {
+            display: block;
+            padding: 0.5rem 0;
+            color: #666;
+            text-decoration: none;
+            border-bottom: 1px solid #eee;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .solution-nav .nav-link:hover {
+            color: var(--primary-color);
+            padding-left: 0.5rem;
+        }
+        
+        .solution-nav .nav-link.active {
+            color: var(--primary-color);
+            font-weight: 600;
+            padding-left: 0.5rem;
+            background: rgba(220, 38, 38, 0.05);
+            border-radius: 5px;
+        }
+        
+        .solution-nav .nav-link.active::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 3px;
+            height: 20px;
+            background: var(--primary-color);
+            border-radius: 2px;
+        }
+        
+        .solution-nav .nav-link:last-child {
+            border-bottom: none;
+        }
+        
+        .related-item {
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .related-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0 !important;
+        }
+        
+        .related-item h6 a {
+            color: #333;
+            font-weight: 600;
+        }
+        
+        .related-item h6 a:hover {
+            color: var(--primary-color);
+        }
+        
+         
+        @media (max-width: 768px) {
+            .solution-content {
+                font-size: 1rem;
+                line-height: 1.6;
+            }
+            
+            .solution-content h2 {
+                font-size: 1.5rem;
+                margin-top: 2rem;
+            }
+            
+            .solution-content h3 {
+                font-size: 1.3rem;
+            }
+        }
+        
+        @media (max-width: 991px) {
+            .sticky-top {
+                position: static !important;
+                top: auto !important;
+            }
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            padding: 12px 30px;
+            font-weight: 600;
+            border-radius: 25px;
+        }
+        
+        .btn-outline-primary {
+            border: 2px solid var(--primary-color);
+            color: var(--primary-color);
+            padding: 10px 25px;
+            font-weight: 600;
+            border-radius: 25px;
+        }
+        
+        .footer {
+            background: #1a1a1a;
+            color: white;
+            padding: 3rem 0 1rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+         
+        .hero-section {
+            background: linear-gradient(rgba(220, 38, 38, 0.4), rgba(220, 38, 38, 0.4)), url('/images/solution-space-con.jpg') center/cover;
+            min-height: 600px;
+            display: flex;
+            align-items: center;
+            color: white;
+            margin-top: 80px;
+        }
+        
+        .hero-title {
+            font-size: 3.2rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            line-height: 1.2;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+        }
+        
+        .service-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        
+        @media (max-width: 768px) {
+            .page-title {
+                font-size: 2rem;
+            }
+            .page-header {
+                padding: 6rem 0 3rem;
+            }
+            .hero-title {
+                font-size: 2rem;
+                line-height: 1.3;
+            }
+            .hero-subtitle {
+                font-size: 1.2rem;
+            }
+        }
+        
+        @media (max-width: 992px) {
+            .hero-title {
+                font-size: 2.8rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .hero-title {
+                font-size: 1.8rem;
+                white-space: nowrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="/images/logo.jpg" alt="星核动力科技">
+                星核动力
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">首页</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/solutions" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            解决方案
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="solutionsDropdown">
+                            <li><a class="dropdown-item" href="/solutions/">
+                                <i class="fas fa-list-ul me-2"></i>所有解决方案
+                            </a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/solutions/banking/">
+                                <i class="fas fa-university me-2"></i>银行业解决方案
+                            </a></li>
+                            <li><a class="dropdown-item" href="/solutions/automotive/">
+                                <i class="fas fa-car me-2"></i>汽车工业解决方案
+                            </a></li>
+                            <li><a class="dropdown-item" href="/solutions/insurance/">
+                                <i class="fas fa-shield-alt me-2"></i>保险业解决方案
+                            </a></li>
+                            <li><a class="dropdown-item" href="/solutions/energy/">
+                                <i class="fas fa-bolt me-2"></i>能源行业解决方案
+                            </a></li>
+                            <li><a class="dropdown-item" href="/solutions/telecommunications/">
+                                <i class="fas fa-broadcast-tower me-2"></i>通信行业解决方案
+                            </a></li>
+                            <li><a class="dropdown-item" href="/solutions/aerospace/">
+                                <i class="fas fa-rocket me-2"></i>航天航空解决方案
+                            </a></li>
+                            <li><a class="dropdown-item" href="/solutions/smart-city/">
+                                <i class="fas fa-city me-2"></i>智慧城市解决方案
+                            </a></li>
+                        </ul>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/products" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            产品与服务
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                            <li><a class="dropdown-item" href="/products/">
+                                <i class="fas fa-cube me-2"></i>产品概览
+                            </a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/products/#enterprise">
+                                <i class="fas fa-building me-2"></i>StellerCore Enterprise
+                            </a></li>
+                            <li><a class="dropdown-item" href="/products/#community">
+                                <i class="fas fa-users me-2"></i>社区版
+                            </a></li>
+                            <li><a class="dropdown-item" href="/products/#cloud">
+                                <i class="fas fa-cloud me-2"></i>云版本
+                            </a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/contact/">
+                                <i class="fas fa-download me-2"></i>申请试用
+                            </a></li>
+                        </ul>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/cases">客户案例</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/about" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            关于我们
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                            <li><a class="dropdown-item" href="/about/">
+                                <i class="fas fa-info-circle me-2"></i>公司介绍
+                            </a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/about/#values">
+                                <i class="fas fa-heart me-2"></i>核心价值观
+                            </a></li>
+                            <li><a class="dropdown-item" href="/about/#technology">
+                                <i class="fas fa-cogs me-2"></i>技术实力
+                            </a></li>
+                            <li><a class="dropdown-item" href="/about/#partners">
+                                <i class="fas fa-handshake me-2"></i>合作伙伴
+                            </a></li>
+                            <li><a class="dropdown-item" href="/about/#global">
+                                <i class="fas fa-globe me-2"></i>全球服务
+                            </a></li>
+                        </ul>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact">联系我们</a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fas fa-globe me-1"></i>
+                            中文
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                            
+                            <li>
+                                <a class="dropdown-item" href="/en/solutions/banking/">
+                                    <i class="fas fa-language me-2"></i>English
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+
+<section class="page-header" style="background: linear-gradient(rgba(220, 38, 38, 0.9), rgba(239, 68, 68, 0.9)), url('/images/redBanner.jpg') center/cover;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a href="/">首页</a></li>
+                        <li class="breadcrumb-item"><a href="/solutions">解决方案</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">银行业解决方案</li>
+                    </ol>
+                </nav>
+                <h1 class="page-title">银行业解决方案</h1>
+                <p class="page-subtitle">为银行业提供专业的大数据平台解决方案</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-lg-8">
+                <div class="content solution-content">
+                    <p>星核动力科技为银行业提供完整的大数据平台解决方案，助力银行实现数字化转型，提升风险管控能力和客户服务水平。基于Apache Hadoop生态构建金融级大数据平台，支持海量数据处理和实时分析。</p>
+<p><img src="/images/solution-bank-pic.jpg" alt="银行业应用架构"></p>
+<h2 id="核心功能">核心功能</h2>
+<h3 id="风险控制">风险控制</h3>
+<ul>
+<li><strong>实时风险监控</strong> - 7×24小时实时监控交易风险</li>
+<li><strong>信贷风险评估</strong> - 基于大数据的信贷风险评估模型</li>
+<li><strong>反欺诈检测</strong> - 智能反欺诈检测和预警系统</li>
+<li><strong>合规监管报告</strong> - 自动化监管报告生成和提交</li>
+</ul>
+<h3 id="客户分析">客户分析</h3>
+<ul>
+<li><strong>客户画像构建</strong> - 360度客户画像和标签体系</li>
+<li><strong>精准营销推荐</strong> - 基于客户行为的精准营销</li>
+<li><strong>客户行为分析</strong> - 深度分析客户交易和行为模式</li>
+<li><strong>客户价值评估</strong> - 客户生命周期价值评估</li>
+</ul>
+<h3 id="运营优化">运营优化</h3>
+<ul>
+<li><strong>业务流程优化</strong> - 基于数据的业务流程改进</li>
+<li><strong>成本效益分析</strong> - 全面的成本效益分析</li>
+<li><strong>渠道效能分析</strong> - 各渠道效能对比和优化</li>
+<li><strong>产品收益分析</strong> - 产品盈利能力分析</li>
+</ul>
+<h2 id="技术架构">技术架构</h2>
+<p><img src="/images/solution-frame.jpg" alt="技术架构"></p>
+<h3 id="数据采集层">数据采集层</h3>
+<ul>
+<li><strong>核心业务系统</strong> - 核心银行系统数据采集</li>
+<li><strong>外部征信数据</strong> - 人行征信、第三方征信数据</li>
+<li><strong>互联网行为数据</strong> - 客户线上行为数据</li>
+<li><strong>第三方数据源</strong> - 政府数据、行业数据等</li>
+</ul>
+<h3 id="数据存储层">数据存储层</h3>
+<ul>
+<li><strong>HDFS分布式存储</strong> - 海量历史数据存储</li>
+<li><strong>HBase实时数据库</strong> - 实时交易数据存储</li>
+<li><strong>数据仓库建设</strong> - 企业级数据仓库</li>
+<li><strong>数据湖架构</strong> - 多源异构数据统一存储</li>
+</ul>
+<h3 id="数据处理层">数据处理层</h3>
+<ul>
+<li><strong>Spark批处理引擎</strong> - 大批量数据处理</li>
+<li><strong>Flink流处理引擎</strong> - 实时数据流处理</li>
+<li><strong>Hive数据仓库</strong> - SQL化数据分析</li>
+<li><strong>机器学习平台</strong> - AI算法模型训练和应用</li>
+</ul>
+<h3 id="应用服务层">应用服务层</h3>
+<ul>
+<li><strong>风控决策引擎</strong> - 实时风险决策</li>
+<li><strong>营销推荐系统</strong> - 智能营销推荐</li>
+<li><strong>报表分析平台</strong> - 多维度数据分析</li>
+<li><strong>监管报送系统</strong> - 自动化监管报告</li>
+</ul>
+<h2 id="客户案例">客户案例</h2>
+<h3 id="汇丰银行">汇丰银行</h3>
+<p><img src="/images/guest-hsbc.png" alt="汇丰银行"></p>
+<p><strong>项目背景</strong>: 提升风险识别能力，构建实时风险监控体系</p>
+<p><strong>解决方案</strong>:</p>
+<ul>
+<li>实时数据采集和处理平台</li>
+<li>机器学习风险识别模型</li>
+<li>实时预警和决策支持系统</li>
+</ul>
+<p><strong>项目成果</strong>:</p>
+<ul>
+<li>风险识别准确率提升至 <strong>95%</strong></li>
+<li>实时风险监控覆盖率 <strong>100%</strong></li>
+<li>风险损失降低 <strong>60%</strong></li>
+<li>客户体验显著提升</li>
+</ul>
+<h3 id="某国有大型银行">某国有大型银行</h3>
+<p><strong>项目背景</strong>: 构建覆盖几亿用户规模的存款保险系统数据仓库</p>
+<p><strong>解决方案</strong>:</p>
+<ul>
+<li>部署StarNuclear Enterprise大数据平台</li>
+<li>构建Hadoop+Hive数据仓库架构</li>
+<li>实现金融级安全和高可用保障</li>
+</ul>
+<p><strong>项目成果</strong>:</p>
+<ul>
+<li>支持几亿用户规模数据处理</li>
+<li>数据处理效率提升 <strong>300%</strong></li>
+<li>系统可用性达到 <strong>99.99%</strong></li>
+<li>满足监管合规要求</li>
+</ul>
+<h2 id="方案优势">方案优势</h2>
+<h3 id="金融级安全">金融级安全</h3>
+<ul>
+<li><strong>数据加密</strong> - 端到端数据加密保护</li>
+<li><strong>访问控制</strong> - 基于角色的精细化权限控制</li>
+<li><strong>审计追踪</strong> - 完整的操作审计日志</li>
+<li><strong>合规保障</strong> - 满足银监会等监管要求</li>
+</ul>
+<h3 id="高可用性">高可用性</h3>
+<ul>
+<li><strong>系统可用性</strong> - 99.99%系统可用性保障</li>
+<li><strong>容灾备份</strong> - 多地容灾备份机制</li>
+<li><strong>故障恢复</strong> - 秒级故障检测和恢复</li>
+<li><strong>负载均衡</strong> - 智能负载均衡和调度</li>
+</ul>
+<h3 id="弹性扩展">弹性扩展</h3>
+<ul>
+<li><strong>水平扩展</strong> - 支持集群水平扩展</li>
+<li><strong>存储扩展</strong> - PB级存储容量扩展</li>
+<li><strong>计算扩展</strong> - 计算资源弹性伸缩</li>
+<li><strong>业务扩展</strong> - 支持业务快速增长</li>
+</ul>
+<h3 id="实时处理">实时处理</h3>
+<ul>
+<li><strong>毫秒级响应</strong> - 毫秒级实时数据处理</li>
+<li><strong>实时决策</strong> - 实时风险决策支持</li>
+<li><strong>实时监控</strong> - 实时业务监控预警</li>
+<li><strong>实时分析</strong> - 实时数据分析和报告</li>
+</ul>
+<h2 id="产品版本">产品版本</h2>
+<h3 id="社区版">社区版</h3>
+<ul>
+<li>基础大数据平台功能</li>
+<li>开源组件集成</li>
+<li>社区技术支持</li>
+<li><strong>免费使用</strong></li>
+</ul>
+<h3 id="企业版">企业版</h3>
+<ul>
+<li>企业级功能增强</li>
+<li>金融行业定制</li>
+<li>专业技术支持</li>
+<li><strong>商业授权</strong></li>
+</ul>
+<h3 id="金融版">金融版</h3>
+<ul>
+<li>金融级安全增强</li>
+<li>监管合规支持</li>
+<li>专属服务团队</li>
+<li><strong>定制开发</strong></li>
+</ul>
+<h2 id="实施服务">实施服务</h2>
+<h3 id="项目规划">项目规划</h3>
+<ul>
+<li>需求调研分析</li>
+<li>技术方案设计</li>
+<li>项目计划制定</li>
+<li>风险评估管理</li>
+</ul>
+<h3 id="平台建设">平台建设</h3>
+<ul>
+<li>基础环境部署</li>
+<li>平台软件安装</li>
+<li>系统集成配置</li>
+<li>数据迁移实施</li>
+</ul>
+<h3 id="应用开发">应用开发</h3>
+<ul>
+<li>业务应用开发</li>
+<li>数据模型设计</li>
+<li>算法模型训练</li>
+<li>接口集成开发</li>
+</ul>
+<h3 id="运维支持">运维支持</h3>
+<ul>
+<li>系统运维监控</li>
+<li>性能调优服务</li>
+<li>故障应急响应</li>
+<li>技术培训服务</li>
+</ul>
+<h2 id="服务保障">服务保障</h2>
+<h3 id="技术支持">技术支持</h3>
+<ul>
+<li><strong>7×24小时</strong> 技术支持热线</li>
+<li><strong>4小时内</strong> 响应重大故障</li>
+<li><strong>专家团队</strong> 现场技术支持</li>
+<li><strong>远程诊断</strong> 快速问题定位</li>
+</ul>
+<h3 id="培训服务">培训服务</h3>
+<ul>
+<li>系统管理员培训</li>
+<li>业务用户培训</li>
+<li>开发人员培训</li>
+<li>认证考试服务</li>
+</ul>
+<h3 id="持续优化">持续优化</h3>
+<ul>
+<li>系统性能监控</li>
+<li>业务流程优化</li>
+<li>技术架构升级</li>
+<li>新功能开发</li>
+</ul>
+
+                </div>
+            </div>
+            
+            
+            <div class="col-lg-4">
+                <div class="sticky-top" style="top: 100px;">
+                    
+                    <div class="content-card mb-4">
+                        <h5 class="mb-3"><i class="fas fa-list text-primary me-2"></i>快速导航</h5>
+                        <div class="solution-nav" id="solution-nav">
+                            
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="content-card mb-4">
+                        <h5 class="mb-3"><i class="fas fa-phone text-primary me-2"></i>咨询服务</h5>
+                        <p class="mb-3">需要了解更多详情？</p>
+                        <a href="/contact" class="btn btn-primary btn-sm w-100 mb-2">
+                            <i class="fas fa-envelope me-2"></i>立即咨询
+                        </a>
+                        <a href="tel:0755-8888-8888" class="btn btn-outline-primary btn-sm w-100">
+                            <i class="fas fa-phone me-2"></i>电话咨询
+                        </a>
+                    </div>
+                    
+                    
+                    <div class="content-card">
+                        <h5 class="mb-3"><i class="fas fa-lightbulb text-primary me-2"></i>相关方案</h5>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="section" style="background: linear-gradient(rgba(220, 38, 38, 0.9), rgba(239, 68, 68, 0.9)); color: white;">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h2 style="color: white;">准备实施这个解决方案？</h2>
+                <p class="lead" style="color: rgba(255,255,255,0.9);">联系我们的专业团队，获取详细的实施方案和报价</p>
+                <a href="/contact" class="btn btn-outline-light btn-lg">立即联系</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    
+    const solutionNav = document.getElementById('solution-nav');
+    const contentArea = document.querySelector('.solution-content');
+    
+    if (solutionNav && contentArea) {
+        
+        const headings = contentArea.querySelectorAll('h2');
+        
+        if (headings.length > 0) {
+            headings.forEach((heading, index) => {
+                
+                const id = 'section-' + index;
+                heading.id = id;
+                
+                
+                const navLink = document.createElement('a');
+                navLink.href = '#' + id;
+                navLink.className = 'nav-link';
+                navLink.textContent = heading.textContent;
+                
+                
+                navLink.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.getElementById(id);
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                        
+                        
+                        document.querySelectorAll('.solution-nav .nav-link').forEach(link => {
+                            link.classList.remove('active');
+                        });
+                        navLink.classList.add('active');
+                    }
+                });
+                
+                solutionNav.appendChild(navLink);
+            });
+        } else {
+            
+            solutionNav.closest('.content-card').style.display = 'none';
+        }
+    }
+    
+    
+    window.addEventListener('scroll', function() {
+        const headings = document.querySelectorAll('.solution-content h2[id]');
+        const navLinks = document.querySelectorAll('.solution-nav .nav-link');
+        
+        let currentSection = '';
+        
+        headings.forEach(heading => {
+            const rect = heading.getBoundingClientRect();
+            if (rect.top <= 150) {
+                currentSection = heading.id;
+            }
+        });
+        
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === '#' + currentSection) {
+                link.classList.add('active');
+            }
+        });
+    });
+});
+</script>
+
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>星核动力科技（深圳）有限公司</h5>
+                    <p>专业的大数据基础软件平台提供商</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <p>深圳市宝安区北京大学科创园A5栋<br>&copy; 2025 星核动力科技（深圳）有限公司. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        
+        const dropdowns = document.querySelectorAll('.nav-item.dropdown');
+        
+        dropdowns.forEach(dropdown => {
+            const dropdownToggle = dropdown.querySelector('.dropdown-toggle');
+            const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+            
+            if (dropdownToggle && dropdownMenu) {
+                
+                dropdown.addEventListener('mouseenter', function() {
+                    dropdownMenu.classList.add('show');
+                    dropdownToggle.setAttribute('aria-expanded', 'true');
+                });
+                
+                
+                dropdown.addEventListener('mouseleave', function() {
+                    dropdownMenu.classList.remove('show');
+                    dropdownToggle.setAttribute('aria-expanded', 'false');
+                });
+                
+                
+                const dropdownItems = dropdownMenu.querySelectorAll('.dropdown-item');
+                dropdownItems.forEach(item => {
+                    item.addEventListener('click', function(e) {
+                        
+                        this.style.transform = 'scale(0.95)';
+                        setTimeout(() => {
+                            this.style.transform = '';
+                        }, 150);
+                    });
+                });
+                
+                
+                const currentPath = window.location.pathname;
+                dropdownItems.forEach(item => {
+                    const href = item.getAttribute('href');
+                    if (href === currentPath || (href.includes('#') && href.split('#')[0] === currentPath)) {
+                        item.classList.add('active');
+                        item.style.background = 'linear-gradient(45deg, var(--primary-color), var(--primary-light))';
+                        item.style.color = 'white';
+                    }
+                });
+            }
+        });
+    });
+    </script>
+</body>
+</html>
