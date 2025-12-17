@@ -685,18 +685,14 @@
                             {{ if eq .Site.Language.Lang "zh" }}中文{{ else }}English{{ end }}
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
-                            {{ if eq .Site.Language.Lang "zh" }}
+                            {{ range .Site.Languages }}
+                            {{ if ne .Lang $.Site.Language.Lang }}
                             <li>
-                                <a class="dropdown-item" href="{{ printf "/en%s" .RelPermalink | relURL }}">
-                                    <i class="fas fa-language me-2"></i>English
+                                <a class="dropdown-item" href="{{ if .IsMultihost }}{{ .BaseURL }}{{ else }}{{ .Lang | relLangURL }}{{ end }}">
+                                    <i class="fas fa-language me-2"></i>{{ .LanguageName }}
                                 </a>
                             </li>
-                            {{ else }}
-                            <li>
-                                <a class="dropdown-item" href="{{ .RelPermalink | strings.TrimPrefix "/en" }}">
-                                    <i class="fas fa-language me-2"></i>中文
-                                </a>
-                            </li>
+                            {{ end }}
                             {{ end }}
                         </ul>
                     </li>
