@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>解决方案 on 星核动力科技（深圳）有限公司</title>
-    <link>http://localhost:1314/starcore/solutions/</link>
+    <link>http://localhost:1313/starcore/solutions/</link>
     <description>Recent content in 解决方案 on 星核动力科技（深圳）有限公司</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <atom:link href="http://localhost:1314/starcore/solutions/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/starcore/solutions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>汽车工业解决方案</title>
-      <link>http://localhost:1314/starcore/solutions/automotive/</link>
+      <link>http://localhost:1313/starcore/solutions/automotive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/starcore/solutions/automotive/</guid>
+      <guid>http://localhost:1313/starcore/solutions/automotive/</guid>
       <description>&lt;p&gt;通过大数据技术手段，实时采集汇总汽车制造过程中的各类数据，对生产情况进行实时跟踪和分析，提高生产效率和产品质量，节约制造成本。&lt;/p&gt;</description>
     </item>
     <item>
       <title>银行业解决方案</title>
-      <link>http://localhost:1314/starcore/solutions/banking/</link>
+      <link>http://localhost:1313/starcore/solutions/banking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/starcore/solutions/banking/</guid>
+      <guid>http://localhost:1313/starcore/solutions/banking/</guid>
       <description>&lt;p&gt;星核动力科技为银行业提供完整的大数据平台解决方案，助力银行实现数字化转型，提升风险管控能力和客户服务水平。基于Apache Hadoop生态构建金融级大数据平台，支持海量数据处理和实时分析。&lt;/p&gt;</description>
     </item>
     <item>
       <title>保险业解决方案</title>
-      <link>http://localhost:1314/starcore/solutions/insurance/</link>
+      <link>http://localhost:1313/starcore/solutions/insurance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/starcore/solutions/insurance/</guid>
+      <guid>http://localhost:1313/starcore/solutions/insurance/</guid>
       <description>&lt;p&gt;为保险行业提供全面的大数据解决方案，涵盖精算建模、风险评估、反欺诈、客户服务等核心业务场景，助力保险公司实现数字化转型和智能化运营。&lt;/p&gt;</description>
     </item>
     <item>
       <title>能源行业解决方案</title>
-      <link>http://localhost:1314/starcore/solutions/energy/</link>
+      <link>http://localhost:1313/starcore/solutions/energy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/starcore/solutions/energy/</guid>
+      <guid>http://localhost:1313/starcore/solutions/energy/</guid>
       <description>&lt;p&gt;为电力、石油、天然气等能源企业提供数据采集、存储、分析的完整解决方案，助力能源企业实现智能化运营和数字化转型。&lt;/p&gt;</description>
     </item>
     <item>
       <title>通信行业解决方案</title>
-      <link>http://localhost:1314/starcore/solutions/telecommunications/</link>
+      <link>http://localhost:1313/starcore/solutions/telecommunications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/starcore/solutions/telecommunications/</guid>
+      <guid>http://localhost:1313/starcore/solutions/telecommunications/</guid>
       <description>&lt;p&gt;帮助通信运营商构建大数据平台，支持网络优化、客户服务、业务分析等应用，提升网络质量和客户体验。&lt;/p&gt;</description>
     </item>
     <item>
       <title>航天航空解决方案</title>
-      <link>http://localhost:1314/starcore/solutions/aerospace/</link>
+      <link>http://localhost:1313/starcore/solutions/aerospace/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/starcore/solutions/aerospace/</guid>
+      <guid>http://localhost:1313/starcore/solutions/aerospace/</guid>
       <description>&lt;p&gt;为航天航空企业提供高可靠性的大数据解决方案，支持飞行数据分析、设备监控、任务规划等关键应用，确保航天任务的成功执行。&lt;/p&gt;</description>
     </item>
     <item>
       <title>智慧城市解决方案</title>
-      <link>http://localhost:1314/starcore/solutions/smart-city/</link>
+      <link>http://localhost:1313/starcore/solutions/smart-city/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1314/starcore/solutions/smart-city/</guid>
+      <guid>http://localhost:1313/starcore/solutions/smart-city/</guid>
       <description>&lt;p&gt;为政府和城市管理部门提供智慧城市大数据平台，支持城市治理、交通管理、环境监测等应用，助力城市智能化发展。&lt;/p&gt;</description>
     </item>
   </channel>
