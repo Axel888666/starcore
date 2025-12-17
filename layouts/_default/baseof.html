@@ -577,7 +577,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="{{ "/" | relURL }}">
+            <a class="navbar-brand" href="{{ "/" | relLangURL }}">
                 <img src="{{ "images/logo.jpg" | relURL }}" alt="{{ if eq .Site.Language.Lang "zh" }}星核动力科技{{ else }}StellerCore Technology{{ end }}">
                 {{ if eq .Site.Language.Lang "zh" }}星核动力{{ else }}StellerCore{{ end }}
             </a>
@@ -590,7 +590,7 @@
                     {{ if ne .Name "新闻动态" }}
                     {{ if or (eq .Name "解决方案") (eq .Name "Solutions") }}
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="{{ .URL | relLangURL }}" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="{{ "/solutions/" | relLangURL }}" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             {{ .Name }}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="solutionsDropdown">
@@ -623,7 +623,7 @@
                     </li>
                     {{ else if or (eq .Name "产品与服务") (eq .Name "Products & Services") }}
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="{{ .URL | relLangURL }}" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="{{ "/products/" | relLangURL }}" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             {{ .Name }}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="productsDropdown">
@@ -648,7 +648,7 @@
                     </li>
                     {{ else if or (eq .Name "关于我们") (eq .Name "About") }}
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="{{ .URL | relLangURL }}" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="{{ "/about/" | relLangURL }}" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             {{ .Name }}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
@@ -672,7 +672,7 @@
                     </li>
                     {{ else }}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                        <a class="nav-link" href="{{ if eq .Name "首页" }}{{ "/" | relLangURL }}{{ else if eq .Name "Home" }}{{ "/" | relLangURL }}{{ else if eq .Name "客户案例" }}{{ "/cases/" | relLangURL }}{{ else if eq .Name "Cases" }}{{ "/cases/" | relLangURL }}{{ else if eq .Name "联系我们" }}{{ "/contact/" | relLangURL }}{{ else if eq .Name "Contact" }}{{ "/contact/" | relLangURL }}{{ else }}{{ .URL | relLangURL }}{{ end }}">{{ .Name }}</a>
                     </li>
                     {{ end }}
                     {{ end }}
@@ -687,13 +687,13 @@
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
                             {{ if eq .Site.Language.Lang "zh" }}
                             <li>
-                                <a class="dropdown-item" href="{{ "/en/" | relURL }}">
+                                <a class="dropdown-item" href="{{ "/en/" | relLangURL }}">
                                     <i class="fas fa-language me-2"></i>English
                                 </a>
                             </li>
                             {{ else }}
                             <li>
-                                <a class="dropdown-item" href="{{ "/" | relURL }}">
+                                <a class="dropdown-item" href="{{ "/" | relLangURL }}">
                                     <i class="fas fa-language me-2"></i>中文
                                 </a>
                             </li>
