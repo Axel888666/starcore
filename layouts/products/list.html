@@ -6,7 +6,7 @@
             <div class="col-lg-8 mx-auto text-center">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
-                        <li class="breadcrumb-item"><a href="{{ if eq .Site.Language.Lang "zh" }}/{{ else }}/en/{{ end }}">{{ if eq .Site.Language.Lang "zh" }}首页{{ else }}Home{{ end }}</a></li>
+                        <li class="breadcrumb-item"><a href="{{ "/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}首页{{ else }}Home{{ end }}</a></li>
                         <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
                     </ol>
                 </nav>
@@ -240,7 +240,7 @@
                         <li><i class="fas fa-check text-success"></i> {{ if eq $.Site.Language.Lang "zh" }}开放开源生态{{ else }}Open source ecosystem{{ end }}</li>
                         <li><i class="fas fa-check text-success"></i> {{ if eq $.Site.Language.Lang "zh" }}社区支持{{ else }}Community support{{ end }}</li>
                     </ul>
-                    <a href="{{ if eq $.Site.Language.Lang "zh" }}/contact{{ else }}/en/contact{{ end }}" class="btn btn-outline-primary">{{ if eq $.Site.Language.Lang "zh" }}立即下载{{ else }}Download Now{{ end }}</a>
+                    <a href="{{ "/contact/" | relLangURL }}" class="btn btn-outline-primary">{{ if eq $.Site.Language.Lang "zh" }}立即下载{{ else }}Download Now{{ end }}</a>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
@@ -255,7 +255,7 @@
                         <li><i class="fas fa-check text-success"></i> {{ if eq $.Site.Language.Lang "zh" }}7×24专业服务{{ else }}7×24 professional service{{ end }}</li>
                         <li><i class="fas fa-check text-success"></i> {{ if eq $.Site.Language.Lang "zh" }}专家支持服务{{ else }}Expert support services{{ end }}</li>
                     </ul>
-                    <a href="{{ if eq $.Site.Language.Lang "zh" }}/contact{{ else }}/en/contact{{ end }}" class="btn btn-primary">{{ if eq $.Site.Language.Lang "zh" }}联系销售{{ else }}Contact Sales{{ end }}</a>
+                    <a href="{{ "/contact/" | relLangURL }}" class="btn btn-primary">{{ if eq $.Site.Language.Lang "zh" }}联系销售{{ else }}Contact Sales{{ end }}</a>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
@@ -269,7 +269,7 @@
                         <li><i class="fas fa-check text-success"></i> {{ if eq $.Site.Language.Lang "zh" }}弹性扩展{{ else }}Elastic scaling{{ end }}</li>
                         <li><i class="fas fa-check text-success"></i> {{ if eq $.Site.Language.Lang "zh" }}云端优化{{ else }}Cloud optimization{{ end }}</li>
                     </ul>
-                    <a href="{{ if eq $.Site.Language.Lang "zh" }}/contact{{ else }}/en/contact{{ end }}" class="btn btn-outline-primary">{{ if eq $.Site.Language.Lang "zh" }}了解详情{{ else }}Learn More{{ end }}</a>
+                    <a href="{{ "/contact/" | relLangURL }}" class="btn btn-outline-primary">{{ if eq $.Site.Language.Lang "zh" }}了解详情{{ else }}Learn More{{ end }}</a>
                 </div>
             </div>
         </div>
@@ -283,8 +283,8 @@
             <div class="col-lg-8 mx-auto">
                 <h2 style="color: white;">{{ if eq .Site.Language.Lang "zh" }}准备体验我们的产品？{{ else }}Ready to Experience Our Products?{{ end }}</h2>
                 <p class="lead" style="color: rgba(255,255,255,0.9);">{{ if eq .Site.Language.Lang "zh" }}联系我们获取产品演示和试用版本{{ else }}Contact us for product demos and trial versions{{ end }}</p>
-                <a href="{{ if eq .Site.Language.Lang "zh" }}/contact{{ else }}/en/contact{{ end }}" class="btn btn-outline-light btn-lg me-3">{{ if eq .Site.Language.Lang "zh" }}申请试用{{ else }}Request Trial{{ end }}</a>
-                <a href="{{ if eq .Site.Language.Lang "zh" }}/solutions{{ else }}/en/solutions{{ end }}" class="btn btn-outline-light btn-lg">{{ if eq .Site.Language.Lang "zh" }}查看方案{{ else }}View Solutions{{ end }}</a>
+                <a href="{{ "/contact/" | relLangURL }}" class="btn btn-outline-light btn-lg me-3">{{ if eq .Site.Language.Lang "zh" }}申请试用{{ else }}Request Trial{{ end }}</a>
+                <a href="{{ "/solutions/" | relLangURL }}" class="btn btn-outline-light btn-lg">{{ if eq .Site.Language.Lang "zh" }}查看方案{{ else }}View Solutions{{ end }}</a>
             </div>
         </div>
     </div>

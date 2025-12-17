@@ -6,7 +6,7 @@
             <div class="col-lg-8 mx-auto text-center">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
-                        <li class="breadcrumb-item"><a href="{{ if eq .Site.Language.Lang "zh" }}/{{ else }}/en/{{ end }}">{{ if eq .Site.Language.Lang "zh" }}首页{{ else }}Home{{ end }}</a></li>
+                        <li class="breadcrumb-item"><a href="{{ "/" | relLangURL }}">{{ if eq .Site.Language.Lang "zh" }}首页{{ else }}Home{{ end }}</a></li>
                         <li class="breadcrumb-item active" aria-current="page">{{ .Title }}</li>
                     </ol>
                 </nav>
@@ -65,7 +65,7 @@
             <div class="col-lg-8 mx-auto">
                 <h2 style="color: white;">{{ if eq .Site.Language.Lang "zh" }}需要定制化解决方案？{{ else }}Need Customized Solutions?{{ end }}</h2>
                 <p class="lead" style="color: rgba(255,255,255,0.9);">{{ if eq .Site.Language.Lang "zh" }}联系我们的专业团队，获取适合您行业的大数据解决方案{{ else }}Contact our professional team to get big data solutions tailored for your industry{{ end }}</p>
-                <a href="{{ if eq .Site.Language.Lang "zh" }}/contact{{ else }}/en/contact{{ end }}" class="btn btn-outline-light btn-lg">{{ if eq .Site.Language.Lang "zh" }}立即咨询{{ else }}Contact Now{{ end }}</a>
+                <a href="{{ "/contact/" | relLangURL }}" class="btn btn-outline-light btn-lg">{{ if eq .Site.Language.Lang "zh" }}立即咨询{{ else }}Contact Now{{ end }}</a>
             </div>
         </div>
     </div>

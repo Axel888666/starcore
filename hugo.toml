@@ -19,6 +19,7 @@ pagination.pagerSize = 6
     weight = 2
     title = 'StellerCore Technology (Shenzhen) Co., Ltd.'
     contentDir = 'content'
+    contentDir = 'content'
 
 [languages.zh.menu]
   [[languages.zh.menu.main]]
@@ -53,27 +54,27 @@ pagination.pagerSize = 6
 [languages.en.menu]
   [[languages.en.menu.main]]
     name = 'Home'
-    url = '/en/'
+    url = '/'
     weight = 1
   [[languages.en.menu.main]]
     name = 'Solutions'
-    url = '/en/solutions'
+    url = '/solutions'
     weight = 2
   [[languages.en.menu.main]]
     name = 'Products & Services'
-    url = '/en/products'
+    url = '/products'
     weight = 3
   [[languages.en.menu.main]]
     name = 'Cases'
-    url = '/en/cases'
+    url = '/cases'
     weight = 4
   [[languages.en.menu.main]]
     name = 'About'
-    url = '/en/about'
+    url = '/about'
     weight = 5
   [[languages.en.menu.main]]
     name = 'Contact'
-    url = '/en/contact'
+    url = '/contact'
     weight = 6
 
 [params]
