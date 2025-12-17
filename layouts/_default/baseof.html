@@ -590,7 +590,7 @@
                     {{ if ne .Name "新闻动态" }}
                     {{ if or (eq .Name "解决方案") (eq .Name "Solutions") }}
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="{{ .URL }}" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="{{ .URL | relLangURL }}" id="solutionsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             {{ .Name }}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="solutionsDropdown">
@@ -623,7 +623,7 @@
                     </li>
                     {{ else if or (eq .Name "产品与服务") (eq .Name "Products & Services") }}
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="{{ .URL }}" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="{{ .URL | relLangURL }}" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             {{ .Name }}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="productsDropdown">
@@ -648,7 +648,7 @@
                     </li>
                     {{ else if or (eq .Name "关于我们") (eq .Name "About") }}
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="{{ .URL }}" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="{{ .URL | relLangURL }}" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             {{ .Name }}
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
@@ -672,7 +672,7 @@
                     </li>
                     {{ else }}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+                        <a class="nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
                     </li>
                     {{ end }}
                     {{ end }}
