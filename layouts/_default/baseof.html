@@ -143,55 +143,51 @@
             transform: rotate(180deg);
         }
         
-        /* 移动端导航优化 - 主菜单显示，下拉菜单隐藏，保留语言切换 */
+        /* 移动端导航 - 简洁紧凑设计 */
         @media (max-width: 991px) {
-            /* 确保导航栏可以滚动，看到所有菜单项 */
             .navbar-collapse {
-                max-height: calc(100vh - 100px);
-                overflow-y: auto;
+                background: white;
+                border-top: 1px solid #eee;
+                margin-top: 0.5rem;
             }
             
             .navbar-nav {
-                padding: 1rem 0;
+                padding: 0;
             }
             
             .nav-item {
-                border-bottom: 1px solid rgba(0,0,0,0.1);
-            }
-            
-            .nav-item:last-child {
-                border-bottom: none;
+                margin: 0;
             }
             
             .nav-link {
-                padding: 1rem !important;
+                padding: 0.6rem 1rem !important;
                 color: #333 !important;
                 font-weight: 500 !important;
                 margin: 0 !important;
                 border-radius: 0 !important;
+                font-size: 0.95rem !important;
+                border-bottom: 1px solid #f0f0f0;
+                display: block !important;
             }
             
-            .nav-link:hover {
-                background: rgba(220, 38, 38, 0.1) !important;
+            .nav-link:hover, .nav-link:focus {
+                background: #f8f9fa !important;
                 color: var(--primary-color) !important;
-                transform: none !important;
-                box-shadow: none !important;
             }
             
-            /* 移动端隐藏所有下拉菜单，除了语言切换 */
-            .dropdown-menu:not(#languageDropdown + .dropdown-menu) {
-                display: none !important;
-            }
-            
-            /* 移动端隐藏下拉箭头，除了语言切换 */
+            /* 隐藏主菜单下拉箭头 */
             .dropdown-toggle:not(#languageDropdown)::after {
                 display: none !important;
             }
             
-            /* 语言切换下拉菜单保持正常显示 */
-            #languageDropdown + .dropdown-menu {
+            /* 隐藏主菜单下拉内容 */
+            .dropdown-menu:not([aria-labelledby="languageDropdown"]) {
+                display: none !important;
+            }
+            
+            /* 语言切换菜单样式 */
+            .dropdown-menu[aria-labelledby="languageDropdown"] {
                 position: static !important;
-                transform: none !important;
                 box-shadow: none !important;
                 border: none !important;
                 background: #f8f9fa !important;
@@ -200,31 +196,20 @@
                 border-radius: 0 !important;
             }
             
-            #languageDropdown + .dropdown-menu .dropdown-item {
-                padding: 0.75rem 2rem !important;
-                border-bottom: 1px solid rgba(0,0,0,0.05) !important;
+            .dropdown-menu[aria-labelledby="languageDropdown"] .dropdown-item {
+                padding: 0.5rem 1.5rem !important;
                 font-size: 0.9rem !important;
                 color: #666 !important;
+                border-bottom: 1px solid #e9ecef !important;
             }
             
-            #languageDropdown + .dropdown-menu .dropdown-item:hover {
-                background: rgba(220, 38, 38, 0.1) !important;
+            .dropdown-menu[aria-labelledby="languageDropdown"] .dropdown-item:hover {
+                background: #e9ecef !important;
                 color: var(--primary-color) !important;
-                transform: none !important;
             }
             
-            #languageDropdown + .dropdown-menu .dropdown-item:last-child {
+            .dropdown-menu[aria-labelledby="languageDropdown"] .dropdown-item:last-child {
                 border-bottom: none !important;
-            }
-            
-            /* 语言切换下拉菜单显示控制 */
-            #languageDropdown + .dropdown-menu.show {
-                display: block !important;
-            }
-            
-            /* 禁用桌面端hover效果在移动端 */
-            .dropdown:hover .dropdown-menu {
-                display: none !important;
             }
         }
         
@@ -811,70 +796,32 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     
-    <!-- 移动端主菜单 + 语言切换导航脚本 -->
+    <!-- 简化导航脚本 -->
     <script>
     document.addEventListener('DOMContentLoaded', function() {
-        console.log('导航菜单脚本已加载');
-        
-        // 检测是否为移动设备
-        function isMobile() {
-            return window.innerWidth <= 991;
-        }
-        
         // 桌面端悬停效果
-        if (!isMobile()) {
-            const dropdowns = document.querySelectorAll('.nav-item.dropdown');
-            dropdowns.forEach(dropdown => {
+        if (window.innerWidth > 991) {
+            document.querySelectorAll('.nav-item.dropdown').forEach(dropdown => {
                 const menu = dropdown.querySelector('.dropdown-menu');
-                
-                dropdown.addEventListener('mouseenter', function() {
-                    menu.classList.add('show');
-                });
-                
-                dropdown.addEventListener('mouseleave', function() {
-                    menu.classList.remove('show');
-                });
+                dropdown.addEventListener('mouseenter', () => menu.classList.add('show'));
+                dropdown.addEventListener('mouseleave', () => menu.classList.remove('show'));
             });
         }
         
-        // 移动端特殊处理
-        if (isMobile()) {
-            // 移动端阻止主菜单下拉功能（除了语言切换）
-            const mainDropdowns = document.querySelectorAll('.dropdown-toggle:not(#languageDropdown)');
-            mainDropdowns.forEach(toggle => {
-                toggle.addEventListener('click', function(e) {
-                    // 移动端主菜单直接跳转，不显示下拉
-                    if (this.href && this.href !== '#') {
-                        e.stopPropagation();
-                        // 让链接正常跳转
-                        return true;
-                    }
-                    e.preventDefault();
-                });
-            });
-        }
-        
-        // 移动端点击导航项后自动关闭菜单
-        const navLinks = document.querySelectorAll('.navbar-nav .nav-link, .dropdown-item');
-        navLinks.forEach(link => {
+        // 移动端点击导航项后关闭菜单
+        document.querySelectorAll('.nav-link:not(#languageDropdown)').forEach(link => {
             link.addEventListener('click', function() {
-                // 如果是移动端且不是语言切换下拉按钮
-                if (isMobile() && this.id !== 'languageDropdown') {
+                if (window.innerWidth <= 991) {
                     const navbarCollapse = document.getElementById('navbarNav');
                     if (navbarCollapse && navbarCollapse.classList.contains('show')) {
-                        // 延迟关闭，让链接跳转先执行
                         setTimeout(() => {
-                            const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
-                                toggle: false
-                            });
-                            bsCollapse.hide();
-                        }, 100);
+                            const toggler = document.querySelector('.navbar-toggler');
+                            if (toggler) toggler.click();
+                        }, 150);
                     }
                 }
             });
         });
-        
-        console.log('导航菜单脚本初始化完成');
     });
     </script>
 </body>

@@ -146,42 +146,34 @@
         
          
         @media (max-width: 991px) {
-             
             .navbar-collapse {
-                max-height: calc(100vh - 100px);
-                overflow-y: auto;
+                background: white;
+                border-top: 1px solid #eee;
+                margin-top: 0.5rem;
             }
             
             .navbar-nav {
-                padding: 1rem 0;
+                padding: 0;
             }
             
             .nav-item {
-                border-bottom: 1px solid rgba(0,0,0,0.1);
-            }
-            
-            .nav-item:last-child {
-                border-bottom: none;
+                margin: 0;
             }
             
             .nav-link {
-                padding: 1rem !important;
+                padding: 0.6rem 1rem !important;
                 color: #333 !important;
                 font-weight: 500 !important;
                 margin: 0 !important;
                 border-radius: 0 !important;
+                font-size: 0.95rem !important;
+                border-bottom: 1px solid #f0f0f0;
+                display: block !important;
             }
             
-            .nav-link:hover {
-                background: rgba(220, 38, 38, 0.1) !important;
+            .nav-link:hover, .nav-link:focus {
+                background: #f8f9fa !important;
                 color: var(--primary-color) !important;
-                transform: none !important;
-                box-shadow: none !important;
-            }
-            
-             
-            .dropdown-menu:not(#languageDropdown + .dropdown-menu) {
-                display: none !important;
             }
             
              
@@ -190,9 +182,13 @@
             }
             
              
-            #languageDropdown + .dropdown-menu {
+            .dropdown-menu:not([aria-labelledby="languageDropdown"]) {
+                display: none !important;
+            }
+            
+             
+            .dropdown-menu[aria-labelledby="languageDropdown"] {
                 position: static !important;
-                transform: none !important;
                 box-shadow: none !important;
                 border: none !important;
                 background: #f8f9fa !important;
@@ -201,31 +197,20 @@
                 border-radius: 0 !important;
             }
             
-            #languageDropdown + .dropdown-menu .dropdown-item {
-                padding: 0.75rem 2rem !important;
-                border-bottom: 1px solid rgba(0,0,0,0.05) !important;
+            .dropdown-menu[aria-labelledby="languageDropdown"] .dropdown-item {
+                padding: 0.5rem 1.5rem !important;
                 font-size: 0.9rem !important;
                 color: #666 !important;
+                border-bottom: 1px solid #e9ecef !important;
             }
             
-            #languageDropdown + .dropdown-menu .dropdown-item:hover {
-                background: rgba(220, 38, 38, 0.1) !important;
+            .dropdown-menu[aria-labelledby="languageDropdown"] .dropdown-item:hover {
+                background: #e9ecef !important;
                 color: var(--primary-color) !important;
-                transform: none !important;
             }
             
-            #languageDropdown + .dropdown-menu .dropdown-item:last-child {
+            .dropdown-menu[aria-labelledby="languageDropdown"] .dropdown-item:last-child {
                 border-bottom: none !important;
-            }
-            
-             
-            #languageDropdown + .dropdown-menu.show {
-                display: block !important;
-            }
-            
-             
-            .dropdown:hover .dropdown-menu {
-                display: none !important;
             }
         }
         
@@ -954,67 +939,29 @@
     
     <script>
     document.addEventListener('DOMContentLoaded', function() {
-        console.log('导航菜单脚本已加载');
         
-        
-        function isMobile() {
-            return window.innerWidth <= 991;
-        }
-        
-        
-        if (!isMobile()) {
-            const dropdowns = document.querySelectorAll('.nav-item.dropdown');
-            dropdowns.forEach(dropdown => {
+        if (window.innerWidth > 991) {
+            document.querySelectorAll('.nav-item.dropdown').forEach(dropdown => {
                 const menu = dropdown.querySelector('.dropdown-menu');
-                
-                dropdown.addEventListener('mouseenter', function() {
-                    menu.classList.add('show');
-                });
-                
-                dropdown.addEventListener('mouseleave', function() {
-                    menu.classList.remove('show');
-                });
+                dropdown.addEventListener('mouseenter', () => menu.classList.add('show'));
+                dropdown.addEventListener('mouseleave', () => menu.classList.remove('show'));
             });
         }
         
         
-        if (isMobile()) {
-            
-            const mainDropdowns = document.querySelectorAll('.dropdown-toggle:not(#languageDropdown)');
-            mainDropdowns.forEach(toggle => {
-                toggle.addEventListener('click', function(e) {
-                    
-                    if (this.href && this.href !== '#') {
-                        e.stopPropagation();
-                        
-                        return true;
-                    }
-                    e.preventDefault();
-                });
-            });
-        }
-        
-        
-        const navLinks = document.querySelectorAll('.navbar-nav .nav-link, .dropdown-item');
-        navLinks.forEach(link => {
+        document.querySelectorAll('.nav-link:not(#languageDropdown)').forEach(link => {
             link.addEventListener('click', function() {
-                
-                if (isMobile() && this.id !== 'languageDropdown') {
+                if (window.innerWidth <= 991) {
                     const navbarCollapse = document.getElementById('navbarNav');
                     if (navbarCollapse && navbarCollapse.classList.contains('show')) {
-                        
                         setTimeout(() => {
-                            const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
-                                toggle: false
-                            });
-                            bsCollapse.hide();
-                        }, 100);
+                            const toggler = document.querySelector('.navbar-toggler');
+                            if (toggler) toggler.click();
+                        }, 150);
                     }
                 }
             });
         });
-        
-        console.log('导航菜单脚本初始化完成');
     });
     </script>
 </body>
