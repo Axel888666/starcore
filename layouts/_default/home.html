@@ -25,7 +25,7 @@
                 <a href="{{ if eq .Site.Language.Lang "zh" }}/about{{ else }}/en/about{{ end }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看合作伙伴{{ else }}View Partners{{ end }}</a>
             </div>
             <div class="col-md-6 text-center">
-                <img src="/images/software-2.png" alt="{{ if eq .Site.Language.Lang "zh" }}产业生态{{ else }}Industrial Ecosystem{{ end }}" class="service-image">
+                <img src="{{ "images/software-2.png" | relURL }}" alt="{{ if eq .Site.Language.Lang "zh" }}产业生态{{ else }}Industrial Ecosystem{{ end }}" class="service-image">
             </div>
         </div>
     </div>
@@ -36,7 +36,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-md-6 text-center">
-                <img src="/images/software-1.png" alt="{{ if eq .Site.Language.Lang "zh" }}大数据平台架构{{ else }}Big Data Platform Architecture{{ end }}" class="service-image">
+                <img src="{{ "images/software-1.png" | relURL }}" alt="{{ if eq .Site.Language.Lang "zh" }}大数据平台架构{{ else }}Big Data Platform Architecture{{ end }}" class="service-image">
             </div>
             <div class="col-md-6">
                 <h2>{{ if eq .Site.Language.Lang "zh" }}金融级大数据统一平台{{ else }}Financial-Grade Unified Big Data Platform{{ end }}</h2>

@@ -508,7 +508,7 @@
         
         /* 首页特殊样式 */
         .hero-section {
-            background: linear-gradient(rgba(220, 38, 38, 0.4), rgba(220, 38, 38, 0.4)), url('/images/solution-space-con.jpg') center/cover;
+            background: linear-gradient(rgba(220, 38, 38, 0.4), rgba(220, 38, 38, 0.4)), url('{{ "images/solution-space-con.jpg" | relURL }}') center/cover;
             min-height: 600px;
             display: flex;
             align-items: center;
@@ -577,8 +577,8 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="/">
-                <img src="/images/logo.jpg" alt="{{ if eq .Site.Language.Lang "zh" }}星核动力科技{{ else }}StellerCore Technology{{ end }}">
+            <a class="navbar-brand" href="{{ "/" | relURL }}">
+                <img src="{{ "images/logo.jpg" | relURL }}" alt="{{ if eq .Site.Language.Lang "zh" }}星核动力科技{{ else }}StellerCore Technology{{ end }}">
                 {{ if eq .Site.Language.Lang "zh" }}星核动力{{ else }}StellerCore{{ end }}
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -687,7 +687,7 @@
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
                             {{ if eq .Site.Language.Lang "zh" }}
                             <li>
-                                <a class="dropdown-item" href="/en{{ .RelPermalink }}">
+                                <a class="dropdown-item" href="{{ printf "/en%s" .RelPermalink | relURL }}">
                                     <i class="fas fa-language me-2"></i>English
                                 </a>
                             </li>
