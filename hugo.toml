@@ -19,7 +19,6 @@ pagination.pagerSize = 6
     weight = 2
     title = 'StellerCore Technology (Shenzhen) Co., Ltd.'
     contentDir = 'content'
-    contentDir = 'content'
 
 [languages.zh.menu]
   [[languages.zh.menu.main]]
