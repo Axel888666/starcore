@@ -29,7 +29,6 @@ description: "星核动力科技联系方式"
 
 ### 战略协同
 北京红象云腾系统技术有限公司
-
 **地址**: 北京市西城区北三环中路29号院3号楼一层
 **网址**: http://www.redoop.com
 **邮箱**: tongxiaojun@redoop.com
