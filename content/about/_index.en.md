@@ -27,7 +27,7 @@ Launched new generation cloud-native big data platform
 Established global service network, serving international customers
 
 ### 2024 - Innovation Breakthrough
-Released Reloop Enterprise V9.1, leading the industry in technology
+Released Redoop Enterprise V9.1, leading the industry in technology
 
 ## <span id="values">Core Values</span>
 
@@ -58,6 +58,7 @@ Honest business operation, taking social responsibility
 ### Technical Certifications
 - ISO 9001 Quality Management System Certification
 - ISO 27001 Information Security Management System Certification
+- Company practices CMMI 5
 
 ## <span id="partners">Industrial Ecosystem</span>
 
@@ -80,7 +81,7 @@ Established deep cooperation with domestic manufacturers such as Loongson, Kylin
 **Shenzhen Headquarters**
 Address: StellerCore Technology Building, Gaoxin South Road, Nanshan District, Shenzhen
 Phone: 0755-8888-8888
-Email: info@stellercore.com
+Email: info@starnuclear.com
 
 ### National Branches
 - **Beijing Branch** - Serving North China

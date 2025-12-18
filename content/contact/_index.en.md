@@ -18,14 +18,14 @@ description: "Contact StellerCore Technology for professional big data solutions
 ## Business Consultation
 
 ### Sales Consultation
-**Phone**: +86 136 3293 3869 
-**Email**: frink@starkernal.com   
-**WeChat**: Same as phone number  
+**Phone**: +86 136 3293 3869
+**Email**: frink@starkernal.com
+**WeChat**: Same as phone number
 
 ### Technical Consultation
-**Phone**: +86 189 2371 9468   
-**Email**: axel@starkernal.com 
-**WeChat**: Same as phone number  
+**Phone**: +86 189 2371 9468
+**Email**: axel@starkernal.com
+**WeChat**: Same as phone number
 
 ### Strategic Collaboration
 Beijing Redoop System Technology Co., Ltd.
@@ -38,20 +38,19 @@ Beijing Redoop System Technology Co., Ltd.
 ## National Cooperation Institutions
 
 ### Beijing
-**Address**: No. 1, Zhongguancun Street, Haidian District, Beijing  
-**Phone**: 186-138-07209 
-**Email**: tongxiaojun@redoop.com  
+**Address**: No. 1, Zhongguancun Street, Haidian District, Beijing
+**Phone**: 186-138-07209
+**Email**: tongxiaojun@redoop.com
 
 ### Zhejiang
-**Address**: Magnesium Alloy Building, High-tech Zone, Lanxi City, Zhejiang Province  
-**Email**: info@starkernal.com  
-
+**Address**: Magnesium Alloy Building, High-tech Zone, Lanxi City, Zhejiang Province
+**Email**: info@starkernal.com
 
 ### Official Website
-https://www.starnuclear.com
+**Website**: https://www.starnuclear.com
 
 ### WeChat Official Account
-Search "星核动力科技" (StellerCore Technology) or scan the QR code to follow
+**Follow Method**: Search "星核动力科技" (StellerCore Technology) or scan the QR code to follow
 
 ---
 
