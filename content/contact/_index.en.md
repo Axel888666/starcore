@@ -17,7 +17,7 @@ description: "Contact StellerCore Technology for professional big data solutions
 
 ### Sales Consultation
 **Phone**: +86 136 3293 3869
-**Email**: frink@starkernal.com
+**Email**: frank@starkernal.com
 
 ### Technical Consultation
 **Phone**: +86 189 2371 9468

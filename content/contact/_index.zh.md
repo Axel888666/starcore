@@ -17,7 +17,7 @@ description: "星核动力科技联系方式"
 
 ### 销售咨询
 **电话**: +86 136 3293 3869
-**邮箱**: frink@starkernal.com
+**邮箱**: frank@starkernal.com
 
 ### 技术咨询
 **电话**: +86 189 2371 9468
