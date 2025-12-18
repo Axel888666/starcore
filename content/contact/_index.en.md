@@ -34,7 +34,7 @@ Beijing Redoop System Technology Co., Ltd.
 **Email**: tongxiaojun@redoop.com
 **Phone**: 186-138-07209
 
-## National Cooperation Institutions
+## Collaboration Partners
 
 ### Beijing
 **Address**: No. 1, Zhongguancun Street, Haidian District, Beijing
