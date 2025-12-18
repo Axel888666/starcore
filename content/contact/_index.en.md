@@ -52,6 +52,8 @@ Beijing Redoop System Technology Co., Ltd.
 ### WeChat Official Account
 **Follow Method**: Search "星核动力科技" (StellerCore Technology) or scan the QR code to follow
 
+![WeChat Official Account QR Code](/images/weichat.jpg "StellerCore Technology WeChat Official Account")
+
 ---
 
 *We look forward to cooperating with you to jointly promote the development and application of big data technology!*
