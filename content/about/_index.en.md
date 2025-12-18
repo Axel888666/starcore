@@ -27,7 +27,7 @@ Launched new generation cloud-native big data platform
 Established global service network, serving international customers
 
 ### 2024 - Innovation Breakthrough
-Released StellerCore Enterprise V9.1, leading the industry in technology
+Released Reloop Enterprise V9.1, leading the industry in technology
 
 ## <span id="values">Core Values</span>
 

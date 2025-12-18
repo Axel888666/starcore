@@ -7,7 +7,7 @@ description: "Core products and professional services of StellerCore Technology"
 
 ## Core Products
 
-### StellerCore Enterprise V9.1
+### Reloop Enterprise V9.1
 Big data infrastructure software platform based on Apache Hadoop and Apache HBase as storage and computing cores, with Apache Ambari as the management platform.
 
 #### Product Features

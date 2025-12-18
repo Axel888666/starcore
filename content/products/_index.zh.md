@@ -7,7 +7,7 @@ description: "星核动力科技的核心产品和专业服务"
 
 ## <span id="enterprise">核心产品</span>
 
-### StellerCore Enterprise V9.1
+### Reloop Enterprise V9.1
 大数据基础软件平台，基于Apache Hadoop、Apache HBase为存储和计算核心，以Apache Ambari为管理平台。
 
 #### 产品特性

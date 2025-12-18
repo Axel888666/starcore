@@ -15,7 +15,7 @@ banner:
 # feature
 feature:
   enable: true
-  title: "Why Choose **StellerCore Enterprise**"
+  title: "Why Choose **Reloop Enterprise**"
   feature_item:
     # feature item loop
     - name: "One-Click Installation"
@@ -65,7 +65,7 @@ service:
     - title: "**Industrial Ecosystem Cooperation**"
       images:
       - "images/software-2.png"
-      content: "StellerCore Enterprise fully supports cloud, chips, operating systems, and upstream and downstream software and hardware ecosystems. Build an open big data software service ecosystem to empower enterprise informatization big data upgrades!"
+      content: "Reloop Enterprise fully supports cloud, chips, operating systems, and upstream and downstream software and hardware ecosystems. Build an open big data software service ecosystem to empower enterprise informatization big data upgrades!"
       button:
         enable: true
         label: "View Partners"
