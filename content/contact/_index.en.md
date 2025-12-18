@@ -15,8 +15,6 @@ description: "Contact StellerCore Technology for professional big data solutions
 **Email**: info@starkernal.com  
 **Website**: https://www.starkernal.com  
 
-## Business Consultation
-
 ### Sales Consultation
 **Phone**: +86 136 3293 3869
 **Email**: frink@starkernal.com
@@ -29,6 +27,7 @@ description: "Contact StellerCore Technology for professional big data solutions
 
 ### Strategic Collaboration
 Beijing Redoop System Technology Co., Ltd.
+
 **Address**: 1st Floor, Building 3, Courtyard 29, North Third Ring Middle Road, Xicheng District, Beijing
 **Website**: http://www.redoop.com
 **Email**: tongxiaojun@redoop.com
