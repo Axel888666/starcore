@@ -79,17 +79,26 @@ Established deep cooperation with domestic manufacturers such as Loongson, Kylin
 
 ### Headquarters
 **Shenzhen Headquarters**
-Address: StellerCore Technology Building, Gaoxin South Road, Nanshan District, Shenzhen
-Phone: 0755-8888-8888
-Email: info@starnuclear.com
+Address: Room 423, R&D Building A1, Peking University Science and Technology Park, No. 3000, Songbai Road, Bao'an District, Shenzhen
+Phone: +86 136 3293 3869, +86 189 2371 9468
+Email: info@starkernal.com
 
 ### National Branches
 - **Beijing Branch** - Serving North China
+  Address: No. 1, Zhongguancun Street, Haidian District, Beijing
+  Phone: 186-138-07209
+  Email: tongxiaojun@redoop.com
 - **Shanghai Branch** - Serving East China
 - **Guangzhou Branch** - Serving South China
 - **Chengdu Branch** - Serving Southwest China
 - **Xi'an Branch** - Serving Northwest China
 - **Zhengzhou Branch** - Serving Central China
+
+### Strategic Collaboration
+Beijing Redoop System Technology Co., Ltd.
+Address: 1st Floor, Building 3, Courtyard 29, North Third Ring Middle Road, Xicheng District, Beijing
+Phone: 186-138-07209
+Email: tongxiaojun@redoop.com
 
 ### International Business
 - **UK Office** - Serving European market
