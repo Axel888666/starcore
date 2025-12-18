@@ -385,6 +385,16 @@
             margin-bottom: 1rem;
         }
         
+        /* 确保微信公众号二维码完整显示 */
+        .content-card img[src*="weichat.jpg"] {
+            width: auto;
+            height: auto;
+            max-width: 100%;
+            object-fit: contain;
+            display: block;
+            margin: 0 auto 1rem;
+        }
+        
         /* 解决方案内容样式优化 */
         .solution-content {
             line-height: 1.8;
