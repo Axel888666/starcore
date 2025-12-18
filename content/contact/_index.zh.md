@@ -31,22 +31,10 @@ description: "星核动力科技联系方式"
 **邮箱**: tongxiaojun@redoop.com  
 **网址**: https://www.redoop.com 
 
-
-## 协同机构
-
-### 北京
-**地址**: 北京市海淀区中关村大街1号
-**电话**: 186-138-07209
-**邮箱**: tongxiaojun@redoop.com
-
-### 浙江
-**地址**: 浙江省兰溪市高新区镁合金大楼
-**邮箱**: info@starkernal.com
-
 ### 微信公众号
 **关注方式**: 搜索"星核动力科技"或扫描二维码关注
 
-![微信公众号二维码]({{ printf "%simages/weichat.jpg" $.Site.BaseURL }} "星核动力科技微信公众号")
+![微信公众号二维码](/images/weichat.jpg "星核动力科技微信公众号")
 
 ---
 

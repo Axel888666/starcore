@@ -31,21 +31,11 @@ description: "Contact StellerCore Technology for professional big data solutions
 **Email**: tongxiaojun@redoop.com  
 **Website**: https://www.redoop.com
 
-## Collaboration Partners
-
-### Beijing
-**Address**: No. 1, Zhongguancun Street, Haidian District, Beijing
-**Phone**: 186-138-07209
-**Email**: tongxiaojun@redoop.com
-
-### Zhejiang
-**Address**: Magnesium Alloy Building, High-tech Zone, Lanxi City, Zhejiang Province
-**Email**: info@starkernal.com
 
 ### WeChat Official Account
 **Follow Method**: Search "星核动力科技" (StellerCore Technology) or scan the QR code to follow
 
-![WeChat Official Account QR Code]({{ printf "%simages/weichat.jpg" $.Site.BaseURL }} "StellerCore Technology WeChat Official Account")
+![WeChat Official Account QR Code](/images/weichat.jpg "StellerCore Technology WeChat Official Account")
 
 ---
 
