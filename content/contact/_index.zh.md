@@ -23,12 +23,13 @@ description: "星核动力科技联系方式"
 **电话**: +86 189 2371 9468
 **邮箱**: axel@starkernal.com
 
-### 战略协同
+## 战略协同
+
 ### 北京红象云腾系统技术有限公司
-**地址**: 北京市西城区北三环中路29号院3号楼一层 
-**电话**: +86 186-138-07209     
+**地址**: 北京市西城区北三环中路29号院3号楼一层  
+**电话**: +86 186-138-07209  
 **邮箱**: tongxiaojun@redoop.com  
-**网址**: [https://www.redoop.com ](http://www.redoop.com) 
+**网址**: https://www.redoop.com 
 
 
 ## 协同机构
@@ -42,13 +43,10 @@ description: "星核动力科技联系方式"
 **地址**: 浙江省兰溪市高新区镁合金大楼
 **邮箱**: info@starkernal.com
 
-### 官方网站
-**网址**: https://www.starnuclear.com
-
 ### 微信公众号
 **关注方式**: 搜索"星核动力科技"或扫描二维码关注
 
-![微信公众号二维码](/images/weichat.jpg "星核动力科技微信公众号")
+![微信公众号二维码]({{ printf "%simages/weichat.jpg" $.Site.BaseURL }} "星核动力科技微信公众号")
 
 ---
 
