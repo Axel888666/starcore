@@ -79,7 +79,7 @@ StellerCore Technology provides comprehensive big data platform solutions for th
 **Project Background**: Build deposit insurance system data warehouse covering hundreds of millions of users
 
 **Solution**:
-- Deploy Reloop Enterprise big data platform
+- Deploy Redoop Enterprise big data platform
 - Build Hadoop+Hive data warehouse architecture
 - Achieve financial-grade security and high availability
 
