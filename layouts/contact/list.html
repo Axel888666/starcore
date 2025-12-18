@@ -19,22 +19,6 @@
 
 <section class="section">
     <div class="container">
-        <div class="row">
-            <!-- 左侧：公司信息 -->
-            <div class="col-lg-6">
-                <div class="content-card">
-                    {{ .Content }}
-                </div>
-            </div>
-            
-            <!-- 右侧：在线咨询表单 -->
-            <div class="col-lg-6">
-                <div class="content-card">
-                    {{ partial "contact-form.html" . }}
-                </div>
-            </div>
-        </div>
-        
         <!-- 联系方式信息 -->
         <div class="row mt-4">
             <div class="col-12">
@@ -95,6 +79,22 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <!-- 左侧：公司信息 -->
+            <div class="col-lg-6">
+                <div class="content-card">
+                    {{ .Content }}
+                </div>
+            </div>
+            
+            <!-- 右侧：在线咨询表单 -->
+            <div class="col-lg-6">
+                <div class="content-card">
+                    {{ partial "contact-form.html" . }}
                 </div>
             </div>
         </div>
