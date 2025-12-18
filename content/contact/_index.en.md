@@ -18,20 +18,18 @@ description: "Contact StellerCore Technology for professional big data solutions
 ### Sales Consultation
 **Phone**: +86 136 3293 3869
 **Email**: frink@starkernal.com
-**WeChat**: Same as phone number
 
 ### Technical Consultation
 **Phone**: +86 189 2371 9468
 **Email**: axel@starkernal.com
-**WeChat**: Same as phone number
 
 ### Strategic Collaboration
-Beijing Redoop System Technology Co., Ltd.
+### Beijing Redoop System Technology Co., Ltd.
 
 **Address**: 1st Floor, Building 3, Courtyard 29, North Third Ring Middle Road, Xicheng District, Beijing
-**Website**: http://www.redoop.com
+**Phone**: +86 186-138-07209
 **Email**: tongxiaojun@redoop.com
-**Phone**: 186-138-07209
+**Website**: https://www.redoop.com
 
 ## Collaboration Partners
 
