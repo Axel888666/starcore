@@ -4,21 +4,29 @@ defaultContentLanguageInSubdir = false
 title = '星核动力科技（深圳）有限公司'
 # theme = 'event'
 hasCJKLanguage = true
-summaryLength = 10
+summaryLength = 70
 pagination.pagerSize = 6
+enableRobotsTXT = true
+enableGitInfo = false
 
 [languages]
   [languages.zh]
     languageName = '中文'
     weight = 1
-    title = '星核动力科技（深圳）有限公司'
+    title = '星核动力科技（深圳）有限公司 - 企业级大数据平台解决方案提供商'
     contentDir = 'content'
+    [languages.zh.params]
+      description = "星核动力科技专注企业级大数据平台建设，提供Hadoop、Spark、Kafka等开源大数据技术解决方案，服务金融、能源、通信、航天等行业500+客户"
+      keywords = "大数据平台,Hadoop企业版,Spark,Kafka,大数据解决方案,数据分析,商业智能,数据仓库,实时计算,星核动力"
     
   [languages.en]
     languageName = 'English'
     weight = 2
-    title = 'StellerCore Technology (Shenzhen) Co., Ltd.'
+    title = 'StellerCore Technology - Enterprise Big Data Platform Solutions Provider'
     contentDir = 'content'
+    [languages.en.params]
+      description = "StellerCore Technology specializes in enterprise big data platform construction, providing Hadoop, Spark, Kafka and other open source big data solutions, serving 500+ customers in finance, energy, telecommunications, aerospace and other industries"
+      keywords = "Big Data Platform,Enterprise Hadoop,Spark,Kafka,Big Data Solutions,Data Analytics,Business Intelligence,Data Warehouse,Real-time Computing"
 
 [languages.zh.menu]
   [[languages.zh.menu.main]]
@@ -78,12 +86,19 @@ pagination.pagerSize = 6
 
 [params]
 # 基本参数
-description = "专业的大数据基础软件平台提供商，致力于为企业提供可信赖的大数据解决方案和服务"
-author = "星核动力科技"
+description = "星核动力科技是专业的大数据基础软件平台提供商，提供企业级Hadoop、Spark、Kafka等大数据解决方案，支持金融、能源、通信等行业数字化转型"
+author = "星核动力科技（深圳）有限公司"
 
 # SEO优化
-keywords = "大数据,数据分析,企业解决方案,星核动力,数据平台,商业智能"
+keywords = "大数据平台,Hadoop,Spark,企业大数据解决方案,数据分析,商业智能,BI,数据仓库,实时计算,数据治理,星核动力,Redoop,大数据管理,云计算,数据安全"
 robots = "index,follow"
+
+# Open Graph / 社交媒体分享
+[params.og]
+  siteName = "星核动力科技"
+  locale = "zh_CN"
+  type = "website"
+  image = "images/logo.png"
 
 # 分析工具 (可选配置)
 # googleAnalytics = "G-XXXXXXXXXX"  # 替换为实际的Google Analytics ID
@@ -91,9 +106,17 @@ robots = "index,follow"
 
 # 社交媒体
 [params.social]
-  email = "info@stellercore.com"
-  phone = "0755-8888-8888"
-  address = "深圳市南山区高新南一道星核动力科技大厦"
+  email = "info@starkernal.com"
+  phone = "+86 136 3293 3869"
+  address = "深圳市宝安区松白路3000号北大科创园A1栋研发楼423"
+  wechat = "星核动力科技"
+
+# 公司信息
+[params.company]
+  name = "星核动力科技（深圳）有限公司"
+  legalName = "星核动力科技（深圳）有限公司"
+  foundingDate = "2018"
+  logo = "images/logo.png"
 
 [markup]
   [markup.goldmark]

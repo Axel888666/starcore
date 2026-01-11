@@ -1,6 +1,7 @@
 ---
-title: "StellerCore Technology (Shenzhen) Co., Ltd."
-description: "Professional big data infrastructure software platform provider, committed to providing reliable big data solutions and services for enterprises"
+title: "StellerCore Technology - Enterprise Big Data Platform Solutions"
+description: "StellerCore Technology is a professional enterprise big data platform provider, based on Hadoop, Spark, Kafka and other open source technologies, providing reliable big data solutions for finance, energy, telecommunications, aerospace and other industries. Serving 500+ enterprise customers with 50+ invention patents."
+keywords: "Big Data Platform,Enterprise Hadoop,Spark,Kafka,Big Data Solutions,Data Analytics Platform,Business Intelligence,Real-time Computing,Data Warehouse,Redoop Enterprise"
 
 # banner
 banner:

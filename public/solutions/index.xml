@@ -1,60 +1,173 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>解决方案 on 星核动力科技（深圳）有限公司</title>
-    <link>http://localhost:1313/starcore/solutions/</link>
-    <description>Recent content in 解决方案 on 星核动力科技（深圳）有限公司</description>
-    <generator>Hugo</generator>
-    <language>zh</language>
-    <atom:link href="http://localhost:1313/starcore/solutions/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>汽车工业解决方案</title>
-      <link>http://localhost:1313/starcore/solutions/automotive/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/solutions/automotive/</guid>
-      <description>&lt;p&gt;通过大数据技术手段，实时采集汇总汽车制造过程中的各类数据，对生产情况进行实时跟踪和分析，提高生产效率和产品质量，节约制造成本。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>银行业解决方案</title>
-      <link>http://localhost:1313/starcore/solutions/banking/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/solutions/banking/</guid>
-      <description>&lt;p&gt;星核动力科技为银行业提供完整的大数据平台解决方案，助力银行实现数字化转型，提升风险管控能力和客户服务水平。基于Apache Hadoop生态构建金融级大数据平台，支持海量数据处理和实时分析。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>保险业解决方案</title>
-      <link>http://localhost:1313/starcore/solutions/insurance/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/solutions/insurance/</guid>
-      <description>&lt;p&gt;为保险行业提供全面的大数据解决方案，涵盖精算建模、风险评估、反欺诈、客户服务等核心业务场景，助力保险公司实现数字化转型和智能化运营。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>能源行业解决方案</title>
-      <link>http://localhost:1313/starcore/solutions/energy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/solutions/energy/</guid>
-      <description>&lt;p&gt;为电力、石油、天然气等能源企业提供数据采集、存储、分析的完整解决方案，助力能源企业实现智能化运营和数字化转型。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>通信行业解决方案</title>
-      <link>http://localhost:1313/starcore/solutions/telecommunications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/solutions/telecommunications/</guid>
-      <description>&lt;p&gt;帮助通信运营商构建大数据平台，支持网络优化、客户服务、业务分析等应用，提升网络质量和客户体验。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>航天航空解决方案</title>
-      <link>http://localhost:1313/starcore/solutions/aerospace/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/solutions/aerospace/</guid>
-      <description>&lt;p&gt;为航天航空企业提供高可靠性的大数据解决方案，支持飞行数据分析、设备监控、任务规划等关键应用，确保航天任务的成功执行。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>智慧城市解决方案</title>
-      <link>http://localhost:1313/starcore/solutions/smart-city/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/solutions/smart-city/</guid>
-      <description>&lt;p&gt;为政府和城市管理部门提供智慧城市大数据平台，支持城市治理、交通管理、环境监测等应用，助力城市智能化发展。&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>解决方案 on 星核动力科技（深圳）有限公司 - 企业级大数据平台解决方案提供商</title><link>https://axel888666.github.io/starcore/solutions/</link><description>Recent content in 解决方案 on 星核动力科技（深圳）有限公司 - 企业级大数据平台解决方案提供商</description><generator>Hugo</generator><language>zh</language><atom:link href="https://axel888666.github.io/starcore/solutions/index.xml" rel="self" type="application/rss+xml"/><item><title>汽车工业解决方案</title><link>https://axel888666.github.io/starcore/solutions/automotive/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/solutions/automotive/</guid><description>&lt;p&gt;通过大数据技术手段，实时采集汇总汽车制造过程中的各类数据，对生产情况进行实时跟踪和分析，提高生产效率和产品质量，节约制造成本。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-car-con.jpg" alt="汽车工业应用场景" /&gt;&lt;/p&gt;
+&lt;h2 id="应用场景"&gt;应用场景&lt;/h2&gt;
+&lt;h3 id="智能制造"&gt;智能制造&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;生产线实时监控&lt;/strong&gt; - 实时监控生产线状态，及时发现异常&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;设备预测性维护&lt;/strong&gt; - 基于设备运行数据预测维护需求&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;质量控制优化&lt;/strong&gt; - 通过数据分析优化质量控制流程&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;生产计划调度&lt;/strong&gt; - 智能化生产计划制定和调度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="供应链管理"&gt;供应链管理&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;供应商评估分析&lt;/strong&gt; - 多维度评估供应商表现&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;库存优化管理&lt;/strong&gt; - 基于需求预测优化库存水平&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;物流路径优化&lt;/strong&gt; - 优化物流配送路径和成本&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;成本控制分析&lt;/strong&gt; - 全面的成本分析和控制&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="产品研发"&gt;产品研发&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用户需求分析&lt;/strong&gt; - 分析用户反馈和市场需求&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;产品性能优化&lt;/strong&gt; - 基于使用数据优化产品设计&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;测试数据分析&lt;/strong&gt; - 深度分析产品测试数据&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;市场趋势预测&lt;/strong&gt; - 预测汽车市场发展趋势&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="售后服务"&gt;售后服务&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;车辆故障诊断&lt;/strong&gt; - 智能故障诊断和预警&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;维修预测分析&lt;/strong&gt; - 预测维修需求和成本&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;客户满意度分析&lt;/strong&gt; - 分析客户满意度和改进点&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;服务质量提升&lt;/strong&gt; - 持续改进服务质量&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="技术架构"&gt;技术架构&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-frame.jpg" alt="技术架构图" /&gt;&lt;/p&gt;</description></item><item><title>银行业解决方案</title><link>https://axel888666.github.io/starcore/solutions/banking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/solutions/banking/</guid><description>&lt;p&gt;星核动力科技为银行业提供完整的大数据平台解决方案，助力银行实现数字化转型，提升风险管控能力和客户服务水平。基于Apache Hadoop生态构建金融级大数据平台，支持海量数据处理和实时分析。&lt;/p&gt;</description></item><item><title>保险业解决方案</title><link>https://axel888666.github.io/starcore/solutions/insurance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/solutions/insurance/</guid><description>&lt;p&gt;为保险行业提供全面的大数据解决方案，涵盖精算建模、风险评估、反欺诈、客户服务等核心业务场景，助力保险公司实现数字化转型和智能化运营。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-insurance-pic.jpg" alt="保险业应用场景" /&gt;&lt;/p&gt;
+&lt;h2 id="核心应用"&gt;核心应用&lt;/h2&gt;
+&lt;h3 id="精算建模"&gt;精算建模&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;产品定价模型&lt;/strong&gt; - 基于大数据的精准定价&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;准备金评估&lt;/strong&gt; - 智能化准备金计算&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;偿付能力监控&lt;/strong&gt; - 实时偿付能力分析&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;风险资本计算&lt;/strong&gt; - 动态风险资本评估&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="风险管控"&gt;风险管控&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;承保风险评估&lt;/strong&gt; - 智能承保决策支持&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;理赔风险识别&lt;/strong&gt; - 理赔欺诈识别预警&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;投资风险管理&lt;/strong&gt; - 投资组合风险分析&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;操作风险监控&lt;/strong&gt; - 全面操作风险管控&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="客户服务"&gt;客户服务&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;客户画像分析&lt;/strong&gt; - 360度客户视图&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;个性化推荐&lt;/strong&gt; - 智能产品推荐&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;客户流失预测&lt;/strong&gt; - 客户流失预警&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;服务质量提升&lt;/strong&gt; - 客户满意度分析&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="反欺诈检测"&gt;反欺诈检测&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;实时欺诈识别&lt;/strong&gt; - 毫秒级欺诈检测&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;异常行为分析&lt;/strong&gt; - 可疑行为模式识别&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;团伙欺诈发现&lt;/strong&gt; - 关联网络分析&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;历史案例学习&lt;/strong&gt; - 机器学习持续优化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="客户案例"&gt;客户案例&lt;/h2&gt;
+&lt;h3 id="昆仑保险经纪"&gt;昆仑保险经纪&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/guest-kunlunrisk.png" alt="昆仑保险" /&gt;&lt;/p&gt;</description></item><item><title>能源行业解决方案</title><link>https://axel888666.github.io/starcore/solutions/energy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/solutions/energy/</guid><description>&lt;p&gt;为电力、石油、天然气等能源企业提供数据采集、存储、分析的完整解决方案，助力能源企业实现智能化运营和数字化转型。&lt;/p&gt;
+&lt;h2 id="应用场景"&gt;应用场景&lt;/h2&gt;
+&lt;h3 id="电力行业"&gt;电力行业&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;智能电网监控&lt;/strong&gt; - 实时电网状态监控&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;负荷预测分析&lt;/strong&gt; - 电力负荷智能预测&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;设备状态监测&lt;/strong&gt; - 发电设备健康监测&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;能效优化管理&lt;/strong&gt; - 能源效率优化分析&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="石油天然气"&gt;石油天然气&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;勘探数据分析&lt;/strong&gt; - 地质勘探数据处理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;生产优化控制&lt;/strong&gt; - 油气生产过程优化&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;管道安全监控&lt;/strong&gt; - 管道运行安全监测&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;市场价格分析&lt;/strong&gt; - 能源市场价格预测&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="新能源"&gt;新能源&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;风电场监控&lt;/strong&gt; - 风力发电场智能监控&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;光伏发电分析&lt;/strong&gt; - 太阳能发电效率分析&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;储能系统管理&lt;/strong&gt; - 储能设备智能管理&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;碳排放监测&lt;/strong&gt; - 碳排放数据监测分析&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="客户案例"&gt;客户案例&lt;/h2&gt;
+&lt;h3 id="大港油田"&gt;大港油田&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/guest-oil.png" alt="大港油田" /&gt;&lt;/p&gt;</description></item><item><title>通信行业解决方案</title><link>https://axel888666.github.io/starcore/solutions/telecommunications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/solutions/telecommunications/</guid><description>&lt;p&gt;帮助通信运营商构建大数据平台，支持网络优化、客户服务、业务分析等应用，提升网络质量和客户体验。&lt;/p&gt;
+&lt;h2 id="核心功能"&gt;核心功能&lt;/h2&gt;
+&lt;h3 id="网络优化"&gt;网络优化&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;网络性能监控&lt;/strong&gt; - 实时网络质量监控&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;网络容量规划&lt;/strong&gt; - 基于数据的容量规划&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;故障预测分析&lt;/strong&gt; - 网络故障预测和预防&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;优化建议生成&lt;/strong&gt; - 智能网络优化建议&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="客户分析"&gt;客户分析&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;用户行为分析&lt;/strong&gt; - 深度用户行为洞察&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;流量模式分析&lt;/strong&gt; - 网络流量模式识别&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;客户价值评估&lt;/strong&gt; - 客户生命周期价值&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;精准营销推荐&lt;/strong&gt; - 个性化业务推荐&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="业务运营"&gt;业务运营&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;收入保障分析&lt;/strong&gt; - 收入泄漏检测分析&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;欺诈检测防范&lt;/strong&gt; - 通信欺诈识别预警&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;服务质量监控&lt;/strong&gt; - 服务质量实时监控&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;投诉处理优化&lt;/strong&gt; - 客户投诉智能处理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="客户案例"&gt;客户案例&lt;/h2&gt;
+&lt;h3 id="烽火通信"&gt;烽火通信&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/guest-fiberhome.png" alt="烽火通信" /&gt;&lt;/p&gt;</description></item><item><title>航天航空解决方案</title><link>https://axel888666.github.io/starcore/solutions/aerospace/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/solutions/aerospace/</guid><description>&lt;p&gt;为航天航空企业提供高可靠性的大数据解决方案，支持飞行数据分析、设备监控、任务规划等关键应用，确保航天任务的成功执行。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-space-con.jpg" alt="航天应用场景" /&gt;&lt;/p&gt;
+&lt;h2 id="应用领域"&gt;应用领域&lt;/h2&gt;
+&lt;h3 id="飞行数据分析"&gt;飞行数据分析&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;飞行轨迹分析&lt;/strong&gt; - 精确飞行轨迹计算分析&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;性能参数监控&lt;/strong&gt; - 实时飞行性能监控&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;异常检测预警&lt;/strong&gt; - 飞行异常智能检测&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;优化建议生成&lt;/strong&gt; - 飞行方案优化建议&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="设备健康管理"&gt;设备健康管理&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;设备状态监测&lt;/strong&gt; - 航天设备健康监测&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;预测性维护&lt;/strong&gt; - 设备故障预测分析&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;寿命评估分析&lt;/strong&gt; - 设备使用寿命评估&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;维护计划优化&lt;/strong&gt; - 智能维护计划制定&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="任务规划支持"&gt;任务规划支持&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;轨道计算分析&lt;/strong&gt; - 精确轨道计算和分析&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;资源调度优化&lt;/strong&gt; - 任务资源智能调度&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;风险评估分析&lt;/strong&gt; - 任务风险评估预警&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;决策支持系统&lt;/strong&gt; - 任务决策智能支持&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-space-pic.jpg" alt="航天项目案例" /&gt;&lt;/p&gt;</description></item><item><title>智慧城市解决方案</title><link>https://axel888666.github.io/starcore/solutions/smart-city/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/solutions/smart-city/</guid><description>&lt;p&gt;为政府和城市管理部门提供智慧城市大数据平台，支持城市治理、交通管理、环境监测等应用，助力城市智能化发展。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-smartcity-pic.jpg" alt="智慧城市应用" /&gt;&lt;/p&gt;
+&lt;h2 id="应用场景"&gt;应用场景&lt;/h2&gt;
+&lt;h3 id="智慧交通"&gt;智慧交通&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;交通流量监控&lt;/strong&gt; - 实时交通流量监测分析&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;智能信号控制&lt;/strong&gt; - 交通信号智能优化控制&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;路径规划优化&lt;/strong&gt; - 最优路径规划推荐&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;拥堵预测预警&lt;/strong&gt; - 交通拥堵预测和预警&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="城市治理"&gt;城市治理&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;人口流动分析&lt;/strong&gt; - 城市人口流动模式分析&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;公共安全监控&lt;/strong&gt; - 城市安全态势感知&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;应急响应管理&lt;/strong&gt; - 突发事件应急响应&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;政务服务优化&lt;/strong&gt; - 政务服务流程优化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="环境监测"&gt;环境监测&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;空气质量监测&lt;/strong&gt; - 实时空气质量监测&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;水质监测分析&lt;/strong&gt; - 水环境质量监测&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;噪音污染监控&lt;/strong&gt; - 城市噪音污染监控&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;环境预警系统&lt;/strong&gt; - 环境污染预警&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="公共服务"&gt;公共服务&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;教育资源配置&lt;/strong&gt; - 教育资源优化配置&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;医疗服务优化&lt;/strong&gt; - 医疗资源智能调度&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;养老服务管理&lt;/strong&gt; - 智慧养老服务平台&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;文化旅游推荐&lt;/strong&gt; - 智能旅游推荐服务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="客户案例"&gt;客户案例&lt;/h2&gt;
+&lt;h3 id="辽宁交通厅"&gt;辽宁交通厅&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/guest-Department.png" alt="辽宁交通厅" /&gt;&lt;/p&gt;</description></item></channel></rss>

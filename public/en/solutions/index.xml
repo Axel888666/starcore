@@ -1,60 +1,198 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Solutions on StellerCore Technology (Shenzhen) Co., Ltd.</title>
-    <link>http://localhost:1313/starcore/en/solutions/</link>
-    <description>Recent content in Solutions on StellerCore Technology (Shenzhen) Co., Ltd.</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="http://localhost:1313/starcore/en/solutions/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Automotive Industry Solutions</title>
-      <link>http://localhost:1313/starcore/en/solutions/automotive/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/solutions/automotive/</guid>
-      <description>&lt;p&gt;Through big data technology, we collect and analyze various data from automotive manufacturing processes in real-time, enabling real-time tracking and analysis of production conditions to improve production efficiency, product quality, and reduce manufacturing costs.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Banking Industry Solutions</title>
-      <link>http://localhost:1313/starcore/en/solutions/banking/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/solutions/banking/</guid>
-      <description>&lt;p&gt;StellerCore Technology provides comprehensive big data platform solutions for the banking industry, helping banks achieve digital transformation, enhance risk management capabilities and customer service levels. Build financial-grade big data platforms based on Apache Hadoop ecosystem, supporting massive data processing and real-time analysis.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Insurance Industry Solutions</title>
-      <link>http://localhost:1313/starcore/en/solutions/insurance/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/solutions/insurance/</guid>
-      <description>&lt;p&gt;Provide comprehensive big data solutions for the insurance industry, covering core business scenarios such as actuarial modeling, risk assessment, anti-fraud, and customer service, helping insurance companies achieve digital transformation and intelligent operations.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Energy Industry Solutions</title>
-      <link>http://localhost:1313/starcore/en/solutions/energy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/solutions/energy/</guid>
-      <description>&lt;p&gt;Provide complete solutions for data collection, storage, and analysis for energy enterprises such as power, oil, and natural gas, helping energy companies achieve intelligent operations and digital transformation.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Telecommunications Industry Solutions</title>
-      <link>http://localhost:1313/starcore/en/solutions/telecommunications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/solutions/telecommunications/</guid>
-      <description>&lt;p&gt;Help telecommunications operators build big data platforms, support applications such as network optimization, customer service, and business analysis, improving network quality and customer experience.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Aerospace Solutions</title>
-      <link>http://localhost:1313/starcore/en/solutions/aerospace/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/solutions/aerospace/</guid>
-      <description>&lt;p&gt;Provide high-reliability big data solutions for aerospace enterprises, supporting critical applications such as flight data analysis, equipment monitoring, and mission planning, ensuring successful execution of aerospace missions.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Smart City Solutions</title>
-      <link>http://localhost:1313/starcore/en/solutions/smart-city/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/solutions/smart-city/</guid>
-      <description>&lt;p&gt;Provide smart city big data platforms for government and urban management departments, supporting applications such as urban governance, traffic management, and environmental monitoring, promoting intelligent urban development.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Solutions on StellerCore Technology - Enterprise Big Data Platform Solutions Provider</title><link>https://axel888666.github.io/starcore/en/solutions/</link><description>Recent content in Solutions on StellerCore Technology - Enterprise Big Data Platform Solutions Provider</description><generator>Hugo</generator><language>en</language><atom:link href="https://axel888666.github.io/starcore/en/solutions/index.xml" rel="self" type="application/rss+xml"/><item><title>Automotive Industry Solutions</title><link>https://axel888666.github.io/starcore/en/solutions/automotive/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/solutions/automotive/</guid><description>&lt;p&gt;Through big data technology, we collect and analyze various data from automotive manufacturing processes in real-time, enabling real-time tracking and analysis of production conditions to improve production efficiency, product quality, and reduce manufacturing costs.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-car-con.jpg" alt="Automotive Industry Applications" /&gt;&lt;/p&gt;
+&lt;h2 id="application-scenarios"&gt;Application Scenarios&lt;/h2&gt;
+&lt;h3 id="smart-manufacturing"&gt;Smart Manufacturing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Real-time Production Monitoring&lt;/strong&gt; - Real-time monitoring of production line status and timely anomaly detection&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Predictive Equipment Maintenance&lt;/strong&gt; - Equipment maintenance prediction based on operational data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Quality Control Optimization&lt;/strong&gt; - Quality control process optimization through data analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Production Planning &amp;amp; Scheduling&lt;/strong&gt; - Intelligent production planning and scheduling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="supply-chain-management"&gt;Supply Chain Management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Supplier Evaluation Analysis&lt;/strong&gt; - Multi-dimensional supplier performance evaluation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inventory Optimization Management&lt;/strong&gt; - Inventory level optimization based on demand forecasting&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Logistics Route Optimization&lt;/strong&gt; - Optimize logistics delivery routes and costs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost Control Analysis&lt;/strong&gt; - Comprehensive cost analysis and control&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="product-development"&gt;Product Development&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;User Requirement Analysis&lt;/strong&gt; - Analyze user feedback and market demands&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Product Performance Optimization&lt;/strong&gt; - Product design optimization based on usage data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Test Data Analysis&lt;/strong&gt; - In-depth analysis of product testing data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Market Trend Prediction&lt;/strong&gt; - Predict automotive market development trends&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="after-sales-service"&gt;After-sales Service&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Vehicle Fault Diagnosis&lt;/strong&gt; - Intelligent fault diagnosis and early warning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Maintenance Prediction Analysis&lt;/strong&gt; - Predict maintenance needs and costs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Customer Satisfaction Analysis&lt;/strong&gt; - Analyze customer satisfaction and improvement points&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Service Quality Enhancement&lt;/strong&gt; - Continuous service quality improvement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="technical-architecture"&gt;Technical Architecture&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-frame.jpg" alt="Technical Architecture" /&gt;&lt;/p&gt;</description></item><item><title>Banking Industry Solutions</title><link>https://axel888666.github.io/starcore/en/solutions/banking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/solutions/banking/</guid><description>&lt;p&gt;StellerCore Technology provides comprehensive big data platform solutions for the banking industry, helping banks achieve digital transformation, enhance risk management capabilities and customer service levels. Build financial-grade big data platforms based on Apache Hadoop ecosystem, supporting massive data processing and real-time analysis.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-bank-pic.jpg" alt="Banking Industry Architecture" /&gt;&lt;/p&gt;
+&lt;h2 id="core-functions"&gt;Core Functions&lt;/h2&gt;
+&lt;h3 id="risk-control"&gt;Risk Control&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Real-time Risk Monitoring&lt;/strong&gt; - 7×24 real-time transaction risk monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Credit Risk Assessment&lt;/strong&gt; - Big data-based credit risk assessment models&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anti-fraud Detection&lt;/strong&gt; - Intelligent anti-fraud detection and warning system&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compliance Regulatory Reporting&lt;/strong&gt; - Automated regulatory report generation and submission&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="customer-analysis"&gt;Customer Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Customer Profile Construction&lt;/strong&gt; - 360-degree customer profiles and tagging system&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Precision Marketing Recommendations&lt;/strong&gt; - Precision marketing based on customer behavior&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Customer Behavior Analysis&lt;/strong&gt; - In-depth analysis of customer transaction and behavior patterns&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Customer Value Assessment&lt;/strong&gt; - Customer lifetime value assessment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="operational-optimization"&gt;Operational Optimization&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Business Process Optimization&lt;/strong&gt; - Data-driven business process improvement&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost-benefit Analysis&lt;/strong&gt; - Comprehensive cost-benefit analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Channel Efficiency Analysis&lt;/strong&gt; - Channel efficiency comparison and optimization&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Product Profitability Analysis&lt;/strong&gt; - Product profitability analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="technical-architecture"&gt;Technical Architecture&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-frame.jpg" alt="Technical Architecture" /&gt;&lt;/p&gt;</description></item><item><title>Insurance Industry Solutions</title><link>https://axel888666.github.io/starcore/en/solutions/insurance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/solutions/insurance/</guid><description>&lt;p&gt;Provide comprehensive big data solutions for the insurance industry, covering core business scenarios such as actuarial modeling, risk assessment, anti-fraud, and customer service, helping insurance companies achieve digital transformation and intelligent operations.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-insurance-pic.jpg" alt="Insurance Industry Applications" /&gt;&lt;/p&gt;
+&lt;h2 id="core-applications"&gt;Core Applications&lt;/h2&gt;
+&lt;h3 id="actuarial-modeling"&gt;Actuarial Modeling&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Product Pricing Models&lt;/strong&gt; - Precise pricing based on big data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reserve Assessment&lt;/strong&gt; - Intelligent reserve calculation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Solvency Monitoring&lt;/strong&gt; - Real-time solvency analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Risk Capital Calculation&lt;/strong&gt; - Dynamic risk capital assessment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="risk-management"&gt;Risk Management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Underwriting Risk Assessment&lt;/strong&gt; - Intelligent underwriting decision support&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Claims Risk Identification&lt;/strong&gt; - Claims fraud identification and warning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Investment Risk Management&lt;/strong&gt; - Investment portfolio risk analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Operational Risk Monitoring&lt;/strong&gt; - Comprehensive operational risk management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="customer-service"&gt;Customer Service&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Customer Profile Analysis&lt;/strong&gt; - 360-degree customer view&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Personalized Recommendations&lt;/strong&gt; - Intelligent product recommendations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Customer Churn Prediction&lt;/strong&gt; - Customer churn early warning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Service Quality Improvement&lt;/strong&gt; - Customer satisfaction analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="anti-fraud-detection"&gt;Anti-fraud Detection&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Real-time Fraud Identification&lt;/strong&gt; - Millisecond-level fraud detection&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Abnormal Behavior Analysis&lt;/strong&gt; - Suspicious behavior pattern recognition&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Group Fraud Discovery&lt;/strong&gt; - Relationship network analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Historical Case Learning&lt;/strong&gt; - Machine learning continuous optimization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="customer-cases"&gt;Customer Cases&lt;/h2&gt;
+&lt;h3 id="kunlun-insurance-brokerage"&gt;Kunlun Insurance Brokerage&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/guest-kunlunrisk.png" alt="Kunlun Insurance" /&gt;&lt;/p&gt;</description></item><item><title>Energy Industry Solutions</title><link>https://axel888666.github.io/starcore/en/solutions/energy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/solutions/energy/</guid><description>&lt;p&gt;Provide complete solutions for data collection, storage, and analysis for energy enterprises such as power, oil, and natural gas, helping energy companies achieve intelligent operations and digital transformation.&lt;/p&gt;
+&lt;h2 id="application-scenarios"&gt;Application Scenarios&lt;/h2&gt;
+&lt;h3 id="power-industry"&gt;Power Industry&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Smart Grid Monitoring&lt;/strong&gt; - Real-time power grid status monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Load Forecasting Analysis&lt;/strong&gt; - Intelligent power load forecasting&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Equipment Condition Monitoring&lt;/strong&gt; - Power generation equipment health monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Energy Efficiency Optimization&lt;/strong&gt; - Energy efficiency optimization analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="oil--gas"&gt;Oil &amp;amp; Gas&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Exploration Data Analysis&lt;/strong&gt; - Geological exploration data processing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Production Optimization Control&lt;/strong&gt; - Oil and gas production process optimization&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pipeline Safety Monitoring&lt;/strong&gt; - Pipeline operation safety monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Market Price Analysis&lt;/strong&gt; - Energy market price forecasting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="renewable-energy"&gt;Renewable Energy&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Wind Farm Monitoring&lt;/strong&gt; - Intelligent wind farm monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Solar Power Analysis&lt;/strong&gt; - Solar power generation efficiency analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Energy Storage Management&lt;/strong&gt; - Intelligent energy storage equipment management&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Carbon Emission Monitoring&lt;/strong&gt; - Carbon emission data monitoring and analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="customer-cases"&gt;Customer Cases&lt;/h2&gt;
+&lt;h3 id="dagang-oilfield"&gt;Dagang Oilfield&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/guest-oil.png" alt="Dagang Oilfield" /&gt;&lt;/p&gt;</description></item><item><title>Telecommunications Industry Solutions</title><link>https://axel888666.github.io/starcore/en/solutions/telecommunications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/solutions/telecommunications/</guid><description>&lt;p&gt;Help telecommunications operators build big data platforms, support applications such as network optimization, customer service, and business analysis, improving network quality and customer experience.&lt;/p&gt;
+&lt;h2 id="core-functions"&gt;Core Functions&lt;/h2&gt;
+&lt;h3 id="network-optimization"&gt;Network Optimization&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Network Performance Monitoring&lt;/strong&gt; - Real-time network quality monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Network Capacity Planning&lt;/strong&gt; - Data-driven capacity planning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fault Prediction Analysis&lt;/strong&gt; - Network fault prediction and prevention&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Optimization Recommendations&lt;/strong&gt; - Intelligent network optimization suggestions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="customer-analysis"&gt;Customer Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;User Behavior Analysis&lt;/strong&gt; - Deep user behavior insights&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Traffic Pattern Analysis&lt;/strong&gt; - Network traffic pattern recognition&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Customer Value Assessment&lt;/strong&gt; - Customer lifetime value&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Precision Marketing Recommendations&lt;/strong&gt; - Personalized service recommendations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="business-operations"&gt;Business Operations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Revenue Assurance Analysis&lt;/strong&gt; - Revenue leakage detection and analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fraud Detection Prevention&lt;/strong&gt; - Telecommunications fraud identification and warning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Service Quality Monitoring&lt;/strong&gt; - Real-time service quality monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Complaint Handling Optimization&lt;/strong&gt; - Intelligent customer complaint processing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="customer-cases"&gt;Customer Cases&lt;/h2&gt;
+&lt;h3 id="fiberhome-communications"&gt;FiberHome Communications&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/guest-fiberhome.png" alt="FiberHome Communications" /&gt;&lt;/p&gt;</description></item><item><title>Aerospace Solutions</title><link>https://axel888666.github.io/starcore/en/solutions/aerospace/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/solutions/aerospace/</guid><description>&lt;p&gt;Provide high-reliability big data solutions for aerospace enterprises, supporting critical applications such as flight data analysis, equipment monitoring, and mission planning, ensuring successful execution of aerospace missions.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-space-con.jpg" alt="Aerospace Applications" /&gt;&lt;/p&gt;
+&lt;h2 id="application-areas"&gt;Application Areas&lt;/h2&gt;
+&lt;h3 id="flight-data-analysis"&gt;Flight Data Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Flight Trajectory Analysis&lt;/strong&gt; - Precise flight trajectory calculation and analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Performance Parameter Monitoring&lt;/strong&gt; - Real-time flight performance monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anomaly Detection Warning&lt;/strong&gt; - Intelligent flight anomaly detection&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Optimization Recommendations&lt;/strong&gt; - Flight plan optimization suggestions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="equipment-health-management"&gt;Equipment Health Management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Equipment Condition Monitoring&lt;/strong&gt; - Aerospace equipment health monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Predictive Maintenance&lt;/strong&gt; - Equipment fault prediction analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lifecycle Assessment&lt;/strong&gt; - Equipment service life assessment&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Maintenance Plan Optimization&lt;/strong&gt; - Intelligent maintenance planning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="mission-planning-support"&gt;Mission Planning Support&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Orbit Calculation Analysis&lt;/strong&gt; - Precise orbit calculation and analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Resource Scheduling Optimization&lt;/strong&gt; - Intelligent mission resource scheduling&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Risk Assessment Analysis&lt;/strong&gt; - Mission risk assessment and warning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Decision Support System&lt;/strong&gt; - Intelligent mission decision support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-space-pic.jpg" alt="Aerospace Project Cases" /&gt;&lt;/p&gt;</description></item><item><title>Smart City Solutions</title><link>https://axel888666.github.io/starcore/en/solutions/smart-city/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/solutions/smart-city/</guid><description>&lt;p&gt;Provide smart city big data platforms for government and urban management departments, supporting applications such as urban governance, traffic management, and environmental monitoring, promoting intelligent urban development.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-smartcity-pic.jpg" alt="Smart City Applications" /&gt;&lt;/p&gt;
+&lt;h2 id="application-scenarios"&gt;Application Scenarios&lt;/h2&gt;
+&lt;h3 id="smart-transportation"&gt;Smart Transportation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Traffic Flow Monitoring&lt;/strong&gt; - Real-time traffic flow monitoring and analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Intelligent Signal Control&lt;/strong&gt; - Intelligent traffic signal optimization control&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Route Planning Optimization&lt;/strong&gt; - Optimal route planning recommendations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Congestion Prediction Warning&lt;/strong&gt; - Traffic congestion prediction and warning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="urban-governance"&gt;Urban Governance&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Population Flow Analysis&lt;/strong&gt; - Urban population flow pattern analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Public Safety Monitoring&lt;/strong&gt; - Urban security situation awareness&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Emergency Response Management&lt;/strong&gt; - Emergency incident response&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Government Service Optimization&lt;/strong&gt; - Government service process optimization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="environmental-monitoring"&gt;Environmental Monitoring&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Air Quality Monitoring&lt;/strong&gt; - Real-time air quality monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Water Quality Analysis&lt;/strong&gt; - Water environment quality monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Noise Pollution Control&lt;/strong&gt; - Urban noise pollution monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Environmental Warning System&lt;/strong&gt; - Environmental pollution warning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="public-services"&gt;Public Services&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Education Resource Allocation&lt;/strong&gt; - Optimal education resource allocation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Medical Service Optimization&lt;/strong&gt; - Intelligent medical resource scheduling&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Elderly Care Management&lt;/strong&gt; - Smart elderly care service platform&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cultural Tourism Recommendations&lt;/strong&gt; - Intelligent tourism recommendation services&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="customer-cases"&gt;Customer Cases&lt;/h2&gt;
+&lt;h3 id="liaoning-department-of-transportation"&gt;Liaoning Department of Transportation&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/guest-Department.png" alt="Liaoning Department of Transportation" /&gt;&lt;/p&gt;</description></item></channel></rss>
