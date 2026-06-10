@@ -16,7 +16,9 @@ images: ["images/solutionBanner.jpg"]
 
 星核动力科技为各行业提供专业的大数据解决方案，助力企业数字化转型。基于Apache Hadoop生态构建企业级大数据平台，支持海量数据处理、实时分析和智能决策。
 
-![解决方案架构](images/solution-frame.jpg)
+## 平台架构总览
+
+![企业级大数据平台五层架构](images/arch-bigdata-platform.svg)
 
 ## 重点行业
 

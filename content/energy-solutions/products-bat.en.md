@@ -10,7 +10,7 @@ weight: 3
   <p>LiFePO₄ Lithium Iron Phosphate　|　Modular Parallel Expansion</p>
 </div>
 
-![StarKernal BAT Energy Storage Battery Comparison](images/energy-bat-battery.svg)
+![StarKernal BAT Energy Storage Battery Comparison](images/energy-bat-battery-en.svg)
 
 ## Product Models
 

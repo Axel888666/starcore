@@ -10,7 +10,7 @@ weight: 5
   <p>Cloud Intelligence · VPP Virtual Power Plant · Full-Chain Visualization</p>
 </div>
 
-![AI Smart Energy Cloud Platform Architecture](images/energy-platform-cloud.svg)
+![AI Smart Energy Cloud Platform Architecture](images/energy-platform-cloud-en.svg)
 
 ## Six Core Capabilities
 

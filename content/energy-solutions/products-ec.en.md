@@ -10,7 +10,7 @@ weight: 1
   <p>Single-Phase 3.0-6.0 kW　|　Three-Phase 5.0-30.0 kW</p>
 </div>
 
-![StarKernal EC Energy Storage Inverter](images/energy-ec-inverter.svg)
+![StarKernal EC Energy Storage Inverter](images/energy-ec-inverter-en.svg)
 
 ## Product Specifications
 

@@ -10,7 +10,7 @@ weight: 6
   <p>Six core advantages for full-scenario solar-storage-charging solutions</p>
 </div>
 
-![Star Kernal Six Core Advantages](images/energy-advantages.svg)
+![Star Kernal Six Core Advantages](images/energy-advantages-en.svg)
 
 ## Six Core Advantages
 

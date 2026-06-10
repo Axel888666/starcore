@@ -44,6 +44,12 @@ Aligned with the national "Dual Carbon" strategic goals, Star Kernal deeply inte
 
 ---
 
+## System Architecture Overview
+
+![Smart Energy EMS System Architecture](images/arch-energy-ems-en.svg)
+
+---
+
 ## Core Product Portfolio
 
 <div class="energy-products-grid">

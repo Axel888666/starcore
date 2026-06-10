@@ -1,131 +1,612 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>StellerCore Technology - Big Data &amp; Smart Energy Dual-Core Solutions on StellerCore Technology - Enterprise New Energy &amp; Big Data Solutions Provider</title>
-    <link>http://localhost:1313/starcore/en/</link>
-    <description>Recent content in StellerCore Technology - Big Data &amp; Smart Energy Dual-Core Solutions on StellerCore Technology - Enterprise New Energy &amp; Big Data Solutions Provider</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/starcore/en/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Automotive Industry Solutions</title>
-      <link>http://localhost:1313/starcore/en/solutions/automotive/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/solutions/automotive/</guid>
-      <description>&lt;p&gt;Through big data technology, we collect and analyze various data from automotive manufacturing processes in real-time, enabling real-time tracking and analysis of production conditions to improve production efficiency, product quality, and reduce manufacturing costs.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/solution-car-con.jpg&#34; alt=&#34;Automotive Industry Applications&#34;  /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;application-scenarios&#34;&gt;Application Scenarios&lt;/h2&gt;&#xA;&lt;h3 id=&#34;smart-manufacturing&#34;&gt;Smart Manufacturing&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Real-time Production Monitoring&lt;/strong&gt; - Real-time monitoring of production line status and timely anomaly detection&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Predictive Equipment Maintenance&lt;/strong&gt; - Equipment maintenance prediction based on operational data&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Quality Control Optimization&lt;/strong&gt; - Quality control process optimization through data analysis&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Production Planning &amp;amp; Scheduling&lt;/strong&gt; - Intelligent production planning and scheduling&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;supply-chain-management&#34;&gt;Supply Chain Management&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Supplier Evaluation Analysis&lt;/strong&gt; - Multi-dimensional supplier performance evaluation&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Inventory Optimization Management&lt;/strong&gt; - Inventory level optimization based on demand forecasting&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Logistics Route Optimization&lt;/strong&gt; - Optimize logistics delivery routes and costs&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cost Control Analysis&lt;/strong&gt; - Comprehensive cost analysis and control&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;product-development&#34;&gt;Product Development&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;User Requirement Analysis&lt;/strong&gt; - Analyze user feedback and market demands&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Product Performance Optimization&lt;/strong&gt; - Product design optimization based on usage data&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Test Data Analysis&lt;/strong&gt; - In-depth analysis of product testing data&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Market Trend Prediction&lt;/strong&gt; - Predict automotive market development trends&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;after-sales-service&#34;&gt;After-sales Service&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Vehicle Fault Diagnosis&lt;/strong&gt; - Intelligent fault diagnosis and early warning&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Maintenance Prediction Analysis&lt;/strong&gt; - Predict maintenance needs and costs&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Customer Satisfaction Analysis&lt;/strong&gt; - Analyze customer satisfaction and improvement points&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Service Quality Enhancement&lt;/strong&gt; - Continuous service quality improvement&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technical-architecture&#34;&gt;Technical Architecture&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/solution-frame.jpg&#34; alt=&#34;Technical Architecture&#34;  /&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>StarKernal EC Energy Storage Inverter</title>
-      <link>http://localhost:1313/starcore/en/energy-solutions/products-ec/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/energy-solutions/products-ec/</guid>
-      <description>&lt;div class=&#34;energy-page-header&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;energy-breadcrumb&#34;&gt;&lt;a href=&#34;http://localhost:1313/starcore/energy-solutions/&#34;&gt;Smart Energy&lt;/a&gt; › Products › StarKernal EC&lt;/div&gt;&#xD;&#xA;  &lt;h1&gt;StarKernal EC Energy Storage Inverter&lt;/h1&gt;&#xD;&#xA;  &lt;p&gt;Single-Phase 3.0-6.0 kW　|　Three-Phase 5.0-30.0 kW&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/energy-ec-inverter.svg&#34; alt=&#34;StarKernal EC Energy Storage Inverter&#34;  /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;product-specifications&#34;&gt;Product Specifications&lt;/h2&gt;&#xA;&lt;div class=&#34;energy-spec-table&#34;&gt;&#xD;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Parameter&lt;/th&gt;&#xA;          &lt;th&gt;Specification&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Peak Conversion Efficiency&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;98.4%&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;MPPT Channels&lt;/td&gt;&#xA;          &lt;td&gt;2 - 4 Channels&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Battery Voltage Range&lt;/td&gt;&#xA;          &lt;td&gt;50 - 1000 V&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Protection Rating&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;IP66&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Cooling Method&lt;/td&gt;&#xA;          &lt;td&gt;Natural Convection&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Max DC Power&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;200% Overload&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Single-Phase Power Range&lt;/td&gt;&#xA;          &lt;td&gt;3.0 - 6.0 kW&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Three-Phase Power Range&lt;/td&gt;&#xA;          &lt;td&gt;5.0 - 30.0 kW&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h2 id=&#34;core-features&#34;&gt;Core Features&lt;/h2&gt;&#xA;&lt;h3 id=&#34;ultra-high-conversion-efficiency&#34;&gt;Ultra-High Conversion Efficiency&lt;/h3&gt;&#xA;&lt;p&gt;Peak conversion efficiency of &lt;strong&gt;98.4%&lt;/strong&gt; maximizes the conversion of PV energy into usable electricity, improving the overall yield of the PV system.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Banking Industry Solutions</title>
-      <link>http://localhost:1313/starcore/en/solutions/banking/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/solutions/banking/</guid>
-      <description>&lt;p&gt;StellerCore Technology provides comprehensive big data platform solutions for the banking industry, helping banks achieve digital transformation, enhance risk management capabilities and customer service levels. Build financial-grade big data platforms based on Apache Hadoop ecosystem, supporting massive data processing and real-time analysis.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/solution-bank-pic.jpg&#34; alt=&#34;Banking Industry Architecture&#34;  /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;core-functions&#34;&gt;Core Functions&lt;/h2&gt;&#xA;&lt;h3 id=&#34;risk-control&#34;&gt;Risk Control&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Real-time Risk Monitoring&lt;/strong&gt; - 7×24 real-time transaction risk monitoring&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Credit Risk Assessment&lt;/strong&gt; - Big data-based credit risk assessment models&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Anti-fraud Detection&lt;/strong&gt; - Intelligent anti-fraud detection and warning system&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Compliance Regulatory Reporting&lt;/strong&gt; - Automated regulatory report generation and submission&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;customer-analysis&#34;&gt;Customer Analysis&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Customer Profile Construction&lt;/strong&gt; - 360-degree customer profiles and tagging system&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Precision Marketing Recommendations&lt;/strong&gt; - Precision marketing based on customer behavior&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Customer Behavior Analysis&lt;/strong&gt; - In-depth analysis of customer transaction and behavior patterns&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Customer Value Assessment&lt;/strong&gt; - Customer lifetime value assessment&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;operational-optimization&#34;&gt;Operational Optimization&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Business Process Optimization&lt;/strong&gt; - Data-driven business process improvement&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cost-benefit Analysis&lt;/strong&gt; - Comprehensive cost-benefit analysis&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Channel Efficiency Analysis&lt;/strong&gt; - Channel efficiency comparison and optimization&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Product Profitability Analysis&lt;/strong&gt; - Product profitability analysis&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technical-architecture&#34;&gt;Technical Architecture&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/solution-frame.jpg&#34; alt=&#34;Technical Architecture&#34;  /&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>StarKernal Hybrid Inverter</title>
-      <link>http://localhost:1313/starcore/en/energy-solutions/products-hybrid/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/energy-solutions/products-hybrid/</guid>
-      <description>&lt;div class=&#34;energy-page-header&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;energy-breadcrumb&#34;&gt;&lt;a href=&#34;http://localhost:1313/starcore/energy-solutions/&#34;&gt;Smart Energy&lt;/a&gt; › Products › StarKernal Hybrid&lt;/div&gt;&#xD;&#xA;  &lt;h1&gt;StarKernal Hybrid Inverter&lt;/h1&gt;&#xD;&#xA;  &lt;p&gt;Single-Phase 2.0-6.0 kW　|　Three-Phase 3.0-12.0 kW&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/energy-hybrid-inverter.svg&#34; alt=&#34;StarKernal Hybrid Inverter Specifications&#34;  /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;product-highlights&#34;&gt;Product Highlights&lt;/h2&gt;&#xA;&lt;div class=&#34;energy-highlights-grid&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;energy-highlight&#34;&gt;&#xD;&#xA;    &lt;span class=&#34;energy-highlight-num&#34;&gt;99.0%&lt;/span&gt;&#xD;&#xA;    &lt;span class=&#34;energy-highlight-label&#34;&gt;Peak Conversion Efficiency&lt;/span&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;energy-highlight&#34;&gt;&#xD;&#xA;    &lt;span class=&#34;energy-highlight-num&#34;&gt;25dB&lt;/span&gt;&#xD;&#xA;    &lt;span class=&#34;energy-highlight-label&#34;&gt;Ultra-Quiet Operation&lt;/span&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;energy-highlight&#34;&gt;&#xD;&#xA;    &lt;span class=&#34;energy-highlight-num&#34;&gt;200%&lt;/span&gt;&#xD;&#xA;    &lt;span class=&#34;energy-highlight-label&#34;&gt;DC Overload Capacity&lt;/span&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;energy-highlight&#34;&gt;&#xD;&#xA;    &lt;span class=&#34;energy-highlight-num&#34;&gt;98mm&lt;/span&gt;&#xD;&#xA;    &lt;span class=&#34;energy-highlight-label&#34;&gt;Ultra-Slim Design&lt;/span&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h2 id=&#34;product-specifications&#34;&gt;Product Specifications&lt;/h2&gt;&#xA;&lt;h3 id=&#34;single-phase-series&#34;&gt;Single-Phase Series&lt;/h3&gt;&#xA;&lt;p&gt;2.0 / 3.0 / 3.6 / 4.0 / 4.6 / 5.0 / 6.0 kW&lt;/p&gt;&#xA;&lt;h3 id=&#34;three-phase-series&#34;&gt;Three-Phase Series&lt;/h3&gt;&#xA;&lt;p&gt;3.0 / 4.0 / 5.0 / 6.0 / 8.0 / 10.0 / 12.0 kW&lt;/p&gt;&#xA;&lt;div class=&#34;energy-spec-table&#34;&gt;&#xD;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Parameter&lt;/th&gt;&#xA;          &lt;th&gt;Specification&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;MPPT Range&lt;/td&gt;&#xA;          &lt;td&gt;Single-Phase 50-550V　|　Three-Phase 160-1000V&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Battery Connection&lt;/td&gt;&#xA;          &lt;td&gt;StarKernal BAT 1-6 Units in Parallel&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Communication Interface&lt;/td&gt;&#xA;          &lt;td&gt;WLAN / FE / RS485&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Standby Power Consumption&lt;/td&gt;&#xA;          &lt;td&gt;Only &lt;strong&gt;2.5W&lt;/strong&gt; (Three-Phase)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Operating Noise&lt;/td&gt;&#xA;          &lt;td&gt;Only &lt;strong&gt;25dB&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Thickness&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;98mm&lt;/strong&gt; Ultra-Slim Design&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/starcore/en/energy-solutions/&#34;&gt;Back to Product Portfolio&lt;/a&gt; | &lt;a href=&#34;http://localhost:1313/starcore/en/contact/&#34;&gt;Contact Sales&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Insurance Industry Solutions</title>
-      <link>http://localhost:1313/starcore/en/solutions/insurance/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/solutions/insurance/</guid>
-      <description>&lt;p&gt;Provide comprehensive big data solutions for the insurance industry, covering core business scenarios such as actuarial modeling, risk assessment, anti-fraud, and customer service, helping insurance companies achieve digital transformation and intelligent operations.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/solution-insurance-pic.jpg&#34; alt=&#34;Insurance Industry Applications&#34;  /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;core-applications&#34;&gt;Core Applications&lt;/h2&gt;&#xA;&lt;h3 id=&#34;actuarial-modeling&#34;&gt;Actuarial Modeling&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Product Pricing Models&lt;/strong&gt; - Precise pricing based on big data&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Reserve Assessment&lt;/strong&gt; - Intelligent reserve calculation&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Solvency Monitoring&lt;/strong&gt; - Real-time solvency analysis&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Risk Capital Calculation&lt;/strong&gt; - Dynamic risk capital assessment&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;risk-management&#34;&gt;Risk Management&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Underwriting Risk Assessment&lt;/strong&gt; - Intelligent underwriting decision support&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Claims Risk Identification&lt;/strong&gt; - Claims fraud identification and warning&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Investment Risk Management&lt;/strong&gt; - Investment portfolio risk analysis&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Operational Risk Monitoring&lt;/strong&gt; - Comprehensive operational risk management&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;customer-service&#34;&gt;Customer Service&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Customer Profile Analysis&lt;/strong&gt; - 360-degree customer view&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Personalized Recommendations&lt;/strong&gt; - Intelligent product recommendations&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Customer Churn Prediction&lt;/strong&gt; - Customer churn early warning&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Service Quality Improvement&lt;/strong&gt; - Customer satisfaction analysis&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;anti-fraud-detection&#34;&gt;Anti-fraud Detection&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Real-time Fraud Identification&lt;/strong&gt; - Millisecond-level fraud detection&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Abnormal Behavior Analysis&lt;/strong&gt; - Suspicious behavior pattern recognition&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Group Fraud Discovery&lt;/strong&gt; - Relationship network analysis&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Historical Case Learning&lt;/strong&gt; - Machine learning continuous optimization&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;customer-cases&#34;&gt;Customer Cases&lt;/h2&gt;&#xA;&lt;h3 id=&#34;kunlun-insurance-brokerage&#34;&gt;Kunlun Insurance Brokerage&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/guest-kunlunrisk.png&#34; alt=&#34;Kunlun Insurance&#34;  /&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>StarKernal BAT Energy Storage Battery</title>
-      <link>http://localhost:1313/starcore/en/energy-solutions/products-bat/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/energy-solutions/products-bat/</guid>
-      <description>&lt;div class=&#34;energy-page-header&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;energy-breadcrumb&#34;&gt;&lt;a href=&#34;http://localhost:1313/starcore/energy-solutions/&#34;&gt;Smart Energy&lt;/a&gt; › Products › StarKernal BAT&lt;/div&gt;&#xD;&#xA;  &lt;h1&gt;StarKernal BAT Energy Storage Battery&lt;/h1&gt;&#xD;&#xA;  &lt;p&gt;LiFePO₄ Lithium Iron Phosphate　|　Modular Parallel Expansion&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/energy-bat-battery.svg&#34; alt=&#34;StarKernal BAT Energy Storage Battery Comparison&#34;  /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;product-models&#34;&gt;Product Models&lt;/h2&gt;&#xA;&lt;div class=&#34;energy-bat-compare&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;energy-bat-model&#34;&gt;&#xD;&#xA;    &lt;h3&gt;StarKernal BAT 6.0&lt;/h3&gt;&#xD;&#xA;    &lt;div class=&#34;energy-bat-chemistry&#34;&gt;LiFePO₄ Lithium Iron Phosphate&lt;/div&gt;&#xD;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Parameter&lt;/th&gt;&#xA;          &lt;th&gt;Specification&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Rated Capacity&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;6.02 kWh&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Nominal Voltage&lt;/td&gt;&#xA;          &lt;td&gt;314 Ah&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Charge Power&lt;/td&gt;&#xA;          &lt;td&gt;3000 W&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Discharge Power&lt;/td&gt;&#xA;          &lt;td&gt;4600 W&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Cycle Life&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;≥ 10000 Cycles&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Weight&lt;/td&gt;&#xA;          &lt;td&gt;62 kg&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Protection Rating&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;IP66&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;energy-bat-model&#34;&gt;&#xD;&#xA;    &lt;h3&gt;StarKernal BAT 10.0&lt;/h3&gt;&#xD;&#xA;    &lt;div class=&#34;energy-bat-chemistry&#34;&gt;LiFePO₄ Lithium Iron Phosphate&lt;/div&gt;&#xD;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Parameter&lt;/th&gt;&#xA;          &lt;th&gt;Specification&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Rated Capacity&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;9.04 kWh&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Nominal Voltage&lt;/td&gt;&#xA;          &lt;td&gt;314 Ah&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Charge Power&lt;/td&gt;&#xA;          &lt;td&gt;4500 W&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Discharge Power&lt;/td&gt;&#xA;          &lt;td&gt;6900 W&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Cycle Life&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;≥ 10000 Cycles&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Weight&lt;/td&gt;&#xA;          &lt;td&gt;78 kg&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Protection Rating&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;IP66&lt;/strong&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;h2 id=&#34;core-advantages&#34;&gt;Core Advantages&lt;/h2&gt;&#xA;&lt;h3 id=&#34;lifepo-chemistry&#34;&gt;LiFePO₄ Chemistry&lt;/h3&gt;&#xA;&lt;p&gt;Mature and stable LiFePO₄ technology with excellent thermal stability, no risk of thermal runaway, far superior safety compared to ternary lithium batteries.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Energy Industry Solutions</title>
-      <link>http://localhost:1313/starcore/en/solutions/energy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/solutions/energy/</guid>
-      <description>&lt;p&gt;Provide complete solutions for data collection, storage, and analysis for energy enterprises such as power, oil, and natural gas, helping energy companies achieve intelligent operations and digital transformation.&lt;/p&gt;&#xA;&lt;h2 id=&#34;application-scenarios&#34;&gt;Application Scenarios&lt;/h2&gt;&#xA;&lt;h3 id=&#34;power-industry&#34;&gt;Power Industry&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Smart Grid Monitoring&lt;/strong&gt; - Real-time power grid status monitoring&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Load Forecasting Analysis&lt;/strong&gt; - Intelligent power load forecasting&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Equipment Condition Monitoring&lt;/strong&gt; - Power generation equipment health monitoring&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Energy Efficiency Optimization&lt;/strong&gt; - Energy efficiency optimization analysis&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;oil--gas&#34;&gt;Oil &amp;amp; Gas&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Exploration Data Analysis&lt;/strong&gt; - Geological exploration data processing&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Production Optimization Control&lt;/strong&gt; - Oil and gas production process optimization&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Pipeline Safety Monitoring&lt;/strong&gt; - Pipeline operation safety monitoring&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Market Price Analysis&lt;/strong&gt; - Energy market price forecasting&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;renewable-energy&#34;&gt;Renewable Energy&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Wind Farm Monitoring&lt;/strong&gt; - Intelligent wind farm monitoring&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Solar Power Analysis&lt;/strong&gt; - Solar power generation efficiency analysis&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Energy Storage Management&lt;/strong&gt; - Intelligent energy storage equipment management&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Carbon Emission Monitoring&lt;/strong&gt; - Carbon emission data monitoring and analysis&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;customer-cases&#34;&gt;Customer Cases&lt;/h2&gt;&#xA;&lt;h3 id=&#34;dagang-oilfield&#34;&gt;Dagang Oilfield&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/guest-oil.png&#34; alt=&#34;Dagang Oilfield&#34;  /&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>StarKernal EVDC DC EV Charger</title>
-      <link>http://localhost:1313/starcore/en/energy-solutions/products-ev/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/energy-solutions/products-ev/</guid>
-      <description>&lt;div class=&#34;energy-page-header&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;energy-breadcrumb&#34;&gt;&lt;a href=&#34;http://localhost:1313/starcore/energy-solutions/&#34;&gt;Smart Energy&lt;/a&gt; › Products › StarKernal EVDC&lt;/div&gt;&#xD;&#xA;  &lt;h1&gt;StarKernal EVDC DC EV Charger&lt;/h1&gt;&#xD;&#xA;  &lt;p&gt;12 kW　|　25 kW　Dual Power Versions&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/energy-ev-charger.svg&#34; alt=&#34;StarKernal EVDC V2G Bidirectional Charging System&#34;  /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;core-features&#34;&gt;Core Features&lt;/h2&gt;&#xA;&lt;div class=&#34;energy-ev-features&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;energy-ev-feature&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;energy-ev-feature-icon&#34;&gt;🔄&lt;/div&gt;&#xD;&#xA;    &lt;h3&gt;V2X Vehicle-to-Grid (V2G)&lt;/h3&gt;&#xD;&#xA;    &lt;p&gt;Supports bidirectional energy flow between vehicle and grid. EVs serve as mobile storage: charge during off-peak, discharge to grid during peak, participating in VPP for revenue.&lt;/p&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;energy-ev-feature&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;energy-ev-feature-icon&#34;&gt;⚡&lt;/div&gt;&#xD;&#xA;    &lt;h3&gt;Plug &amp; Charge&lt;/h3&gt;&#xD;&#xA;    &lt;p&gt;Multiple start methods: RFID card, mobile App scan, LED indicator — simple operation adapting to all user habits.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>AI Smart Energy Cloud Platform</title>
-      <link>http://localhost:1313/starcore/en/energy-solutions/platform/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/energy-solutions/platform/</guid>
-      <description>&lt;div class=&#34;energy-page-header&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;energy-breadcrumb&#34;&gt;&lt;a href=&#34;http://localhost:1313/starcore/energy-solutions/&#34;&gt;Smart Energy&lt;/a&gt; › AI Cloud Platform&lt;/div&gt;&#xD;&#xA;  &lt;h1&gt;AI Smart Energy Cloud Platform&lt;/h1&gt;&#xD;&#xA;  &lt;p&gt;Cloud Intelligence · VPP Virtual Power Plant · Full-Chain Visualization&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/energy-platform-cloud.svg&#34; alt=&#34;AI Smart Energy Cloud Platform Architecture&#34;  /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;six-core-capabilities&#34;&gt;Six Core Capabilities&lt;/h2&gt;&#xA;&lt;div class=&#34;energy-platform-features&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;energy-platform-feature&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;energy-platform-icon&#34;&gt;🧠&lt;/div&gt;&#xD;&#xA;    &lt;h3&gt;AI Intelligent Scheduling&lt;/h3&gt;&#xD;&#xA;    &lt;p&gt;Deep learning-based electricity consumption forecasting and storage scheduling optimization. AI algorithms predict electricity load and PV generation, intelligently optimizing charge/discharge strategies to maximize peak-valley arbitrage and minimize electricity costs.&lt;/p&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;energy-platform-feature&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;energy-platform-icon&#34;&gt;☁️&lt;/div&gt;&#xD;&#xA;    &lt;h3&gt;Cloud Collaborative Management&lt;/h3&gt;&#xD;&#xA;    &lt;p&gt;Unified cloud management for multi-device, multi-site operations with real-time monitoring and remote O&amp;M. All device statuses are fully visible, supporting batch remote configuration and firmware upgrades.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Telecommunications Industry Solutions</title>
-      <link>http://localhost:1313/starcore/en/solutions/telecommunications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/solutions/telecommunications/</guid>
-      <description>&lt;p&gt;Help telecommunications operators build big data platforms, support applications such as network optimization, customer service, and business analysis, improving network quality and customer experience.&lt;/p&gt;&#xA;&lt;h2 id=&#34;core-functions&#34;&gt;Core Functions&lt;/h2&gt;&#xA;&lt;h3 id=&#34;network-optimization&#34;&gt;Network Optimization&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Network Performance Monitoring&lt;/strong&gt; - Real-time network quality monitoring&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Network Capacity Planning&lt;/strong&gt; - Data-driven capacity planning&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Fault Prediction Analysis&lt;/strong&gt; - Network fault prediction and prevention&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Optimization Recommendations&lt;/strong&gt; - Intelligent network optimization suggestions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;customer-analysis&#34;&gt;Customer Analysis&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;User Behavior Analysis&lt;/strong&gt; - Deep user behavior insights&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Traffic Pattern Analysis&lt;/strong&gt; - Network traffic pattern recognition&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Customer Value Assessment&lt;/strong&gt; - Customer lifetime value&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Precision Marketing Recommendations&lt;/strong&gt; - Personalized service recommendations&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;business-operations&#34;&gt;Business Operations&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Revenue Assurance Analysis&lt;/strong&gt; - Revenue leakage detection and analysis&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Fraud Detection Prevention&lt;/strong&gt; - Telecommunications fraud identification and warning&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Service Quality Monitoring&lt;/strong&gt; - Real-time service quality monitoring&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Complaint Handling Optimization&lt;/strong&gt; - Intelligent customer complaint processing&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;customer-cases&#34;&gt;Customer Cases&lt;/h2&gt;&#xA;&lt;h3 id=&#34;fiberhome-communications&#34;&gt;FiberHome Communications&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/guest-fiberhome.png&#34; alt=&#34;FiberHome Communications&#34;  /&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Aerospace Solutions</title>
-      <link>http://localhost:1313/starcore/en/solutions/aerospace/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/solutions/aerospace/</guid>
-      <description>&lt;p&gt;Provide high-reliability big data solutions for aerospace enterprises, supporting critical applications such as flight data analysis, equipment monitoring, and mission planning, ensuring successful execution of aerospace missions.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/solution-space-con.jpg&#34; alt=&#34;Aerospace Applications&#34;  /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;application-areas&#34;&gt;Application Areas&lt;/h2&gt;&#xA;&lt;h3 id=&#34;flight-data-analysis&#34;&gt;Flight Data Analysis&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Flight Trajectory Analysis&lt;/strong&gt; - Precise flight trajectory calculation and analysis&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Performance Parameter Monitoring&lt;/strong&gt; - Real-time flight performance monitoring&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Anomaly Detection Warning&lt;/strong&gt; - Intelligent flight anomaly detection&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Optimization Recommendations&lt;/strong&gt; - Flight plan optimization suggestions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;equipment-health-management&#34;&gt;Equipment Health Management&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Equipment Condition Monitoring&lt;/strong&gt; - Aerospace equipment health monitoring&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Predictive Maintenance&lt;/strong&gt; - Equipment fault prediction analysis&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Lifecycle Assessment&lt;/strong&gt; - Equipment service life assessment&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Maintenance Plan Optimization&lt;/strong&gt; - Intelligent maintenance planning&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;mission-planning-support&#34;&gt;Mission Planning Support&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Orbit Calculation Analysis&lt;/strong&gt; - Precise orbit calculation and analysis&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Resource Scheduling Optimization&lt;/strong&gt; - Intelligent mission resource scheduling&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Risk Assessment Analysis&lt;/strong&gt; - Mission risk assessment and warning&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Decision Support System&lt;/strong&gt; - Intelligent mission decision support&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/solution-space-pic.jpg&#34; alt=&#34;Aerospace Project Cases&#34;  /&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Core Advantages</title>
-      <link>http://localhost:1313/starcore/en/energy-solutions/advantages/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/energy-solutions/advantages/</guid>
-      <description>&lt;div class=&#34;energy-page-header&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;energy-breadcrumb&#34;&gt;&lt;a href=&#34;http://localhost:1313/starcore/energy-solutions/&#34;&gt;Smart Energy&lt;/a&gt; › Core Advantages&lt;/div&gt;&#xD;&#xA;  &lt;h1&gt;Technology Leadership · Safety &amp; Reliability&lt;/h1&gt;&#xD;&#xA;  &lt;p&gt;Six core advantages for full-scenario solar-storage-charging solutions&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/energy-advantages.svg&#34; alt=&#34;Star Kernal Six Core Advantages&#34;  /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;six-core-advantages&#34;&gt;Six Core Advantages&lt;/h2&gt;&#xA;&lt;div class=&#34;energy-advantages-grid&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;energy-advantage-card&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;energy-advantage-icon&#34;&gt;🛡️&lt;/div&gt;&#xD;&#xA;    &lt;h3&gt;Ultimate Safety&lt;/h3&gt;&#xD;&#xA;    &lt;p&gt;Cell-level fire isolation, AFCI intelligent DC arc detection, and multi-layer safety protection system. Every level from cell to system has comprehensive safety protection, safeguarding residential and commercial users.&lt;/p&gt;&#xD;&#xA;    &lt;ul&gt;&#xD;&#xA;      &lt;li&gt;Cell-level thermal runaway protection&lt;/li&gt;&#xD;&#xA;      &lt;li&gt;AFCI DC arc detection&lt;/li&gt;&#xD;&#xA;      &lt;li&gt;Multi-layer OCP/OVP protection&lt;/li&gt;&#xD;&#xA;      &lt;li&gt;Fire linkage interface&lt;/li&gt;&#xD;&#xA;    &lt;/ul&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;energy-advantage-card&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;energy-advantage-icon&#34;&gt;🧠&lt;/div&gt;&#xD;&#xA;    &lt;h3&gt;AI-Powered&lt;/h3&gt;&#xD;&#xA;    &lt;p&gt;Built-in AI chip with deep learning on consumption patterns for intelligent storage charge/discharge scheduling. AI algorithms continuously learn user electricity habits and solar patterns to automatically generate optimal plans.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Smart City Solutions</title>
-      <link>http://localhost:1313/starcore/en/solutions/smart-city/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/solutions/smart-city/</guid>
-      <description>&lt;p&gt;Provide smart city big data platforms for government and urban management departments, supporting applications such as urban governance, traffic management, and environmental monitoring, promoting intelligent urban development.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/solution-smartcity-pic.jpg&#34; alt=&#34;Smart City Applications&#34;  /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;application-scenarios&#34;&gt;Application Scenarios&lt;/h2&gt;&#xA;&lt;h3 id=&#34;smart-transportation&#34;&gt;Smart Transportation&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Traffic Flow Monitoring&lt;/strong&gt; - Real-time traffic flow monitoring and analysis&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Intelligent Signal Control&lt;/strong&gt; - Intelligent traffic signal optimization control&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Route Planning Optimization&lt;/strong&gt; - Optimal route planning recommendations&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Congestion Prediction Warning&lt;/strong&gt; - Traffic congestion prediction and warning&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;urban-governance&#34;&gt;Urban Governance&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Population Flow Analysis&lt;/strong&gt; - Urban population flow pattern analysis&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Public Safety Monitoring&lt;/strong&gt; - Urban security situation awareness&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Emergency Response Management&lt;/strong&gt; - Emergency incident response&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Government Service Optimization&lt;/strong&gt; - Government service process optimization&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;environmental-monitoring&#34;&gt;Environmental Monitoring&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Air Quality Monitoring&lt;/strong&gt; - Real-time air quality monitoring&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Water Quality Analysis&lt;/strong&gt; - Water environment quality monitoring&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Noise Pollution Control&lt;/strong&gt; - Urban noise pollution monitoring&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Environmental Warning System&lt;/strong&gt; - Environmental pollution warning&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;public-services&#34;&gt;Public Services&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Education Resource Allocation&lt;/strong&gt; - Optimal education resource allocation&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Medical Service Optimization&lt;/strong&gt; - Intelligent medical resource scheduling&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Elderly Care Management&lt;/strong&gt; - Smart elderly care service platform&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cultural Tourism Recommendations&lt;/strong&gt; - Intelligent tourism recommendation services&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;customer-cases&#34;&gt;Customer Cases&lt;/h2&gt;&#xA;&lt;h3 id=&#34;liaoning-department-of-transportation&#34;&gt;Liaoning Department of Transportation&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/guest-Department.png&#34; alt=&#34;Liaoning Department of Transportation&#34;  /&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Zero-Carbon Home Solution</title>
-      <link>http://localhost:1313/starcore/en/energy-solutions/scenario-home/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/energy-solutions/scenario-home/</guid>
-      <description>&lt;div class=&#34;energy-page-header&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;energy-breadcrumb&#34;&gt;&lt;a href=&#34;http://localhost:1313/starcore/energy-solutions/&#34;&gt;Smart Energy&lt;/a&gt; › Solutions › Zero-Carbon Home&lt;/div&gt;&#xD;&#xA;  &lt;h1&gt;🏠 Zero-Carbon Home Solution&lt;/h1&gt;&#xD;&#xA;  &lt;p&gt;Solar 8 kW　+　Storage 16 kWh　|　Energy Self-Sufficiency &amp;gt;80%&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/energy-scenario-home.svg&#34; alt=&#34;Zero-Carbon Home Solution System Diagram&#34;  /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;solution-overview&#34;&gt;Solution Overview&lt;/h2&gt;&#xA;&lt;p&gt;Designed for ordinary residential homes, combining PV generation with energy storage to significantly reduce grid dependence, achieve green low-carbon living, and substantially save on electricity costs.&lt;/p&gt;&#xA;&lt;h2 id=&#34;standard-configuration&#34;&gt;Standard Configuration&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Component&lt;/th&gt;&#xA;          &lt;th&gt;Model&lt;/th&gt;&#xA;          &lt;th&gt;Specification&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Hybrid Inverter&lt;/td&gt;&#xA;          &lt;td&gt;StarKernal Hybrid&lt;/td&gt;&#xA;          &lt;td&gt;Single-Phase 8.0 kW&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Energy Storage&lt;/td&gt;&#xA;          &lt;td&gt;StarKernal BAT 10.0 × 2&lt;/td&gt;&#xA;          &lt;td&gt;Total 18.08 kWh&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;PV Modules&lt;/td&gt;&#xA;          &lt;td&gt;Standard Monocrystalline&lt;/td&gt;&#xA;          &lt;td&gt;8 kWp&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Communication&lt;/td&gt;&#xA;          &lt;td&gt;StarKernal CommMod&lt;/td&gt;&#xA;          &lt;td&gt;4G/WiFi&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;system-operation-logic&#34;&gt;System Operation Logic&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Daytime&lt;/strong&gt;: PV generation supplies home consumption first, surplus stored in batteries, excess exported to grid.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Villa &amp; Large Residence Solution</title>
-      <link>http://localhost:1313/starcore/en/energy-solutions/scenario-villa/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/energy-solutions/scenario-villa/</guid>
-      <description>&lt;div class=&#34;energy-page-header&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;energy-breadcrumb&#34;&gt;&lt;a href=&#34;http://localhost:1313/starcore/energy-solutions/&#34;&gt;Smart Energy&lt;/a&gt; › Solutions › Villa &amp; Large Residence&lt;/div&gt;&#xD;&#xA;  &lt;h1&gt;🏡 Villa &amp; Large Residence Solution&lt;/h1&gt;&#xD;&#xA;  &lt;p&gt;Solar 16 kW　+　Storage 32 kWh　+　EV Charging 7 kW&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/energy-scenario-villa.svg&#34; alt=&#34;Villa &amp;amp; Large Residence Solution System Diagram&#34;  /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;solution-overview&#34;&gt;Solution Overview&lt;/h2&gt;&#xA;&lt;p&gt;Designed for large homes and villas. Large-capacity PV combined with large-capacity storage, plus V2G bidirectional EV charging, achieves near-complete energy self-sufficiency and enables participation in VPP programs for additional revenue.&lt;/p&gt;&#xA;&lt;h2 id=&#34;standard-configuration&#34;&gt;Standard Configuration&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Component&lt;/th&gt;&#xA;          &lt;th&gt;Model&lt;/th&gt;&#xA;          &lt;th&gt;Specification&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Hybrid Inverter&lt;/td&gt;&#xA;          &lt;td&gt;StarKernal Hybrid Three-Phase&lt;/td&gt;&#xA;          &lt;td&gt;12.0 kW&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Energy Storage&lt;/td&gt;&#xA;          &lt;td&gt;StarKernal BAT 10.0 × 4&lt;/td&gt;&#xA;          &lt;td&gt;Total 36 kWh&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;PV Modules&lt;/td&gt;&#xA;          &lt;td&gt;Standard Monocrystalline&lt;/td&gt;&#xA;          &lt;td&gt;16 kWp&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;EV Charger&lt;/td&gt;&#xA;          &lt;td&gt;StarKernal EVDC 7kW&lt;/td&gt;&#xA;          &lt;td&gt;With V2G&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Communication&lt;/td&gt;&#xA;          &lt;td&gt;StarKernal CommMod&lt;/td&gt;&#xA;          &lt;td&gt;5G/WiFi&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;key-features&#34;&gt;Key Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;V2G Bidirectional Charging&lt;/strong&gt; — EV participates in home energy storage, provides emergency backup during outages&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Three-Phase High Power&lt;/strong&gt; — Supports central air conditioning, electric water heaters and other high-power appliances&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Whole-Home Energy Management&lt;/strong&gt; — AI system unified scheduling, prioritizing PV and storage power&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;economic-benefits&#34;&gt;Economic Benefits&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Annual Generation&lt;/strong&gt;: ~18,000 to 20,000 kWh&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Annual Electricity Savings&lt;/strong&gt;: ~$1,500 to $2,500&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Estimated Payback Period&lt;/strong&gt;: 5 to 8 years&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/starcore/en/energy-solutions/&#34;&gt;Back to Solutions&lt;/a&gt; | &lt;a href=&#34;http://localhost:1313/starcore/en/contact/&#34;&gt;Get a Quote&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Small C&amp;I Solution</title>
-      <link>http://localhost:1313/starcore/en/energy-solutions/scenario-commercial/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/energy-solutions/scenario-commercial/</guid>
-      <description>&lt;div class=&#34;energy-page-header&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;energy-breadcrumb&#34;&gt;&lt;a href=&#34;http://localhost:1313/starcore/energy-solutions/&#34;&gt;Smart Energy&lt;/a&gt; › Solutions › Small C&amp;I&lt;/div&gt;&#xD;&#xA;  &lt;h1&gt;🏭 Small C&amp;I Solution&lt;/h1&gt;&#xD;&#xA;  &lt;p&gt;Solar 25 kW　+　Storage 48 kWh　|　Peak-Valley Arbitrage for Business&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/energy-scenario-commercial.svg&#34; alt=&#34;Small C&amp;amp;I Peak-Valley Arbitrage Solution&#34;  /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;solution-overview&#34;&gt;Solution Overview&lt;/h2&gt;&#xA;&lt;p&gt;Designed for small factories, shops, and office buildings. The solar-storage system charges during off-peak hours and discharges during peak hours, effectively reducing basic electricity fees and kWh charges while providing UPS-level power backup for critical equipment.&lt;/p&gt;&#xA;&lt;h2 id=&#34;standard-configuration&#34;&gt;Standard Configuration&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Component&lt;/th&gt;&#xA;          &lt;th&gt;Model&lt;/th&gt;&#xA;          &lt;th&gt;Specification&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Storage Inverter&lt;/td&gt;&#xA;          &lt;td&gt;StarKernal EC Three-Phase&lt;/td&gt;&#xA;          &lt;td&gt;25.0 kW&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Energy Storage&lt;/td&gt;&#xA;          &lt;td&gt;StarKernal BAT 10.0 × 5&lt;/td&gt;&#xA;          &lt;td&gt;Total 45 kWh&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;PV Modules&lt;/td&gt;&#xA;          &lt;td&gt;Standard Monocrystalline&lt;/td&gt;&#xA;          &lt;td&gt;25 kWp&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Communication&lt;/td&gt;&#xA;          &lt;td&gt;StarKernal CommMod&lt;/td&gt;&#xA;          &lt;td&gt;4G&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;peak-valley-arbitrage-model&#34;&gt;Peak-Valley Arbitrage Model&lt;/h2&gt;&#xA;&lt;p&gt;Based on typical commercial tariff spread (~$0.15/kWh):&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Integrated Solar-Storage-Charging Solution</title>
-      <link>http://localhost:1313/starcore/en/energy-solutions/scenario-integrated/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/starcore/en/energy-solutions/scenario-integrated/</guid>
-      <description>&lt;div class=&#34;energy-page-header&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;energy-breadcrumb&#34;&gt;&lt;a href=&#34;http://localhost:1313/starcore/energy-solutions/&#34;&gt;Smart Energy&lt;/a&gt; › Solutions › Integrated Solar-Storage-Charging&lt;/div&gt;&#xD;&#xA;  &lt;h1&gt;⚡ Integrated Solar-Storage-Charging Solution&lt;/h1&gt;&#xD;&#xA;  &lt;p&gt;Solar 70 kW　+　Storage 336 kWh　+　Charging 300 kW　|　Large Commercial Flagship&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/starcore/images/energy-scenario-integrated.svg&#34; alt=&#34;Integrated Solar-Storage-Charging Flagship Architecture&#34;  /&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;solution-overview&#34;&gt;Solution Overview&lt;/h2&gt;&#xA;&lt;p&gt;Designed for industrial parks, large commercial centers, and charging stations. Integrates large-scale PV generation, centralized energy storage, and rapid EV charging, unified through AI cloud platform scheduling, maximizing energy utilization and enabling participation in electricity markets for additional revenue.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>StellerCore Technology - Big Data &amp; Smart Energy Dual-Core Solutions on StellerCore Technology - Enterprise New Energy &amp; Big Data Solutions Provider</title><link>https://axel888666.github.io/starcore/en/</link><description>Recent content in StellerCore Technology - Big Data &amp; Smart Energy Dual-Core Solutions on StellerCore Technology - Enterprise New Energy &amp; Big Data Solutions Provider</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate><atom:link href="https://axel888666.github.io/starcore/en/index.xml" rel="self" type="application/rss+xml"/><item><title>Automotive Industry Solutions</title><link>https://axel888666.github.io/starcore/en/solutions/automotive/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/solutions/automotive/</guid><description>&lt;p&gt;Through big data technology, we collect and analyze various data from automotive manufacturing processes in real-time, enabling real-time tracking and analysis of production conditions to improve production efficiency, product quality, and reduce manufacturing costs.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-car-con.jpg" alt="Automotive Industry Applications" /&gt;&lt;/p&gt;
+&lt;h2 id="application-scenarios"&gt;Application Scenarios&lt;/h2&gt;
+&lt;h3 id="smart-manufacturing"&gt;Smart Manufacturing&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Real-time Production Monitoring&lt;/strong&gt; - Real-time monitoring of production line status and timely anomaly detection&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Predictive Equipment Maintenance&lt;/strong&gt; - Equipment maintenance prediction based on operational data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Quality Control Optimization&lt;/strong&gt; - Quality control process optimization through data analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Production Planning &amp;amp; Scheduling&lt;/strong&gt; - Intelligent production planning and scheduling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="supply-chain-management"&gt;Supply Chain Management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Supplier Evaluation Analysis&lt;/strong&gt; - Multi-dimensional supplier performance evaluation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inventory Optimization Management&lt;/strong&gt; - Inventory level optimization based on demand forecasting&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Logistics Route Optimization&lt;/strong&gt; - Optimize logistics delivery routes and costs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost Control Analysis&lt;/strong&gt; - Comprehensive cost analysis and control&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="product-development"&gt;Product Development&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;User Requirement Analysis&lt;/strong&gt; - Analyze user feedback and market demands&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Product Performance Optimization&lt;/strong&gt; - Product design optimization based on usage data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Test Data Analysis&lt;/strong&gt; - In-depth analysis of product testing data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Market Trend Prediction&lt;/strong&gt; - Predict automotive market development trends&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="after-sales-service"&gt;After-sales Service&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Vehicle Fault Diagnosis&lt;/strong&gt; - Intelligent fault diagnosis and early warning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Maintenance Prediction Analysis&lt;/strong&gt; - Predict maintenance needs and costs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Customer Satisfaction Analysis&lt;/strong&gt; - Analyze customer satisfaction and improvement points&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Service Quality Enhancement&lt;/strong&gt; - Continuous service quality improvement&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="technical-architecture"&gt;Technical Architecture&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-frame.jpg" alt="Technical Architecture" /&gt;&lt;/p&gt;</description></item><item><title>StarKernal EC Energy Storage Inverter</title><link>https://axel888666.github.io/starcore/en/energy-solutions/products-ec/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/energy-solutions/products-ec/</guid><description>&lt;div class="energy-page-header"&gt;
+ &lt;div class="energy-breadcrumb"&gt;&lt;a href="https://axel888666.github.io/starcore/energy-solutions/"&gt;Smart Energy&lt;/a&gt; › Products › StarKernal EC&lt;/div&gt;
+ &lt;h1&gt;StarKernal EC Energy Storage Inverter&lt;/h1&gt;
+ &lt;p&gt;Single-Phase 3.0-6.0 kW　|　Three-Phase 5.0-30.0 kW&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/energy-ec-inverter-en.svg" alt="StarKernal EC Energy Storage Inverter" /&gt;&lt;/p&gt;
+&lt;h2 id="product-specifications"&gt;Product Specifications&lt;/h2&gt;
+&lt;div class="energy-spec-table"&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Parameter&lt;/th&gt;
+ &lt;th&gt;Specification&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Peak Conversion Efficiency&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;98.4%&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;MPPT Channels&lt;/td&gt;
+ &lt;td&gt;2 - 4 Channels&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Battery Voltage Range&lt;/td&gt;
+ &lt;td&gt;50 - 1000 V&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Protection Rating&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;IP66&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Cooling Method&lt;/td&gt;
+ &lt;td&gt;Natural Convection&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Max DC Power&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;200% Overload&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Single-Phase Power Range&lt;/td&gt;
+ &lt;td&gt;3.0 - 6.0 kW&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Three-Phase Power Range&lt;/td&gt;
+ &lt;td&gt;5.0 - 30.0 kW&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;h2 id="core-features"&gt;Core Features&lt;/h2&gt;
+&lt;h3 id="ultra-high-conversion-efficiency"&gt;Ultra-High Conversion Efficiency&lt;/h3&gt;
+&lt;p&gt;Peak conversion efficiency of &lt;strong&gt;98.4%&lt;/strong&gt; maximizes the conversion of PV energy into usable electricity, improving the overall yield of the PV system.&lt;/p&gt;</description></item><item><title>Banking Industry Solutions</title><link>https://axel888666.github.io/starcore/en/solutions/banking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/solutions/banking/</guid><description>&lt;p&gt;StellerCore Technology provides comprehensive big data platform solutions for the banking industry, helping banks achieve digital transformation, enhance risk management capabilities and customer service levels. Build financial-grade big data platforms based on Apache Hadoop ecosystem, supporting massive data processing and real-time analysis.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-bank-pic.jpg" alt="Banking Industry Architecture" /&gt;&lt;/p&gt;
+&lt;h2 id="core-functions"&gt;Core Functions&lt;/h2&gt;
+&lt;h3 id="risk-control"&gt;Risk Control&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Real-time Risk Monitoring&lt;/strong&gt; - 7×24 real-time transaction risk monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Credit Risk Assessment&lt;/strong&gt; - Big data-based credit risk assessment models&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anti-fraud Detection&lt;/strong&gt; - Intelligent anti-fraud detection and warning system&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compliance Regulatory Reporting&lt;/strong&gt; - Automated regulatory report generation and submission&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="customer-analysis"&gt;Customer Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Customer Profile Construction&lt;/strong&gt; - 360-degree customer profiles and tagging system&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Precision Marketing Recommendations&lt;/strong&gt; - Precision marketing based on customer behavior&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Customer Behavior Analysis&lt;/strong&gt; - In-depth analysis of customer transaction and behavior patterns&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Customer Value Assessment&lt;/strong&gt; - Customer lifetime value assessment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="operational-optimization"&gt;Operational Optimization&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Business Process Optimization&lt;/strong&gt; - Data-driven business process improvement&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost-benefit Analysis&lt;/strong&gt; - Comprehensive cost-benefit analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Channel Efficiency Analysis&lt;/strong&gt; - Channel efficiency comparison and optimization&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Product Profitability Analysis&lt;/strong&gt; - Product profitability analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="technical-architecture"&gt;Technical Architecture&lt;/h2&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-frame.jpg" alt="Technical Architecture" /&gt;&lt;/p&gt;</description></item><item><title>StarKernal Hybrid Inverter</title><link>https://axel888666.github.io/starcore/en/energy-solutions/products-hybrid/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/energy-solutions/products-hybrid/</guid><description>&lt;div class="energy-page-header"&gt;
+ &lt;div class="energy-breadcrumb"&gt;&lt;a href="https://axel888666.github.io/starcore/energy-solutions/"&gt;Smart Energy&lt;/a&gt; › Products › StarKernal Hybrid&lt;/div&gt;
+ &lt;h1&gt;StarKernal Hybrid Inverter&lt;/h1&gt;
+ &lt;p&gt;Single-Phase 2.0-6.0 kW　|　Three-Phase 3.0-12.0 kW&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/energy-hybrid-inverter-en.svg" alt="StarKernal Hybrid Inverter Specifications" /&gt;&lt;/p&gt;
+&lt;h2 id="product-highlights"&gt;Product Highlights&lt;/h2&gt;
+&lt;div class="energy-highlights-grid"&gt;
+ &lt;div class="energy-highlight"&gt;
+ &lt;span class="energy-highlight-num"&gt;99.0%&lt;/span&gt;
+ &lt;span class="energy-highlight-label"&gt;Peak Conversion Efficiency&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;div class="energy-highlight"&gt;
+ &lt;span class="energy-highlight-num"&gt;25dB&lt;/span&gt;
+ &lt;span class="energy-highlight-label"&gt;Ultra-Quiet Operation&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;div class="energy-highlight"&gt;
+ &lt;span class="energy-highlight-num"&gt;200%&lt;/span&gt;
+ &lt;span class="energy-highlight-label"&gt;DC Overload Capacity&lt;/span&gt;
+ &lt;/div&gt;
+ &lt;div class="energy-highlight"&gt;
+ &lt;span class="energy-highlight-num"&gt;98mm&lt;/span&gt;
+ &lt;span class="energy-highlight-label"&gt;Ultra-Slim Design&lt;/span&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id="product-specifications"&gt;Product Specifications&lt;/h2&gt;
+&lt;h3 id="single-phase-series"&gt;Single-Phase Series&lt;/h3&gt;
+&lt;p&gt;2.0 / 3.0 / 3.6 / 4.0 / 4.6 / 5.0 / 6.0 kW&lt;/p&gt;
+&lt;h3 id="three-phase-series"&gt;Three-Phase Series&lt;/h3&gt;
+&lt;p&gt;3.0 / 4.0 / 5.0 / 6.0 / 8.0 / 10.0 / 12.0 kW&lt;/p&gt;
+&lt;div class="energy-spec-table"&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Parameter&lt;/th&gt;
+ &lt;th&gt;Specification&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;MPPT Range&lt;/td&gt;
+ &lt;td&gt;Single-Phase 50-550V　|　Three-Phase 160-1000V&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Battery Connection&lt;/td&gt;
+ &lt;td&gt;StarKernal BAT 1-6 Units in Parallel&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Communication Interface&lt;/td&gt;
+ &lt;td&gt;WLAN / FE / RS485&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Standby Power Consumption&lt;/td&gt;
+ &lt;td&gt;Only &lt;strong&gt;2.5W&lt;/strong&gt; (Three-Phase)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Operating Noise&lt;/td&gt;
+ &lt;td&gt;Only &lt;strong&gt;25dB&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Thickness&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;98mm&lt;/strong&gt; Ultra-Slim Design&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://axel888666.github.io/starcore/en/energy-solutions/"&gt;Back to Product Portfolio&lt;/a&gt; | &lt;a href="https://axel888666.github.io/starcore/en/contact/"&gt;Contact Sales&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Insurance Industry Solutions</title><link>https://axel888666.github.io/starcore/en/solutions/insurance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/solutions/insurance/</guid><description>&lt;p&gt;Provide comprehensive big data solutions for the insurance industry, covering core business scenarios such as actuarial modeling, risk assessment, anti-fraud, and customer service, helping insurance companies achieve digital transformation and intelligent operations.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-insurance-pic.jpg" alt="Insurance Industry Applications" /&gt;&lt;/p&gt;
+&lt;h2 id="core-applications"&gt;Core Applications&lt;/h2&gt;
+&lt;h3 id="actuarial-modeling"&gt;Actuarial Modeling&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Product Pricing Models&lt;/strong&gt; - Precise pricing based on big data&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reserve Assessment&lt;/strong&gt; - Intelligent reserve calculation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Solvency Monitoring&lt;/strong&gt; - Real-time solvency analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Risk Capital Calculation&lt;/strong&gt; - Dynamic risk capital assessment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="risk-management"&gt;Risk Management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Underwriting Risk Assessment&lt;/strong&gt; - Intelligent underwriting decision support&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Claims Risk Identification&lt;/strong&gt; - Claims fraud identification and warning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Investment Risk Management&lt;/strong&gt; - Investment portfolio risk analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Operational Risk Monitoring&lt;/strong&gt; - Comprehensive operational risk management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="customer-service"&gt;Customer Service&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Customer Profile Analysis&lt;/strong&gt; - 360-degree customer view&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Personalized Recommendations&lt;/strong&gt; - Intelligent product recommendations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Customer Churn Prediction&lt;/strong&gt; - Customer churn early warning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Service Quality Improvement&lt;/strong&gt; - Customer satisfaction analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="anti-fraud-detection"&gt;Anti-fraud Detection&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Real-time Fraud Identification&lt;/strong&gt; - Millisecond-level fraud detection&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Abnormal Behavior Analysis&lt;/strong&gt; - Suspicious behavior pattern recognition&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Group Fraud Discovery&lt;/strong&gt; - Relationship network analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Historical Case Learning&lt;/strong&gt; - Machine learning continuous optimization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="customer-cases"&gt;Customer Cases&lt;/h2&gt;
+&lt;h3 id="kunlun-insurance-brokerage"&gt;Kunlun Insurance Brokerage&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/guest-kunlunrisk.png" alt="Kunlun Insurance" /&gt;&lt;/p&gt;</description></item><item><title>StarKernal BAT Energy Storage Battery</title><link>https://axel888666.github.io/starcore/en/energy-solutions/products-bat/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/energy-solutions/products-bat/</guid><description>&lt;div class="energy-page-header"&gt;
+ &lt;div class="energy-breadcrumb"&gt;&lt;a href="https://axel888666.github.io/starcore/energy-solutions/"&gt;Smart Energy&lt;/a&gt; › Products › StarKernal BAT&lt;/div&gt;
+ &lt;h1&gt;StarKernal BAT Energy Storage Battery&lt;/h1&gt;
+ &lt;p&gt;LiFePO₄ Lithium Iron Phosphate　|　Modular Parallel Expansion&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/energy-bat-battery-en.svg" alt="StarKernal BAT Energy Storage Battery Comparison" /&gt;&lt;/p&gt;
+&lt;h2 id="product-models"&gt;Product Models&lt;/h2&gt;
+&lt;div class="energy-bat-compare"&gt;
+ &lt;div class="energy-bat-model"&gt;
+ &lt;h3&gt;StarKernal BAT 6.0&lt;/h3&gt;
+ &lt;div class="energy-bat-chemistry"&gt;LiFePO₄ Lithium Iron Phosphate&lt;/div&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Parameter&lt;/th&gt;
+ &lt;th&gt;Specification&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Rated Capacity&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;6.02 kWh&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Nominal Voltage&lt;/td&gt;
+ &lt;td&gt;314 Ah&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Charge Power&lt;/td&gt;
+ &lt;td&gt;3000 W&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Discharge Power&lt;/td&gt;
+ &lt;td&gt;4600 W&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Cycle Life&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;≥ 10000 Cycles&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Weight&lt;/td&gt;
+ &lt;td&gt;62 kg&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Protection Rating&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;IP66&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+ &lt;/div&gt;
+ &lt;div class="energy-bat-model"&gt;
+ &lt;h3&gt;StarKernal BAT 10.0&lt;/h3&gt;
+ &lt;div class="energy-bat-chemistry"&gt;LiFePO₄ Lithium Iron Phosphate&lt;/div&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Parameter&lt;/th&gt;
+ &lt;th&gt;Specification&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Rated Capacity&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;9.04 kWh&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Nominal Voltage&lt;/td&gt;
+ &lt;td&gt;314 Ah&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Charge Power&lt;/td&gt;
+ &lt;td&gt;4500 W&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Discharge Power&lt;/td&gt;
+ &lt;td&gt;6900 W&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Cycle Life&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;≥ 10000 Cycles&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Weight&lt;/td&gt;
+ &lt;td&gt;78 kg&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Protection Rating&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;IP66&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+ &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id="core-advantages"&gt;Core Advantages&lt;/h2&gt;
+&lt;h3 id="lifepo-chemistry"&gt;LiFePO₄ Chemistry&lt;/h3&gt;
+&lt;p&gt;Mature and stable LiFePO₄ technology with excellent thermal stability, no risk of thermal runaway, far superior safety compared to ternary lithium batteries.&lt;/p&gt;</description></item><item><title>Energy Industry Solutions</title><link>https://axel888666.github.io/starcore/en/solutions/energy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/solutions/energy/</guid><description>&lt;p&gt;Provide complete solutions for data collection, storage, and analysis for energy enterprises such as power, oil, and natural gas, helping energy companies achieve intelligent operations and digital transformation.&lt;/p&gt;
+&lt;h2 id="application-scenarios"&gt;Application Scenarios&lt;/h2&gt;
+&lt;h3 id="power-industry"&gt;Power Industry&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Smart Grid Monitoring&lt;/strong&gt; - Real-time power grid status monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Load Forecasting Analysis&lt;/strong&gt; - Intelligent power load forecasting&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Equipment Condition Monitoring&lt;/strong&gt; - Power generation equipment health monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Energy Efficiency Optimization&lt;/strong&gt; - Energy efficiency optimization analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="oil--gas"&gt;Oil &amp;amp; Gas&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Exploration Data Analysis&lt;/strong&gt; - Geological exploration data processing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Production Optimization Control&lt;/strong&gt; - Oil and gas production process optimization&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pipeline Safety Monitoring&lt;/strong&gt; - Pipeline operation safety monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Market Price Analysis&lt;/strong&gt; - Energy market price forecasting&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="renewable-energy"&gt;Renewable Energy&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Wind Farm Monitoring&lt;/strong&gt; - Intelligent wind farm monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Solar Power Analysis&lt;/strong&gt; - Solar power generation efficiency analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Energy Storage Management&lt;/strong&gt; - Intelligent energy storage equipment management&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Carbon Emission Monitoring&lt;/strong&gt; - Carbon emission data monitoring and analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="customer-cases"&gt;Customer Cases&lt;/h2&gt;
+&lt;h3 id="dagang-oilfield"&gt;Dagang Oilfield&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/guest-oil.png" alt="Dagang Oilfield" /&gt;&lt;/p&gt;</description></item><item><title>StarKernal EVDC DC EV Charger</title><link>https://axel888666.github.io/starcore/en/energy-solutions/products-ev/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/energy-solutions/products-ev/</guid><description>&lt;div class="energy-page-header"&gt;
+ &lt;div class="energy-breadcrumb"&gt;&lt;a href="https://axel888666.github.io/starcore/energy-solutions/"&gt;Smart Energy&lt;/a&gt; › Products › StarKernal EVDC&lt;/div&gt;
+ &lt;h1&gt;StarKernal EVDC DC EV Charger&lt;/h1&gt;
+ &lt;p&gt;12 kW　|　25 kW　Dual Power Versions&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/energy-ev-charger-en.svg" alt="StarKernal EVDC V2G Bidirectional Charging System" /&gt;&lt;/p&gt;
+&lt;h2 id="core-features"&gt;Core Features&lt;/h2&gt;
+&lt;div class="energy-ev-features"&gt;
+ &lt;div class="energy-ev-feature"&gt;
+ &lt;div class="energy-ev-feature-icon"&gt;🔄&lt;/div&gt;
+ &lt;h3&gt;V2X Vehicle-to-Grid (V2G)&lt;/h3&gt;
+ &lt;p&gt;Supports bidirectional energy flow between vehicle and grid. EVs serve as mobile storage: charge during off-peak, discharge to grid during peak, participating in VPP for revenue.&lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="energy-ev-feature"&gt;
+ &lt;div class="energy-ev-feature-icon"&gt;⚡&lt;/div&gt;
+ &lt;h3&gt;Plug &amp; Charge&lt;/h3&gt;
+ &lt;p&gt;Multiple start methods: RFID card, mobile App scan, LED indicator — simple operation adapting to all user habits.&lt;/p&gt;</description></item><item><title>AI Smart Energy Cloud Platform</title><link>https://axel888666.github.io/starcore/en/energy-solutions/platform/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/energy-solutions/platform/</guid><description>&lt;div class="energy-page-header"&gt;
+ &lt;div class="energy-breadcrumb"&gt;&lt;a href="https://axel888666.github.io/starcore/energy-solutions/"&gt;Smart Energy&lt;/a&gt; › AI Cloud Platform&lt;/div&gt;
+ &lt;h1&gt;AI Smart Energy Cloud Platform&lt;/h1&gt;
+ &lt;p&gt;Cloud Intelligence · VPP Virtual Power Plant · Full-Chain Visualization&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/energy-platform-cloud-en.svg" alt="AI Smart Energy Cloud Platform Architecture" /&gt;&lt;/p&gt;
+&lt;h2 id="six-core-capabilities"&gt;Six Core Capabilities&lt;/h2&gt;
+&lt;div class="energy-platform-features"&gt;
+ &lt;div class="energy-platform-feature"&gt;
+ &lt;div class="energy-platform-icon"&gt;🧠&lt;/div&gt;
+ &lt;h3&gt;AI Intelligent Scheduling&lt;/h3&gt;
+ &lt;p&gt;Deep learning-based electricity consumption forecasting and storage scheduling optimization. AI algorithms predict electricity load and PV generation, intelligently optimizing charge/discharge strategies to maximize peak-valley arbitrage and minimize electricity costs.&lt;/p&gt;
+ &lt;/div&gt;
+ &lt;div class="energy-platform-feature"&gt;
+ &lt;div class="energy-platform-icon"&gt;☁️&lt;/div&gt;
+ &lt;h3&gt;Cloud Collaborative Management&lt;/h3&gt;
+ &lt;p&gt;Unified cloud management for multi-device, multi-site operations with real-time monitoring and remote O&amp;M. All device statuses are fully visible, supporting batch remote configuration and firmware upgrades.&lt;/p&gt;</description></item><item><title>Telecommunications Industry Solutions</title><link>https://axel888666.github.io/starcore/en/solutions/telecommunications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/solutions/telecommunications/</guid><description>&lt;p&gt;Help telecommunications operators build big data platforms, support applications such as network optimization, customer service, and business analysis, improving network quality and customer experience.&lt;/p&gt;
+&lt;h2 id="core-functions"&gt;Core Functions&lt;/h2&gt;
+&lt;h3 id="network-optimization"&gt;Network Optimization&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Network Performance Monitoring&lt;/strong&gt; - Real-time network quality monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Network Capacity Planning&lt;/strong&gt; - Data-driven capacity planning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fault Prediction Analysis&lt;/strong&gt; - Network fault prediction and prevention&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Optimization Recommendations&lt;/strong&gt; - Intelligent network optimization suggestions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="customer-analysis"&gt;Customer Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;User Behavior Analysis&lt;/strong&gt; - Deep user behavior insights&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Traffic Pattern Analysis&lt;/strong&gt; - Network traffic pattern recognition&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Customer Value Assessment&lt;/strong&gt; - Customer lifetime value&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Precision Marketing Recommendations&lt;/strong&gt; - Personalized service recommendations&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="business-operations"&gt;Business Operations&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Revenue Assurance Analysis&lt;/strong&gt; - Revenue leakage detection and analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fraud Detection Prevention&lt;/strong&gt; - Telecommunications fraud identification and warning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Service Quality Monitoring&lt;/strong&gt; - Real-time service quality monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Complaint Handling Optimization&lt;/strong&gt; - Intelligent customer complaint processing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="customer-cases"&gt;Customer Cases&lt;/h2&gt;
+&lt;h3 id="fiberhome-communications"&gt;FiberHome Communications&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/guest-fiberhome.png" alt="FiberHome Communications" /&gt;&lt;/p&gt;</description></item><item><title>Aerospace Solutions</title><link>https://axel888666.github.io/starcore/en/solutions/aerospace/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/solutions/aerospace/</guid><description>&lt;p&gt;Provide high-reliability big data solutions for aerospace enterprises, supporting critical applications such as flight data analysis, equipment monitoring, and mission planning, ensuring successful execution of aerospace missions.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-space-con.jpg" alt="Aerospace Applications" /&gt;&lt;/p&gt;
+&lt;h2 id="application-areas"&gt;Application Areas&lt;/h2&gt;
+&lt;h3 id="flight-data-analysis"&gt;Flight Data Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Flight Trajectory Analysis&lt;/strong&gt; - Precise flight trajectory calculation and analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Performance Parameter Monitoring&lt;/strong&gt; - Real-time flight performance monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Anomaly Detection Warning&lt;/strong&gt; - Intelligent flight anomaly detection&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Optimization Recommendations&lt;/strong&gt; - Flight plan optimization suggestions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="equipment-health-management"&gt;Equipment Health Management&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Equipment Condition Monitoring&lt;/strong&gt; - Aerospace equipment health monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Predictive Maintenance&lt;/strong&gt; - Equipment fault prediction analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Lifecycle Assessment&lt;/strong&gt; - Equipment service life assessment&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Maintenance Plan Optimization&lt;/strong&gt; - Intelligent maintenance planning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="mission-planning-support"&gt;Mission Planning Support&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Orbit Calculation Analysis&lt;/strong&gt; - Precise orbit calculation and analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Resource Scheduling Optimization&lt;/strong&gt; - Intelligent mission resource scheduling&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Risk Assessment Analysis&lt;/strong&gt; - Mission risk assessment and warning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Decision Support System&lt;/strong&gt; - Intelligent mission decision support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-space-pic.jpg" alt="Aerospace Project Cases" /&gt;&lt;/p&gt;</description></item><item><title>Core Advantages</title><link>https://axel888666.github.io/starcore/en/energy-solutions/advantages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/energy-solutions/advantages/</guid><description>&lt;div class="energy-page-header"&gt;
+ &lt;div class="energy-breadcrumb"&gt;&lt;a href="https://axel888666.github.io/starcore/energy-solutions/"&gt;Smart Energy&lt;/a&gt; › Core Advantages&lt;/div&gt;
+ &lt;h1&gt;Technology Leadership · Safety &amp; Reliability&lt;/h1&gt;
+ &lt;p&gt;Six core advantages for full-scenario solar-storage-charging solutions&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/energy-advantages-en.svg" alt="Star Kernal Six Core Advantages" /&gt;&lt;/p&gt;
+&lt;h2 id="six-core-advantages"&gt;Six Core Advantages&lt;/h2&gt;
+&lt;div class="energy-advantages-grid"&gt;
+ &lt;div class="energy-advantage-card"&gt;
+ &lt;div class="energy-advantage-icon"&gt;🛡️&lt;/div&gt;
+ &lt;h3&gt;Ultimate Safety&lt;/h3&gt;
+ &lt;p&gt;Cell-level fire isolation, AFCI intelligent DC arc detection, and multi-layer safety protection system. Every level from cell to system has comprehensive safety protection, safeguarding residential and commercial users.&lt;/p&gt;
+ &lt;ul&gt;
+ &lt;li&gt;Cell-level thermal runaway protection&lt;/li&gt;
+ &lt;li&gt;AFCI DC arc detection&lt;/li&gt;
+ &lt;li&gt;Multi-layer OCP/OVP protection&lt;/li&gt;
+ &lt;li&gt;Fire linkage interface&lt;/li&gt;
+ &lt;/ul&gt;
+ &lt;/div&gt;
+ &lt;div class="energy-advantage-card"&gt;
+ &lt;div class="energy-advantage-icon"&gt;🧠&lt;/div&gt;
+ &lt;h3&gt;AI-Powered&lt;/h3&gt;
+ &lt;p&gt;Built-in AI chip with deep learning on consumption patterns for intelligent storage charge/discharge scheduling. AI algorithms continuously learn user electricity habits and solar patterns to automatically generate optimal plans.&lt;/p&gt;</description></item><item><title>Smart City Solutions</title><link>https://axel888666.github.io/starcore/en/solutions/smart-city/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/solutions/smart-city/</guid><description>&lt;p&gt;Provide smart city big data platforms for government and urban management departments, supporting applications such as urban governance, traffic management, and environmental monitoring, promoting intelligent urban development.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/solution-smartcity-pic.jpg" alt="Smart City Applications" /&gt;&lt;/p&gt;
+&lt;h2 id="application-scenarios"&gt;Application Scenarios&lt;/h2&gt;
+&lt;h3 id="smart-transportation"&gt;Smart Transportation&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Traffic Flow Monitoring&lt;/strong&gt; - Real-time traffic flow monitoring and analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Intelligent Signal Control&lt;/strong&gt; - Intelligent traffic signal optimization control&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Route Planning Optimization&lt;/strong&gt; - Optimal route planning recommendations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Congestion Prediction Warning&lt;/strong&gt; - Traffic congestion prediction and warning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="urban-governance"&gt;Urban Governance&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Population Flow Analysis&lt;/strong&gt; - Urban population flow pattern analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Public Safety Monitoring&lt;/strong&gt; - Urban security situation awareness&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Emergency Response Management&lt;/strong&gt; - Emergency incident response&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Government Service Optimization&lt;/strong&gt; - Government service process optimization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="environmental-monitoring"&gt;Environmental Monitoring&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Air Quality Monitoring&lt;/strong&gt; - Real-time air quality monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Water Quality Analysis&lt;/strong&gt; - Water environment quality monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Noise Pollution Control&lt;/strong&gt; - Urban noise pollution monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Environmental Warning System&lt;/strong&gt; - Environmental pollution warning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="public-services"&gt;Public Services&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Education Resource Allocation&lt;/strong&gt; - Optimal education resource allocation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Medical Service Optimization&lt;/strong&gt; - Intelligent medical resource scheduling&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Elderly Care Management&lt;/strong&gt; - Smart elderly care service platform&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cultural Tourism Recommendations&lt;/strong&gt; - Intelligent tourism recommendation services&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="customer-cases"&gt;Customer Cases&lt;/h2&gt;
+&lt;h3 id="liaoning-department-of-transportation"&gt;Liaoning Department of Transportation&lt;/h3&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/guest-Department.png" alt="Liaoning Department of Transportation" /&gt;&lt;/p&gt;</description></item><item><title>Zero-Carbon Home Solution</title><link>https://axel888666.github.io/starcore/en/energy-solutions/scenario-home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/energy-solutions/scenario-home/</guid><description>&lt;div class="energy-page-header"&gt;
+ &lt;div class="energy-breadcrumb"&gt;&lt;a href="https://axel888666.github.io/starcore/energy-solutions/"&gt;Smart Energy&lt;/a&gt; › Solutions › Zero-Carbon Home&lt;/div&gt;
+ &lt;h1&gt;🏠 Zero-Carbon Home Solution&lt;/h1&gt;
+ &lt;p&gt;Solar 8 kW　+　Storage 16 kWh　|　Energy Self-Sufficiency &amp;gt;80%&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/energy-scenario-home.svg" alt="Zero-Carbon Home Solution System Diagram" /&gt;&lt;/p&gt;
+&lt;h2 id="solution-overview"&gt;Solution Overview&lt;/h2&gt;
+&lt;p&gt;Designed for ordinary residential homes, combining PV generation with energy storage to significantly reduce grid dependence, achieve green low-carbon living, and substantially save on electricity costs.&lt;/p&gt;
+&lt;h2 id="standard-configuration"&gt;Standard Configuration&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Component&lt;/th&gt;
+ &lt;th&gt;Model&lt;/th&gt;
+ &lt;th&gt;Specification&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Hybrid Inverter&lt;/td&gt;
+ &lt;td&gt;StarKernal Hybrid&lt;/td&gt;
+ &lt;td&gt;Single-Phase 8.0 kW&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Energy Storage&lt;/td&gt;
+ &lt;td&gt;StarKernal BAT 10.0 × 2&lt;/td&gt;
+ &lt;td&gt;Total 18.08 kWh&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;PV Modules&lt;/td&gt;
+ &lt;td&gt;Standard Monocrystalline&lt;/td&gt;
+ &lt;td&gt;8 kWp&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Communication&lt;/td&gt;
+ &lt;td&gt;StarKernal CommMod&lt;/td&gt;
+ &lt;td&gt;4G/WiFi&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="system-operation-logic"&gt;System Operation Logic&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Daytime&lt;/strong&gt;: PV generation supplies home consumption first, surplus stored in batteries, excess exported to grid.&lt;/p&gt;</description></item><item><title>Villa &amp; Large Residence Solution</title><link>https://axel888666.github.io/starcore/en/energy-solutions/scenario-villa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/energy-solutions/scenario-villa/</guid><description>&lt;div class="energy-page-header"&gt;
+ &lt;div class="energy-breadcrumb"&gt;&lt;a href="https://axel888666.github.io/starcore/energy-solutions/"&gt;Smart Energy&lt;/a&gt; › Solutions › Villa &amp; Large Residence&lt;/div&gt;
+ &lt;h1&gt;🏡 Villa &amp; Large Residence Solution&lt;/h1&gt;
+ &lt;p&gt;Solar 16 kW　+　Storage 32 kWh　+　EV Charging 7 kW&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/energy-scenario-villa.svg" alt="Villa &amp;amp; Large Residence Solution System Diagram" /&gt;&lt;/p&gt;
+&lt;h2 id="solution-overview"&gt;Solution Overview&lt;/h2&gt;
+&lt;p&gt;Designed for large homes and villas. Large-capacity PV combined with large-capacity storage, plus V2G bidirectional EV charging, achieves near-complete energy self-sufficiency and enables participation in VPP programs for additional revenue.&lt;/p&gt;
+&lt;h2 id="standard-configuration"&gt;Standard Configuration&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Component&lt;/th&gt;
+ &lt;th&gt;Model&lt;/th&gt;
+ &lt;th&gt;Specification&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Hybrid Inverter&lt;/td&gt;
+ &lt;td&gt;StarKernal Hybrid Three-Phase&lt;/td&gt;
+ &lt;td&gt;12.0 kW&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Energy Storage&lt;/td&gt;
+ &lt;td&gt;StarKernal BAT 10.0 × 4&lt;/td&gt;
+ &lt;td&gt;Total 36 kWh&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;PV Modules&lt;/td&gt;
+ &lt;td&gt;Standard Monocrystalline&lt;/td&gt;
+ &lt;td&gt;16 kWp&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;EV Charger&lt;/td&gt;
+ &lt;td&gt;StarKernal EVDC 7kW&lt;/td&gt;
+ &lt;td&gt;With V2G&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Communication&lt;/td&gt;
+ &lt;td&gt;StarKernal CommMod&lt;/td&gt;
+ &lt;td&gt;5G/WiFi&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="key-features"&gt;Key Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;V2G Bidirectional Charging&lt;/strong&gt; — EV participates in home energy storage, provides emergency backup during outages&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Three-Phase High Power&lt;/strong&gt; — Supports central air conditioning, electric water heaters and other high-power appliances&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Whole-Home Energy Management&lt;/strong&gt; — AI system unified scheduling, prioritizing PV and storage power&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="economic-benefits"&gt;Economic Benefits&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Annual Generation&lt;/strong&gt;: ~18,000 to 20,000 kWh&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Annual Electricity Savings&lt;/strong&gt;: ~$1,500 to $2,500&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Estimated Payback Period&lt;/strong&gt;: 5 to 8 years&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://axel888666.github.io/starcore/en/energy-solutions/"&gt;Back to Solutions&lt;/a&gt; | &lt;a href="https://axel888666.github.io/starcore/en/contact/"&gt;Get a Quote&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Small C&amp;I Solution</title><link>https://axel888666.github.io/starcore/en/energy-solutions/scenario-commercial/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/energy-solutions/scenario-commercial/</guid><description>&lt;div class="energy-page-header"&gt;
+ &lt;div class="energy-breadcrumb"&gt;&lt;a href="https://axel888666.github.io/starcore/energy-solutions/"&gt;Smart Energy&lt;/a&gt; › Solutions › Small C&amp;I&lt;/div&gt;
+ &lt;h1&gt;🏭 Small C&amp;I Solution&lt;/h1&gt;
+ &lt;p&gt;Solar 25 kW　+　Storage 48 kWh　|　Peak-Valley Arbitrage for Business&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/energy-scenario-commercial.svg" alt="Small C&amp;amp;I Peak-Valley Arbitrage Solution" /&gt;&lt;/p&gt;
+&lt;h2 id="solution-overview"&gt;Solution Overview&lt;/h2&gt;
+&lt;p&gt;Designed for small factories, shops, and office buildings. The solar-storage system charges during off-peak hours and discharges during peak hours, effectively reducing basic electricity fees and kWh charges while providing UPS-level power backup for critical equipment.&lt;/p&gt;
+&lt;h2 id="standard-configuration"&gt;Standard Configuration&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Component&lt;/th&gt;
+ &lt;th&gt;Model&lt;/th&gt;
+ &lt;th&gt;Specification&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Storage Inverter&lt;/td&gt;
+ &lt;td&gt;StarKernal EC Three-Phase&lt;/td&gt;
+ &lt;td&gt;25.0 kW&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Energy Storage&lt;/td&gt;
+ &lt;td&gt;StarKernal BAT 10.0 × 5&lt;/td&gt;
+ &lt;td&gt;Total 45 kWh&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;PV Modules&lt;/td&gt;
+ &lt;td&gt;Standard Monocrystalline&lt;/td&gt;
+ &lt;td&gt;25 kWp&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Communication&lt;/td&gt;
+ &lt;td&gt;StarKernal CommMod&lt;/td&gt;
+ &lt;td&gt;4G&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="peak-valley-arbitrage-model"&gt;Peak-Valley Arbitrage Model&lt;/h2&gt;
+&lt;p&gt;Based on typical commercial tariff spread (~$0.15/kWh):&lt;/p&gt;</description></item><item><title>Integrated Solar-Storage-Charging Solution</title><link>https://axel888666.github.io/starcore/en/energy-solutions/scenario-integrated/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://axel888666.github.io/starcore/en/energy-solutions/scenario-integrated/</guid><description>&lt;div class="energy-page-header"&gt;
+ &lt;div class="energy-breadcrumb"&gt;&lt;a href="https://axel888666.github.io/starcore/energy-solutions/"&gt;Smart Energy&lt;/a&gt; › Solutions › Integrated Solar-Storage-Charging&lt;/div&gt;
+ &lt;h1&gt;⚡ Integrated Solar-Storage-Charging Solution&lt;/h1&gt;
+ &lt;p&gt;Solar 70 kW　+　Storage 336 kWh　+　Charging 300 kW　|　Large Commercial Flagship&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://axel888666.github.io/starcore/images/energy-scenario-integrated.svg" alt="Integrated Solar-Storage-Charging Flagship Architecture" /&gt;&lt;/p&gt;
+&lt;h2 id="solution-overview"&gt;Solution Overview&lt;/h2&gt;
+&lt;p&gt;Designed for industrial parks, large commercial centers, and charging stations. Integrates large-scale PV generation, centralized energy storage, and rapid EV charging, unified through AI cloud platform scheduling, maximizing energy utilization and enabling participation in electricity markets for additional revenue.&lt;/p&gt;</description></item></channel></rss>

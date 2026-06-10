@@ -10,7 +10,7 @@ weight: 2
   <p>Single-Phase 2.0-6.0 kW　|　Three-Phase 3.0-12.0 kW</p>
 </div>
 
-![StarKernal Hybrid Inverter Specifications](images/energy-hybrid-inverter.svg)
+![StarKernal Hybrid Inverter Specifications](images/energy-hybrid-inverter-en.svg)
 
 ## Product Highlights
 

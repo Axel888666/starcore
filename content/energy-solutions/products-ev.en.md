@@ -10,7 +10,7 @@ weight: 4
   <p>12 kW　|　25 kW　Dual Power Versions</p>
 </div>
 
-![StarKernal EVDC V2G Bidirectional Charging System](images/energy-ev-charger.svg)
+![StarKernal EVDC V2G Bidirectional Charging System](images/energy-ev-charger-en.svg)
 
 ## Core Features
 

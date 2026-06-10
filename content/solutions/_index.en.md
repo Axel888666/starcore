@@ -15,6 +15,10 @@ description: "Professional big data solutions for various industries — Enterpr
 
 StellerCore Technology provides professional big data solutions for various industries, helping enterprises achieve digital transformation. Build enterprise-level big data platforms based on Apache Hadoop ecosystem, supporting massive data processing, real-time analysis and intelligent decision-making.
 
+## Platform Architecture Overview
+
+![Enterprise Big Data Platform 5-Layer Architecture](images/arch-bigdata-platform-en.svg)
+
 ## Key Industries
 
 ### Financial Services

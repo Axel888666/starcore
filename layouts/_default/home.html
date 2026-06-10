@@ -79,7 +79,7 @@
         </div>
         <!-- 架构图行 -->
         <div class="arch-diagram-row">
-            <img src="{{ printf "%simages/arch-energy-ems.svg" $.Site.BaseURL }}" alt="{{ if eq .Site.Language.Lang "zh" }}新能源EMS智慧能源管理系统架构{{ else }}Smart Energy EMS Architecture{{ end }}" class="arch-diagram-full">
+            <img src="{{ printf "%simages/%s" $.Site.BaseURL (cond (eq .Site.Language.Lang "zh") "arch-energy-ems.svg" "arch-energy-ems-en.svg") }}" alt="{{ if eq .Site.Language.Lang "zh" }}新能源EMS智慧能源管理系统架构{{ else }}Smart Energy EMS Architecture{{ end }}" class="arch-diagram-full">
         </div>
     </div>
 </section>
@@ -102,7 +102,7 @@
         </div>
         <!-- 架构图行 -->
         <div class="arch-diagram-row">
-            <img src="{{ printf "%simages/arch-bigdata-platform.svg" $.Site.BaseURL }}" alt="{{ if eq .Site.Language.Lang "zh" }}企业级大数据平台架构{{ else }}Enterprise Big Data Platform Architecture{{ end }}" class="arch-diagram-full">
+            <img src="{{ printf "%simages/%s" $.Site.BaseURL (cond (eq .Site.Language.Lang "zh") "arch-bigdata-platform.svg" "arch-bigdata-platform-en.svg") }}" alt="{{ if eq .Site.Language.Lang "zh" }}企业级大数据平台架构{{ else }}Enterprise Big Data Platform Architecture{{ end }}" class="arch-diagram-full">
         </div>
     </div>
 </section>
