@@ -1,11 +1,19 @@
 ---
-title: "Solutions"
-description: "Professional big data solutions for various industries"
+title: "Big Data Solutions"
+description: "Professional big data solutions for various industries — Enterprise-level big data platform based on Apache Hadoop ecosystem"
 ---
 
-# Industry Solutions
+<div class="bigdata-hub-header">
+  <div class="bigdata-hub-label">Big Data Solutions</div>
+  <h1>Industry Big Data Solutions</h1>
+  <p class="bigdata-hub-tagline">Apache Hadoop Ecosystem · Enterprise Big Data Platform · Digital Transformation</p>
+  <div class="bigdata-hub-nav">
+    <span>Also explore:</span>
+    <a href="/energy-solutions/" class="bigdata-energy-link">⚡ Smart Energy Solutions →</a>
+  </div>
+</div>
 
-StellerCore Technology provides professional big data solutions for various industries, helping enterprises achieve digital transformation.
+StellerCore Technology provides professional big data solutions for various industries, helping enterprises achieve digital transformation. Build enterprise-level big data platforms based on Apache Hadoop ecosystem, supporting massive data processing, real-time analysis and intelligent decision-making.
 
 ## Key Industries
 

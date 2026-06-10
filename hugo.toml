@@ -13,76 +13,94 @@ enableGitInfo = false
   [languages.zh]
     languageName = '中文'
     weight = 1
-    title = '星核动力科技（深圳）有限公司 - 企业级大数据平台解决方案提供商'
+    title = '星核动力科技（深圳）有限公司 - 企业级新能源、大数据解决方案提供商'
     contentDir = 'content'
     [languages.zh.params]
-      description = "星核动力科技专注企业级大数据平台建设，提供Hadoop、Spark、Kafka等开源大数据技术解决方案，服务金融、能源、通信、航天等行业500+客户"
-      keywords = "大数据平台,Hadoop企业版,Spark,Kafka,大数据解决方案,数据分析,商业智能,数据仓库,实时计算,星核动力"
+      description = "星核动力科技专注企业级新能源与大数据解决方案，提供AI驱动的光储充一体化智慧能源系统及Hadoop、Spark、Kafka等开源大数据技术解决方案，服务金融、能源、通信、航天等行业500+客户"
+      keywords = "大数据平台,Hadoop企业版,Spark,Kafka,大数据解决方案,数据分析,商业智能,数据仓库,实时计算,星核动力,Redoop,光储充一体化,储能系统,储能逆变器,光伏储能,新能源EMS,能源管理系统,VPP虚拟电厂,车网互动V2G,LiFePO4储能电池,磷酸铁锂电池,家庭储能,工商业储能,零碳能源,双碳目标,AI智慧能源,新能源解决方案,峰谷套利,分布式储能,绿色能源,碳中和,企业数字化转型"
     
   [languages.en]
     languageName = 'English'
     weight = 2
-    title = 'StellerCore Technology - Enterprise Big Data Platform Solutions Provider'
+    title = 'StellerCore Technology - Enterprise New Energy & Big Data Solutions Provider'
     contentDir = 'content'
     [languages.en.params]
-      description = "StellerCore Technology specializes in enterprise big data platform construction, providing Hadoop, Spark, Kafka and other open source big data solutions, serving 500+ customers in finance, energy, telecommunications, aerospace and other industries"
-      keywords = "Big Data Platform,Enterprise Hadoop,Spark,Kafka,Big Data Solutions,Data Analytics,Business Intelligence,Data Warehouse,Real-time Computing"
+      description = "StellerCore Technology provides AI-powered solar-storage-charging (PV+ESS+EV) smart energy solutions and enterprise big data platforms. Specializing in energy storage inverter, LiFePO4 battery, EMS, VPP virtual power plant, V2G, and Hadoop/Spark big data for 500+ global customers."
+      keywords = "Big Data Platform,Enterprise Hadoop,Spark,Kafka,Big Data Solutions,Data Analytics,Business Intelligence,Data Warehouse,Real-time Computing,StellerCore,Redoop,solar storage charging,energy storage system,home battery storage,commercial energy storage,hybrid inverter,LiFePO4 battery,EMS energy management system,VPP virtual power plant,V2G vehicle to grid,zero carbon,dual carbon,AI smart energy,photovoltaic storage,distributed energy,green energy,carbon neutral,peak valley arbitrage,battery energy storage,smart energy platform,digital transformation"
 
 [languages.zh.menu]
   [[languages.zh.menu.main]]
     name = '首页'
     url = '/'
     weight = 1
+    identifier = 'home'
   [[languages.zh.menu.main]]
-    name = '解决方案'
-    url = '/solutions'
+    name = '新能源'
+    url = '/energy-solutions'
     weight = 2
+    identifier = 'energy-solutions'
   [[languages.zh.menu.main]]
-    name = '产品与服务'
-    url = '/products'
+    name = '大数据'
+    url = '/solutions'
     weight = 3
+    identifier = 'bigdata-solutions'
   [[languages.zh.menu.main]]
-    name = '客户案例'
-    url = '/cases'
+    name = '产品'
+    url = '/products'
     weight = 4
+    identifier = 'products'
+  [[languages.zh.menu.main]]
+    name = '案例'
+    url = '/cases'
+    weight = 5
+    identifier = 'cases'
   [[languages.zh.menu.main]]
     name = '关于我们'
     url = '/about'
-    weight = 5
-  [[languages.zh.menu.main]]
-    name = '新闻动态'
-    url = '/news'
     weight = 6
+    identifier = 'about'
   [[languages.zh.menu.main]]
     name = '联系我们'
     url = '/contact'
     weight = 7
+    identifier = 'contact'
 
 [languages.en.menu]
   [[languages.en.menu.main]]
     name = 'Home'
     url = '/'
     weight = 1
+    identifier = 'home'
   [[languages.en.menu.main]]
-    name = 'Solutions'
-    url = '/solutions'
+    name = 'New Energy'
+    url = '/energy-solutions'
     weight = 2
+    identifier = 'energy-solutions'
   [[languages.en.menu.main]]
-    name = 'Products & Services'
-    url = '/products'
+    name = 'Big Data'
+    url = '/solutions'
     weight = 3
+    identifier = 'bigdata-solutions'
+  [[languages.en.menu.main]]
+    name = 'Products'
+    url = '/products'
+    weight = 4
+    identifier = 'products'
   [[languages.en.menu.main]]
     name = 'Cases'
     url = '/cases'
-    weight = 4
+    weight = 5
+    identifier = 'cases'
   [[languages.en.menu.main]]
     name = 'About'
     url = '/about'
-    weight = 5
+    weight = 6
+    identifier = 'about'
   [[languages.en.menu.main]]
     name = 'Contact'
     url = '/contact'
-    weight = 6
+    weight = 7
+    identifier = 'contact'
 
 [params]
 # 基本参数

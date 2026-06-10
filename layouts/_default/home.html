@@ -1,118 +1,217 @@
 {{ define "main" }}
-<!-- Hero Section -->
-<section class="hero-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-10 mx-auto text-center">
-                <h1 class="hero-title">{{ .Site.Title }}</h1>
-                <p class="hero-subtitle">{{ .Description }}</p>
-                <div>
-                    <a href="{{ if eq .Site.Language.Lang "zh" }}{{ printf "%ssolutions/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/solutions/" $.Site.BaseURL }}{{ end }}" class="btn btn-primary btn-lg me-3">{{ if eq .Site.Language.Lang "zh" }}解决方案{{ else }}Solutions{{ end }}</a>
-                    <a href="{{ if eq .Site.Language.Lang "zh" }}{{ printf "%scontact/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/contact/" $.Site.BaseURL }}{{ end }}" class="btn btn-outline-light btn-lg">{{ if eq .Site.Language.Lang "zh" }}联系我们{{ else }}Contact Us{{ end }}</a>
+<!-- Hero Section - 双图轮播 -->
+<section class="hero-section hero-carousel" id="heroSection">
+    <div class="hero-slide active" id="heroSlide0" style="background-image: url('{{ printf "%simages/solution-space-con.jpg" $.Site.BaseURL }}');">
+        <div class="hero-slide-overlay" style="background: rgba(180,20,20,0.52);"></div>
+    </div>
+    <div class="hero-slide" id="heroSlide1" style="background-image: url('{{ printf "%simages/energy-hero-bg.png" $.Site.BaseURL }}');">
+        <div class="hero-slide-overlay" style="background: rgba(10,60,25,0.52);"></div>
+    </div>
+    <div class="hero-content-wrap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto text-center">
+                    <h1 class="hero-title">{{ .Site.Title }}</h1>
+                    <p class="hero-subtitle">{{ .Description }}</p>
+                    <div>
+                        <a href="{{ if eq .Site.Language.Lang "zh" }}{{ printf "%senergy-solutions/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/energy-solutions/" $.Site.BaseURL }}{{ end }}" class="btn btn-lg me-3" style="background: linear-gradient(135deg,#16a34a,#22c55e); color: white; border-radius: 25px; font-weight: 600;">{{ if eq .Site.Language.Lang "zh" }}智慧能源解决方案{{ else }}Smart Energy Solutions{{ end }}</a>
+                        <a href="{{ if eq .Site.Language.Lang "zh" }}{{ printf "%ssolutions/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/solutions/" $.Site.BaseURL }}{{ end }}" class="btn btn-primary btn-lg">{{ if eq .Site.Language.Lang "zh" }}大数据解决方案{{ else }}Big Data Solutions{{ end }}</a>
+                    </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="hero-dots">
+        <span class="hero-dot active" onclick="goToSlide(0)" title="{{ if eq .Site.Language.Lang "zh" }}大数据{{ else }}Big Data{{ end }}"></span>
+        <span class="hero-dot" onclick="goToSlide(1)" title="{{ if eq .Site.Language.Lang "zh" }}新能源{{ else }}New Energy{{ end }}"></span>
+    </div>
+</section>
+
+<style>
+.hero-carousel { position: relative; min-height: 600px; display: flex; align-items: center; color: white; margin-top: 80px; overflow: hidden; }
+.hero-slide { position: absolute; inset: 0; background-size: cover; background-position: center; opacity: 0; transition: opacity 1.2s ease-in-out; z-index: 0; }
+.hero-slide.active { opacity: 1; z-index: 1; }
+.hero-slide-overlay { position: absolute; inset: 0; }
+.hero-content-wrap { position: relative; z-index: 2; width: 100%; padding: 4rem 0; }
+.hero-dots { position: absolute; bottom: 1.5rem; left: 50%; transform: translateX(-50%); z-index: 3; display: flex; gap: 10px; }
+.hero-dot { width: 12px; height: 12px; border-radius: 50%; background: rgba(255,255,255,0.4); cursor: pointer; transition: all 0.3s ease; border: 2px solid rgba(255,255,255,0.6); }
+.hero-dot.active { background: white; transform: scale(1.2); }
+</style>
+
+<script>
+(function() {
+    var current = 0, total = 2, timer;
+    function goToSlide(n) {
+        var s = document.querySelectorAll('.hero-slide'), d = document.querySelectorAll('.hero-dot');
+        s[current].classList.remove('active'); d[current].classList.remove('active');
+        current = n % total;
+        s[current].classList.add('active'); d[current].classList.add('active');
+        clearInterval(timer); startAuto();
+    }
+    function startAuto() { timer = setInterval(function(){ goToSlide((current+1)%total); }, 5000); }
+    window.goToSlide = goToSlide;
+    document.addEventListener('DOMContentLoaded', startAuto);
+})();
+</script>
+
+<!-- Section Title -->
+<section style="padding: 2.5rem 0 0; background: #0f172a; text-align: center;">
+    <h2 style="color: white; border-bottom: none; font-size: 1.8rem; margin-bottom: 0.5rem;">{{ if eq .Site.Language.Lang "zh" }}我们的两大核心业务{{ else }}Our Two Core Business Lines{{ end }}</h2>
+    <p style="color: rgba(255,255,255,0.5); font-size: 0.95rem; margin-bottom: 0; padding-bottom: 2rem;">{{ if eq .Site.Language.Lang "zh" }}新能源EMS智慧能源管理系统 与 企业级大数据平台，双核驱动数字化与绿色未来{{ else }}Smart Energy EMS & Enterprise Big Data Platform — Dual-core driving digital and green future{{ end }}</p>
+</section>
+
+<!-- Energy Architecture: 文字在上，图在下 -->
+<section class="arch-panel arch-panel-energy">
+    <div class="container-fluid px-0">
+        <!-- 文字行 -->
+        <div class="arch-header-row arch-header-energy">
+            <div class="arch-badge arch-badge-energy">NEW · 智慧新能源</div>
+            <h2 class="arch-title arch-title-energy">{{ if eq .Site.Language.Lang "zh" }}新能源EMS · 智慧能源管理系统{{ else }}Smart Energy EMS · Energy Management System{{ end }}</h2>
+            <p class="arch-desc">{{ if eq .Site.Language.Lang "zh" }}以EMS为能源底座，融合光伏、储能、充电桩、VPP虚拟电厂，AI全链路调度，构建零碳智慧能源新底座。{{ else }}EMS as the energy foundation — integrating PV, storage, EV charging, VPP with AI full-chain dispatch for zero-carbon smart energy.{{ end }}</p>
+            <div class="arch-points-row">
+                <span class="arch-point-tag arch-tag-energy">⚡ AI智能调度 · 峰谷套利</span>
+                <span class="arch-point-tag arch-tag-energy">🔋 光储充一体 · VPP虚拟电厂</span>
+                <span class="arch-point-tag arch-tag-energy">🌿 碳资产管理 · 双碳目标</span>
+                <span class="arch-point-tag arch-tag-energy">☁️ 云端EMS · OpenAPI生态</span>
+                <span class="arch-point-tag arch-tag-energy">10ms 响应 · 98.4% 逆变效率</span>
+            </div>
+            <a href="{{ if eq .Site.Language.Lang "zh" }}{{ printf "%senergy-solutions/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/energy-solutions/" $.Site.BaseURL }}{{ end }}" class="arch-btn arch-btn-energy">{{ if eq .Site.Language.Lang "zh" }}探索智慧能源解决方案 →{{ else }}Explore Smart Energy →{{ end }}</a>
+        </div>
+        <!-- 架构图行 -->
+        <div class="arch-diagram-row">
+            <img src="{{ printf "%simages/arch-energy-ems.svg" $.Site.BaseURL }}" alt="{{ if eq .Site.Language.Lang "zh" }}新能源EMS智慧能源管理系统架构{{ else }}Smart Energy EMS Architecture{{ end }}" class="arch-diagram-full">
         </div>
     </div>
 </section>
 
-<!-- Ecosystem Section -->
-<section class="section">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <h2>{{ if eq .Site.Language.Lang "zh" }}产业生态合作{{ else }}Industrial Ecosystem Cooperation{{ end }}</h2>
-                <p>{{ if eq .Site.Language.Lang "zh" }}Redoop Enterprise 全面支持云、芯片、操作系统，上下游软硬件生态。构建开放大数据软件服务生态，赋能企业信息化大数据升级！{{ else }}Redoop Enterprise fully supports cloud, chips, operating systems, and upstream and downstream software and hardware ecosystems. Build an open big data software service ecosystem to empower enterprise informatization big data upgrades!{{ end }}</p>
-                <a href="{{ if eq .Site.Language.Lang "zh" }}{{ printf "%sabout/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/about/" $.Site.BaseURL }}{{ end }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}查看合作伙伴{{ else }}View Partners{{ end }}</a>
+<!-- Big Data Architecture: 文字在上，图在下 -->
+<section class="arch-panel arch-panel-bigdata">
+    <div class="container-fluid px-0">
+        <!-- 文字行 -->
+        <div class="arch-header-row arch-header-bigdata">
+            <div class="arch-badge arch-badge-bigdata">企业级大数据</div>
+            <h2 class="arch-title arch-title-bigdata">{{ if eq .Site.Language.Lang "zh" }}Redoop Enterprise · 企业级大数据平台{{ else }}Redoop Enterprise · Enterprise Big Data Platform{{ end }}</h2>
+            <p class="arch-desc">{{ if eq .Site.Language.Lang "zh" }}基于Apache Hadoop生态，五层架构从数据源到应用全链路打通，支撑金融、能源、通信、航天等行业数字化转型。{{ else }}Built on Apache Hadoop ecosystem, 5-layer architecture supporting digital transformation across finance, energy, telecom, and aerospace.{{ end }}</p>
+            <div class="arch-points-row">
+                <span class="arch-point-tag arch-tag-bigdata">📊 Hadoop · Spark · Kafka · Flink</span>
+                <span class="arch-point-tag arch-tag-bigdata">🏦 金融级安全 · Kerberos + Ranger</span>
+                <span class="arch-point-tag arch-tag-bigdata">🤖 机器学习平台 · AI驱动决策</span>
+                <span class="arch-point-tag arch-tag-bigdata">500+ 企业客户 · 50+ 知识产权</span>
             </div>
-            <div class="col-md-6 text-center">
-                <img src="{{ printf "%simages/software-2.png" $.Site.BaseURL }}" alt="{{ if eq .Site.Language.Lang "zh" }}产业生态{{ else }}Industrial Ecosystem{{ end }}" class="service-image">
-            </div>
+            <a href="{{ if eq .Site.Language.Lang "zh" }}{{ printf "%ssolutions/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/solutions/" $.Site.BaseURL }}{{ end }}" class="arch-btn arch-btn-bigdata">{{ if eq .Site.Language.Lang "zh" }}探索大数据平台 →{{ else }}Explore Big Data Platform →{{ end }}</a>
+        </div>
+        <!-- 架构图行 -->
+        <div class="arch-diagram-row">
+            <img src="{{ printf "%simages/arch-bigdata-platform.svg" $.Site.BaseURL }}" alt="{{ if eq .Site.Language.Lang "zh" }}企业级大数据平台架构{{ else }}Enterprise Big Data Platform Architecture{{ end }}" class="arch-diagram-full">
         </div>
     </div>
 </section>
 
-<!-- Platform Section -->
-<section class="section bg-light">
+<style>
+/* ---- 架构板块基础 ---- */
+.arch-panel { padding: 0; overflow: hidden; }
+.arch-panel-energy { background: linear-gradient(180deg, #052e16 0%, #0f2d1a 100%); }
+.arch-panel-bigdata { background: linear-gradient(180deg, #1a0000 0%, #2a0808 100%); }
+
+/* ---- 文字头部行 ---- */
+.arch-header-row {
+    padding: 2.5rem 5% 2rem;
+    text-align: center;
+}
+
+.arch-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    letter-spacing: 0.06em;
+    margin-bottom: 1rem;
+}
+.arch-badge-energy { background: rgba(34,197,94,0.15); color: #4ade80; border: 1px solid rgba(34,197,94,0.3); }
+.arch-badge-bigdata { background: rgba(239,68,68,0.15); color: #fca5a5; border: 1px solid rgba(239,68,68,0.3); }
+
+.arch-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    border-bottom: none !important;
+    line-height: 1.3;
+}
+.arch-title::after { display: none !important; }
+.arch-title-energy { color: #4ade80; }
+.arch-title-bigdata { color: #fca5a5; }
+
+.arch-desc {
+    font-size: 0.95rem;
+    color: rgba(255,255,255,0.65);
+    max-width: 680px;
+    margin: 0 auto 1.5rem;
+    line-height: 1.7;
+}
+
+/* ---- 标签行 ---- */
+.arch-points-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    justify-content: center;
+    margin-bottom: 1.75rem;
+}
+.arch-point-tag {
+    font-size: 0.82rem;
+    font-weight: 500;
+    padding: 0.35rem 0.9rem;
+    border-radius: 20px;
+    line-height: 1.4;
+}
+.arch-tag-energy { background: rgba(22,163,74,0.18); color: #86efac; border: 1px solid rgba(22,163,74,0.25); }
+.arch-tag-bigdata { background: rgba(220,38,38,0.18); color: #fca5a5; border: 1px solid rgba(220,38,38,0.25); }
+
+/* ---- 按钮 ---- */
+.arch-btn {
+    display: inline-block;
+    padding: 0.7rem 2rem;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.arch-btn-energy { background: linear-gradient(135deg,#16a34a,#22c55e); color: white; box-shadow: 0 4px 15px rgba(22,163,74,0.35); }
+.arch-btn-energy:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(22,163,74,0.5); color: white; text-decoration: none; }
+.arch-btn-bigdata { background: linear-gradient(135deg,#dc2626,#ef4444); color: white; box-shadow: 0 4px 15px rgba(220,38,38,0.35); }
+.arch-btn-bigdata:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(220,38,38,0.5); color: white; text-decoration: none; }
+
+/* ---- 架构图行 ---- */
+.arch-diagram-row { padding: 0 3% 2.5rem; }
+.arch-diagram-full {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4) !important;
+    transform: none !important;
+}
+.arch-diagram-full:hover { transform: none !important; box-shadow: 0 12px 40px rgba(0,0,0,0.5) !important; }
+
+@media (max-width: 768px) {
+    .arch-header-row { padding: 2rem 4% 1.5rem; }
+    .arch-title { font-size: 1.4rem; }
+    .arch-diagram-row { padding: 0 2% 2rem; }
+}
+</style>
+
+<!-- Contact CTA -->
+<section style="background: linear-gradient(135deg, #0f172a, #1e293b); color: white; padding: 3rem 0; text-align: center;">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6 text-center">
-                <img src="{{ printf "%simages/software-1.png" $.Site.BaseURL }}" alt="{{ if eq .Site.Language.Lang "zh" }}大数据平台架构{{ else }}Big Data Platform Architecture{{ end }}" class="service-image">
-            </div>
-            <div class="col-md-6">
-                <h2>{{ if eq .Site.Language.Lang "zh" }}金融级大数据统一平台{{ else }}Financial-Grade Unified Big Data Platform{{ end }}</h2>
-                <p>{{ if eq .Site.Language.Lang "zh" }}采用分层架构设计，从数据采集、存储、处理到应用展现，层次清晰，便于管理和扩展。基于微服务架构设计，支持组件独立部署、升级和扩展。{{ else }}Adopts layered architecture design, from data collection, storage, processing to application presentation, with clear layers for easy management and expansion. Based on microservice architecture design, supporting independent deployment, upgrade and expansion of components.{{ end }}</p>
-                <a href="{{ if eq .Site.Language.Lang "zh" }}{{ printf "%ssolutions/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/solutions/" $.Site.BaseURL }}{{ end }}" class="btn btn-primary">{{ if eq .Site.Language.Lang "zh" }}了解更多{{ else }}Learn More{{ end }}</a>
-            </div>
-        </div>
+        <h2 style="color: white; border-bottom: none; margin-bottom: 0.75rem;">{{ if eq .Site.Language.Lang "zh" }}准备开启您的数字化与绿色能源之旅？{{ else }}Ready to Start Your Digital & Green Energy Journey?{{ end }}</h2>
+        <p style="color: rgba(255,255,255,0.6); margin-bottom: 1.5rem;">{{ if eq .Site.Language.Lang "zh" }}联系我们的专业团队，获取定制化的新能源或大数据解决方案{{ else }}Contact our professional team for customized smart energy or big data solutions{{ end }}</p>
+        <a href="{{ if eq .Site.Language.Lang "zh" }}{{ printf "%senergy-solutions/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/energy-solutions/" $.Site.BaseURL }}{{ end }}" class="btn me-3" style="background:linear-gradient(135deg,#16a34a,#22c55e);color:white;border-radius:25px;padding:0.7rem 1.75rem;font-weight:600;">{{ if eq .Site.Language.Lang "zh" }}智慧能源 →{{ else }}Smart Energy →{{ end }}</a>
+        <a href="{{ if eq .Site.Language.Lang "zh" }}{{ printf "%scontact/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/contact/" $.Site.BaseURL }}{{ end }}" class="btn btn-outline-light" style="border-radius:25px;padding:0.7rem 1.75rem;font-weight:600;">{{ if eq .Site.Language.Lang "zh" }}联系我们{{ else }}Contact Us{{ end }}</a>
     </div>
 </section>
 
-<!-- Features Section -->
-<section class="section">
-    <div class="container">
-        <div class="row text-center mb-5">
-            <div class="col-12">
-                <h2>{{ if eq .Site.Language.Lang "zh" }}为什么选择{{ else }}Why Choose{{ end }} <strong>Redoop Enterprise</strong></h2>
-                <p class="lead">{{ if eq .Site.Language.Lang "zh" }}一键安装, 配置, 监控 企业大数据平台{{ else }}One-click installation, configuration, monitoring enterprise big data platform{{ end }}</p>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-md-4 mb-4">
-                <div class="feature-card text-center">
-                    <i class="fas fa-download feature-icon"></i>
-                    <h4>{{ if eq .Site.Language.Lang "zh" }}一键安装{{ else }}One-Click Installation{{ end }}</h4>
-                    <p>{{ if eq .Site.Language.Lang "zh" }}一键安装分布式软件，通过界面化安装Apache Hadoop大数据生态30+多个软件{{ else }}One-click installation of distributed software, interface-based installation of 30+ Apache Hadoop big data ecosystem software{{ end }}</p>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="feature-card text-center">
-                    <i class="fas fa-cogs feature-icon"></i>
-                    <h4>{{ if eq .Site.Language.Lang "zh" }}界面配置{{ else }}Interface Configuration{{ end }}</h4>
-                    <p>{{ if eq .Site.Language.Lang "zh" }}支持界面化修改启动脚本和后台参数配置{{ else }}Support interface-based modification of startup scripts and background parameter configuration{{ end }}</p>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="feature-card text-center">
-                    <i class="fas fa-chart-line feature-icon"></i>
-                    <h4>{{ if eq .Site.Language.Lang "zh" }}集群监控{{ else }}Cluster Monitoring{{ end }}</h4>
-                    <p>{{ if eq .Site.Language.Lang "zh" }}支持对组件状态,关键指标的监控，全面了解集群现状{{ else }}Support monitoring of component status and key indicators for comprehensive cluster understanding{{ end }}</p>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="feature-card text-center">
-                    <i class="fas fa-arrow-up feature-icon"></i>
-                    <h4>{{ if eq .Site.Language.Lang "zh" }}组件升级{{ else }}Component Upgrade{{ end }}</h4>
-                    <p>{{ if eq .Site.Language.Lang "zh" }}支持通过组件地址配置，重启后即可实现快速升级{{ else }}Support rapid upgrades through component address configuration after restart{{ end }}</p>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="feature-card text-center">
-                    <i class="fas fa-shield-alt feature-icon"></i>
-                    <h4>{{ if eq .Site.Language.Lang "zh" }}系统高可用{{ else }}System High Availability{{ end }}</h4>
-                    <p>{{ if eq .Site.Language.Lang "zh" }}支持Hadoop生态集群组件HA高可用，包括 HDFS,YARN,HBASE高可用{{ else }}Support Hadoop ecosystem cluster component HA high availability, including HDFS, YARN, HBASE high availability{{ end }}</p>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="feature-card text-center">
-                    <i class="fas fa-lock feature-icon"></i>
-                    <h4>{{ if eq .Site.Language.Lang "zh" }}集群安全{{ else }}Cluster Security{{ end }}</h4>
-                    <p>{{ if eq .Site.Language.Lang "zh" }}通过Kerberos+Ranger+OpenLDAP支持集群访问安全和数据访问安全{{ else }}Support cluster access security and data access security through Kerberos+Ranger+OpenLDAP{{ end }}</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- CTA Section -->
-<section class="section" style="background: linear-gradient(rgba(220, 38, 38, 0.9), rgba(239, 68, 68, 0.9)); color: white;">
-    <div class="container text-center">
-        <div class="row">
-            <div class="col-lg-8 mx-auto">
-                <h2 style="color: white;">{{ if eq .Site.Language.Lang "zh" }}准备开始您的大数据之旅？{{ else }}Ready to Start Your Big Data Journey?{{ end }}</h2>
-                <p class="lead" style="color: rgba(255,255,255,0.9);">{{ if eq .Site.Language.Lang "zh" }}联系我们的专业团队，获取定制化的大数据解决方案{{ else }}Contact our professional team to get customized big data solutions{{ end }}</p>
-                <a href="{{ if eq .Site.Language.Lang "zh" }}{{ printf "%scontact/" $.Site.BaseURL }}{{ else }}{{ printf "%sen/contact/" $.Site.BaseURL }}{{ end }}" class="btn btn-outline-light btn-lg">{{ if eq .Site.Language.Lang "zh" }}立即联系{{ else }}Contact Now{{ end }}</a>
-            </div>
-        </div>
-    </div>
-</section>
 {{ end }}

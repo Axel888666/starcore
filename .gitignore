@@ -1,6 +1,7 @@
 # Hugo generated files
 /public/
 /resources/_gen/
+/ref
 
 # Temporary files
 *.tmp

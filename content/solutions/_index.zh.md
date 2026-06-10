@@ -1,10 +1,18 @@
 ---
-title: "解决方案"
-description: "星核动力科技为各行业提供专业的大数据解决方案"
+title: "大数据解决方案"
+description: "星核动力科技为各行业提供专业的大数据解决方案 — 基于Apache Hadoop生态的企业级大数据平台"
 images: ["images/solutionBanner.jpg"]
 ---
 
-# 行业解决方案
+<div class="bigdata-hub-header">
+  <div class="bigdata-hub-label">大数据解决方案</div>
+  <h1>行业大数据解决方案</h1>
+  <p class="bigdata-hub-tagline">基于 Apache Hadoop 生态 · 企业级大数据平台 · 数字化转型</p>
+  <div class="bigdata-hub-nav">
+    <span>同样关注：</span>
+    <a href="/energy-solutions/" class="bigdata-energy-link">⚡ 智慧能源解决方案 →</a>
+  </div>
+</div>
 
 星核动力科技为各行业提供专业的大数据解决方案，助力企业数字化转型。基于Apache Hadoop生态构建企业级大数据平台，支持海量数据处理、实时分析和智能决策。
 

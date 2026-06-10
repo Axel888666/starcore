@@ -1,12 +1,12 @@
 ---
-title: "StellerCore Technology - Enterprise Big Data Platform Solutions"
-description: "StellerCore Technology is a professional enterprise big data platform provider, based on Hadoop, Spark, Kafka and other open source technologies, providing reliable big data solutions for finance, energy, telecommunications, aerospace and other industries. Serving 500+ enterprise customers with 50+ invention patents."
-keywords: "Big Data Platform,Enterprise Hadoop,Spark,Kafka,Big Data Solutions,Data Analytics Platform,Business Intelligence,Real-time Computing,Data Warehouse,Redoop Enterprise"
+title: "StellerCore Technology - Big Data & Smart Energy Dual-Core Solutions"
+description: "StellerCore Technology is a professional enterprise big data platform provider and AI-powered smart energy solution provider. Serving 500+ enterprise customers with 50+ intellectual properties."
+keywords: "Big Data Platform,Enterprise Hadoop,Spark,Kafka,Big Data Solutions,Data Analytics Platform,Business Intelligence,Star Kernal,Solar Storage Charging,Energy Storage,New Energy,AI Smart Energy"
 
 # banner
 banner:
   title: "**StellerCore Technology (Shenzhen) Co., Ltd.**"
-  content: "Professional big data infrastructure software platform provider, committed to providing reliable big data solutions and services for enterprises. Build enterprise-level big data platforms based on Apache Hadoop ecosystem, supporting massive data processing, real-time analysis and intelligent decision-making."
+  content: "Big Data Infrastructure Platform & AI Smart Energy Solutions — Dual-core driven, committed to providing reliable digital and new energy solutions for enterprises and homes."
   image: "images/homeBg.jpg"
   button:
     enable: true
@@ -38,6 +38,76 @@ feature:
       icon: "fas fa-arrow-up"
       content: "Support rapid upgrades through component address configuration after restart"
       
+
+# service
+service:
+  enable: true
+  service_item:
+    # service item loop
+    - title: "**Financial-Grade Big Data Unified Platform**"
+      images:
+      - "images/software-1.png"
+      content: "Layered architecture design, from data collection, storage, processing to application presentation, clearly structured, easy to manage and expand. Microservice architecture design supporting independent component deployment, upgrade and expansion."
+      button:
+        enable: true
+        label: "Explore Big Data Solutions"
+        link: "solutions"
+        
+    # service item loop
+    - title: "**Industry Ecosystem**"
+      images:
+      - "images/software-2.png"
+      content: "StarNuclear Enterprise fully supports cloud, chips, and operating systems, covering upstream and downstream software and hardware ecosystems. Building an open big data software service ecosystem, empowering enterprise big data upgrades!"
+      button:
+        enable: true
+        label: "View Partners"
+        link: "about"
+
+# call to action
+call_to_action:
+  enable: true
+  title: "Ready to Start Your Digital Journey?"
+  image: "images/logo.png"
+  content: "Contact our professional team for customized big data or smart energy solutions"
+  button:
+    enable: true
+    label: "Contact Us"
+    link: "contact"
+---
+
+<div class="dual-solutions-section">
+  <div class="dual-solutions-title">Our Two Core Business Lines</div>
+  <div class="dual-solutions-subtitle">Big Data Solutions & Smart Energy Solutions — dual-core driven, empowering digital and green future</div>
+  <div class="dual-solutions-grid">
+    <div class="dual-solution-card dual-solution-bigdata">
+      <div class="dual-solution-icon">📊</div>
+      <h2>Big Data Solutions</h2>
+      <p class="dual-solution-tagline">Enterprise Big Data Platform · Digital Transformation</p>
+      <p>Enterprise-level big data platform built on the Apache Hadoop ecosystem, supporting massive data processing, real-time analysis and intelligent decision-making for finance, energy, telecommunications, aerospace and more.</p>
+      <ul class="dual-solution-highlights">
+        <li>✅ 500+ Enterprise Customers</li>
+        <li>✅ 50+ Intellectual Properties</li>
+        <li>✅ 10+ Industries Served</li>
+        <li>✅ Hadoop / Spark / Kafka / Flink</li>
+      </ul>
+      <a href="/solutions/" class="dual-solution-btn dual-solution-btn-bigdata">Explore Big Data Solutions →</a>
+    </div>
+    <div class="dual-solution-card dual-solution-energy">
+      <div class="dual-solution-badge-new">NEW</div>
+      <div class="dual-solution-icon">⚡</div>
+      <h2>Smart Energy Solutions</h2>
+      <p class="dual-solution-tagline">AI-Powered · Solar-Storage-Charging Integration · Zero-Carbon</p>
+      <p>AI-powered full-scenario solar-storage-charging solutions covering residential, commercial and industrial applications, supporting "Dual Carbon" goals with VPP virtual power plant participation for revenue generation.</p>
+      <ul class="dual-solution-highlights">
+        <li>✅ 98.4% Peak Conversion Efficiency</li>
+        <li>✅ ≥10000 Cycle Battery Life</li>
+        <li>✅ VPP Virtual Power Plant</li>
+        <li>✅ AI Scheduling + 10ms Switchover</li>
+      </ul>
+      <a href="/energy-solutions/" class="dual-solution-btn dual-solution-btn-energy">Explore Smart Energy Solutions →</a>
+    </div>
+  </div>
+</div>
     # feature item loop
     - name: "System High Availability"
       icon: "fas fa-shield-alt"

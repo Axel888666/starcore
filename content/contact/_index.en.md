@@ -19,7 +19,7 @@ description: "Contact StellerCore Technology for professional big data solutions
 **Phone**: +86 136 3293 3869
 **Email**: frank@starkernal.com
 
-### Technical Consultation
+### Technical Cooperation
 **Phone**: +86 189 2371 9468
 **Email**: axel@starkernal.com
 
@@ -30,6 +30,24 @@ description: "Contact StellerCore Technology for professional big data solutions
 **Phone**: +86 186-138-07209  
 **Email**: tongxiaojun@redoop.com  
 **Website**: https://www.redoop.com
+
+---
+
+## Smart Manufacturing
+
+Star Kernal adheres to the core philosophy of "Ultra-Simple Deployment, Ultimate Safety, and Exceptional Experience," supported by an independent and controllable smart manufacturing system to ensure high-quality delivery of new energy products.
+
+### Zhongshan Smart Manufacturing Center
+Global R&D and manufacturing center equipped with internationally advanced automated production equipment and precision testing instruments, ensuring high consistency and reliability of every product.
+
+### Zhejiang Mass Production Base
+Focused on large-scale production of inverters, storage packs, and integrated solar-storage-charging systems, with annual output exceeding **300,000 units**.
+
+### MES Manufacturing Execution System
+Full-process digital management — transitioning from "experience-driven" to "data-driven" operations, achieving precise production control and quality traceability.
+
+### Global Expansion
+Based in China with a global vision, building a benchmark enterprise in new energy smart manufacturing to provide reliable products and solutions for the global green transition.
 
 
 ### WeChat Official Account
