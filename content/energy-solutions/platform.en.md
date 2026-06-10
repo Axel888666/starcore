@@ -5,7 +5,7 @@ weight: 5
 ---
 
 <div class="energy-page-header">
-  <div class="energy-breadcrumb"><a href="/energy-solutions/">Smart Energy</a> › AI Cloud Platform</div>
+  <div class="energy-breadcrumb"><a href="/en/energy-solutions/">Smart Energy</a> › AI Cloud Platform</div>
   <h1>AI Smart Energy Cloud Platform</h1>
   <p>Cloud Intelligence · VPP Virtual Power Plant · Full-Chain Visualization</p>
 </div>
@@ -72,4 +72,4 @@ weight: 5
   </div>
 </div>
 
-[Back to Smart Energy Hub](/energy-solutions/) | [Contact Us](/contact/)
+[Back to Smart Energy Hub](/en/energy-solutions/) | [Contact Us](/en/contact/)

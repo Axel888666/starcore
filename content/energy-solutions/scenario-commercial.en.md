@@ -5,7 +5,7 @@ weight: 12
 ---
 
 <div class="energy-page-header">
-  <div class="energy-breadcrumb"><a href="/energy-solutions/">Smart Energy</a> › Solutions › Small C&I</div>
+  <div class="energy-breadcrumb"><a href="/en/energy-solutions/">Smart Energy</a> › Solutions › Small C&I</div>
   <h1>🏭 Small C&I Solution</h1>
   <p>Solar 25 kW　+　Storage 48 kWh　|　Peak-Valley Arbitrage for Business</p>
 </div>
@@ -35,4 +35,4 @@ Based on typical commercial tariff spread (~$0.15/kWh):
 - **Estimated payback period**: **4 to 6 years**
 - **25-year total return**: Significant positive ROI
 
-[Back to Solutions](/energy-solutions/) | [Get a Quote](/contact/)
+[Back to Solutions](/en/energy-solutions/) | [Get a Quote](/en/contact/)

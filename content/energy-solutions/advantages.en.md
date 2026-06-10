@@ -5,7 +5,7 @@ weight: 6
 ---
 
 <div class="energy-page-header">
-  <div class="energy-breadcrumb"><a href="/energy-solutions/">Smart Energy</a> › Core Advantages</div>
+  <div class="energy-breadcrumb"><a href="/en/energy-solutions/">Smart Energy</a> › Core Advantages</div>
   <h1>Technology Leadership · Safety & Reliability</h1>
   <p>Six core advantages for full-scenario solar-storage-charging solutions</p>
 </div>
@@ -120,4 +120,4 @@ weight: 6
   </div>
 </div>
 
-[View Product Portfolio](/energy-solutions/) | [Contact Us](/contact/)
+[View Product Portfolio](/en/energy-solutions/) | [Contact Us](/en/contact/)

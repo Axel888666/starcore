@@ -5,7 +5,7 @@ weight: 10
 ---
 
 <div class="energy-page-header">
-  <div class="energy-breadcrumb"><a href="/energy-solutions/">Smart Energy</a> › Solutions › Zero-Carbon Home</div>
+  <div class="energy-breadcrumb"><a href="/en/energy-solutions/">Smart Energy</a> › Solutions › Zero-Carbon Home</div>
   <h1>🏠 Zero-Carbon Home Solution</h1>
   <p>Solar 8 kW　+　Storage 16 kWh　|　Energy Self-Sufficiency &gt;80%</p>
 </div>
@@ -40,4 +40,4 @@ Designed for ordinary residential homes, combining PV generation with energy sto
 - **Estimated Payback Period**: 5 to 7 years
 - **25-Year Cumulative Return**: Significant positive ROI
 
-[Back to Solutions](/energy-solutions/) | [Get a Quote](/contact/)
+[Back to Solutions](/en/energy-solutions/) | [Get a Quote](/en/contact/)

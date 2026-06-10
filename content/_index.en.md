@@ -90,7 +90,7 @@ call_to_action:
         <li>✅ 10+ Industries Served</li>
         <li>✅ Hadoop / Spark / Kafka / Flink</li>
       </ul>
-      <a href="/solutions/" class="dual-solution-btn dual-solution-btn-bigdata">Explore Big Data Solutions →</a>
+      <a href="/en/solutions/" class="dual-solution-btn dual-solution-btn-bigdata">Explore Big Data Solutions →</a>
     </div>
     <div class="dual-solution-card dual-solution-energy">
       <div class="dual-solution-badge-new">NEW</div>
@@ -104,7 +104,7 @@ call_to_action:
         <li>✅ VPP Virtual Power Plant</li>
         <li>✅ AI Scheduling + 10ms Switchover</li>
       </ul>
-      <a href="/energy-solutions/" class="dual-solution-btn dual-solution-btn-energy">Explore Smart Energy Solutions →</a>
+      <a href="/en/energy-solutions/" class="dual-solution-btn dual-solution-btn-energy">Explore Smart Energy Solutions →</a>
     </div>
   </div>
 </div>

@@ -5,7 +5,7 @@ weight: 3
 ---
 
 <div class="energy-page-header">
-  <div class="energy-breadcrumb"><a href="/energy-solutions/">Smart Energy</a> › Products › StarKernal BAT</div>
+  <div class="energy-breadcrumb"><a href="/en/energy-solutions/">Smart Energy</a> › Products › StarKernal BAT</div>
   <h1>StarKernal BAT Energy Storage Battery</h1>
   <p>LiFePO₄ Lithium Iron Phosphate　|　Modular Parallel Expansion</p>
 </div>
@@ -64,4 +64,4 @@ Single or multiple units (up to 6) in parallel, flexibly scaling from 6kWh to 54
 ### Multi-Layer Safety
 Built-in BMS battery management system with cell-level overcharge, over-discharge, over-temperature, and short-circuit protection, plus AFCI arc detection.
 
-[Back to Product Portfolio](/energy-solutions/) | [Contact Sales](/contact/)
+[Back to Product Portfolio](/en/energy-solutions/) | [Contact Sales](/en/contact/)

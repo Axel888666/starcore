@@ -9,7 +9,7 @@ description: "Professional big data solutions for various industries — Enterpr
   <p class="bigdata-hub-tagline">Apache Hadoop Ecosystem · Enterprise Big Data Platform · Digital Transformation</p>
   <div class="bigdata-hub-nav">
     <span>Also explore:</span>
-    <a href="/energy-solutions/" class="bigdata-energy-link">⚡ Smart Energy Solutions →</a>
+    <a href="/en/energy-solutions/" class="bigdata-energy-link">⚡ Smart Energy Solutions →</a>
   </div>
 </div>
 

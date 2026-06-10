@@ -5,7 +5,7 @@ weight: 2
 ---
 
 <div class="energy-page-header">
-  <div class="energy-breadcrumb"><a href="/energy-solutions/">Smart Energy</a> › Products › StarKernal Hybrid</div>
+  <div class="energy-breadcrumb"><a href="/en/energy-solutions/">Smart Energy</a> › Products › StarKernal Hybrid</div>
   <h1>StarKernal Hybrid Inverter</h1>
   <p>Single-Phase 2.0-6.0 kW　|　Three-Phase 3.0-12.0 kW</p>
 </div>
@@ -54,4 +54,4 @@ weight: 2
 
 </div>
 
-[Back to Product Portfolio](/energy-solutions/) | [Contact Sales](/contact/)
+[Back to Product Portfolio](/en/energy-solutions/) | [Contact Sales](/en/contact/)

@@ -58,42 +58,42 @@ Aligned with the national "Dual Carbon" strategic goals, Star Kernal deeply inte
     <h3>StarKernal EC</h3>
     <div class="energy-product-sub">Energy Storage Inverter</div>
     <div class="energy-product-spec">3.0 - 30.0 kW</div>
-    <a href="/energy-solutions/products-ec/" class="energy-product-link">Learn More →</a>
+    <a href="/en/energy-solutions/products-ec/" class="energy-product-link">Learn More →</a>
   </div>
   <div class="energy-product-card">
     <div class="energy-product-icon">🔄</div>
     <h3>StarKernal Hybrid</h3>
     <div class="energy-product-sub">Hybrid Inverter</div>
     <div class="energy-product-spec">2.0 - 12.0 kW</div>
-    <a href="/energy-solutions/products-hybrid/" class="energy-product-link">Learn More →</a>
+    <a href="/en/energy-solutions/products-hybrid/" class="energy-product-link">Learn More →</a>
   </div>
   <div class="energy-product-card">
     <div class="energy-product-icon">🔋</div>
     <h3>StarKernal BAT</h3>
     <div class="energy-product-sub">Energy Storage Battery</div>
     <div class="energy-product-spec">6.0 / 10.0 kWh</div>
-    <a href="/energy-solutions/products-bat/" class="energy-product-link">Learn More →</a>
+    <a href="/en/energy-solutions/products-bat/" class="energy-product-link">Learn More →</a>
   </div>
   <div class="energy-product-card">
     <div class="energy-product-icon">🔌</div>
     <h3>StarKernal EVDC</h3>
     <div class="energy-product-sub">DC EV Charger</div>
     <div class="energy-product-spec">12 / 25 kW</div>
-    <a href="/energy-solutions/products-ev/" class="energy-product-link">Learn More →</a>
+    <a href="/en/energy-solutions/products-ev/" class="energy-product-link">Learn More →</a>
   </div>
   <div class="energy-product-card">
     <div class="energy-product-icon">🛡️</div>
     <h3>StarKernal Gateway</h3>
     <div class="energy-product-sub">Energy Backup Cabinet</div>
     <div class="energy-product-spec">12 / 30 / 60 kW</div>
-    <a href="/energy-solutions/platform/" class="energy-product-link">Learn More →</a>
+    <a href="/en/energy-solutions/platform/" class="energy-product-link">Learn More →</a>
   </div>
   <div class="energy-product-card">
     <div class="energy-product-icon">📡</div>
     <h3>StarKernal CommMod</h3>
     <div class="energy-product-sub">Communication Module</div>
     <div class="energy-product-spec">4G / 5G LTE</div>
-    <a href="/energy-solutions/platform/" class="energy-product-link">Learn More →</a>
+    <a href="/en/energy-solutions/platform/" class="energy-product-link">Learn More →</a>
   </div>
 </div>
 
@@ -108,7 +108,7 @@ Aligned with the national "Dual Carbon" strategic goals, Star Kernal deeply inte
       <span>☀️ Solar 8 kW</span>
       <span>🔋 Storage 16 kWh</span>
     </div>
-    <a href="/energy-solutions/scenario-home/" class="energy-scenario-link">View Solution →</a>
+    <a href="/en/energy-solutions/scenario-home/" class="energy-scenario-link">View Solution →</a>
   </div>
   <div class="energy-scenario-card">
     <div class="energy-scenario-title">🏡 Villa & Large Residence</div>
@@ -117,7 +117,7 @@ Aligned with the national "Dual Carbon" strategic goals, Star Kernal deeply inte
       <span>🔋 Storage 32 kWh</span>
       <span>🔌 Charging 7 kW</span>
     </div>
-    <a href="/energy-solutions/scenario-villa/" class="energy-scenario-link">View Solution →</a>
+    <a href="/en/energy-solutions/scenario-villa/" class="energy-scenario-link">View Solution →</a>
   </div>
   <div class="energy-scenario-card">
     <div class="energy-scenario-title">🏭 Small C&I</div>
@@ -125,7 +125,7 @@ Aligned with the national "Dual Carbon" strategic goals, Star Kernal deeply inte
       <span>☀️ Solar 25 kW</span>
       <span>🔋 Storage 48 kWh</span>
     </div>
-    <a href="/energy-solutions/scenario-commercial/" class="energy-scenario-link">View Solution →</a>
+    <a href="/en/energy-solutions/scenario-commercial/" class="energy-scenario-link">View Solution →</a>
   </div>
   <div class="energy-scenario-card energy-scenario-featured">
     <div class="energy-scenario-title">⚡ Integrated Solar-Storage-Charging</div>
@@ -134,7 +134,7 @@ Aligned with the national "Dual Carbon" strategic goals, Star Kernal deeply inte
       <span>🔋 Storage 336 kWh</span>
       <span>🔌 Charging 300 kW</span>
     </div>
-    <a href="/energy-solutions/scenario-integrated/" class="energy-scenario-link">View Solution →</a>
+    <a href="/en/energy-solutions/scenario-integrated/" class="energy-scenario-link">View Solution →</a>
   </div>
 </div>
 
@@ -169,4 +169,4 @@ Aligned with the national "Dual Carbon" strategic goals, Star Kernal deeply inte
   </div>
 </div>
 
-[Explore AI Cloud Platform →](/energy-solutions/platform/)　　[Contact Us →](/contact/)
+[Explore AI Cloud Platform →](/en/energy-solutions/platform/)　　[Contact Us →](/en/contact/)

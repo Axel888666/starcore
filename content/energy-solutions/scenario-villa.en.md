@@ -5,7 +5,7 @@ weight: 11
 ---
 
 <div class="energy-page-header">
-  <div class="energy-breadcrumb"><a href="/energy-solutions/">Smart Energy</a> › Solutions › Villa & Large Residence</div>
+  <div class="energy-breadcrumb"><a href="/en/energy-solutions/">Smart Energy</a> › Solutions › Villa & Large Residence</div>
   <h1>🏡 Villa & Large Residence Solution</h1>
   <p>Solar 16 kW　+　Storage 32 kWh　+　EV Charging 7 kW</p>
 </div>
@@ -38,4 +38,4 @@ Designed for large homes and villas. Large-capacity PV combined with large-capac
 - **Annual Electricity Savings**: ~$1,500 to $2,500
 - **Estimated Payback Period**: 5 to 8 years
 
-[Back to Solutions](/energy-solutions/) | [Get a Quote](/contact/)
+[Back to Solutions](/en/energy-solutions/) | [Get a Quote](/en/contact/)

@@ -5,7 +5,7 @@ weight: 13
 ---
 
 <div class="energy-page-header">
-  <div class="energy-breadcrumb"><a href="/energy-solutions/">Smart Energy</a> › Solutions › Integrated Solar-Storage-Charging</div>
+  <div class="energy-breadcrumb"><a href="/en/energy-solutions/">Smart Energy</a> › Solutions › Integrated Solar-Storage-Charging</div>
   <h1>⚡ Integrated Solar-Storage-Charging Solution</h1>
   <p>Solar 70 kW　+　Storage 336 kWh　+　Charging 300 kW　|　Large Commercial Flagship</p>
 </div>
@@ -32,4 +32,4 @@ Designed for industrial parks, large commercial centers, and charging stations. 
 - **VPP Integration**: Aggregate storage and EV chargers into VPP for frequency regulation market participation
 - **Green Certificates**: Carbon asset management module for GEC and carbon credit applications
 
-[Back to Solutions](/energy-solutions/) | [Get Custom Solution](/contact/)
+[Back to Solutions](/en/energy-solutions/) | [Get Custom Solution](/en/contact/)

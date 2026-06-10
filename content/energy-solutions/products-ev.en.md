@@ -5,7 +5,7 @@ weight: 4
 ---
 
 <div class="energy-page-header">
-  <div class="energy-breadcrumb"><a href="/energy-solutions/">Smart Energy</a> › Products › StarKernal EVDC</div>
+  <div class="energy-breadcrumb"><a href="/en/energy-solutions/">Smart Energy</a> › Products › StarKernal EVDC</div>
   <h1>StarKernal EVDC DC EV Charger</h1>
   <p>12 kW　|　25 kW　Dual Power Versions</p>
 </div>
@@ -52,4 +52,4 @@ weight: 4
 
 </div>
 
-[Back to Product Portfolio](/energy-solutions/) | [Contact Sales](/contact/)
+[Back to Product Portfolio](/en/energy-solutions/) | [Contact Sales](/en/contact/)
